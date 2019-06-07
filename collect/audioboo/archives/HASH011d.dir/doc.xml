@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\discography\www.thebeatlesarchive.com\discography\imagesBIG\65USbeatleVIBIG.gif</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">ImagePlugin</Metadata>
+    <Metadata name="Image">65USbeatleVIBIG.gif</Metadata>
+    <Metadata name="OrigSource">65USbeatleVIBIG.gif</Metadata>
+    <Metadata name="Source">65USbeatleVIBIG.gif</Metadata>
+    <Metadata name="SourceFile">65USbeatleVIBIG.gif</Metadata>
+    <Metadata name="FileFormat">gif</Metadata>
+    <Metadata name="FileSize">1305</Metadata>
+    <Metadata name="ImageType">GIF</Metadata>
+    <Metadata name="ImageWidth">300</Metadata>
+    <Metadata name="ImageHeight">300</Metadata>
+    <Metadata name="ImageSize">1.27KB</Metadata>
+    <Metadata name="srclink_file">65USbeatleVIBIG.gif</Metadata>
+    <Metadata name="srclinkFile">65USbeatleVIBIG.gif</Metadata>
+    <Metadata name="srcicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[srclinkFile]&quot; width=&quot;[ImageWidth]&quot; height=&quot;[ImageHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbType">gif</Metadata>
+    <Metadata name="Thumb">65USbeatleVIBIG_thumb.gif</Metadata>
+    <Metadata name="thumbicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Thumb]&quot; alt=&quot;[Thumb]&quot; width=&quot;[ThumbWidth]&quot; height=&quot;[ThumbHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbWidth">100</Metadata>
+    <Metadata name="ThumbHeight">100</Metadata>
+    <Metadata name="ScreenType">jpeg</Metadata>
+    <Metadata name="Screen">65USbeatleVIBIG_screen.jpeg</Metadata>
+    <Metadata name="screenicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Screen]&quot; width=[ScreenWidth] height=[ScreenHeight]&gt;</Metadata>
+    <Metadata name="ScreenWidth">500</Metadata>
+    <Metadata name="ScreenHeight">500</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Discography</Metadata>
+    <Metadata name="ex.Composite.ImageSize">300x300</Metadata>
+    <Metadata name="ex.ExifTool.ExifToolVersion">8.57</Metadata>
+    <Metadata name="ex.File.Directory">C:\Users\SAKET\Greenstone\collect\audioboo\import\discography\www.thebeatlesarchive.com\discography\imagesBIG</Metadata>
+    <Metadata name="ex.File.FileModifyDate">2018:12:10 07:47:05+03:00</Metadata>
+    <Metadata name="ex.File.FileName">65USbeatleVIBIG.gif</Metadata>
+    <Metadata name="ex.File.FilePermissions">666</Metadata>
+    <Metadata name="ex.File.FileSize">1305</Metadata>
+    <Metadata name="ex.File.FileType">GIF</Metadata>
+    <Metadata name="ex.File.MIMEType">image/gif</Metadata>
+    <Metadata name="ex.GIF.BackgroundColor">255</Metadata>
+    <Metadata name="ex.GIF.BitsPerPixel">8</Metadata>
+    <Metadata name="ex.GIF.ColorResolutionDepth">8</Metadata>
+    <Metadata name="ex.GIF.GIFVersion">89a</Metadata>
+    <Metadata name="ex.GIF.HasColorMap">128</Metadata>
+    <Metadata name="ex.GIF.ImageHeight">300</Metadata>
+    <Metadata name="ex.GIF.ImageWidth">300</Metadata>
+    <Metadata name="Title">65USbeatleVIBIG</Metadata>
+    <Metadata name="Identifier">HASH011d3bf233b89bb33b415e55</Metadata>
+    <Metadata name="lastmodified">1544417225</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528957</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH011d.dir</Metadata>
+    <Metadata name="gsdlassocfile">65USbeatleVIBIG.gif:image/gif:</Metadata>
+    <Metadata name="gsdlassocfile">65USbeatleVIBIG_thumb.gif:image/gif:</Metadata>
+    <Metadata name="gsdlassocfile">65USbeatleVIBIG_screen.jpeg:image/jpeg:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

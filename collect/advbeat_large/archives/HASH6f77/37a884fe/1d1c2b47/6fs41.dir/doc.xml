@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">41</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Renaissance minstrels. Volume II &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">&amp;#091;S.l.&amp;#093; :</Metadata>
+    <Metadata name="dc.Publisher">Renaissance Minstrels,</Metadata>
+    <Metadata name="dc.Date">&amp;#091;196-?&amp;#093;</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">The walk -- Teddy boy -- Two of us on the way home -- I've got a feelin' -- Long and winding road -- For you blue -- Dig a pony -- Across the universe -- Inner light -- Let it be -- Don't let me down -- Get back -- I'm down -- Instant karma.</Metadata>
+    <Metadata name="dc.Description">The Beatles, vocal and instrumental ensemble.</Metadata>
+    <Metadata name="dc.Subject">Rock music To 1961.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970.</Metadata>
+    <Metadata name="dc.Creator">Beatles. prf</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs41</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014476</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs41.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01200cjm  22003137a 4500
+001     5755557
+005     19950828153018.0
+007     sdubsmennmplue
+008     950516q19601969xx uun              eng  
+035    _9 (DLC)   95780537
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 3
+       _e ncip
+       _f 19
+       _g y-genmusic
+955    _a vn37
+010    _a    95780537 
+028 00 _a 726
+       _b Renaissance Minstrels
+035    _a (OCoLC)32483355 
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a Renaissance Minstrels 726
+245 00 _a Renaissance minstrels.
+       _n Volume II
+       _h [sound recording].
+260    _a [S.l.] :
+       _b Renaissance Minstrels,
+       _c [196-?]
+300    _a 1 sound disc :
+       _b analog, 33 1/3 rpm, stereo. ;
+       _c 12 in.
+511 0  _a The Beatles, vocal and instrumental ensemble.
+505 0  _a The walk -- Teddy boy -- Two of us on the way home --
+ I've got a feelin' -- Long and winding road -- For you blue --
+ Dig a pony -- Across the universe -- Inner light -- Let it be
+ -- Don't let me down -- Get back -- I'm down -- Instant
+ karma.
+500    _a Brief record.
+650  0 _a Rock music
+       _y To 1961.
+650  0 _a Rock music
+       _y 1961-1970.
+710 2  _a Beatles.
+       _4 prf
+953    _a TA28
+985    _a 9505
+991    _b c-RecSound
+       _h Renaissance Minstrels 726
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

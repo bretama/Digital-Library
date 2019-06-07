@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">tmp\beatles_midi\Birthday.mid</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">UnknownPlugin</Metadata>
+    <Metadata name="FileSize">33281</Metadata>
+    <Metadata name="Source">Birthday.mid</Metadata>
+    <Metadata name="SourceFile">Birthday.mid</Metadata>
+    <Metadata name="FileFormat">MIDI</Metadata>
+    <Metadata name="MimeType">audio/midi</Metadata>
+    <Metadata name="unknown_file">Birthday.mid</Metadata>
+    <Metadata name="srclink_file">Birthday.mid</Metadata>
+    <Metadata name="srclinkFile">Birthday.mid</Metadata>
+    <Metadata name="srcicon">_iconunknown_</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="gsdlzipfilename">import\beatles_midi.zip</Metadata>
+    <Metadata name="Title">Birthday</Metadata>
+    <Metadata name="Identifier">HASH010e317aabc76711c4f5ba4f</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014324</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH010e.dir</Metadata>
+    <Metadata name="gsdlassocfile">Birthday.mid:audio/midi:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">7</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0356029247</Metadata>
+    <Metadata name="dc.Title">The Beatles illustrated lyrics. Edited by Alan Aldridge. Illustrated by Julian Allen &amp;#091;and others&amp;#093;</Metadata>
+    <Metadata name="dc.Publisher">London,</Metadata>
+    <Metadata name="dc.Publisher">MacDonald,</Metadata>
+    <Metadata name="dc.Date">1969.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970 Texts.</Metadata>
+    <Metadata name="dc.Creator">Aldridge, Alan, ed.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs7</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528973</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs7.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 00815cam  2200253   4500
+001     2213295
+005     19981112075817.3
+008     700504s1969    enkach        001 0 eng  
+035    _9 (DLC)   74458681
+906    _a 7
+       _b cbc
+       _c orignew
+       _d u
+       _e ncip
+       _f 19
+       _g y-gencatlg
+010    _a    74458681 
+015    _a B69-25928
+020    _a 0356029247
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a ML54.6.B4
+       _b I4 1969
+082 00 _a 784.7
+245 04 _a The Beatles illustrated lyrics.
+       _c Edited by Alan Aldridge. Illustrated by Julian Allen
+ [and others]
+260    _a London,
+       _b MacDonald,
+       _c 1969.
+300    _a 156 p.
+       _b illus. (some col.), facsims., ports. (some col.).
+       _c 28 cm.
+350    _a 25/-
+650  0 _a Rock music
+       _y 1961-1970
+       _x Texts.
+700 1  _a Aldridge, Alan,
+       _e ed.
+710 2  _a Beatles.
+991    _b c-Music
+       _h ML54.6.B4
+       _i I4 1969
+       _t Copy 1
+       _w BOOKS
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

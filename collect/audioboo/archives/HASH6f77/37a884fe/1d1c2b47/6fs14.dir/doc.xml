@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">14</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Beatles live. Vol. 1 &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">Minneapolis, MN :</Metadata>
+    <Metadata name="dc.Publisher">Pickwick,</Metadata>
+    <Metadata name="dc.Date">p1978.</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">Roll over Beethoven -- Hippy hippy shake -- Falling in love again -- Lend me your comb -- Sheila -- Red sails in the sunset -- Matchbox -- I'm gonna sit right down and cry over you -- Be-bop-a-lula -- Hallelujah I love her so -- 'Til there was you -- Besame mucho -- A taste of honey.</Metadata>
+    <Metadata name="dc.Description">Performed by the Beatles.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970.</Metadata>
+    <Metadata name="dc.Creator">Beatles. prf</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs14</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528974</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs14.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01143njm  22003017a 4500
+001     5750764
+005     19950216074304.5
+007     sdubsmennmpluu
+008     950215s1978    mnuuun              eng  
+035    _9 (DLC)   95775621
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 3
+       _e ncip
+       _f 19
+       _g y-genmusic
+955    _a vn31
+010    _a    95775621 
+028 00 _a BAN-90051
+       _b Pickwick
+035    _a (OCoLC)31995193 
+040    _a DLC
+       _c DLC
+050 00 _a Pickwick BAN-90051
+245 00 _a Beatles live.
+       _n Vol. 1
+       _h [sound recording].
+260    _a Minneapolis, MN :
+       _b Pickwick,
+       _c p1978.
+300    _a 1 sound disc :
+       _b analog, 33 1/3 rpm, stereo. ;
+       _c 12 in.
+511 0  _a Performed by the Beatles.
+505 0  _a Roll over Beethoven -- Hippy hippy shake -- Falling in
+ love again -- Lend me your comb -- Sheila -- Red sails in the
+ sunset -- Matchbox -- I'm gonna sit right down and cry over you
+ -- Be-bop-a-lula -- Hallelujah I love her so -- 'Til there was
+ you -- Besame mucho -- A taste of honey.
+500    _a Brief record.
+650  0 _a Rock music
+       _y 1961-1970.
+710 2  _a Beatles.
+       _4 prf
+953    _a TA28
+985    _a 9502
+991    _b c-RecSound
+       _h Pickwick BAN-90051
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

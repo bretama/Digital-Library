@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<!DOCTYPE TutorialList [
+     <!ENTITY nbsp "&#160;">
+     <!ENTITY rarr "&#8594;">
+     <!ENTITY mdash "&#8212;">
+]>
+<Document>
+<Section name="introduction">
+<Title>
+<Text id="1">Introducción</Text>
+</Title>
+<Text id="2">La Interfaz de Bibliotecario de Greenstone es una herramienta que permite reunir documentos, añadir metadatos y crear colecciones digitales con ellos. Ofrece un fácil acceso a todas las funcionalidades del software para Biblioteca Digital Greenstone desde una interfaz gráfica de usuario con la que sólo tiene que señalar y pulsar.</Text>
+<Section name="ofmiceandmenus">
+<Title>
+<Text id="3">De menús y ratones</Text>
+</Title>
+<Text id="4">Esta sección proporciona información básica para poder trabajar con la Interfaz de Bibliotecario. Si está familiarizado con programas como Internet Explorer o Microsoft Office y está acostumbrado a usar el mouse, entonces pase a la sección <Reference target="howtoavoidthisdocument"/>.</Text>
+<Text id="5">La Interfaz de Bibliotecario sigue las convenciones de Microsoft y se apoya en el conocimiento que comúnmente se tiene de Windows.</Text>
+<Text id="6">Cualquier parte de la pantalla con la que usted interactúe, como un botón o un campo de texto, se llama "control". En todo momento un botón o campo de texto llamado "control activo" aparecerá resaltado y responderá a las instrucciones del teclado. Asimismo, varios controles le permiten seleccionar las partes que estén resaltadas en azul marino. Algunos controles también pueden aparecer sombreados para indicar que no están disponibles.</Text>
+<Text id="7">Usted puede mover y hacer click con el botón izquierdo o derecho del mouse de la forma acostumbrada. Muchos componentes también se pueden "arrastrar" haciendo click en ellos y sosteniendo el botón izquierdo del mouse, para luego moverlos y "colocarlos" en algún otro lugar soltando el botón. Normalmente el lugar de destino cambia de apariencia cuando un componente pasa sobre él.</Text>
+<Text id="8">Puede usar el teclado para escribir en los campos de texto. La tecla de tabulación [Tab] cambia la posición del cursor entre diferentes campos de texto.</Text>
+<Text id="11">Salga de la Interfaz de Bibliotecario eligiendo "Salir" en el menú "Archivo". Su colección se guardará primero.</Text>
+</Section>
+<Section name="howtoavoidthisdocument">
+<Title>
+<Text id="12">Temas de ayuda</Text>
+</Title>
+<Text id="13">¡Usted no necesita leer todo el texto de ayuda! Sólo lea lo suficiente para saber cómo obtener ayuda cuando la necesite.</Text>
+<Text id="14">Seleccionando el icono "Ayuda" en un contexto determinado mostrará el texto de ayuda relevante o marcará el encabezado de la ayuda con un ícono de signo de pregunta.</Text>
+<Text id="15">Para muchos controles si se coloca el mouse encima de ellos aparecerá un "cuadro de sugerencias" en el cual se explica su función.</Text>
+<Text id="16">Antes de usar la Interfaz de Bibliotecario lea primero la documentación de Greenstone.</Text>
+</Section>
+</Section>
+<Section name="startingoff">
+<Title>
+<Text id="17">Para empezar</Text>
+</Title>
+<Text id="18">Esta sección explica cómo crear, cargar, guardar y borrar colecciones.</Text>
+<Section name="creatingacollection">
+<Title>
+<Text id="19">Creando una nueva colección</Text>
+</Title>
+<Text id="20">Para crear una nueva colección abra el menú "Archivo" y elija la opción "Nueva". Deberán llenarse varios campos, aunque en caso de que sea necesario podrá cambiar después sus valores en la vista Formato</Text>
+<Text id="21">El "Título de la colección" es el texto que aparece en la parte superior de la página principal de su colección. Puede tener la longitud  que usted quiera.</Text>
+<Text id="22">La "Descripción del contenido" deberá describir tan detalladamente como sea posible de lo que se trata la colección. Utilice la tecla [Enter] o [Intro] para dividirla en párrafos.</Text>
+<Text id="23">Finalmente deberá especificar si desea que la nueva colección tenga la misma apariencia y conjunto de metadatos que una colección existente o si desea iniciar una "Nueva Colección". La nuevas colecciones tienen una configuración estándar básica y usan Dublin Core. Esta configuración puede cambiarse posteriormente.</Text>
+<Text id="24">Pulse en "Aceptar" para crear la colección.</Text>
+<Text id="25">Si hace click en "Cancelar" regresará inmediatamente a la pantalla principal.</Text>
+</Section>
+<Section name="savingacollection">
+<Title>
+<Text id="26">Guardar la colección</Text>
+</Title>
+<Text id="27">Guarde su trabajo regularmente abriendo el menú "Archivo" y seleccionando "Guardar". Tome en cuenta que guardar una colección no es lo mismo que prepararla para que se pueda usar en Greenstone (vea la sección <Reference target="producingthecollection"/>).</Text>
+<Text id="28">La Interfaz de Bibliotecario protege su trabajo guardándolo cada vez que salga del programa o cargue otra colección.</Text>
+<Text id="29a">Las colecciones se guardan en una carpeta dentro de la carpeta "collect" de su instalación de Greenstone, etiquetada con una versión corta del nombre de la colección. Los documentos se guardan en la carpeta "import", y los metadatos en ficheros "metadata.xml" dentro de esta carpeta. La información de configuración se guarda en elf ichero "collect.cfg" dentro de la carpeta "etc". Otra información se guarda en un fichero con el nombre de la colección y terminación ".col".</Text>
+</Section>
+<Section name="openingacollection">
+<Title>
+<Text id="30">Abriendo una colección existente</Text>
+</Title>
+<Text id="31">Para abrir una colección existente elija la opción "Abrir" en el menú "Archivo". Con esto aparecerá una lista de sus colecciones Greenstone. Seleccione una para ver su descripción y haga click en "Abrir" para cargarla.</Text>
+<Text id="32">En caso de que más de una Interfaz de Bibliotecario de Greenstone ese esté ejecutando al mismo tiempo, los directorios pertinentes se "bloquean" para evitar interferencias. Al abrir una colección se crea un pequeño archivo de bloqueo temporal en la carpeta. Antes de abrir una colección la Interfaz de Bibliotecario revisa que no haya un archivo de bloqueo. Sin embargo, cuando se sale prematuramente de la Interfaz de Bibliotecario el archivo de bloqueo a veces permanece en la carpeta. Cuando posteriormente se abre esta colección, la Biblioteca Digital le pregunta si quiere tomar el control. Hágalo a menos que haya alguien trabajando con ella en ese momento.</Text>
+<Text id="33">Cuando abra una colección que no haya sido creada por medio de la Interfaz de Bibliotecario de Greenstone, se le asignará el conjunto de metadatos Dublin Core, y se importarán al mismo los metadatos existentes previamente. El proceso se describe en el documento llamado <Reference target="importingpreviouslyassignedmetadata"/>.</Text>
+</Section>
+<Section name="deletingcollections">
+<Title>
+<Text id="34">Borrando colecciones</Text>
+</Title>
+<Text id="35">Para borrar definitivamente colecciones de su instalación de Greenstone, elija "Borrar…" del menú "Archivo". Aparece una lista de sus colecciones. Seleccione una para ver su descripción, marque la casilla situada en la parte inferior del diálogo, y pulse "Borrar". Esta acción es irreversible, por lo que debe comprobar cuidadosamente que no necesita la colección antes de proceder.</Text>
+</Section>
+</Section>
+<Section name="downloadingfiles">
+<Title>
+<Text id="36">Descargando archivos de Internet </Text>
+</Title>
+<Text id="37">La vista <AutoText key="glidict::GUI.Download"/> le ayuda a descargar recursos de internet. Esta sección explica la interfaz para el proceso de descarga.</Text>
+<Section name="themirrorview">
+<Title>
+<Text id="38">La vista en Bajar</Text>
+</Title>
+<Text id="39">Esta sección describe como configurar una tarea de descarga y como controlar el proceso de descarga. Active la vista <AutoText key="glidict::GUI.Download"/> pulsando en su pestaña. La mitad superior de la pantalla contiene los controles para realizar descargas. La mitad inferior está vacía inicialmente, pero después va a mostrar una lista de tareas pendientes y terminadas.</Text>
+<Text id="39a">Se pueden usar varios protocolos para descargar registros, y se listan en la parte izquierda superior.</Text>
+<Text id="39b"><b>Web:</b> descarga páginas web y ficheros mediante HTTP y FTP.</Text>
+<Text id="39b-1"><b>MediaWiki:</b> descarga páginas web y archivos via HTTP desde un sitio MediaWiki.</Text>
+<Text id="39c"><b>OAI:</b> descarga registros (y opcionalmente documentos) de un servidor OAI-PMH (Open Archives Initiative).</Text>
+<Text id="39d"><b>Z3950:</b> descarga registros MARC que cumplen un criterio de búsqueda dado, desde un servidor Z3950.</Text>
+<Text id="39e"><b>SRW:</b> descarga registros MARCXML que cumplen un criterio dado desde un servidor SRW.</Text>
+<Text id="39f">Seleccione el protocolo adecuado pulsando sobre él en la lista de la izquierda. La parte derecha muestra las opciones disponibles para el tipo de protocolo seleccionado. Para saber que hace una opción, sitúe el cursor sobre ella: se abre un mensaje emergente explicando la opción. Algunas opciones son "opcionales": se presentan con un cuadro que debe ser marcado para usar la opción. Otras son "requeridas": no tienen cuadro de marca, y debe darse un valor antes de llevar a cabo la descarga.</Text>
+<Text id="39g">Una vez fijada la configuración, pulse <AutoText key="glidict::Download.ServerInformation"/> para comprobar la conexión al servidor y ver información básica sobre la página web o el servidor, o pulse <AutoText key="glidict::Mirroring.Download"/> para iniciar la descarga.</Text>
+<Text id="39g-1">Hay otros dos botones: <AutoText key="glidict::Mirroring.Preferences"/>, que enlazan con la sección de conexión de las Preferencias, en la cual se pueden editar los parámetros del proxy; y <AutoText key="glidict::Mirroring.ClearCache"/>, que borra  todos los ficheros descargados previamente. Puede necesitar la información del proxy si usa este sistema para conectarse a internet. Si se necesita autentificación para las descargas, el servidor proxy pedirá nombre de usuario y clave. La Interfaz de Bibliotecario no almacena claves entre sesiones.</Text>
+<Text id="40">Los archivos se descargan en una carpeta <AutoText key="glidict::Tree.DownloadedFiles"/>, (sólo presente cuando se activa la descarga) y pueden utilizarse en todas las colecciones. Los archivos se nombran con su URL completo (para descargas Web y MediaWIki), o una combinación de URL y valores de opción (para otros tipos de descarga). Para cada "servidor" se crea una nueva carpeta, seguida por otras para cada parte de la "ruta". De esta manera se asegura que todos los archivos son distintos.</Text>
+<Text id="42">La lista de descargas tiene una entrada por cada descarga realizada. Cada entrada tiene un área de texto que da detalles acerca de la tarea, junto con una barra que indica el avance de la actividad en ejecución. A la derecha de cada entrada aparecen tres botones. <AutoText key="glidict::Mirroring.DownloadJob.Pause"/> se utiliza para detener temporalmente la descarga que se está ejecutando. <AutoText key="glidict::Mirroring.DownloadJob.Log"/> abre una ventana que muestra el archivo de log de las descargas. <AutoText key="glidict::Mirroring.DownloadJob.Close"/> termina la descarga y quita de la lista la tarea correspondiente.</Text>
+</Section>
+</Section>
+<Section name="collectingfiles">
+<Title>
+<Text id="44">Reuniendo archivos para su colección</Text>
+</Title>
+<Text id="45">Una vez que tiene una nueva colección necesita añadir algunos ficheros a ella. Estos pueden venir desde la estructura de ficheros de su computadora o de otras colecciones Greenstone. Algunos incluso ya pueden tener metadatos. Esta sección describe la forma de importar ficheros.</Text>
+<Section name="thegatherview">
+<Title>
+<Text id="46">La pantalla de selección de documentos</Text>
+</Title>
+<Text id="47">Esta sección describe el funcionamiento de la pantalla "Reunir" que se utiliza para seleccionar los archivos que se van a incluir en la colección que se está construyendo. La Interfaz de Bibliotecario se inicia con la pantalla "Reunir". Para regresar a esta pantalla pulse en la pestaña <AutoText key="glidict::GUI.Gather"/> que se encuentra directamente debajo de la barra de menús.</Text>
+<Text id="48">Dos grandes áreas tituladas "Area de trabajo" y "Colección" se utilizan para transferir los ficheros a su colección. Cada una contiene "árboles de archivos", que son representaciones gráficas de la estructura de directorios y ficheros.</Text>
+<Text id="49">Seleccione un elemento del árbol pulsando en él. (También existen otras formas; véase más adelante.) Pulse dos veces en la carpeta, o una en el signo que se encuentra junto a ella para expandir (o contraer) sus contenidos. Pulse dos veces en un fichero y seleccione <AutoText key="glidict::Menu.Open_Externally"/> para abrirlo usando un programa de aplicación asociado (véase <Reference target="fileassociations"/>).</Text>
+<Text id="50">El árbol de archivos del área de trabajo muestra los orígenes de la información disponible al interfaz del Bibliotecario -- el sistema local de archivos (incluyendo unidades de disco y CD-ROM), los contenidos de las colecciones existentes de Greenstone, y el caché de archivos descargados. Usted puede copiar y consultar estos archivos pero no puede moverlos, eliminarlos o editarlos, con la excepción de los archivos descargados, los cuales pueden ser eliminados. Navegue por este espacio para buscar los archivos que desee incluir en la colección.</Text>
+<Text id="51">La estructura de directorios y subdirectorios de la colección muestra sus contenidos. Inicialmente está vacía.</Text>
+<Text id="52">Se puede cambiar el tamaño de las áreas oprimiendo el botón del mouse sobre la barra gris que separa las estructuras de directorios y subdirectorios (la forma del cursor cambia) y arrastrándola.</Text>
+<Text id="53">En la parte inferior de la ventana se muestra un área de estado que informa del progreso de las acciones sobre archivos (copiando, moviendo y borrando). Puede tardar un tiempo en terminar. El botón "Detener" interrumpe cualquier acción que se esté ejecutando en ese momento.</Text>
+<Text id="54">Dos grandes botones ocupan la esquina inferior derecha de la pantalla: "Nueva carpeta", con la imagen de una carpeta, crea nuevas carpetas (vea la sección <Reference target="creatingfolders"/>), en tanto que "Eliminar", con la imagen de un bote de basura, descarta los archivos. Al hacer click en el botón "Eliminar" se suprimirán los archivos seleccionados de la estructura de directorios y subdirectorios de la colección. Asimismo, los archivos pueden eliminarse arrastrándolos hacia este botón.</Text>
+<Text id="55">Para seleccionar varios elementos consecutivos, seleccione el primero y a continuación manteniendo oprimida la tecla de mayúsculas o [Shift] haga click en el último: la selección incluirá todos los elementos que se encuentran en medio. Para seleccionar varios archivos que no sean consecutivos mantenga oprimida la tecla de control o [Ctrl] mientras hace click en ellos. Utilice alternativamente estos dos métodos para seleccionar grupos de elementos que no estén juntos.</Text>
+</Section>
+<Section name="creatingshortcuts">
+<Title>
+<Text id="55a">Creando un acceso directo en el árbol del espacio de trabajo</Text>
+</Title>
+<Text id="56">Algunas carpetas, como la que contiene sus propias páginas Web, tienen un significado especial. La Interfaz de Bibliotecario puede asignar dichas carpetas al primer nivel de la estructura de directorios y subdirectorios. Para hacerlo pulse con el botón derecho del ratón sobre la carpeta deseada. Seleccione "Crear un acceso directo" y déle un nombre a la carpeta. Para quitar un elemento pulse con el botón derecho del mouse sobre la carpeta mapeada y seleccione "Eliminar acceso directo".</Text>
+</Section>
+<Section name="creatingfolders">
+<Title>
+<Text id="57">Creando carpetas</Text>
+</Title>
+<Text id="58">Utilice las carpetas que se encuentran en la estructura de directorios y subdirectorios de la colección para agrupar archivos y hacer que sean más fáciles de encontrar. Las carpetas pueden contener a su vez otras subcarpetas. No hay prácticamente ningún límite en cuanto al número de carpetas que se pueden tener o qué tan profundamente anidadas puedan estar.</Text>
+<Text id="59">Para crear una nueva carpeta, haga click con el botón derecho en el panel "Colección" (o sobre una carpeta existente para insertar la nueva carpeta en dicho árbol de carpetas) y luego elija la opción "Nueva Carpeta". La nueva carpeta aparecerá dentro de la que se seleccionó primero o en el nivel superior si no se seleccionó ninguna. Se le pedirá que le dé un nombre a la carpeta (el valor por omisión es "Nueva carpeta"). </Text>
+<Text id="60">También se pueden crear nuevas carpetas pulsando con el botón derecho el el árbol de la colección, o sobre una carpeta,  eligiendo la opción "Nueva carpeta" y continuando como se describe arriba.</Text>
+</Section>
+<Section name="addingfiles">
+<Title>
+<Text id="61">Añadiendo archivos</Text>
+</Title>
+<Text id="62">Los archivos se pueden copiar arrastrándolos y colocándolos en una colección. El cursor se convierte en un fantasma del elemento seleccionado (o, si se ha seleccionado más de uno, del número de ellos). Coloque la selección en la estructura de directorios y subdirectorios de la colección para copiar ahí los archivos (si la fuente son los archivos del área de trabajo) o muévalos de lugar dentro de la misma colección (si la fuente son los archivos de la colección).</Text>
+<Text id="63">Cuando se copien varios archivos, todos estarán ubicados al mismo nivel, sin importar la estructura de las carpetas en las que se encontraban originalmente. Cuando se copie un segundo archivo con el mismo nombre en la misma carpeta se le preguntará si desea reemplazar el archivo existente. Si la respuesta es "No" entonces el archivo no se copiará, pero los demás sí. Para cancelar las acciones restantes de copiado haga click en el botón "Detener". </Text>
+<Text id="64">Únicamente se moverán los elementos "de más alto nivel" en una selección. Una carpeta está a un nivel más alto que los elementos que se encuentran en su interior, por lo que no se podrán seleccionar los archivos de una carpeta y la carpeta al mismo tiempo.</Text>
+<Text id="65">Cuando se añada un archivo, la Interfaz de Bibliotecario buscará a través de las carpetas fuente los archivos auxiliares que contienen los metadatos asignados previamente a dicho archivo y, si encuentra alguno, empezará a importar estos metadatos. Conforme la operación siga adelante se le pedirá (quizá varias veces) que proporcione información adicional para conciliar los metadatos importados con los conjuntos de metadatos de su colección. Este proceso incluye muchos avisos diferentes, los cuales se describen en la sección <Reference target="importingpreviouslyassignedmetadata"/>. Para obtener una explicación más detallada sobre la forma de asociar metadatos a los archivos lea el Capítulo 2 de la Guía del Programador de Greenstone: Obteniendo el máximo beneficio de sus documentos.</Text>
+<Text id="65a">También puede añadir un documento "de prueba" a la colección pulsando con el botón derecho en el árbol de la colección o en una carpeta, y seleccionando <AutoText key="glidict::CollectionPopupMenu.New_Dummy_Doc"/>. Esto creará un documento vacío al que se podrán asignar metadatos. Este fcihero podrá ser reemplazado con un documento "real" más adelante.</Text>
+</Section>
+<Section name="replacingfiles">
+<Title>
+<Text id="65b">Renombrando y reemplazando ficheros</Text>
+</Title>
+<Text id="65c">Los archivos pueden renombrarse pulsando con el botón derecho del ratón sobre ellos y seleccionando <AutoText key="glidict::CollectionPopupMenu.Rename"/> de la lista. Introduzca el nuevo nombre y pulse "OK".</Text>
+<Text id="65d">Los archivos de la colección pueden cambiarse  pulsando sobre ellos con el botón derecho del ratón, y eligiendo <AutoText key="glidict::CollectionPopupMenu.Replace"/>. Se muestra un explorador de archivos: navegue hasta el nuevo documento y pulse "Abrir". El nuevo documento reemplazará al viejo en la colección, y recibirá cualquier metadato del anterior. Esto es útil para reemplazar documento "de prueba" por documentos reales.</Text>
+<Text id="65e">Algunos tipos de archivos son convertidos a HTML por software de terceros durante el proceso de importación, por ejemplo, Word, Excel, PDF, etc. El HTML producido durante la conversión puede resultar muy poco estético. Estos documentos tienen una opción adicional con el botón derecho del mouse: <AutoText key="glidict::Menu.Replace_SrcDoc_With_HTML"/>. Seleccionando esta opción se reemplazará el archivo original en la colección con la versión en HTML, la cual puede editarse. </Text>
+</Section>
+<Section name="removingfiles">
+<Title>
+<Text id="66">Eliminando archivos</Text>
+</Title>
+<Text id="67">Existen varios métodos para eliminar archivos y carpetas. Primero se deben indicar los elementos que se desea eliminar seleccionando los archivos y carpetas tal como se describe en la sección de <Reference target="thegatherview"/>.</Text>
+<Text id="68">Una vez que se han seleccionado los archivos, haga click en el botón "Eliminar" o presione la tecla [Del], [Supr] o [Suprimir], dependiendo del teclado de su computadora, o arrástrelos desde la colección hasta el botón "Eliminar" y suéltelos ahí.</Text>
+</Section>
+<Section name="explodingfiles">
+<Title>
+<Text id="exm-1">Expandiendo Ficheros de Metadados</Text>
+</Title>
+<Text id="exm-2">Se pueden importar tipos de archivos de bases de datos de metadatos, como MARC, OAI, CDS/ISIS, BibTEx, Refer y Procite, pero sus metadatos no se pueden ver ni editar en la Interfaz de Bibliotecario. De todas maneras, se puede "explotar" el archivo en el GLI y luego ver o editar los metadatos. Alternativamente, y en particular cuando esté manteniendo una aplicación externa master, puede utilizar el programa que creó el archivo, hacer las correcciones y luego reimportar.</Text>
+<Text id="exm-3">"Expandir" un fichero de base de datos de metadatos en registros individuales, con metadatos visibles y editables. El proceso es irreversible: se borra el fichero original de metadatos.</Text>
+<Text id="exm-4">Los archivos expandibles muestran un icono verde en el árbol de la colección. Para expandirlos, pulse el botón derecho del ratón sobre él, y elija <AutoText key="glidict::Menu.Explode_Metadata_Database"/>. Una ventana emergente mostrará opciones para el proceso. La primera opción ("plugin") define el plugin a utilizar. En la mayoría de los casos, sólo un plugin puede procesar un tipo de fichero dado, pero en algunos casos, cuando los ficheros comparten la misma extensión de nombre de fichero, puede haber dos plugins que procesen la misma extensión. La opción "input_encoding" se usa para indicar la codificación de la base de datos. La opción "metadata_set" indica a que conjunto de metadatos deben añadirse los nuevos campos. Si no se indica ninguna, se le preguntará qué hacer con cada campo nuevo de la base de datos: añadirlo como tal al conjunto en uso, unirlo a otro elemento, o ignorarlo.</Text>
+<Text id="exm-5">Cuando se expande un fichero, se crea un nuevo documento para cada registro, y se le asignan los datos de metadatos del registro original. Se nombran usando secuencias como 000001.nul, 000002.nul etc. Si se ha activado la opción "document_field" (a un nombre de campo de la base de datos) se usará este varlo para el nombre. El proceso de expansión también intentará descargar el fichero y usarlo en vez de un fichero vacío. las opciones "document_prefix" y "document_suffix" pueden utilizarse para crear un URL o ruta válidos para el valor document_field. La opción "records_per_folder" pueden usarse para agrupar registros expandido en subcarpetas. Si la base de datos es muy grande, usar esta opción acelerará la edición subsecuente de metadatos.</Text>
+<Text id="exm-6">La expansión se determina por la extensión del nombre de fichero. En algunos casos, los ficheros pueden etiquetarse incorrectamente como expandibles, si tienen extensiones similares. Por ejemplo, el plugin para ProCite procesa ficheros con al extensión .txt, pero muchos ficheros .txt son sólo ficheros de texto, no de ProCite.</Text>
+</Section>
+<Section name="filteringthetree">
+<Title>
+<Text id="69">Filtrando la estructura de directorios y subdirectorios</Text>
+</Title>
+<Text id="70">"Filtrar" la estructura de directorios y subdirectorios de la colección limita la búsqueda a determinados tipos de ficheros.</Text>
+<Text id="71">El menú "Mostrar archivos" debajo de cada estructura de directorios y subdirectorios muestra una lista de filtros definidos previamente, como por ejemplo el de "Imágenes". Al elegir uno se ocultan temporalmente todos los demás archivos. Para restaurarlos, cambie el filtro a "Todos los archivos". Estas operaciones no alteran la colección ni afectan las carpetas en la estructura de archivos.</Text>
+<Text id="72">Se puede especificar un filtro en particular escribiendo un patrón que corresponda con los tipos de ficheros que se desea filtrar (Sólo en los modos Bibliotecario y Experto). Utilice las abreviaturas estándar del sistema como "*.*" o "*.doc" ("*" equivale a cualquier caracter).</Text>
+</Section>
+</Section>
+<Section name="enrichingacollection">
+<Title>
+<Text id="73">Enriqueciendo la colección con metadatos</Text>
+</Title>
+<Text id="74">Después de haber juntado varios archivos en una colección, enriquézcalos con información adicional. Esta sección explica la forma en que se crean, editan, asignan y recuperan los metadatos, y la forma de usar fuentes externas de metadatos (véase también el Capítulo 2 de la Guía del Programador de Greenstone: Obteniendo el máximo beneficio de sus documentos).</Text>
+<Section name="theenrichview">
+<Title>
+<Text id="75">La pantalla de asignación de metadatos</Text>
+</Title>
+<Text id="76">Utilice la vista <AutoText key="glidict::GUI.Enrich"/> para asignar metadatos a los documentos de la colección. Los metadatos son datos acerca de los datos: título, autor, fecha de creación, etc. Cada metadato tiene dos partes: <AutoText key="glidict::Metadata.Element"/> dice el tipo de metadato que es (como por ejemplo el autor) y <AutoText key="glidict::Metadata.Value"/> da la información de ese elemento (como por ejemplo el nombre del autor).</Text>
+<Text id="77">En la parte izquierda de la vista <AutoText key="glidict::GUI.Enrich"/> se encuentra el árbol de la colección. Toda la funcionalidad del botón derecho disponible para el árbol de la colección en <AutoText key="glidict::GUI.Gather"/> también está disponible aquí. A la derecha está la Tabla de Metadatos, que muestra los metadatos de los ficheros y carpetas seleccionados. Los nombres de las columnas están en gris en la parte superior y se pueden cambiar de tamaño arrastrando la línea que las separa. Si se seleccionan varios archivos, el texto en negro indica que el valor es común a todos ellos, mientras que el texto sombreado indica que no. La edición de los valores en gris sólo afecta a aquellos documentos con esos metadatos. Cualquier nuevo metadato introducido se añadirá a los valores seleccionados.</Text>
+<Text id="78">Un icono en forma de carpeta puede aparecer junto a algunas entradas de metadatos. Esto indica que los valores se heredan de la carpeta en la que se encuentra el archivo. Los metadatos heredados no se pueden editar o eliminar, sino únicamente agregarse. Haga click en el icono de la carpeta para ir inmediatamente a la carpeta en la que se asignaron los metadatos.</Text>
+<Text id="79">Pulsando sobre el elemento de metadato en la tabla se mostrarán los valores existentes  para ese elemento en el área <AutoText key="glidict::EnrichPane.ExistingValues" args="..."/> situada debajo de la tabla. La estructura de valores se puede expandir y contraer. Normalmente es una lista que muestra todos los valores introducidos previamente para un elemento seleccionado. Pulsando en una entrada ésta aparece automáticamente en el campo de valores. Y a la inversa, al escribir en el campo se selecciona la entrada de la estructura de valores que empieza con los caracteres introducidos. Al pulsar [Tab] se completa automáticamente el valor seleccionado.</Text>
+<Text id="80">Los valores de los metadatos se pueden organizar jerárquicamente. Esto se muestra en la estructura de valores por medio de carpetas para los niveles internos. Los valores jerárquicos pueden ingresarse utilizando el carácter "|" para separar los niveles. Por ejemplo, se puede usar "Cartas|Rojo|Diamantes|Siete" en una jerarquía que representa un mazo de cartas. Esto permite agrupar los valores, en tanto que los grupos también pueden asignarse en forma de metadatos a los archivos.</Text>
+<Text id="81">Greenstone extrae automáticamente los metadatos de los documentos para formar un conjunto de metadatos cuyos elementos llevan el prefijo "ex.". Éste no tiene estructura de valores y no puede editarse.</Text>
+</Section>
+<Section name="selectingmetadatasets">
+<Title>
+<Text id="82">Seleccionando conjuntos de metadatos</Text>
+</Title>
+<Text id="83">Los grupos de elementos de metadatos definidos previamente son conocidos como "conjuntos de metadatos". Un ejemplo es el conjunto de metadatos de Dublin Core. Cuando se añade un conjunto de metadatos a una colección, sus elementos se vuelven elegibles para que el usuario los pueda seleccionar. También se puede tener más de un conjunto. Para evitar conflictos de nombre, un identificador que describe al conjunto de metadatos se agrega como prefijo al nombre del elemento. Por ejemplo, el elemento Creator de Dublin Core se convierte en "dc.Creator". Los conjuntos de metadatos se guardan en la carpeta de metadatos de la Interfaz de Bibliotecario y llevan el sufijo ".mds".</Text>
+<Text id="84">Cuando crea una colección nueva, por defecto se añade el conjunto de metadatos Dublin Core. Puede cambiar el conjunto de metadatos usado en una colección pulsando el botón <AutoText key="glidict::EnrichPane.ManageMetadataSets"/> en el árbol de la colección en la vista Enriquecer. Se le muestra una nueva ventana para gestionar los conjuntos de metadatos de la colección.</Text>
+<Text id="84a">La lista <AutoText key="glidict::MetadataSetDialog.Current_Sets"/> muestra que conjuntos están siendo usados por la colección.</Text>
+<Text id="84b">Para usar otro conjunto de metadatos con la colección cargada, pulse "Añadir..." Una ventana emergente muestra los conjuntos predefinidos de metadatos reconocidos por GLI. Para añadir uno de ellos, selecciónelo de la lista desplegable y pulse "Añadir". Si ha definido su propio conjunto de metadatos use el botón "Explorar" para localizar el fichero en su sistema.</Text>
+<Text id="84c">Para crear un nuevo conjunto de metadatos, pulse "Nuevo..." Esto iniciará el Editor Greentone para Conjuntos de Metadatos, GEMS. Una ventana inicial le preguntará el nombre del conjunto, el espacio de nombres y la descripción. También puede elegir basar el nuevo conjunto en otro ya existente, en cuyo caso heredará los elementos ya existentes en éste. Pulse OK. La ventana principal muestra el conjunto de metadatos en el panel izquierdo y algunos atributos del conjunto en el panel derecho. Si ha basado el conjunto en otro ya existente, se mostrarán uno o más elementos. Pulsando en uno de ellos se mostrarán sus atributos en el panel derecho.</Text>
+<Text id="84d">Para añadir un nuevo elemento, pulse con el botón derecho del ratón en el conjunto y seleccione "Añadir elemento". Para añadir un nuevo subelemento, pulse con el botón derecho del ratón y seleccione "Añadir subelemento". Los elementos y subelementos pueden borrarse seleccionando "Borrar (Sub)Elemento" del menú emergente.</Text>
+<Text id="84e">Nota:  El editor de Conjuntos de Metadatos de Greenstone puede ejecutarse independientemente de GLI, seleccionándolo desde el Menú Inicio, carpeta Greenstone, o ejecutando gems.sh o gems.bat en la carpeta "gli" desde la carpeta en la que está instalado Greenstone. </Text>
+<Text id="84f">Algunas veces dos conjuntos de metadatos pueden tener el mismo espacio de nombre, por ejemplo Dublin Core y Dublin Core Cualificado, que usan "dc". Estos conjuntos no pueden usarse en una colección simultáneamente. Si lo intenta, recibirá un mensaje de alerta. Si continúa, se leiminará el conjunto existente y se añadirá en nuevo. Todos los elementos de metadatos asignados se trasnferirán al nuevo conjunto si exisnten en el mismo.</Text>
+<Text id="191">El Editor Greenstone para Conjuntos de Metadatos (GEMS) permite editar conjuntos de metadatos y crear otros nuevos. Pulsando el botón "Editar" se ejecuta GEMS sobre el conjunto de metadatos abierto. Una vez que ha terminado de editar el conjunto (como se ha indicado arriba), guárdelo (Fichero->Guardar) y cierre GEMS:</Text>
+<Text id="192">Si una colección ya no necesita un conjunto de metadatos, selecciónelo y pulse "Borrar Conjunto de Metadatos" para eliminarlo. Si había asignado metadatos a cualquier elemento del conjunto borrado, se le preguntará cómo actuar con estos metadatos cuando vuelva a abrir la colección.</Text>
+</Section>
+<Section name="appendingmetadata">
+<Title>
+<Text id="85">Agregando nuevos metadatos</Text>
+</Title>
+<Text id="86">Ahora añadiremos un ítem de metadato -- tanto un elemento como un valor -- a un archivo. Primero, seleccione el archivo en la estructura de directorios y subdirectorios de la colección que se encuentra a la izquierda. Esto hace que cualquier metadato asignado previamente a este archivo aparezca en la tabla de la derecha.</Text>
+<Text id="87">A continuación, seleccione el elemento de metadato que desea añadir haciendo click en la fila correspondiente de la tabla.</Text>
+<Text id="88">Escriba el valor en el campo de valores. Use el carácter "|" para añadir estructura, tal y como se explica en <Reference target="theenrichview"/>. Pulsando las teclas de flecha [Arriba] o [Abajo] se guardarán los metadatos y se moverá la selección adecuadamente. Pulsando [Retorno] se guardarán los metadatos y se creará una nueva entrada vacía para un elemento de metadato, permitiendo asignar varios valores al mismo.</Text>
+<Text id="89">También se pueden añadir metadatos a una carpeta o a varios archivos seleccionados al mismo tiempo. Estos metadatos se añadirá a todos los archivos que forman parte de la carpeta o de la selección, así como a las subcarpetas. Recuerde que si usted asigna metadatos a una carpeta, todos los archivos nuevos que se encuentren en ella heredarán automáticamente los valores de la carpeta.</Text>
+</Section>
+<Section name="addingpreviouslydefinedmetadata">
+<Title>
+<Text id="90">Añadiendo Metadatos Previamente Definidos</Text>
+</Title>
+<Text id="91">Para añadir metadatos que tengan ya un valor previo, seleccione primero el fichero y a continuación el valor requerido de la estructura de valores, expandiendo las carpetas tanto como sea necesario. El valor de la entrada seleccionada aparecerá automáticamente en el campo del metadato (otra alternativa es utilizar las funciones de selección automática y relleno automático de la estructura de valores). </Text>
+<Text id="92">El proceso de añadir metadatos con valores existentes a carpetas o a varios archivos juntos es exactamente igual.</Text>
+</Section>
+<Section name="updatingmetadata">
+<Title>
+<Text id="93">Editar o Borrar Metadatos</Text>
+</Title>
+<Text id="94">Para editar o borrar elementos de metadato, primero seleccione el campo apropiado, y luego el valor de metadato de la tabla. Edite el campo del valor, y borre todo el texto si quiere borrar el metadato.</Text>
+<Text id="95">El proceso es el mismo cuando se actualiza un directorio que contiene subdirectorios o múltiples archivos, pero sólo se pueden actualizar metadatos que sean comunes a todos los archivos y carpetas seleccionados.</Text>
+<Text id="96">El arbol de valores muestra todos los valores asignados actualmente, así como todos los valores previos de la sesión activa, por lo que los valores modificados o borrados permanecerán en el árbol. Si cierra y vuelve a abrir la colección, se borrarán los valores que ya no están asignados.</Text>
+</Section>
+<Section name="reviewingmetadata">
+<Title>
+<Text id="97">Revisando los metadatos asignados</Text>
+</Title>
+<Text id="98">En ocasiones es necesario ver los metadatos asignados a varios o a todos los ficheros al mismo tiempo, por ejemplo, para determinar la forma en que quedan muchos archivos para trabajar en ellos o para tener una idea de la diferencia de tiempo entre las fechas.</Text>
+<Text id="99">Seleccione los ficheros que desea examinar, pulse el botón derecho del ratón y elija "Metadatos Asignados…". Aparecerá una ventana llamada "Todos los metadatos", ocupada en su mayor parte por una tabla de varias columnas. La primera columna muestra los nombres de los archivos, mientras que las filas muestran todos los valores asignados a dichos archivos.</Text>
+<Text id="100">Si se seleccionaron muchos archivos es posible que transcurra algún tiempo antes de que se abra la ventana. Mientras tanto usted puede seguir usando la Interfaz de Bibliotecario.</Text>
+<Text id="101">Cuando la tabla sea demasiado grande se puede refinar aplicando los filtros a las columnas. Conforme se añadan nuevos filtros, únicamente aquellas filas que concuerden con ellos seguirán siendo visibles. Para establecer, modificar o borrar un filtro haga click en el icono con forma de embudo que se encuentra en la parte superior de la columna. Se le indicará que proporcione información sobre el filtro. Una vez que un filtro se ha aplicado, el encabezado de la columna cambia de color.</Text>
+<Text id="102">El aviso tiene una pestaña "Sencilla" y una "Avanzada". La versión sencilla filtra las columnas de tal manera que sólo muestren las filas que contienen un determinado valor ("*" corresponde a todos los valores). Los valores se pueden seleccionar de la lista desplegable. La versión avanzada permite diferentes operaciones de concordancia: "debe empezar con", "no contiene", "alfabéticamente menos que" y "es igual a". El valor se puede editar con cualquier cadena de caracteres (incluyendo "*") y se puede elegir que la concordancia no tome en cuenta el caso. Finalmente, se puede especificar una segunda condición de concordancia que se puede usar para especificar un rango de valores (seleccionando "Y") o valores alternativos (seleccionando "O"). Debajo de esta área hay un cuadro que le permite cambiar el orden de clasificación (ascendente o descendente). Una vez que haya terminado, haga click en "Filtrar" para aplicar el nuevo filtro a la columna. Para quitar el filtro haga click en "Borrar filtro". Recuerde que los detalles del filtro se conservan incluso cuando el filtro se borra.</Text>
+<Text id="103">Por ejemplo, para ordenar la tabla elija una columna, seleccione el filtro por omisión (un filtro Sencillo en "*") y escoja el orden ascendente o descendente.</Text>
+</Section>
+<Section name="importingpreviouslyassignedmetadata">
+<Title>
+<Text id="104">Importando metadatos previamente asignados</Text>
+</Title>
+<Text id="105">Esta sección describe cómo importar metadtos previamente asignados, es decir, metadatos asignados a los documentos antes de que fuesen añadidos a la colección.</Text>
+<Text id="106">Si se han asignado previamente metadatos en una forma reconocible por la Interfaz de Bibliotecario (por ejemplo, mediante un archivo medatadata.xml ubicado en la misma carpeta que el documento) o cuando se seleccionan documentos de una colección Greenstone existente, entonces éstos se importarán automáticamente cuando usted añada el archivo a una nueva colección. Greenstone reconocerá el archivo metadata.xml (el cual no deberá ser agregado a la colección) y automáticamente intentará importar los metadatos.</Text>
+<Text id="107">Para importar metadatos, los mismos deben mapearse con los esquemas de metadatos asociados a la colección. La Interfaz de Bibliotecario preguntará por la información necesaria. Se mostrarán breves instrucciones y luego se verá el elemento de metadato a ser importado, tal cual aparece en el archivo de origen. Este campo no puede editarse ni cambiarse. A continuación elija el conjunto de metadatos hacia el que el nuevo elemento deberá mapearse y el correspondiente elemento de metadato en ese conjunto. El sistema selecciona automáticamente la correspondencia más cercana en términos de conjunto y elemento para el nuevo metadato.</Text>
+<Text id="108">Después de revisar el mapeo, usted puede elegir "Añadir" para añadir el nuevo elemento de metadato al conjunto de metadatos que se haya seleccionado. (Esto sólo es posible si no hay un elemento del mismo nombre dentro del conjunto seleccionado.) "Combinar" mapea el nuevo elemento hacia el que el usuario haya elegido. Finalmente, "Ignorar" no importa ningún metadato con este nombre de elemento. Una vez que usted haya especificado la forma de importar una parte del metadato, la información del proceso se conserva durante todo el tiempo de vida de la colección.</Text>
+<Text id="109">Para mayor información sobre los archivos metadata.xml que Greenstone utiliza para guardar metadatos, vea el Capítulo 2 de la Guía del Programador de Greenstone: Obteniendo el máximo beneficio de sus documentos.</Text>
+</Section>
+</Section>
+<Section name="designingacollection">
+<Title>
+<Text id="110">Configurando su colección</Text>
+</Title>
+<Text id="111">Una vez que los ficheros están marcados con metadatos, a continuación se debe decidir cómo debe mostrarse los documentos a los usuarios finales. ¿Qué tipo de información se podrá buscar? ¿De qué medios se dispone para navegar por los documentos? ¿En qué idiomas? ¿Dónde aparecerán los botones en la página? Todas estas cosas se pueden personalizar. Esta sección describe la forma de hacerlo.</Text>
+<Section name="thedesignview">
+<Title>
+<Text id="112">La pantalla de diseño</Text>
+</Title>
+<Text id="113">Esta sección le presenta la pantalla de Diseño y le explica la forma de navegar entre las diferentes opciones de este conjunto.</Text>
+<Text id="114">Con la Interfaz de Bibliotecario usted puede configurar la forma en que se procesan los documentos y la colección se muestra al usuario. Las opciones se dividen en diferentes secciones, cada una relacionada con una etapa dada de personalización.</Text>
+<Text id="115">A la izquierda se encuentra una lista de las diferentes pantallas, en tanto que a la derecha están los controles asociados a la pantalla que está activa en ese momento. Para cambiar a una pantalla diferente haga click en la lista.</Text>
+<Text id="116">Para entender las etapas y los términos usados en el diseño de una colección, lea primero los Capítulos 1 y 2 de la Guía del Programador de Greenstone.</Text>
+</Section>
+<Section name="plugins">
+<Title>
+<Text id="121">Plugins</Text>
+</Title>
+<Text id="122">Esta sección describe la forma de configurar los plugins que la colección utiliza. Explica el modo de especificar los plugins que se utilizarán, los parámetros que emplearán y el orden en el que se aplicarán. En la vista "Diseño" pulse en "Plugins de documento".</Text>
+<Text id="123">Para añadir un plugin, escójalo de la lista "Seleccione el plugin que se va a añadir" que se encuentra en la parte inferior de la pantalla y pulse en "Añadir plugin". Aparecerá una ventana titulada "Argumentos de configuración", la cual se explica más adelante. Una vez que usted haya configurado el nuevo plugin, este se añadirá al final de la lista de "Plugins asignados actualmente". Por lo general, se tendrá una sola instancia de cada plugin. De todas maneras, puede añadirse el mismo plugin más de una vez; en ese caso, las múltiples instancias se deberían configurar de manera diferente para proveer un resultado útil, por ejemplo, configurando el argumento process_exp (ver http://wiki.greenstone.org/wiki/gsdoc/tutorial/en/enhanced_pdf.htm ). </Text>
+<Text id="123aa">Para ver una breve descripción del plugin, selecciónelo en la lista desplegable "Seleccione plugins a añadir", y ponga el cursor sobre él. Se mostrará una nota emergente con la descripción.</Text>
+<Text id="124">Para quitar un plugin de la lista, selecciónelo y haga click en "Eliminar plugin".</Text>
+<Text id="125">Los plugins se configuran por medio de argumentos. Para modificarlos, seleccione un plugin de la lista y haga click en "Configurar plugin" (o doble click en el plugin). Aparece un diálogo "Configurando Argumentos" con varios controles para especificar argumentos.</Text>
+<Text id="126">Existen diferentes tipos de controles. Algunos son recuadros y al hacer click en ellos se añade la opción correspondiente al plugin. Otros son cadenas de texto con un recuadro y un campo de texto. Haga click en el cuadro para habilitarlo y escriba el argumento (expresión regular, ruta de archivo, etc.). Otros son menús descendentes desde los que se puede seleccionar un conjunto dado de valores. Para saber lo que hace un argumento, coloque el cursor del mouse encima de su nombre y la descripción aparecerá.</Text>
+<Text id="127">Una vez que usted haya cambiado la configuración, haga click en "Aceptar" para guardar los cambios y cerrar el cuadro de diálogo o en "Cancelar" para cerrar el cuadro de diálogo sin cambiar ningún argumento.</Text>
+<Text id="128">Los plugins de la lista se ejecutan en orden y en ocasiones éste es importante. Seleccione un plugin de la lista y use los botoness <AutoText key="glidict::CDM.Move.Move_Up"/> y <AutoText key="glidict::CDM.Move.Move_Down"/> para cambiar su posición.</Text>
+</Section>
+<Section name="searchindexes">
+<Title>
+<Text id="134">Índices de búsqueda</Text>
+</Title>
+<Text id="si-1">Los ïndices especifican que partes de la colección son buscables. Esta sección explica como añadir y quitar índices, y cómo fijar un índice predefinido. Bajo la pestaña  <AutoText key="glidict::GUI.Design"/>, pulse <AutoText key="glidict::CDM.GUI.Indexes"/>.</Text>
+<Text id="si-2">La parte superior derecha del panel <AutoText key="glidict::CDM.GUI.Indexes"/> muestra información sobre el indizador que está usando la colección. Puede cambiarse pulsando <AutoText key="glidict::CDM.BuildTypeManager.Change"/>. Se muestra una ventana emergente con una lista de opciones: MG, MGPP, y Lucene. Cambiarlo afecta a la forma en que se construyen los índices, y puede afectar a las funcionalidades de búsqueda.</Text>
+<Text id="si-2a">La lista <AutoText key="glidict::CDM.IndexManager.Indexes"/> muestra los índices asignados a la colección.</Text>
+<Text id="si-3">Para añadir un índice, pulse <AutoText key="glidict::CDM.IndexManager.New_Index"/>... Se mostrará una ventana emergente con una lista de fuentes, que incluirá texto y metadatos. Seleccione que fuentes quiere indizar. Los botones <AutoText key="glidict::CDM.IndexManager.Select_All"/> y <AutoText key="glidict::CDM.IndexManager.Select_None"/> marcarán o desmarcarán todos los elementos de la lista respectivamente. Nua vez definido un nuevo índice, pulse <AutoText key="glidict::CDM.IndexManager.Add_Index"/> para añadirlo a la colección. <AutoText key="glidict::CDM.IndexManager.Add_Index"/> sólo se activará una vez que se hayan definido parámetros para un índice que aún no se ha asignado a la colección.</Text>
+<Text id="s1-3a">Para los índices de MGPP, puede necesitar establecer la granularidad del índice, usando el menú <AutoText key="glidict::CDM.IndexManager.Level"/>.</Text>
+<Text id="si-4">Para los índices de MGPP y Lucene, la granularidad se establece globalmente, no por índice. Los niveles posibles se muestran en el panel principal <AutoText key="glidict::CDM.GUI.Indexes"/>, y pueden añadirse a la colección marcando las casillas correspondientes.</Text>
+<Text id="si-5">Hay disponible un índice especial para MGPP y Lucene: un índice "todos los campos (allfields)" que ofrece una búsqeuda combianda sobre todos los índices indicados, sin tener que indicar un índice separado que contenga todas las fuentes. Para añadir este índice pulse marque <AutoText key="glidict::CDM.IndexManager.Allfields_Index"/> y pulse <AutoText key="glidict::CDM.IndexManager.Add_Index"/>. </Text>
+<Text id="si-6">Para MGPPP y Lucene se ofrece un botón <AutoText key="glidict::CDM.IndexManager.Add_All"/>, como atajo para añadir todos los metadatos e fuentes de texto como índices individuales.</Text>
+<Text id="si-7">Para editar un índice, selecciónelo y pulse <AutoText key="glidict::CDM.IndexManager.Edit_Index"/>. Se muestra un diálogo similar a <AutoText key="glidict::CDM.IndexManager.New_Index"/>.</Text>
+<Text id="si-8">Para borrar un índice, selecciónelo de la lista de índices asignados y pulse <AutoText key="glidict::CDM.IndexManager.Remove_Index"/>.</Text>
+<Text id="si-9">El orden en el que se indican los índices en la Lista de Índices Asignados es el orden en el cual se muestran en el menú desplegable de la página de búsqueda. Use los botones  <AutoText key="glidict::CDM.Move.Move_Up"/> y <AutoText key="glidict::CDM.Move.Move_Down"/> para cambiar este orden.</Text>
+<Text id="si-10">El preseleccionado en la página de búsqueda es llamado "índice predefinido". Puede fijarse seleionando un índice de la lista y marcando "Predefinido". El índice predefinido es marcadao como "[Índice predefinido]" en la lista de "Índices Asignados". Si no se ha establecido, se usará el primero.</Text>
+<Text id="si-11">Los nombres usados en la lista desplegable de índices de la página de búsqueda puede fijarse en el panel <AutoText key="glidict::CDM.GUI.SearchMetadata"/> de la vista <AutoText key="glidict::GUI.Format"/>  (véase <Reference target="searchmetadatasettings"/>).</Text>
+<Section name="searchindexoptions">
+<Title>
+<Text id="sio-1">Opciones de índices de búsqueda</Text>
+</Title>
+<Text id="sio-2">Hay algunas opciones adicionales que controlan la manera en la que se construyen los índices. Estas pueden no estar disponibles para un índice en particular, en cuyo caso se mostrarán grisadas.</Text>
+<Text id="sio-3">Truncamiento (Stemming) y Distinguir May/Min (case-folding) pueden habilitarse o deshabilitarse para los índices construídos con MG y MGPP. Si son habilitados, se crearán índices que le permitirán al usuario buscar usando dichas opciones o bien no tenerlas en cuenta. Si son deshabilitadas, las búsquedas seran sensitivas a las mayúsculas y sin posibilidad de truncamiento y las opciones no se mostrarán en la página de preferencias de la colección.</Text>
+<Text id="sio-4">La distinción de acentos (Accent-folding) está disponible para índices MGPP. Funciona de una manera similar a la distinción de mayúsculas/minúsculas, pero en vez de hacer coincidir letras mayúsculas y minúsculas logra la coincidencia de letras con diacríticos con aquellas que no lo tienen. El índice Lucene es accent-folded por defecto, pero no mostrará ninguna opción al usuario en la página de preferencias para habilitarlo o deshabilitarlo </Text>
+<Text id="sio-5">El Texto escrito en Chino, Japonés y Coreano por lo general no esta segmentado en palabras individuales. Como la indexación se basa en las palabras presentes en el texto, esto resulta en un índice no buscable. Configurando la opción <AutoText key="glidict::CDM.IndexingManager.Separate_cjk"/> se agregarán espacios entre cada caracter Chino/Japonés/Coreano del texto y en los términos de búsqueda, de forma que pueda efectuarse una búsqueda a nivel de caracter.</Text>
+</Section>
+</Section>
+<Section name="partitionindexes">
+<Title>
+<Text id="143">Particiones</Text>
+</Title>
+<Text id="144">Los índices se construyen sobre fuentes de metadatos o textos específicos. El espacio de búsqueda se puede controlar aún más particionando el índice, ya sea por idioma o por medio de un filtro determinado previamente. Esta sección describe la forma de hacerlo. En la parte de "Diseñoo" pulse en "Índices de partición".</Text>
+<Text id="145">La vista "Particionar índices" tiene tres pestañas: "Definir filtros", "Asignar particiones" y "Asignar idiomas". Para saber más acerca de las particiones y las subcolecciones revise el Capítulo 2 de la Guía del Programador de Greenstone.</Text>
+<Text id="146">Tenga en cuenta que para las colecciones MG, el número total de particiones generadas es una combinación de todos los índices, filtros de subcolección e idiomas elegidos. Dos índices, con dos filtros de subcolección en dos idiomas generarán ocho particiones de índices. En MGPP, todos los índices son creados en un solo índice físico, por lo que solo habrá 4 particiones de índices. En Lucene, el número de índices físicos está determinado por el número de niveles asignados a la colección, un índice por nivel. Por ende, para la situación anterior, un nivel resultaría en cuatro índices físicos, mientras que dos niveles resultarían en ocho.</Text>
+<Section name="definefilters">
+<Title>
+<Text id="147">Definir filtros</Text>
+</Title>
+<Text id="148">Los filtros le permiten agrupar en una subcolección todos los documentos de un índice para los cuales un valor de metadato sigue un patrón definido.</Text>
+<Text id="149">Para crear un filtro haga click en la pestaña "Definir filtros" y escriba el nombre del nuevo filtro en el campo titulado "Nombre del filtro de la subcolección". A continuación elija un atributo del documento con el cual se va a contrastar, ya sea un elemento de metadato o el nombre del archivo en cuestión. Ingrese una expresión regular que se utilizará durante la contrastación. Usted puede variar libremente entre "Incluir" documentos que concuerden con el filtro o "Excluirlos". Por último, usted también puede especificar cualquiera de los indicadores estándar de expresiones regulares PERL para usarlos al momento de contrastar (p. ej. "i" para concordancias que no tomen en cuenta el caso). Haga click en "Añadir filtro" para añadir el filtro a la lista de "Filtros definidos para la subcolección".</Text>
+<Text id="150">Para quitar un filtro de la lista, selecciónelo y haga click en "Eliminar filtro".</Text>
+<Text id="151">Para modificar un filtro, selecciónelo de la lista, cambie cualquiera de los valores que aparecen en los controles de edición y haga click en "Reemplazar filtro" para guardar los cambios.</Text>
+<Text id="151a">Definir filtros no crea subcolecciones. Las subcolecciones se especifican en la solapa <AutoText key="glidict::CDM.SubcollectionManager.Subindex_Controls"/>, basadas en los filtros que se hayan definido.</Text>
+</Section>
+<Section name="assignpartitions">
+<Title>
+<Text id="152">Asignar particiones</Text>
+</Title>
+<Text id="153">Una vez que haya definido el filtro de una subcolección, utilice la pestaña "Asignar particiones" para construir los índices del filtro (o de un grupo de filtros). Seleccione el filtro o los filtros que desee de la lista "Filtros definidos para la subcolección", y pulse "Añadir Partición". Cada partición producirá  una subcolección de documentos que cumnplan las condiciones asociadas con la partición.</Text>
+<Text id="154a">Para cambiar una partición, selecciónela de la lista, modifique los filtros, y pulse <AutoText key="glidict::CDM.SubcollectionIndexManager.Replace_Subindex"/>.</Text>
+<Text id="154">Para quitar una partición de la lista, selecciónela y haga click en "Eliminar partición".</Text>
+<Text id="154b">El orden de las particiones en al lista de particiones Asignadas es el orden en el que aparecen en el menú desplegable de la página de búsqueda. Use los botones <AutoText key="glidict::CDM.Move.Move_Up"/> y <AutoText key="glidict::CDM.Move.Move_Down"/> para cambiar el orden.</Text>
+<Text id="155">Para hacer que una partición determinada sea el valor predefinido, selecciónela de la lista y pulse <AutoText key="glidict::CDM.SubcollectionIndexManager.Set_Default_Subindex"/>.</Text>
+<Text id="155a">Los nombres usados en la lista desplegable de particiones de la página de búsqueda se establece en la parte <AutoText key="glidict::CDM.GUI.SearchMetadata"/> del panel <AutoText key="glidict::GUI.Format"/> (véase <Reference target="searchmetadatasettings"/>).</Text>
+</Section>
+<Section name="assignlanguages">
+<Title>
+<Text id="156">Asignar idiomas</Text>
+</Title>
+<Text id="157">Esta sección describe la forma de limitar los índices de búsqueda a ciertos idiomas. Esto se hace generando una partición por medio de la pestaña "Asignar idiomas" que se encuentra en la pantalla "Particionar índices". </Text>
+<Text id="157-1">Las particiones de idioma utilizan metadatos para determinar cuales documentos están en el idioma especificado y por ende deberían incluirse en la partición. Greenstone genera el metadato "ex.Language" para la mayoria de los documentos, y este es el metadato por defecto ausar. De todas maneras, esto puede cambiarse configurando <AutoText key="glidict::CDM.LanguageManager.LanguageMetadata"/> en el metadato correcto.</Text>
+<Text id="158">Para añadir una nueva partición de idioma, seleccione uno o más idiomas en "Idioma que se va a añadir" y pulse en "Añadir partición".</Text>
+<Text id="158a">Para cambiar una partición existente, selecciónela de la lista "Particiones de idioma asignadas", modifique los idiomas seleccionados en la lista "Idiomas a añadir", y pulse "Reemplazar partición".</Text>
+<Text id="159">Para quitar una partición de idioma, escójala de la lista "Particiones de idioma asignadas" y pulse en "Eliminar partición".</Text>
+<Text id="159a">El orden en que se especifican las particiones de idioma en la la lista de Particiones de Didioma Asignadas es el orden en el que aparecen en el menú desplegable de la página de búsqueda. Use los botones  <AutoText key="glidict::CDM.Move.Move_Up"/> y <AutoText key="glidict::CDM.Move.Move_Down"/> para cambiar el orden.</Text>
+<Text id="160">Para establecer un idioma predefinido, selecciónelo de la lista y pulse en "Predeterminar".</Text>
+<Text id="160a">Los nombres usados en la lista desplegable de particiones de idiomas en la página de búsqueda puede fijarse en la parte <AutoText key="glidict::CDM.GUI.SearchMetadata"/> del panel <AutoText key="glidict::GUI.Format"/> (véase <Reference target="searchmetadatasettings"/>).</Text>
+</Section>
+</Section>
+<Section name="classifiers">
+<Title>
+<Text id="166">Clasificadores de exploración</Text>
+</Title>
+<Text id="167">Esta sección explica la forma de asignar "clasificadores" a una colección, que se usan para navegar y buscar en ella. En el panel "Diseño" pulse en "Clasificadores de exploración".</Text>
+<Text id="168">Para añadir un clasificador, escójalo por medio de la lista descendente "Seleccione el clasificador que se va a añadir" en la parte inferior de la pantalla y pulse en "Añadir clasificador". Con esto aparecerá una ventana titulada "Argumentos de configuración". Las instrucciones para este cuadro de diálogo son exactamente las mismas que para los plugins (véase <Reference target="plugins"/>). Una vez que haya configurado el nuevo clasificador, éste se añadirá al final de la lista de "Clasificadores asignados actualmente".</Text>
+<Text id="168a">Para ver un descripción breve de un clasificador, selecciónelo en la lista desplegable "Seleccione clasificador a añadir", y ponga el cursor sobre él. Se mostrará un mensaje emergente con la descripción.</Text>
+<Text id="168b">Cada clasificador tiene varios argumentos que pueden configurarse. Los más importantes incluyen "metadato", que indica contra que metadato se clasificarán los documentos, y "nombre de botón", que es el nombre con el que aparecerá el botón en el menú de navegación</Text>
+<Text id="169">Para quitar un clasificador de la lista, selecciónelo y haga click en "Eliminar clasificador".</Text>
+<Text id="170">Para cambiar los argumentos de un clasificador, selecciónelo de la lista y pulse en "Configurar clasificador" (o doble pulsación en el nombre del clasificador en la lista).</Text>
+<Text id="171">El orden de los clasificadores en la barra de navegación de la colección se refleja aquí. Para cambiarlo, seleccione el clasificador que desea mover y haga click en <AutoText key="glidict::CDM.Move.Move_Up"/> o <AutoText key="glidict::CDM.Move.Move_Down"/>.</Text>
+<Text id="172">Para mayor información sobre los clasificadores, lea el Capítulo 2 de la Guía del Programador de Greenstone: Obteniendo el máximo beneficio de sus documentos.</Text>
+</Section>
+</Section>
+<Section name="producingthecollection">
+<Title>
+<Text id="193">Produciendo su colección </Text>
+</Title>
+<Text id="194">Una vez que se han reunido los documentos para la colección, que se han enriquecido con metadatos y que se ha diseñado la forma en que la colección aparecerá, usted ya puede empezar a construir la colección. Esta sección le explica cómo.</Text>
+<Section name="thecreateview">
+<Title>
+<Text id="195">La Vista Crear</Text>
+</Title>
+<Text id="196">La pantalla "Crear" se utiliza para producir la colección ejecutando los guiones de los programas Greenstone con base en la información que usted ha proporcionado. Acceda a la vista Crear pulsando las pestaña Crear.</Text>
+<Text id="196a">Pulsando "Construir colección"  inicia el proceso. El tiempo del mismo depende del tamaño de la colección y del número de índices que se creen (para colecciones muy grandes pueden ser horas). Una barra de progreso indica cuánto ha sido completado. Para cancelar el proceso en cualquier momento, pulse "Cancelar construcción". La parte inferior del panel muestra información sobre el proceso de construcción. la parte superior muestra algunas opciones para controlar el proceso.</Text>
+<Text id="197">Una vez que la colección se ha construido exitosamente, al seleccionar "Vista previa de la colección" se iniciará un navegador de web que mostrará la página inicial de la colección.</Text>
+</Section>
+<Section name="builderrors">
+<Title>
+<Text id="199a">Errores en la construcción de la colección</Text>
+</Title>
+<Text id="199b">Algunas veces hay problemas en el proceso de construcción. Puede darse que no puedan procesarse algunos archivos: el resto está correcto, puede previsualizarse, pero algunos documentos están ausentes. O puede ocurrir que la colección no construyó en forma  correcta, entonces se muestra un mensaje  <AutoText key="glidict::CollectionManager.Cannot_Create_Collection"/> . Cuando esto sucede, puede ser de ayuda cambiar GLi al modo experto (Fichero-> Preferencias->Modo, véase <Reference target="preferences"/>), cambiar la opción "Verbosity" a 5, y reconstruir para ver si hay otros mensajes de error.</Text>
+</Section>
+<Section name="expertbuilding">
+<Title>
+<Text id="198a">Crear vista en modo Experto</Text>
+</Title>
+<Text id="198">En modo Experto, puede usar las entradas del "Registro de mensajes" a la izquierda, para revisar intentos previos de construcción de la colección, hayan tenido éxito o no. Seleccione el registro que desee haciendo click en la fecha correspondiente en la lista "Historial de registro".</Text>
+<Text id="200a">En este modo, se muestra una lista completa de opciones de importación y construcción en los paneles Importar y Construir de la izquierda. Los varios parámetros se controlan como en la ventana "Configurar Argumentos" descrita en la sección <Reference target="plugins"/>. Algunso campos requieren argumentos numéricos, y puede escribirlos o usar las flechas de desplazamiento para aumentar o disminuir el valor indicado. (en algunos casos, la interfaz limita el rango posible). Otros se activan marcando el cuadro pulsable (pulsando de nuevo se desactivan).</Text>
+<Text id="201a">Más información sobre importación y construcción se encuentra en el capítulo 1 de Guía del Desarrollador de Greenstone -- Comprendiendo el proceso de construcción de la colección.</Text>
+</Section>
+<Section name="scheduledbuilding">
+<Title>
+<Text id="sched-1">Planificación de la construcción de colecciones</Text>
+</Title>
+<Text id="sched-2">La programación de la construcción de colecciones está disponible en Modo Experto. Antes de que esto funcione es necesario realizar algunas tareas, ver http://wiki.greenstone.org/wiki/index.php/Scheduled_Collection_Building_from_the_Librarian_Interface para más detalles. La solapa <AutoText key="glidict::CreatePane.Schedule"/>  en el lado izquierdo del panel Crear muestra una lista de opciones para controlar el proceso de planificación. La opción "Programar" necesita estar marcada para que la programación se pueda llevar a cabo. Las otras opciones controlan la frecuencia de la reconstrucción, si es una programación nueva o una actualización de una ya existente y los detalles de la notificación via email. </Text>
+</Section>
+</Section>
+<Section name="formattingacollection">
+<Title>
+<Text id="fc-1">Personalizando la presentación de la colección</Text>
+</Title>
+<Text id="fc-2">Una vez que haya construido la coleción, deberá decidir cómo se muestra al usuario ¿Qué nombres deben usarse para la lista desplegable de índices en el formulario de búsqueda?  ¿Cómo deberán mostrarse los resultados de la búsqueda? ¿Qué metatados deben mostrarse al visualizar un documento? Todo esto puede ajustarse; esta sección explica cómo hacerlo.</Text>
+<Section name="theformatview">
+<Title>
+<Text id="fc-3">La Vista de Formato</Text>
+</Title>
+<Text id="fc-4">Esta sección lo introduce a la vista Formato.</Text>
+<Text id="fc-5">Con la Interfaz de Bibliotecario puede configurar cómo se muestra la colección al usuario. Las opciones de configuración se dividen en secciones, cada una de las cuales se asocia con diferentes tipos de ajustes de la configuración.</Text>
+<Text id="fc-6">A la izquierda hay una lista de vistas y a la derecha se muestran los controles asociados con la vista seleccionada. Para cambiar a otra vista, pulse en su nombre en la lista.</Text>
+<Text id="fc-7">Bajo la lista de parámetros hay un botón "Previsualizar la colección". Los cambios que se hagan en la vista Formato no requieren reconstruir la colección, por lo que pueden previsualizarse. Sin embargo, la colección debe haberse construido por lo menos una vez para permitir el previsualizado.</Text>
+</Section>
+<Section name="generalsettings">
+<Title>
+<Text id="117">General</Text>
+</Title>
+<Text id="118">Esta sección explica la forma de revisar y modificar los ajustes generales asociados a la colección. Primero, en el panel de "Formato" pulse "General".</Text>
+<Text id="119">Aquí pueden modificarse metadatos generales de la colección, incluyendo el título y la descripción introducidas al crearla.</Text>
+<Text id="120">Primero se encuentran las direcciones de correo electrónico del creador y del administrador de la colección. El siguiente campo le permite cambiar el título de la colección. El directorio en el que se almacena la colección se muestra al lado, pero no puede editarse. El que sigue especifica (en forma de URL) el icono que aparecerá en el ángulo superior izquierdo de la página "Acerca de" y el siguiente es el icono usado en la página de la biblioteca digital Greenstone para conectarse a la colección. Una casilla controla que la colección sea o no accesible públicamente. Finalmente viene el área de texto que permite dar una "Descripción de la Colección", tal como se explica en la sección <Reference target="creatingacollection"/>.</Text>
+</Section>
+<Section name="searchmetadatasettings">
+<Title>
+<Text id="fc-s1">Buscar</Text>
+</Title>
+<Text id="fc-s2">Esta sección explica cómo fijar el texto que se muestra para las listas desplegables de la página de búsqueda. Bajo la pestaña "Formato", pulse "Búsqueda".</Text>
+<Text id="fc-s3">Este panel ofrece una tabla que enumera cada índice de búsqueda, nivel y partición.  Aquí puede ingresar el texto a ser usado para el nombre del índice en la lista desplegable de la página de búsqueda. Este panel sólo permite fijar el texto en un idioma, el utilizado en ese momento por GLI. Para traducir el texto a otro idioma, use el panel Traducir Texto de la solapa Formato (Véase <Reference target="translatetext"/>).</Text>
+</Section>
+<Section name="formatstatements">
+<Title>
+<Text id="173">Formatos</Text>
+</Title>
+<Text id="174">Las páginas Web que ve cuando utiliza Greenstone no han sido guardadas previamente sino que se generan “al vuelo” conforme se van necesitando. Las órdenes de formato se utilizan para cambiar la apariencia de las páginas generadas. Afectan aspectos como el lugar donde aparecerán los botones cuando se muestra un documento y qué vínculos despliega el clasificador DateList en pantalla. Las órdenes de formato no son fáciles de desarrollar, por lo que le recomendamos que lea el Capítulo 2 de la Guía del Programador de Greenstone. La presente sección describe los controles de los distintos formatos y la forma en que la Interfaz de Bibliotecario le da acceso a ellos. En la vista "Formato" pulse en "Características de Formato".</Text>
+<Text id="175">Se puede aplicar una orden de formato a cualquier cosa que se encuentre en la lista llamada "Elegir función", la cual incluye cada clasificador y una lista de funciones determinadas previamente. Cuando se selecciona una función existen dos tipos de controles. Algunas funciones simplemente se activan o se desactivan por medio de un recuadro. Otras requieren que se especifique una cadena de formato, para las cuales hay una lista descendente (llamada "Componente afectado") que permite seleccionar la parte de la función a la que se aplica la cadena (en caso necesario), un área de texto (llamada "cadena de formato HTML") para ingresar la cadena y una selección de "variables" definidas previamente. Para insertar una variable en su posición actual dentro de la cadena de formato, selecciónela de la lista descendente <AutoText key="glidict::CDM.FormatManager.Insert_Variable"/></Text>
+<Text id="176">También se puede especificar un formato predeterminado para un componente en particular seleccionando el parámetro "Todas las características". Este formato se aplicará a todas las características aplicables a menos que se especifique lo contrario.</Text>
+<Text id="177">Para añadir una nueva orden de formato, seleccione la característica y componente aplicacbles. El valor predefinod para la orden se mostrará en gris. Pulse <AutoText key="glidict::CDM.FormatManager.Add"/> para asignarlo a la colección. La "Cadena de Formato HTML" se hará editable y podrá cambiarla si lo desea. Solamente se podrá asignar una orden de formato a cada combinación de característica/componente.</Text>
+<Text id="178">Para quitar un comando de formato de la lista, selecciónelo y haga click en "Eliminar formato".</Text>
+<Text id="180">Para mayor información acerca de las variables y los componentes de las funciones lea el Capítulo 2 de la Guía del Programador de Greenstone.</Text>
+</Section>
+<Section name="translatetext">
+<Title>
+<Text id="182">Traducción de textos</Text>
+</Title>
+<Text id="183">Esta sección describe al panel de traducción, donde se pueden definir fragmentos de texto en un idioma específico para partes de la interfaz de la colección. En la vista "Formato" pulse en "Traducir texto".</Text>
+<Text id="184">Primero elija una entrada de la lista de "funciones". Las cadenas de texto asociadas a esta función aparecerán abajo. Utilice la lista "Idioma de la traducción" para seleccionar el idioma al que se va a traducir y escriba el texto traducido en el área de texto, haciendo referencia al "fragmento de texto inicial" en caso necesario. Una vez que haya terminado haga click en "Añadir traducción".</Text>
+<Text id="185">Para quitar una traducción existente, selecciónela de la tabla "Traducciones asignadas" y haga click en "Eliminar traducción".</Text>
+<Text id="186">Para actualizar una traducción, selecciónela, edítela en el área "Texto traducido" y pulse en "Reemplazar traducción".</Text>
+</Section>
+<Section name="xcollectionsearching">
+<Title>
+<Text id="161">Búsqueda cruzada a través de varias colecciones</Text>
+</Title>
+<Text id="162">Greenstone puede buscar a través de varias colecciones distintas como si fueran una sola. Esto se hace especificando una lista de otras colecciones que puedan ser buscadas junto con la actual. En la vistad e "Formato"" pulse en "Búsqueda cruzada".</Text>
+<Text id="163">El panel de búsqueda cruzada muestra una lista de las colecciones disponibles. La colección actual estará seleccionada y no se puede desmarcar. Para añadir otra colección en la cual buscar de forma paralela, pulse en ella (o pulse en ella nuevamente para quitarla de la selección). Si sólo se seleccionó una colección, no habrá búsqueda cruzada.</Text>
+<Text id="164">Si las colecciones individuales no tienen los mismos índices (incluyendo particiones en subcolecciones e idiomas) la búsqueda cruzada no funcionará correctamente. El usuario únicamente será capaz de buscar usando índices comunes a todas las colecciones.</Text>
+<Text id="165">Para mayor información vea el Capítulo 1 de la Guía del Programador de Greenstone.</Text>
+</Section>
+<Section name="collectionspecificmacros">
+<Title>
+<Text id="fc-m1">Macros específicas de la colección</Text>
+</Title>
+<Text id="fc-m2">Bajo la pestaña "Formato", pulse "Macros específicos de la colección".</Text>
+<Text id="fc-m3">Esta vista muestra el contenido del fichero de macros extra.dm de la colección. Aquí pueden definirse macros específicas de la colección. Para saber más sobre macros, vea el capítulo 3 de la Guía del Desarrollador de Greenstone.</Text>
+</Section>
+<Section name="depositormetadatasettings">
+<Title>
+<Text id="dm-1">Metadatos del Acumulador</Text>
+</Title>
+<Text id="dm-2">El Acumulador de Greenstone le permite al usuario agregar nuevos documentos a una colección existente a través de una interfaz web. Esta sección describe al panel de Metadatos del Acumulador, en donde puede especificar que metadatos deberían usarse para describir nuevos documentos agregados a través del Acumulador. Cualquier conjunto de metadatos que se haya asociado a la colección actual estará disponible para la selección. Si no existiera otro conjunto más que el "Greenstone Extracted Metadatada Set" asociado a la colección, entonces se usará por defecto el conjunto de metadatos "Dublin Core". Para aprender más sobre el Acumulador, lea el ejercicio del tutorial online en  http://wiki.greenstone.org/wiki/gsdoc/tutorial/en/depositor.htm. En la solapa "Formato", seleccione "Metadatos del Acumulador". </Text>
+<Text id="dm-3">El panel Metadatos del Acumulador muestra una lista de metadatos disponibles. Si hubiera más de un conjunto de metadatos asociados a la colección entonces los conjuntos contiguos se mostrarán en diferentes colores. Deslice el mouse sobre un elemento de metadato: se mostrará un texto con la descripción del elemento. </Text>
+<Text id="dm-4">Seleccione aquellos que quiera utilizar para describir nuevos documentos cuando estos sean cargados mediante el Acumulador. Aparecerá una lista desplegable al lado de cada elemento seleccionado con 2 opciones. Esto permite especificar el tipo de ingreso para ese elemento en la interfaz web. La opción "Text" significa un recuadro de texto simple, mientras que "textarea" significa que se usará un recuadro de texto multilínea. Seleccione el tipo apropiado para cada campo. </Text>
+<Text id="dm-5">Debe seleccionarse un elemento de metadato como mínimo. Si hubiera uno solo seleccionado en la lista, al desmarcarlo aparecerá un mensaje de aviso: <AutoText key="glidict::CDM.DepositorMetadataManager.Warning"/>. </Text>
+</Section>
+</Section>
+<Section name="miscellaneous">
+<Title>
+<Text id="202">Miscelánea</Text>
+</Title>
+<Text id="203">Esta sección describe funciones y características de la Interfaz de Bibliotecario que no están asociadas a ninguna pantalla en particular.</Text>
+<Section name="preferences">
+<Title>
+<Text id="204">Preferencias</Text>
+</Title>
+<Text id="205">Esta sección explica el cuadro de preferencias, al cual se tiene acceso por medio de la opción "Preferencias" en el menú "Archivo".</Text>
+<Text id="206">La ventana de preferencias se abre en el panel "General". La primera opción es un campo de texto para introducir su dirección de correo electrónico. Será usada para los elementos de metadatos "creador" y "administrador" de la colección. La siguiente opción es un menú desplegable de los idiomas en los cuales se puede presentar la Interfaz de Bibliotecario. Si usted cambia el idioma eligiendo uno de la lista, la Interfaz de Bibliotecario se reiniciará automáticamente para poder cargar las cadenas de texto en el nuevo idioma. También es posible elegir la Fuente: una buena configuración para mostrar carcateres Unicode es "Arial Unicode MS, BOLD, 14". </Text>
+<Text id="207">Si marcó el recuadro "Ver metadatos extraídos", los diferentes controles que trabajan con metadatos siempre mostrarán todos los metadatos que se han extraído automáticamente de los documentos. Al quitar la marca del recuadro se ocultarán estos metadatos (aunque la opción seguirá disponible durante el diseño de la colección y en la colección final). Si se marcó el recuadro "Mostrar el tamaño de los archivos" el tamaño del fichero aparecerá junto a cada uno en las estructuras de archivos del área de trabajo y de la colección que se encuentran en las pantallas "Reunir" y "Enriquecer".</Text>
+<Text id="208">La solapa "Modo" se utiliza para controlar el nivel de detalle dentro de la interfaz. En su nivel más básico, "Asistente de Biblioteca", la pantalla de diseño está deshabilitada. El usuario puede agregar y borrar documentos, agregar y editar metadatos y reconstruir la colección. El panel Crear en su forma más simple. El modo "Bibliotecario" provee acceso a todas las opciones de diseño y formato. El modo "Experto" incluye al panel Crear completo, y permite que la salida completa de la contrucción de la colección sea grabada en archivos de log. Para cambiar o revisar los modos, seleccione la opción deseada. Usted puede ver en que modo de trabajo se encuentra mirando la barra de título del GLI.</Text>
+<Text id="210">La pestaña de "Conexión" le permite cambiar la ruta que lo conecta al servidor local de la biblioteca digital Greenstone, el cual se utiliza durante la presentación preliminar de la colección. También le permite establecer la información de proxy para conectarse a Internet (ejemplo: al descargar archivos; ver la sección <Reference target="downloadingfiles"/> para más detalles). Marque la casilla para permitir la conexión por proxy y suministre los detalles de la dirección y el número de puerto del host que sirve de proxy. La conexión con el proxy se establece cuando cierre el diálogo de Preferencias.</Text>
+<Text id="211">En el curso de una sesión la Interfaz de Bibliotecario podrá enviarle mensajes de advertencia que le avisarán sobre las posibles consecuencias no previstas de una acción. Puede desactivar los mensajes marcando el recuadro "No mostrar este mensaje otra vez". Para reactivarlos utilice la pestaña "Mensajes de advertencia" y marque los recuadros de los mensajes que desea volver a ver.</Text>
+</Section>
+<Section name="fileassociations">
+<Title>
+<Text id="212">Asociación de archivos</Text>
+</Title>
+<Text id="213">La Interfaz de Bibliotecario utiliza diferentes programas de aplicación para abrir tipos particulares de archivos. Para modificar la asociación de archivos abra el menú "Archivo" y haga click en "Asociación de archivos".</Text>
+<Text id="214">Para establecer una asociación seleccione la extensión del fichero de la lista desplegable o escriba una nueva extensión (no incluya "."). A continuación escriba en el campo correspondiente la orden que da inicio a la aplicación deseada o elija la aplicación en el cuadro "Explorar". "%1" se puede utilizar en la orden de inicio para insertar el nombre del archivo que se está abriendo. Una vez que se han llenado estos campos, el botón "Añadir" se activará, con lo que ya se puede pulsar en él para establecer la asociación.</Text>
+<Text id="215">Para editar una asociación, seleccione una extensión de ficheroo existente. la orden asociada aparecerá en el campo correspondiente a orden de inicio. Edítelo y a continuación pulse en "Reemplazar".</Text>
+<Text id="216">Para eliminar una asociación, seleccione la extensión del archivo y haga click en "Eliminar".</Text>
+<Text id="217">Las asociaciones de archivos se guardan en la carpeta principal de la Interfaz de Bibliotecario en un archivo llamado "associations.xml".</Text>
+</Section>
+<Section name="exporting">
+<Title>
+<Text id="exp-1">Exportando colecciones a otros formatos</Text>
+</Title>
+<Text id="exp-2">Greenstone puede exportar los contenidos y/o metadatos de una colección a varios formatos estándares, incluyendo METS, DSpace y MARCXML.</Text>
+<Text id="exp-3">Para exportar una colección, abra el menú Archivo y elija "Exportar...". Puede elegir en qué formato exportar seleccionando "Exportar a" en la lista desplegable. Indique un nombre para el directorio en el que quiere situar los archivos exportados&mdash; los archivos terminarán en &lt;ruta a greenstone&gt;/tmp/exported_xxx, siendo xxx el nombre que se indicó. Seleccione una colección de la lista de colecciones disponibles, y pulse sobre "Exportar colección". </Text>
+<Text id="exp-4">Hay otras opciones específicas para los diferentes formatos. Puede indicar que ficheros XSLT deben aplicarse a los documentos XML resultantes para personalziar el formato de salida. Para exportar a MARCXML se usa un fichero de mapeado para pasar los metadatos de Greenstone a  campos MARC. El fichero de mapeo predefinido sólo exporta a Dublin Core. Puede indicar un fichero propio a utilizar.</Text>
+</Section>
+<Section name="exportingcollections">
+<Title>
+<Text id="218">Exportando colecciones a un CD/DVD</Text>
+</Title>
+<Text id="219">Greenstone puede exportar una o más colecciones a un CD/DVD autoinstalable para Windows.</Text>
+<Text id="220">Para exportar una colección abra el menú "Archivo" y seleccione la opción "Exportar a un CD-ROM/DVD...". Con esto aparecerá una lista de colecciones Greenstone. Haga click en una para ver su descripción. Marque los recuadros de las colecciones que desea exportar. Usted también puede introducir el nombre de CD/DVD en el cuadro correspondiente, que aparecerá en el menú de Inicio una vez que el CD/DVD se haya instalado. Puede seleccionar que el CD/DVD resultante se ejecute directamente, o que copie algunos ficheros al ordenador. A continuación haga click en "Exportar". El proceso incluye la copia de varios archivos y requerirá de unos cuantos minutos.</Text>
+<Text id="221">Una vez que haya terminado Greenstone mostrará el nombre de una carpeta en la que se encontrarán las colecciones que se han exportado. Utilice una quemadora de CD/DVDs para copiar sus contenidos en un CD/DVD en blanco.</Text>
+</Section>
+</Section>
+</Document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\mp3\emVtYXJpdCBsZW1sZW0ga2ViZWRlKGtpZGFubWhyZXQgZW1lYmV0ZSk=.mp3</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">MP3Plugin</Metadata>
+    <Metadata name="FileSize">6578677</Metadata>
+    <Metadata name="Source">zemarit lemlem kebede(kidanmhret emebete).mp3</Metadata>
+    <Metadata name="SourceFile">emVtYXJpdCBsZW1sZW0ga2ViZWRlKGtpZGFubWhyZXQgZW1lYmV0ZSk=.mp3</Metadata>
+    <Metadata name="mp3">zemarit lemlem kebede(kidanmhret emebete)</Metadata>
+    <Metadata name="srcurl">emVtYXJpdCBsZW1sZW0ga2ViZWRlKGtpZGFubWhyZXQgZW1lYmV0ZSk=.mp3</Metadata>
+    <Metadata name="FileFormat">MP3</Metadata>
+    <Metadata name="srcicon">_iconmp3_</Metadata>
+    <Metadata name="srclink_file">emVtYXJpdCBsZW1sZW0ga2ViZWRlKGtpZGFubWhyZXQgZW1lYmV0ZSk=.mp3</Metadata>
+    <Metadata name="srclinkFile">emVtYXJpdCBsZW1sZW0ga2ViZWRlKGtpZGFubWhyZXQgZW1lYmV0ZSk=.mp3</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="Title">zemarit lemlem kebede(kidanmhret emebete)</Metadata>
+    <Metadata name="Identifier">HASHe5a80b4aeb987aee33dda4</Metadata>
+    <Metadata name="lastmodified">1544499673</Metadata>
+    <Metadata name="lastmodifieddate">20181211</Metadata>
+    <Metadata name="oailastmodified">1545014484</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASHe5a8.dir</Metadata>
+    <Metadata name="gsdlassocfile">emVtYXJpdCBsZW1sZW0ga2ViZWRlKGtpZGFubWhyZXQgZW1lYmV0ZSk=.mp3:audio/mp3:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

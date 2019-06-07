@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CollectionConfig xmlns:gsf="http://www.greenstone.org/greenstone3/schema/ConfigFormat" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<metadataList>
+		<metadata lang="en" name="creator">greenstone@cs.waikato.ac.nz</metadata>
+		<metadata lang="en" name="maintainer"/>
+		<metadata lang="en" name="public">true</metadata>
+	</metadataList>
+	<displayItemList>
+		<displayItem assigned="true" lang="en" name="description">Demonstration collection illustrating the use of heterogeneous documents. Source documents are about The Beatles pop group in the following formats: HTML, TXT, JPEG, Word, PDF, MIDI, MP3, and MARC file formats.</displayItem>
+		<displayItem assigned="true" lang="en" name="icon">beatlesmm.png</displayItem>
+		<displayItem assigned="true" lang="en" name="name">Advanced Beatles -- large</displayItem>
+		<displayItem assigned="true" lang="en" name="document:text">document:text</displayItem>
+		<displayItem assigned="true" lang="en" name="document:Source">document:Source</displayItem>
+		<displayItem assigned="true" lang="en" name="document:Title">document:Title</displayItem>
+		<displayItem assigned="true" lang="en" name="text">text</displayItem>
+		<displayItem assigned="true" lang="en" name="ex.Title">Title</displayItem>
+		<displayItem assigned="true" lang="en" name="ex.Source">Source</displayItem>
+	</displayItemList>
+	<format>
+			<gsf:template name="choose-title">
+				<gsf:choose-metadata>
+					<gsf:metadata name="dc.Title"/>
+					<gsf:metadata name="exp.Title"/>
+					<gsf:metadata name="ex.dc.Title"/>
+					<gsf:metadata name="Title"/>
+					<gsf:default>Untitled</gsf:default>
+				</gsf:choose-metadata>
+			</gsf:template>
+		</format>
+	<search type="mg">
+		<index name="document:text">
+			<displayItem lang="en" name="name">document:text</displayItem>
+		</index>
+		<index name="document:Source">
+			<displayItem lang="en" name="name">document:Source</displayItem>
+		</index>
+		<index name="document:Title">
+			<displayItem lang="en" name="name">document:Title</displayItem>
+		</index>
+		<defaultIndex name="document:text"/>
+		<searchType name="plain"/>
+		<searchType name="simpleform"/>
+		<searchType name="advancedform"/>
+		<format>
+			<gsf:template match="documentNode">
+				<td valign="top">
+					<gsf:switch>
+						<gsf:metadata name="numleafdocs"/>
+						<gsf:when test="exists">
+							<gsf:link type="document">
+								<gsf:icon type="document"/>
+							</gsf:link>
+						</gsf:when>
+					</gsf:switch>
+					<gsf:switch>
+						<gsf:metadata name="dc.Format"/>
+						<gsf:when test="equals" test-value="Lyrics">
+							<gsf:link type="document">
+							  <gsf:icon file="lyrics.gif" select="collection" />
+							</gsf:link>
+						</gsf:when>
+					</gsf:switch>
+					<gsf:switch>
+						<gsf:metadata name="dc.Format"/>
+						<gsf:when test="equals" test-value="Discography">
+							<gsf:link type="document">
+							  <gsf:icon file="disc.gif" select="collection" />
+							</gsf:link>
+						</gsf:when>
+					</gsf:switch>
+					<gsf:switch>
+						<gsf:metadata name="dc.Format"/>
+						<gsf:when test="equals" test-value="Tablature">
+							<gsf:link type="document">
+							  <gsf:icon file="tab.gif" select="collection" />
+							</gsf:link>
+						</gsf:when>
+					</gsf:switch>
+					<gsf:switch>
+						<gsf:metadata name="dc.Format"/>
+						<gsf:when test="equals" test-value="MARC">
+							<gsf:link type="document">
+							  <gsf:icon file="marc.gif" select="collection" />
+							</gsf:link>
+						</gsf:when>
+					</gsf:switch>
+					<gsf:switch>
+						<gsf:metadata name="dc.Format"/>
+						<gsf:when test="equals" test-value="Images">
+							<gsf:link type="source">
+								<gsf:metadata name="thumbicon"/>
+							</gsf:link>
+						</gsf:when>
+					</gsf:switch>
+					<gsf:switch>
+						<gsf:metadata name="dc.Format"/>
+						<gsf:when test="equals" test-value="Supplementary">
+							<gsf:link type="source">
+								<gsf:metadata name="srcicon"/>
+							</gsf:link>
+						</gsf:when>
+					</gsf:switch>
+					<gsf:switch>
+						<gsf:metadata name="dc.Format"/>
+						<gsf:when test="equals" test-value="Audio">
+							<gsf:link type="source">
+								<gsf:switch>
+									<gsf:metadata name="FileFormat"/>
+									<gsf:when test="equals" test-value="MIDI">
+									  <gsf:icon file="midi.gif" select="collection"/>
+									</gsf:when>
+									<gsf:otherwise>
+									  <gsf:metadata name="srcicon"/>
+									</gsf:otherwise>
+								</gsf:switch>
+							</gsf:link>
+						</gsf:when>
+					</gsf:switch>
+				</td>
+				<td>
+					<gsf:switch>
+						<gsf:metadata name="numleafdocs"/>
+						<gsf:when test="exists">(<gsf:metadata name="numleafdocs"/>)</gsf:when>
+					</gsf:switch>
+				</td>
+				<td valign="top">
+					<gsf:choose-metadata>
+						<gsf:metadata name="dc.Title"/>
+						<gsf:metadata name="Title"/>
+						<gsf:default>Untitled</gsf:default>
+					</gsf:choose-metadata>
+				</td>
+			</gsf:template>
+		</format>
+	</search>
+	<infodb type="gdbm"/>
+	<import>
+		<pluginList>
+			<plugin name="ZIPPlugin"/>
+			<plugin name="GreenstoneXMLPlugin"/>
+			<plugin name="TextPlugin"/>
+			<plugin name="HTMLPlugin"/>
+			<plugin name="ImagePlugin"/>
+			<plugin name="EmailPlugin"/>
+			<plugin name="PDFPlugin"/>
+			<plugin name="RTFPlugin"/>
+			<plugin name="WordPlugin"/>
+			<plugin name="PostScriptPlugin"/>
+			<plugin name="MARCPlugin"/>
+			<plugin name="MP3Plugin"/>
+			<plugin name="UnknownPlugin">
+				<option name="-process_exp" value="\.mid$"/>
+				<option name="-mime_type" value="audio/midi"/>
+				<option name="-file_format" value="MIDI"/>
+			</plugin>
+			<plugin name="MetadataXMLPlugin"/>
+			<plugin name="ArchivesInfPlugin"/>
+			<plugin name="DirectoryPlugin"/>
+		</pluginList>
+	</import>
+	<browse>
+		<classifier name="AZCompactList">
+			<option name="-mingroup" value="1"/>
+			<option name="-metadata" value="dc.Title,Title"/>
+			<option name="-minnesting" value="20"/>
+			<option name="-firstvalueonly"/>
+			<option name="-removesuffix" value="(?i)(\s+\d+)|(\s*[[:punct:]]\s+.*)|(\s+&amp;#091;.*)|(\s*by the beatles\s*)"/>
+			<option name="-buttonname" value="Title"/>
+			<option name="-removeprefix" value="(?i)\s*beatles\s+\-\s+"/>
+		</classifier>
+		<classifier name="AZCompactList">
+			<option name="-metadata" value="dc.Format"/>
+			<option name="-buttonname" value="Browse"/>
+			<option name="-sort" value="Title"/>
+		</classifier>
+		<!--<classifier name="Collage"/>-->
+		<format>  <gsf:template match="documentNode">
+    <td valign="top">
+      <gsf:switch>
+        <gsf:metadata name="dc.Format"/>
+        <gsf:when test="equals" test-value="Lyrics">
+          <gsf:link type="document">
+            <gsf:icon file="lyrics.gif" select="collection"/>
+          </gsf:link>
+        </gsf:when>
+        <gsf:when test="equals" test-value="Discography">
+          <gsf:link type="document">
+            <gsf:icon file="disc.gif" select="collection"/>
+          </gsf:link>
+        </gsf:when>
+        <gsf:when test="equals" test-value="Tablature">
+          <gsf:link type="document">
+            <gsf:icon file="tab.gif" select="collection"/>
+          </gsf:link>
+        </gsf:when>
+        <gsf:when test="equals" test-value="MARC">
+          <gsf:link type="document">
+            <gsf:icon file="marc.gif" select="collection"/>
+          </gsf:link>
+        </gsf:when>
+        <gsf:when test="equals" test-value="Images">
+          <gsf:link type="source">
+            <gsf:metadata name="thumbicon"/>
+          </gsf:link>
+        </gsf:when>
+        <gsf:when test="equals" test-value="Supplementary">
+          <gsf:link type="source">
+            <gsf:metadata name="srcicon"/>
+          </gsf:link>
+        </gsf:when>
+        <gsf:when test="equals" test-value="Audio">
+          <gsf:link type="source">
+            <gsf:switch>
+              <gsf:metadata name="FileFormat"/>
+              <gsf:when test="equals" test-value="MIDI">
+                <gsf:icon file="midi.gif" select="collection"/>
+              </gsf:when>
+              <gsf:otherwise>
+                <gsf:metadata name="srcicon"/>
+              </gsf:otherwise>
+            </gsf:switch>
+          </gsf:link>
+        </gsf:when>
+      </gsf:switch>
+    </td>
+    <td valign="top">
+      <gsf:link type="document">
+<!--
+Defined in the global format statement
+-->
+        <xsl:call-template name="choose-title"/>
+      </gsf:link>
+    </td>
+  </gsf:template>
+  <gsf:template match="classifierNode[@classifierStyle = 'VList']">
+    <td valign="top">
+      <gsf:link type="classifier">
+        <gsf:icon type="classifier"/>
+      </gsf:link>
+    </td>
+    <td valign="top">
+      <gsf:link type="source">
+        <gsf:choose-metadata>
+          <gsf:metadata name="thumbicon"/>
+          <gsf:metadata name="srcicon"/>
+        </gsf:choose-metadata>
+      </gsf:link>
+    </td>
+    <td valign="top">
+<!--
+Defined in the global format statement
+-->
+      <xsl:call-template name="choose-title"/>
+    </td>
+    <td>(<gsf:metadata name="numleafdocs"/>)</td>
+  </gsf:template>
+  <gsf:template match="classifierNode[@classifierStyle = 'HList']">
+    <gsf:link type="classifier">
+      <gsf:metadata name="Title"/>
+    </gsf:link>
+  </gsf:template>
+
+</format>
+	</browse>
+	<display>
+		<format>
+			<gsf:option name="TOC" value="true"/>
+<!--
+Overwriting this template allows you to change the heading of the document.
+-->
+<!--
+<gsf:template name="documentHeading"><span style="font-weight:bold; font-size: 120%;"><xsl:call-template name="choose-title"/></span></gsf:template>
+-->
+<!--
+Overwriting this template can be used to redefine the content of the whole document.This is useful for simple documents, but not recommended for more complex documents(e.g. hierachical and paged documents) as it can prevent any sub-sections from showing.
+-->
+<!--
+<gsf:template name="documentContent"><xsl:call-template name="wrappedSectionImage"/><xsl:call-template name="wrappedSectionText"/></gsf:template>
+-->
+<!--
+Overwriting this template can be used to change the content of section headings.
+-->
+<!--
+<gsf:template name="sectionHeading"><xsl:call-template name="choose-title"/></gsf:template>
+-->
+<!--
+Overwriting this template can be used to change the content of the top-level section.
+-->
+<!--
+<gsf:template name="topLevelSectionContent"><xsl:call-template name="wrappedSectionImage"/><xsl:call-template name="wrappedSectionText"/></gsf:template>
+-->
+<!--
+Overwriting this template can be used to change the content of sections.
+-->
+<!--
+<gsf:template name="sectionContent"><xsl:call-template name="wrappedSectionImage"/><xsl:call-template name="wrappedSectionText"/></gsf:template>
+-->
+		</format>
+	</display>
+	<replaceListRef id="gs2-standard"/>
+	<replaceListRef id="gs2-image"/>
+</CollectionConfig>

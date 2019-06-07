@@ -1,0 +1,1 @@
+If you are receiving this message, it is because cron.pl has detected a cron.lck file. This may be because cron.pl is still executing. However, it may not be. If cron.lck is in error, please delete it. 

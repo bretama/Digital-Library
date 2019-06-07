@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">tmp\beatles_midi\Cant_Buy_Me_Love.mid</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">UnknownPlugin</Metadata>
+    <Metadata name="FileSize">30548</Metadata>
+    <Metadata name="Source">Cant_Buy_Me_Love.mid</Metadata>
+    <Metadata name="SourceFile">Cant_Buy_Me_Love.mid</Metadata>
+    <Metadata name="FileFormat">MIDI</Metadata>
+    <Metadata name="MimeType">audio/midi</Metadata>
+    <Metadata name="unknown_file">Cant_Buy_Me_Love.mid</Metadata>
+    <Metadata name="srclink_file">Cant_Buy_Me_Love.mid</Metadata>
+    <Metadata name="srclinkFile">Cant_Buy_Me_Love.mid</Metadata>
+    <Metadata name="srcicon">_iconunknown_</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="gsdlzipfilename">import\beatles_midi.zip</Metadata>
+    <Metadata name="Title">Cant Buy Me Love</Metadata>
+    <Metadata name="Identifier">HASH01c0c4762f4cfc015d954683</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014325</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01c0.dir</Metadata>
+    <Metadata name="gsdlassocfile">Cant_Buy_Me_Love.mid:audio/midi:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">49</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Yesterday &amp;#091;sound recording&amp;#093; : the wonderful music of the Beatles.</Metadata>
+    <Metadata name="dc.Publisher">New York, N.Y. :</Metadata>
+    <Metadata name="dc.Publisher">Columbia House,</Metadata>
+    <Metadata name="dc.Date">p1972.</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">Michelle -- A hard day's night -- If I fell -- All my loving -- Can't buy me love -- Eleanor Rigby -- I call your name -- Lucy in the sky with diamonds -- Yellow submarine -- Good day sunshine -- Love -- What is life? -- My sweet Lord -- Let it be -- Here, there and everywhere -- Ob la di-- ob la da -- Here comes the sun -- Mother nature's son -- Something -- You never give me your money -- Ticket to ride -- Norwegian wood -- Blackbird -- She's leaving home -- We can work it out -- This boy -- Rocky Raccoon -- Bangla Desh -- Come together -- From me to you -- Get back -- She loves you -- Strawberry fields forever -- Imagine -- You're gonna lose that girl -- When I'm 64 -- Help -- Tell me why -- A day in the life -- Lovely Linda -- The fool on the hill -- All you need is love -- Long and winding road -- Paperback writer -- Lady Madonna -- Carry that weight -- I will -- It don't come easy -- Maybe I'm amazed -- Sgt. Pepper's Lonely Heart's Club Band -- With a little help from my friends -- Hey Jude -- And I love her -- Penny Lane -- Uncle Albert -- Day tripper -- Magical mystery tour -- You've got to hide your love away -- Yesterday -- Hello, goodbye.</Metadata>
+    <Metadata name="dc.Description">Performed by the Terry Baxter Orchestra and Chorus.</Metadata>
+    <Metadata name="dc.Subject">Orchestral music, Arranged.</Metadata>
+    <Metadata name="dc.Subject">Popular music 1971-1980.</Metadata>
+    <Metadata name="dc.Creator">Terry Baxter Orchestra and Chorus. prf</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs49</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014479</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs49.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 02433njm  22003737a 4500
+001     5673930
+005     19930324081815.9
+007     sdubsmennmplu
+008     930318s1972    nyuuun              eng  
+035    _9 (DLC)   93706173
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 5
+       _e ncip
+       _f 19
+       _g y-genmusic
+010    _a    93706173 
+028 00 _a P6S 5748
+       _b Columbia House
+028 00 _a DS 937
+       _b Columbia House
+028 00 _a DS 938
+       _b Columbia House
+028 00 _a DS 939
+       _b Columbia House
+028 00 _a DS 940
+       _b Columbia House
+028 00 _a DS 941
+       _b Columbia House
+028 00 _a DS 942
+       _b Columbia House
+040    _a DLC
+       _c DLC
+050 00 _a Columbia House P6S 5748 (DS 937--DS 942)
+245 00 _a Yesterday
+       _h [sound recording] :
+       _b the wonderful music of the Beatles.
+260    _a New York, N.Y. :
+       _b Columbia House,
+       _c p1972.
+300    _a 6 sound discs :
+       _b analog, 33 1/3 rpm, stereo. ;
+       _c 12 in.
+440  2 _a A Columbia musical treasury
+511 0  _a Performed by the Terry Baxter Orchestra and Chorus.
+505 0  _a Michelle -- A hard day's night -- If I fell -- All my
+ loving -- Can't buy me love -- Eleanor Rigby -- I call your
+ name -- Lucy in the sky with diamonds -- Yellow submarine --
+ Good day sunshine -- Love -- What is life? -- My sweet Lord --
+ Let it be -- Here, there and everywhere -- Ob la di-- ob la da
+ -- Here comes the sun -- Mother nature's son -- Something --
+ You never give me your money -- Ticket to ride -- Norwegian
+ wood -- Blackbird -- She's leaving home -- We can work it out
+ -- This boy -- Rocky Raccoon -- Bangla Desh -- Come together --
+ From me to you -- Get back -- She loves you -- Strawberry
+ fields forever -- Imagine -- You're gonna lose that girl --
+ When I'm 64 -- Help -- Tell me why -- A day in the life --
+ Lovely Linda -- The fool on the hill -- All you need is love --
+ Long and winding road -- Paperback writer -- Lady Madonna --
+ Carry that weight -- I will -- It don't come easy -- Maybe I'm
+ amazed -- Sgt. Pepper's Lonely Heart's Club Band -- With a
+ little help from my friends -- Hey Jude -- And I love her --
+ Penny Lane -- Uncle Albert -- Day tripper -- Magical mystery
+ tour -- You've got to hide your love away -- Yesterday --
+ Hello, goodbye.
+500    _a Brief record.
+650  0 _a Orchestral music, Arranged.
+650  0 _a Popular music
+       _y 1971-1980.
+710 2  _a Terry Baxter Orchestra and Chorus.
+       _4 prf
+710 2  _a Beatles.
+953    _a TA28
+991    _b c-RecSound
+       _h Columbia House P6S 5748 (DS 937--DS 942)
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

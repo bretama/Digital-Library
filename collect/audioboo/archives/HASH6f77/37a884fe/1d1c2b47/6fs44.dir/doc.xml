@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">44</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Talk downunder. Vol. I &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">London :</Metadata>
+    <Metadata name="dc.Publisher">Baktabak,</Metadata>
+    <Metadata name="dc.Date">&amp;#091;199-?&amp;#093;</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">Beatles, interviews.</Metadata>
+    <Metadata name="dc.Subject">Rock musicians Interviews.</Metadata>
+    <Metadata name="dc.Creator">Beatles. prf</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs44</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528983</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs44.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 00824cjm  22002897a 4500
+001     5724501
+005     19970702132354.0
+007     sduzunznnmlneu
+008     941130q19901994enkuun              eng  
+035    _9 (DLC)   94766149
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 3
+       _e ncip
+       _f 19
+       _g y-genmusic
+955    _a vn06
+010    _a    94766149 
+028 00 _a CBAK 4024
+       _b Baktobak
+035    _a (OCoLC)31534460 
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a Baktobak CBAK 4024
+245 00 _a Talk downunder.
+       _n Vol. I
+       _h [sound recording].
+260    _a London :
+       _b Baktabak,
+       _c [199-?]
+300    _a 1 sound disc :
+       _b digital ;
+       _c 4 3/4 in.
+511 0  _a Beatles, interviews.
+500    _a Brief record.
+650  0 _a Rock musicians
+       _x Interviews.
+710 2  _a Beatles.
+       _4 prf
+953    _a TA28
+985    _a 9411
+991    _b c-RecSound
+       _h Baktobak CBAK 4024
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

@@ -1,0 +1,765 @@
+#!/usr/bin/perl -w
+
+###########################################################################
+#
+# build --
+# A component of the Greenstone digital library software
+# from the New Zealand Digital Library Project at the 
+# University of Waikato, New Zealand.
+#
+# Copyright (C) 2000 New Zealand Digital Library Project
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+###########################################################################
+
+# This perl script may be called directly or by running build.bat on
+# windows (build.bat is in bin\windows)
+
+# Note that this script has grown over time and now has many options for
+# use when called from within the collector. If it appears to
+# over-complicate things a little, that's why.
+
+# I think that currently (Nov 2010) its only officially used from the collector
+# and depositor
+
+package build;
+
+use strict;
+no strict 'refs';
+
+use FileHandle;
+use File::Copy;
+
+BEGIN {
+
+    die "GSDLHOME not set - did you remember to source setup.bash (unix) or " .
+	"run setup.bat (windows)?\n" unless defined $ENV{'GSDLHOME'};
+    die "GSDLOS not set - did you remember to source setup.bash (unix) or " .
+	"run setup.bat (windows)?\n" unless defined $ENV{'GSDLOS'};
+    unshift (@INC, "$ENV{'GSDLHOME'}/perllib");
+
+    STDOUT->autoflush(1);
+    STDERR->autoflush(1);
+}
+
+use lib qq($ENV{'GSDLHOME'}/perllib/cpan);
+use Mail::Sendmail;
+use parsargv;
+use util;
+use FileUtils;
+use cfgread;
+use colcfg;
+use dbutil;
+
+# set up greenstone environment
+&util::setup_greenstone_env($ENV{'GSDLHOME'}, $ENV{'GSDLOS'});
+# is the following needed with the previous line??
+# set up path - this allows for paths not to be supplied to system calls
+# and overcomes problems when GSDLHOME contains spaces (double quoting
+# the call doesn't work on win2k and probably other variants of winnt)
+my $path_separator = ":";
+$path_separator = ";" if $ENV{'GSDLOS'} =~ /^windows$/;
+$ENV{'PATH'} = &FileUtils::filenameConcatenate($ENV{'GSDLHOME'}, "bin", $ENV{'GSDLOS'}) .
+    $path_separator . &FileUtils::filenameConcatenate($ENV{'GSDLHOME'}, "bin", "script") .
+    $path_separator . $ENV{'PATH'};
+
+# all the input option variables
+my ($optionfile, $indextype, $append, $manifest, $remove_archives, $remove_import, $buildtype, $infodbtype, $maxdocs, @download, $collectdir, $site, $dontinstall, $save_archives, $out, $make_writable, $log_events, $event_log_file, $email_events, $mail_server, $statsfile, $event_header);
+
+&parse_args (\@ARGV);
+
+my ($collection) = @ARGV;
+
+if (!defined $collection || $collection !~ /\w/) {
+    print STDERR "You must specify a collection to build\n";
+    &print_usage();
+    die "\n";
+}
+
+if ($optionfile =~ /\w/) {
+    open (OPTIONS, $optionfile) || die "Couldn't open $optionfile\n";
+    my $line = [];
+    my $options = [];
+    while (defined ($line = &cfgread::read_cfg_line ('build::OPTIONS'))) {
+	push (@$options, @$line);
+    }
+    close OPTIONS;
+    &parse_args ($options);
+}
+
+if ($maxdocs == -1) {
+    $maxdocs = "";
+} else {
+    $maxdocs = "-maxdocs $maxdocs";
+}
+
+my $cdir = $collectdir;
+my $gs_mode;
+if (defined $site && $site =~ /\w/)
+{
+    die "GSDL3HOME not set." unless $ENV{'GSDL3HOME'};
+    $cdir = &FileUtils::filenameConcatenate ($ENV{'GSDL3HOME'}, "sites", $site, "collect") unless $collectdir =~ /\w/;
+    $gs_mode = "gs3";
+}
+else
+{
+    $cdir = &FileUtils::filenameConcatenate ($ENV{'GSDLHOME'}, "collect") unless $collectdir =~ /\w/;
+    $gs_mode = "gs2";
+}
+
+my $importdir = &FileUtils::filenameConcatenate ($cdir, $collection, "import");
+my $archivedir = &FileUtils::filenameConcatenate ($cdir, $collection, "archives");
+my $buildingdir = &FileUtils::filenameConcatenate ($cdir, $collection, "building");
+my $indexdir = &FileUtils::filenameConcatenate ($cdir, $collection, "index");
+my $etcdir = &FileUtils::filenameConcatenate ($cdir, $collection, "etc");
+my $bindir = &FileUtils::filenameConcatenate ($ENV{'GSDLHOME'}, "bin");
+
+my $use_out = 0;
+my $outfile = $out;
+if ($out !~ /^(STDERR|STDOUT)$/i) {
+    open (OUT, ">$out") || die "Couldn't open output file $out\n";
+    $out = "OUT";
+    
+    # delete any existing .final file
+    &FileUtils::removeFiles ("$outfile.final") if -e "$outfile.final";
+
+    $use_out = 1;
+}
+$out->autoflush(1);
+
+# delete any .kill file left laying around from a previously aborted build
+if (-e &FileUtils::filenameConcatenate ($cdir, $collection, ".kill")) {
+    &FileUtils::removeFiles (&FileUtils::filenameConcatenate ($cdir, $collection, ".kill"));
+}
+
+# get maintainer email address from main.cfg
+my $maintainer = "NULL";
+my $main_cfg = &FileUtils::filenameConcatenate ($ENV{'GSDLHOME'}, "etc", "main.cfg");
+my $cfgdata = &cfgread::read_cfg_file ($main_cfg, "maintainer");
+if (defined $cfgdata->{'maintainer'} && $cfgdata->{'maintainer'} =~ /\w/) {
+    $maintainer = $cfgdata->{'maintainer'};
+}
+# if maintainer is "NULL" email_events should be disabled
+if ($maintainer =~ /^NULL$/i) {
+    $email_events = "";
+}
+
+&main();
+
+if ($use_out) {
+    close OUT;
+
+    # if we've created a build log we'll copy it to the collection's etc
+    # directory
+    my ($final_etcdir);
+    if ($dontinstall) {
+	$final_etcdir = &FileUtils::filenameConcatenate($collectdir, $collection, "etc", "build.log");
+    } else {
+	$final_etcdir = &FileUtils::filenameConcatenate($ENV{'GSDLHOME'}, "collect", $collection, "etc", "build.log");
+    }
+
+    &FileUtils::copyFiles($outfile, $final_etcdir);
+}
+
+sub print_usage {
+    print STDOUT "\n";
+    print STDOUT "build: Builds a Greenstone collection (i.e. runs import.pl and buildcol.pl\n";
+    print STDOUT "       then copies the resulting indexes to the correct place).\n\n";
+    print STDOUT "  usage: $0 [options] collection-name\n\n";
+    print STDOUT "  options:\n";
+    print STDOUT "   -optionfile file        Get options from file, useful on systems where\n";
+    print STDOUT "                           long command lines may cause problems\n";
+    print STDOUT "   -indextype mg|mgpp|lucene \n";
+    print STDERR "                           Specify the type of indexer used in this collection\n";
+    print STDERR "                           If -append is used then -indextype is needed to \n";
+    print STDERR "                           determine how to run buildcol.pl as well as update\n";
+    print STDERR "                           'building' and 'index' according.\n";
+    print STDOUT "   -append                 Add new files to existing collection\n";
+    print STDOUT "   -manifest               Use manifest.xml file to determine which files to process.\n";
+    print STDOUT "   -remove_archives        Remove archives directory after successfully\n";
+    print STDOUT "                           building the collection.\n";
+    print STDOUT "   -remove_import          Remove import directory after successfully\n";
+    print STDOUT "                           importing the collection.\n";
+    print STDOUT "   -buildtype build|import If 'build' attempt to build directly\n";
+    print STDOUT "                           from archives directory (bypassing import\n";
+    print STDOUT "                           stage). Defaults to 'import'\n";
+    print STDOUT "   -maxdocs number         Maximum number of documents to build\n";
+    print STDOUT "   -download directory     Directory (or file) to get import documents from.\n";
+    print STDOUT "                           There may be multiple download directories and they\n";
+    print STDOUT "                           may be of type http://, ftp://, or file://\n";
+    print STDOUT "                           Note that any existing import directory will be\n";
+    print STDOUT "                           deleted to make way for the downloaded data if\n";
+    print STDOUT "                           a -download option is supplied\n";
+    print STDOUT "   -collectdir directory   Collection directory (defaults to " .
+	&FileUtils::filenameConcatenate($ENV{'GSDLHOME'}). "collect for Greenstone2;\n";
+    print STDOUT"                            for Greenstone3 use -site option and then collectdir default will be\n";
+    print STDOUT "                            set to the collect folder within that site.)\n";
+    print STDOUT "   -site                   Specify the site within a Greenstone3 installation to use.\n";
+    print STDOUT "   -dontinstall            Only applicable if -collectdir is set to something\n";
+    print STDOUT "                           other than the default. -dontinstall will suppress\n";
+    print STDOUT "                           the default behaviour which is to install the\n";
+    print STDOUT "                           collection to the gsdl/collect directory once it has\n";
+    print STDOUT "                           been built.\n";
+    print STDOUT "   -save_archives          Create a copy of the existing archives directory\n";
+    print STDOUT "                           called archives.org\n";
+    print STDOUT "   -out                    Filename or handle to print output status to.\n";
+    print STDOUT "                           The default is STDERR\n";
+    print STDOUT "   -statsfile name         Filename or handle to print import statistics to.\n";
+    print STDOUT "                           The default is STDERR\n";
+    print STDOUT "   -make_writable          If set build will make the collection and any\n";
+    print STDOUT "                           temporary files it created globally writable after\n";
+    print STDOUT "                           it finishes\n";
+    print STDOUT "   -log_events             Log important events (collection built successfully\n";
+    print STDOUT "                           etc.) to event_log_file\n";
+    print STDOUT "   -event_log_file file    File to append important events to (defaults to\n";
+    print STDOUT "                           " . &FileUtils::filenameConcatenate ($ENV{'GSDLHOME'}, "etc", "events.txt") . "\n";
+    print STDOUT "   -email_events addr      Comma separated list of email addresses to mail\n";
+    print STDOUT "                           details of important collection building events\n";
+    print STDOUT "   -mail_server server     The outgoing (SMTP) mail server to be used by\n";
+    print STDOUT "                           email_events. email_events will be disabled if\n";
+    print STDOUT "                           mail_server isn't set\n";
+    print STDOUT "   -event_header file      File containing a header to go on any event\n";
+    print STDOUT "                           messages. If not specified build will create a\n";
+    print STDOUT "                           generic header\n\n";
+    print STDOUT "  [Type \"build | more\" if this help text scrolled off your screen]";
+    print STDOUT "\n" unless $ENV{'GSDLOS'} =~ /^windows$/i;
+}
+
+sub main {
+
+    if ($save_archives && -d $archivedir) {
+	print $out "caching original archives to ${archivedir}.org\n";
+	&FileUtils::copyFilesRecursive ($archivedir, "${archivedir}.org");
+    }
+
+    # do the download thing if we have any -download options
+    if (scalar (@download)) {
+	# remove any existing import data
+	if (&has_content ($importdir)) {
+	    #print $out "build: WARNING: removing contents of $importdir\n";
+	    #&FileUtils::removeFilesRecursive ($importdir);
+	}
+	
+	foreach my $download_dir (@download) {
+
+	    # remove any leading or trailing whitespace from filenames (just in case)
+	    $download_dir =~ s/^\s+//;
+	    $download_dir =~ s/\s+$//;
+	    
+	    if ($download_dir =~ /^(http|ftp):\/\//) {
+		# use wget to mirror http or ftp urls
+		# options used are:
+		#  -P = the directory to download documents to
+		#  -np = don't ascend to parent directories. this means that only documents
+		#        that live in the same directory or below on the same server as
+		#        the given url will be downloaded
+		#  -nv = not too verbose
+		#  -r = recursively mirror
+		#  -N = use time-stamping to see if an up-to-date local copy of each 
+		#       file already exists. this may be useful if wget fails and 
+		#       is restarted
+		#  -l inf = infinite recursion depth
+		#  -R "*\?*" = don't download cgi based urls
+		#  -o = the output file to write download status to (only used if the -out
+		#       option was given to build)
+
+		my $download_cmd = "\"".&util::get_perl_exec()."\" -S gsWget.pl -P \"$importdir\" -np -nv";
+		$download_cmd .= " -r -N -l inf -R \"*\\?*\"";
+		$download_cmd .= " -o \"$outfile.download\"" if $use_out;
+		$download_cmd .= " \"$download_dir\"";
+		system ($download_cmd);
+
+		# note that wget obeys the robot rules. this means that it will have
+		# downloaded a robots.txt file if one was present. since it's unlikely 
+		# anyone really wants to include it in a collection we'll delete it.
+		# robots.txt shouldn't be more than two directories deep (I think it will 
+		# always be exactly two deep but will look for it in the top directory too)
+		# so that's as far as we'll go looking for it.
+		if (opendir (DIR, $importdir)) {
+		    my @files = readdir DIR;
+		    closedir DIR;
+		    foreach my $file (@files) {
+			next if $file =~ /^\.\.?$/;
+			if ($file =~ /^robots.txt$/i) {
+			    &FileUtils::removeFiles (&FileUtils::filenameConcatenate ($importdir, $file));
+			    last;
+			} else {
+			    $file = &FileUtils::filenameConcatenate ($importdir, $file);
+			    if (-d $file) {
+				if (opendir (DIR, $file)) {
+				    my @files2 = readdir DIR;
+				    closedir DIR;
+				    foreach my $file2 (@files2) {
+					if ($file2 =~ /^robots.txt$/i) {
+					    &FileUtils::removeFiles (&FileUtils::filenameConcatenate ($file, $file2));
+					    last;
+					}
+				    }
+				}
+			    }
+			}
+		    }
+		}
+
+		# if using output directory append the file download output to it
+		&append_file ($out, "$outfile.download");
+		
+	    } else {
+		# we assume anything not beginning with http:// or ftp://
+		# is a file or directory on the local file system.
+		$download_dir =~ s/^file:(\/\/)?//;
+		$download_dir =~ s/^\s+//; # may be whitespace between "file://" and the rest
+		
+		if (-e $download_dir) {
+		    # copy download_dir and all it contains to the import directory
+		    #Config{perlpath}, like $^X, is a special variable containing the full path to the current perl executable we are in
+		    my $download_cmd = "\"".&util::get_perl_exec()."\" -S filecopy.pl";
+		    $download_cmd .= " -collectdir \"$collectdir\"" if $collectdir =~ /\w/;
+		    $download_cmd .= " -site \"$site\"" if $site =~ /\w/;
+		    $download_cmd .= " -out \"$outfile.download\"" if $use_out;
+		    $download_cmd .= " \"" . $download_dir . "\" " . $collection;
+
+		    my $download_status = system ($download_cmd);
+		    if ($download_status > 0) 
+		    {
+			die "Failed to execute: $download_cmd\n";
+		    }
+
+
+		    # if using output directory append the file download output to it
+		    &append_file ($out, "$outfile.download");
+		} else {
+		    print $out "WARNING: '$download_dir' does not exist\n";
+		}
+	    }
+	}
+    }
+
+    `echo $importdir ; ls $importdir `;
+
+    my $col_cfg_file;
+    if ($gs_mode eq "gs3") {
+	$col_cfg_file = &FileUtils::filenameConcatenate($etcdir, "collectionConfig.xml");
+    } else {
+	$col_cfg_file = &FileUtils::filenameConcatenate($etcdir, "collect.cfg");
+    }
+
+    my $collect_cfg = &colcfg::read_collection_cfg ($col_cfg_file, $gs_mode);
+    # get the database type for this collection from its configuration file (may be undefined)
+    $infodbtype = $collect_cfg->{'infodbtype'} || &dbutil::get_default_infodb_type();
+
+    my $archiveinf_doc_file_path = &dbutil::get_infodb_file_path($infodbtype, "archiveinf-doc", $archivedir);
+    if (-e $archiveinf_doc_file_path) {
+	if (&has_content ($importdir)) {
+	    if ($buildtype eq "build") {
+		&gsdl_build();
+	    } else {
+		&gsdl_import();
+		&gsdl_build();
+	    }
+	} else {
+	    # there are archives but no import, build directly from archives
+	    print $out "build: no import material was found, building directly\n";
+	    print $out "       from archives\n";
+	    &gsdl_build();
+	}
+    } else {
+	if (&has_content ($importdir)) {
+	    if ($buildtype eq "build") {
+		print $out "build: can't build directly from archives as no\n";
+		print $out "       imported archives exist (did you forget to\n";
+		print $out "       move the contents of $collection/import to\n";
+		print $out "       collection/archives?)\n";
+	    }
+	    &gsdl_import();
+	    if (&has_content ($archivedir, "^archiveinf-doc\..*\$")) {
+		&gsdl_build();
+	    } else {
+		my $msg = "build: ERROR: The collection could not be built as no\n";
+		$msg .=   "       valid data was imported. Are at least some of\n";
+		$msg .=   "       the files you imported in a format that can be\n";
+		$msg .=   "       processed by the specified Greenstone plugins?\n";
+		print $out $msg;
+		&log_event ($msg);
+		&final_out (6) if $use_out;
+		die "\n";
+	    }
+	} else {
+	    # no import or archives
+	    my $msg = "build: ERROR: The collection could not be built as it contains no data.\n";
+	    print $out $msg;
+	    &log_event ($msg);
+	    &final_out (1) if $use_out;
+	    die "\n";
+	}
+    }
+
+    if ($collectdir ne "" && !$dontinstall) {
+	
+	my $install_collectdir;
+	if (defined $ENV{'GSDL3HOME'})
+	{
+	    
+	    if ((defined $site) && ($site ne ""))
+	    {
+		$install_collectdir = &FileUtils::filenameConcatenate ($ENV{'GSDL3HOME'}, "sites", $site, "collect");
+	    }
+	    else 
+	    {
+		my $msg = "build: ERROR: Need to specify the site within the Greenstone3 installation.";
+		print $out $msg;
+		&log_event ($msg);
+		&final_out (6) if $use_out;
+		die "\n";
+	    }
+	}
+	else
+	{
+	    $install_collectdir = &FileUtils::filenameConcatenate ($ENV{'GSDLHOME'}, "collect");
+	}
+
+	if (!&util::filenames_equal ($collectdir, $install_collectdir)) {
+	    
+	    # install collection to gsdl/collect
+	    print $out "installing the $collection collection\n";
+	    my $newdir = &FileUtils::filenameConcatenate ($install_collectdir, $collection);
+	    my $olddir = &FileUtils::filenameConcatenate ($collectdir, $collection);
+	    if (-d $newdir) {
+		my $msg = "build: Could not install collection as $newdir\n" .
+		    "       already exists. Collection will remain at\n$olddir\n";
+
+		print $out $msg;
+		&log_event ($msg);
+		&final_out (4) if $use_out;
+		die "\n";
+	    }
+	    if (!&File::Copy::move ($olddir, $newdir)) {
+		my $msg = "build: Failed to install collection to $newdir\n" .
+		    "       Collection will remain at $olddir\n";
+		print $out $msg;
+		&log_event ($msg);
+		&final_out (5) if $use_out;
+		die "\n";
+	    }
+	}
+    }
+
+    &log_event ("The $collection collection was built successfully\n");
+    &final_out (0) if $use_out;
+}
+
+sub gsdl_import {
+
+    print $out "importing the $collection collection\n\n";
+
+    #Config{perlpath}, like $^X, is a special variable containing the full path to the current perl executable we are in
+    my $import_cmd = "\"".&util::get_perl_exec()."\" -S import.pl";
+    $import_cmd .= " -out \"$outfile.import\"" if $use_out;
+    if ($append) {
+	$import_cmd .= " -keepold";
+	if (not $manifest) {
+	    # if we are appending, with no manifest, assume incremental
+	    $import_cmd .= " -incremental";
+	}
+    } else {
+	$import_cmd .= " -removeold";
+    }
+
+    $import_cmd .= " -manifest manifest.xml" if ($manifest);
+    $import_cmd .= " -site \"$site\"" if $site =~ /\w/;
+    $import_cmd .= " -collectdir \"$collectdir\"" if $collectdir =~ /\w/;
+    $import_cmd .= " -statsfile \"$statsfile\"" if $statsfile =~ /\w/;
+    $import_cmd .= " $maxdocs $collection";
+
+    system ($import_cmd);
+    # if using output directory append the import output to it
+    &append_file ($out, "$outfile.import");
+
+    my $archiveinf_doc_file_path = &dbutil::get_infodb_file_path($infodbtype, "archiveinf-doc", $archivedir);
+
+    if (-e $archiveinf_doc_file_path) {
+	print $out "$collection collection imported successfully\n\n";
+	if ($remove_import) {
+	    print $out "removing import directory ($importdir)\n";
+	    &FileUtils::removeFilesRecursive ($importdir);
+	}
+    } else {
+	print $out "$archiveinf_doc_file_path not found. archives contents:\n";
+	print $out `ls $archivedir`;
+
+	my $msg = "build: ERROR: import.pl failed\n";
+	print $out "\n$msg";
+	&log_event ($msg);
+	&final_out (2) if $use_out;
+	die "\n";
+    }
+}
+
+sub gsdl_build {
+
+    print $out "building the $collection collection\n\n";
+
+    #Config{perlpath}, like $^X, is a special variable containing the full path to the current perl executable we are in
+    my $build_cmd = "\"".&util::get_perl_exec()."\" -S buildcol.pl";
+
+    my $removeold = 1;
+    if ($append) {
+	if ($indextype eq "lucene") {
+	    $build_cmd .= " -keepold -incremental -builddir \"$indexdir\"";
+	    $removeold = 0;
+	}
+	else {
+	    $build_cmd .= " -removeold";
+	}
+    }
+    else {
+	$build_cmd .= " -removeold";
+    }
+
+    $build_cmd .= " -out \"$outfile.build\"" if $use_out;
+    $build_cmd .= " -site \"$site\"" if $site =~ /\w/;
+    $build_cmd .= " -collectdir \"$collectdir\"" if $collectdir =~ /\w/;
+    $build_cmd .= " $maxdocs $collection";
+	
+	##print $out "Running command: |$build_cmd|\n\n";
+	
+    system ($build_cmd);
+    # if using output directory append the buildcol output to it
+    &append_file ($out, "$outfile.build");
+
+    my @db_exts = ( ".ldb", ".bdb", ".gdb", ".db" );
+    my $build_ok = 0;
+    foreach my $db_ext (@db_exts) {
+	if ($removeold && (-e &FileUtils::filenameConcatenate ($buildingdir, "text", "$collection$db_ext"))) {
+	    $build_ok = 1;
+	    last;
+	}
+	if (($removeold==0) && (-e &FileUtils::filenameConcatenate ($indexdir, "text", "$collection$db_ext"))) {
+	    $build_ok = 1;
+	    last;
+	}
+    }
+
+    if ($build_ok) {
+	print $out "$collection collection built successfully\n\n";
+	if ($remove_archives) {
+	    print $out "removing archives directory ($archivedir)\n";
+	    &FileUtils::removeFilesRecursive ($archivedir);
+	}
+    } else {
+	my $msg = "build: ERROR: buildcol.pl failed\n";
+	print $out "\n$msg";
+	&log_event ($msg);
+	&final_out (3) if $use_out;
+	die "\n";
+    }
+
+    if ($removeold) {
+	# replace old indexes with new ones
+	if (&has_content ($indexdir)) {
+	    print $out "removing old indexes\n";
+	    &FileUtils::removeFilesRecursive ($indexdir);
+	}
+	rmdir ($indexdir) if -d $indexdir;
+	&File::Copy::move ($buildingdir, $indexdir);
+    }
+    else {
+	# Do nothing. We have built into index dir rather than building dir
+    }
+
+    # remove the cached archives
+    if ($save_archives && -d "${archivedir}.org") {
+	&FileUtils::removeFilesRecursive ("${archivedir}.org");
+    }
+}
+
+# return 1 if $dir directory contains any files or sub-directories (other
+# than those specified in the $ignore regular expression)
+sub has_content {
+    my ($dir, $ignore) = @_;
+
+    if (!-d $dir) {return 0;}
+    
+    opendir (DIR, $dir) || return 0;
+    my @files = readdir DIR;
+    closedir DIR;
+    
+    foreach my $file (@files) {
+	if ($file !~ /^\.{1,2}$/) {
+	    return 1 unless (defined $ignore && $file =~ /$ignore/);
+	}
+    }
+
+    return 0;
+}
+
+sub append_file {
+    my ($handle, $file) = @_;
+
+    open (FILE, $file) || return;
+    undef $/;
+    print $handle <FILE>;
+    $/ = "\n";
+    close FILE;
+    &FileUtils::removeFiles ($file);
+}
+
+# creates a file called $outfile.final and writes an output code to it.
+# An output code of 0 specifies that there was no error
+sub final_out {
+    my ($exit_code) = @_;
+
+    if ($use_out && (!-e "$outfile.final")) {
+
+	if (open (FINAL, ">$outfile.final")) {
+	    print FINAL $exit_code;
+	    close FINAL;
+	}
+    }
+}
+
+sub log_event {
+    my ($msg) = @_;
+
+    return unless ($log_events || $email_events);
+
+    # get the event header
+    my $eheader = "[Build Event]\n";
+    $eheader .= "Date: " . scalar localtime() . "\n";
+    if ($event_header ne "" && open (HEADER, $event_header)) {
+	undef $/;
+	$eheader .= <HEADER>;
+	$/ = "\n";
+	close HEADER;
+    } else {
+	$eheader .= "Collection: $collection\n";
+	$eheader .= "GSDLHOME: $ENV{'GSDLHOME'}\n";
+	$eheader .= "Build Location: $collectdir\n";
+    }
+    
+    if ($log_events) {
+	my $fail = 0;
+	# append the event to the event log file
+	if ($event_log_file eq "" || !open (LOG, ">>$event_log_file")) {
+	    # log file defaults to $GSDLHOME/etc/events.txt
+	    $event_log_file = &FileUtils::filenameConcatenate ($ENV{'GSDLHOME'}, "etc", "events.txt");
+	    if (!open (LOG, ">>$event_log_file")) {
+		print $out "build: ERROR: Couldn't open event log file $event_log_file\n";
+		$fail = 1;
+	    }
+	}
+	if (!$fail) {
+	    print LOG $eheader;
+	    print LOG $msg;
+	    print LOG "\n";
+	    close LOG;
+	}
+    }
+    
+    if ($email_events) {
+	# if mail_server isn't set email_events does nothing
+	if ($mail_server eq "") {
+	    print $out "build: WARNING: mail_server was not set - email_events option was ignored\n";
+	    return;
+	}
+	
+	my %mail = ('SMTP' => $mail_server, 
+		    'To' => $email_events,
+		    'From' => $maintainer,
+		    'Subject' => 'Greenstone Build Event'
+		    );
+	$mail{'Message'} = $eheader . $msg;
+	
+	if (!sendmail %mail) {
+	    print $out "build: ERROR sending mail to $email_events\n";
+	    print $out "'$Mail::Sendmail::error'\n";
+	}
+    }
+}
+
+
+sub parse_args {
+    my ($argref) = @_;
+
+    if (!parsargv::parse($argref, 
+			 'optionfile/.*/', \$optionfile,
+			 'indextype/^(mg|mgpp|lucene)$/mg', \$indextype,
+			 'append', \$append,
+			 'manifest', \$manifest,
+			 'remove_archives', \$remove_archives,
+			 'remove_import', \$remove_import,
+			 'buildtype/^(build|import)$/import', \$buildtype,
+			 'maxdocs/^\-?\d+/-1', \$maxdocs,
+			 'download/.+', \@download,
+			 'collectdir/.*/', \$collectdir,
+			 'site/.*/', \$site,
+			 'dontinstall', \$dontinstall,
+			 'save_archives', \$save_archives,
+			 'out/.*/STDERR', \$out,
+			 'make_writable', \$make_writable,
+			 'log_events', \$log_events,
+			 'event_log_file/.*/', \$event_log_file,
+			 'email_events/.*/', \$email_events,
+			 'mail_server/.*/', \$mail_server,
+			 'statsfile/.*/STDERR', \$statsfile,
+			 'event_header/.*/', \$event_header)) {
+	
+	&print_usage();
+	die "\n";
+    }
+}
+
+
+END {
+
+    if ($make_writable) {
+	# chmod a+rw new collection
+	my $installed_collection = &FileUtils::filenameConcatenate($ENV{'GSDLHOME'}, "collect", $collection);
+	&recursive_chmod($installed_collection);
+
+	# chmod a+rw anything we've left laying about in the tmp directory
+	if (($collectdir ne "") && 	
+	    (!&util::filenames_equal ($collectdir, &FileUtils::filenameConcatenate($ENV{'GSDLHOME'}, "collect")))) {
+	    &recursive_chmod($collectdir);
+	}
+    }
+
+    # this will produce a .final file if one doesn't exist yet - that
+    # should only happen if there's been an error somewhere in the perl
+    # code
+    &final_out(7);
+
+    sub recursive_chmod {
+	my ($dir) = @_;
+	return unless -d $dir;
+
+	chmod (0777, $dir);
+
+	opendir (DIR, $dir) || die;
+	my @files = readdir DIR;
+	closedir DIR;
+	
+	foreach my $file (@files) {
+	    next if $file =~ /^\.\.?$/;
+	    $file = &FileUtils::filenameConcatenate($dir, $file);
+	    if (-d $file) {
+		&recursive_chmod ($file);
+	    } else {
+		chmod (0777, $file);
+	    }
+	}
+    }
+}

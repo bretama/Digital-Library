@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">8</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0440505038 (pbk. : v. 1) :</Metadata>
+    <Metadata name="dc.Identifier">0440505046 (pbk. : v. 2) :</Metadata>
+    <Metadata name="dc.Title">The Beatles illustrated lyrics / Julian Allen ... &amp;#091;et al.&amp;#093; ; edited by Alan Aldridge.</Metadata>
+    <Metadata name="dc.Publisher">New York, N.Y. :</Metadata>
+    <Metadata name="dc.Publisher">Dell Pub. Co.,</Metadata>
+    <Metadata name="dc.Date">&amp;#091;1980&amp;#093;</Metadata>
+    <Metadata name="dc.Description">&quot;A Delta/Seymour Lawrence book.&quot;</Metadata>
+    <Metadata name="dc.Description">Reprint of the 1969 ed. published by Delacorte Press, New York.</Metadata>
+    <Metadata name="dc.Description">Published in 1974 under title: The Beatles lyrics complete; published in 1975 under titles: The Beatles lyrics; The Beatles lyrics illustrated.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970 Texts.</Metadata>
+    <Metadata name="dc.Creator">Aldridge, Alan.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs8</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528973</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs8.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01045cam  2200265 i 4500
+001     4668242
+005     19981112075952.5
+008     801112r19801969nyua          000 0 eng  
+035    _9 (DLC)   80136962
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 2
+       _e ncip
+       _f 19
+       _g y-gencatlg
+010    _a    80136962 
+020    _a 0440505038 (pbk. : v. 1) :
+       _c $9.95
+020    _a 0440505046 (pbk. : v. 2) :
+       _c $9.95
+040    _a DLC
+       _c DLC
+       _d DLC
+050 10 _a ML54.6.B4
+       _b I4 1980
+082 00 _a 784.5/405
+       _2 19
+245 04 _a The Beatles illustrated lyrics /
+       _c Julian Allen ... [et al.] ; edited by Alan
+ Aldridge.
+260    _a New York, N.Y. :
+       _b Dell Pub. Co.,
+       _c [1980]
+300    _a 2 v. :
+       _b ill. (some col.) ;
+       _c 28 cm.
+500    _a &quot;A Delta/Seymour Lawrence book.&quot;
+500    _a Reprint of the 1969 ed. published by Delacorte Press, New
+ York.
+500    _a Published in 1974 under title: The Beatles lyrics
+ complete; published in 1975 under titles: The Beatles lyrics;
+ The Beatles lyrics illustrated.
+650  0 _a Rock music
+       _y 1961-1970
+       _x Texts.
+700 1  _a Aldridge, Alan.
+710 2  _a Beatles.
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

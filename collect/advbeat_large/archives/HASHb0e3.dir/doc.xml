@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">tmp\beatles_midi\Because.mid</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">UnknownPlugin</Metadata>
+    <Metadata name="FileSize">18549</Metadata>
+    <Metadata name="Source">Because.mid</Metadata>
+    <Metadata name="SourceFile">Because.mid</Metadata>
+    <Metadata name="FileFormat">MIDI</Metadata>
+    <Metadata name="MimeType">audio/midi</Metadata>
+    <Metadata name="unknown_file">Because.mid</Metadata>
+    <Metadata name="srclink_file">Because.mid</Metadata>
+    <Metadata name="srclinkFile">Because.mid</Metadata>
+    <Metadata name="srcicon">_iconunknown_</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="gsdlzipfilename">import\beatles_midi.zip</Metadata>
+    <Metadata name="Title">Because</Metadata>
+    <Metadata name="Identifier">HASHb0e33d1860a87b3a6d2c5b</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014324</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASHb0e3.dir</Metadata>
+    <Metadata name="gsdlassocfile">Because.mid:audio/midi:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

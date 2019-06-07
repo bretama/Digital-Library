@@ -1,0 +1,35 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="selectingmetadatasets"><font size="5" face="Verdana"><strong>5.2: Seleccionando conjuntos de metadatos</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>Los grupos de elementos de metadatos definidos previamente son conocidos como "conjuntos de metadatos". Un ejemplo es el conjunto de metadatos de Dublin Core. Cuando se a&ntilde;ade un conjunto de metadatos a una colecci&oacute;n, sus elementos se vuelven elegibles para que el usuario los pueda seleccionar. Tambi&eacute;n se puede tener m&aacute;s de un conjunto. Para evitar conflictos de nombre, un identificador que describe al conjunto de metadatos se agrega como prefijo al nombre del elemento. Por ejemplo, el elemento Creator de Dublin Core se convierte en "dc.Creator". Los conjuntos de metadatos se guardan en la carpeta de metadatos de la Interfaz de Bibliotecario y llevan el sufijo ".mds".</p>
+
+<p>Cuando crea una colecci&oacute;n nueva, por defecto se a&ntilde;ade el conjunto de metadatos Dublin Core. Puede cambiar el conjunto de metadatos usado en una colecci&oacute;n pulsando el bot&oacute;n "Gestionar Conjuntos de Metadatos..." en el &aacute;rbol de la colecci&oacute;n en la vista Enriquecer. Se le muestra una nueva ventana para gestionar los conjuntos de metadatos de la colecci&oacute;n.</p>
+
+<p>La lista "Conjuntos de Metadatos Asignados" muestra que conjuntos est&aacute;n siendo usados por la colecci&oacute;n.</p>
+
+<p>Para usar otro conjunto de metadatos con la colecci&oacute;n cargada, pulse "A&ntilde;adir..." Una ventana emergente muestra los conjuntos predefinidos de metadatos reconocidos por GLI. Para a&ntilde;adir uno de ellos, selecci&oacute;nelo de la lista desplegable y pulse "A&ntilde;adir". Si ha definido su propio conjunto de metadatos use el bot&oacute;n "Explorar" para localizar el fichero en su sistema.</p>
+
+<p>Para crear un nuevo conjunto de metadatos, pulse "Nuevo..." Esto iniciar&aacute; el Editor Greentone para Conjuntos de Metadatos, GEMS. Una ventana inicial le preguntar&aacute; el nombre del conjunto, el espacio de nombres y la descripci&oacute;n. Tambi&eacute;n puede elegir basar el nuevo conjunto en otro ya existente, en cuyo caso heredar&aacute; los elementos ya existentes en &eacute;ste. Pulse OK. La ventana principal muestra el conjunto de metadatos en el panel izquierdo y algunos atributos del conjunto en el panel derecho. Si ha basado el conjunto en otro ya existente, se mostrar&aacute;n uno o m&aacute;s elementos. Pulsando en uno de ellos se mostrar&aacute;n sus atributos en el panel derecho.</p>
+
+<p>Para a&ntilde;adir un nuevo elemento, pulse con el bot&oacute;n derecho del rat&oacute;n en el conjunto y seleccione "A&ntilde;adir elemento". Para a&ntilde;adir un nuevo subelemento, pulse con el bot&oacute;n derecho del rat&oacute;n y seleccione "A&ntilde;adir subelemento". Los elementos y subelementos pueden borrarse seleccionando "Borrar (Sub)Elemento" del men&uacute; emergente.</p>
+
+<p>Nota:  El editor de Conjuntos de Metadatos de Greenstone puede ejecutarse independientemente de GLI, seleccion&aacute;ndolo desde el Men&uacute; Inicio, carpeta Greenstone, o ejecutando gems.sh o gems.bat en la carpeta "gli" desde la carpeta en la que est&aacute; instalado Greenstone.</p>
+
+<p>Algunas veces dos conjuntos de metadatos pueden tener el mismo espacio de nombre, por ejemplo Dublin Core y Dublin Core Cualificado, que usan "dc". Estos conjuntos no pueden usarse en una colecci&oacute;n simult&aacute;neamente. Si lo intenta, recibir&aacute; un mensaje de alerta. Si contin&uacute;a, se leiminar&aacute; el conjunto existente y se a&ntilde;adir&aacute; en nuevo. Todos los elementos de metadatos asignados se trasnferir&aacute;n al nuevo conjunto si exisnten en el mismo.</p>
+
+<p>El Editor Greenstone para Conjuntos de Metadatos (GEMS) permite editar conjuntos de metadatos y crear otros nuevos. Pulsando el bot&oacute;n "Editar" se ejecuta GEMS sobre el conjunto de metadatos abierto. Una vez que ha terminado de editar el conjunto (como se ha indicado arriba), gu&aacute;rdelo (Fichero-&gt;Guardar) y cierre GEMS:</p>
+
+<p>Si una colecci&oacute;n ya no necesita un conjunto de metadatos, selecci&oacute;nelo y pulse "Borrar Conjunto de Metadatos" para eliminarlo. Si hab&iacute;a asignado metadatos a cualquier elemento del conjunto borrado, se le preguntar&aacute; c&oacute;mo actuar con estos metadatos cuando vuelva a abrir la colecci&oacute;n.</p>
+
+</body>
+</html>

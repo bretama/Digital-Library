@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">22</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">739497700628</Metadata>
+    <Metadata name="dc.Title">Beatles tapes I &amp;#091;sound recording&amp;#093;</Metadata>
+    <Metadata name="dc.Publisher">Seattle, WA :</Metadata>
+    <Metadata name="dc.Publisher">Jerden Records,</Metadata>
+    <Metadata name="dc.Date">p1992.</Metadata>
+    <Metadata name="dc.Description">Interviews with The Beatles in 1964 and 1966.</Metadata>
+    <Metadata name="dc.Subject">Beatles Interviews.</Metadata>
+    <Metadata name="dc.Subject">Rock music England History and criticism.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs22</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528977</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs22.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01125cim  22003491a 4500
+001     12501781
+005     20030708102150.0
+007     sd|zsngnnmmned
+008     010814p19921964waunnn         t    eng d
+035    _a (DLC)   2001567010
+050 00 _a SDA 31270
+906    _a 7
+       _b cbc
+       _c copycat
+       _d 3
+       _e ncip
+       _f 20
+       _g y-genmusic
+010    _a   2001567010
+024 1  _a 739497700628
+028 02 _a JRCD 7006
+       _b Jerden
+035    _a (OCoLC)ocm32678104
+040    _a OKI
+       _c OKI
+       _d OCLCQ
+       _d DLC
+042    _a lcderive
+245 00 _a Beatles tapes I
+       _h [sound recording]
+246 1  _i Container title:
+       _a Beatles tapes: the Beatles in the northwest
+246 30 _a Beatles in the northwest
+260    _a Seattle, WA :
+       _b Jerden Records,
+       _c p1992.
+300    _a 1 sound disc (25 min., 8 sec.) :
+       _b digital ;
+       _c 4 3/4 in.
+511 0  _a Interviews with The Beatles in 1964 and 1966.
+610 20 _a Beatles
+       _v Interviews.
+650  0 _a Rock music
+       _z England
+       _x History and criticism.
+710 2  _a Beatles.
+925 0  _a acquire
+       _b 2 copies
+       _x policy default
+952    _a muzerec
+952    _a spokenwd
+955    _a vn40 2001-08-14 to MBRS/RS
+985    _c OCLC
+       _e srreplace 2002-04
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">23</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Language">spa</Metadata>
+    <Metadata name="dc.Language">eng</Metadata>
+    <Metadata name="dc.Title">The Beatles : versiones libres / compilado y comentado por Gustavo Gómez Córdoba.</Metadata>
+    <Metadata name="dc.Publisher">&amp;#091;Bogotá, Colombia :</Metadata>
+    <Metadata name="dc.Publisher">s.n.,</Metadata>
+    <Metadata name="dc.Date">1989&amp;#093;</Metadata>
+    <Metadata name="dc.Description">Spanish translations of 211 Beatles song texts.</Metadata>
+    <Metadata name="dc.Description">Includes index.</Metadata>
+    <Metadata name="dc.Description">Errata slip inserted.</Metadata>
+    <Metadata name="dc.Description">Discography: p. 237-253.</Metadata>
+    <Metadata name="dc.Description">Filmography: p. 260-263.</Metadata>
+    <Metadata name="dc.Description">Includes bibliographical references (p. 279).</Metadata>
+    <Metadata name="dc.Subject">Beatles.</Metadata>
+    <Metadata name="dc.Subject">Popular music England 1961-1970 Texts Translations into Spanish.</Metadata>
+    <Metadata name="dc.Creator">Gómez Córdoba, Gustavo.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs23</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528977</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs23.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01258cam  2200373 a 4500
+001     602604
+005     19910710161242.0
+008     910213s1989    ck af    bkq  001 0 spa  
+035    _9 (DLC)   91117848
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 4
+       _e ncip
+       _f 19
+       _g y-gencatlg
+955    _a vk13 02-28-91; vk90, 04-17-91
+010    _a    91117848 
+040    _a DLC
+       _c DLC
+       _d DLC
+041 1  _a spa
+       _h eng
+043    _a e-uk-en
+050 00 _a ML54.6
+       _b .B39 1989
+082 00 _a 782.42164/0268
+       _2 20
+245 04 _a The Beatles :
+       _b versiones libres /
+       _c compilado y comentado por Gustavo Gómez Córdoba.
+250    _a [1. ed.].
+260    _a [Bogotá, Colombia :
+       _b s.n.,
+       _c 1989]
+300    _a 289 p., [9] p. of plates :
+       _b ill. (some col.) ;
+       _c 27 cm.
+500    _a Spanish translations of 211 Beatles song texts.
+504    _a Discography: p. 237-253.
+504    _a Filmography: p. 260-263.
+504    _a Includes bibliographical references (p. 279).
+500    _a Includes index.
+500    _a Errata slip inserted.
+650  0 _a Popular music
+       _z England
+       _y 1961-1970
+       _x Texts
+       _x Translations into Spanish.
+610 20 _a Beatles.
+700 2  _a Gómez Córdoba, Gustavo.
+710 2  _a Beatles.
+922    _a ap
+952    _a *vk06 140 07-10-91
+991    _b c-Music
+       _h ML54.6
+       _i .B39 1989
+       _t Copy 1
+       _m Case
+       _w BOOKS
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

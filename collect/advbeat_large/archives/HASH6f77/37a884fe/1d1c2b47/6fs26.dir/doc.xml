@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">26</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0553013297 (set)</Metadata>
+    <Metadata name="dc.Title">The Compleat Beatles / produced by Delilah Communications/ATV Music Publications ; music arranged and edited by Milton Okun.</Metadata>
+    <Metadata name="dc.Publisher">Toronto ;</Metadata>
+    <Metadata name="dc.Publisher">A Delilah/ATV/Bantam Book,</Metadata>
+    <Metadata name="dc.Date">1981.</Metadata>
+    <Metadata name="dc.Description">Songs.</Metadata>
+    <Metadata name="dc.Description">For piano, with interlinear words; includes chord symbols and guitar chord diagrams.</Metadata>
+    <Metadata name="dc.Description">Filmography: v. 1, p. 86-91.</Metadata>
+    <Metadata name="dc.Description">Includes discographies.</Metadata>
+    <Metadata name="dc.Description">v. 1. 1962-1966 -- v. 2. 1966-1970.</Metadata>
+    <Metadata name="dc.Subject">Rock music England 1961-1970.</Metadata>
+    <Metadata name="dc.Creator">Okun, Milton. arr</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs26</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014471</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs26.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01150ncm  2200325 a 4500
+001     5579071
+005     19880706000000.0
+008     880225s1981    oncrca   a     n    eng  
+035    _9 (DLC)   81066605
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 2
+       _e ncip
+       _f 19
+       _g y-genmusic
+010    _a    81066605 
+020    _a 0553013297 (set)
+040    _a DLC
+       _c DLC
+       _d DLC
+043    _a e-uk-en
+045 2  _b d1950
+       _b d1970
+050 00 _a M1741.18
+       _b .C65 1981
+245 04 _a The Compleat Beatles /
+       _c produced by Delilah Communications/ATV Music
+ Publications ; music arranged and edited by Milton Okun.
+260    _a Toronto ;
+       _a New York :
+       _b A Delilah/ATV/Bantam Book,
+       _c 1981.
+300    _a 1 score (2 v.) :
+       _b ill. ;
+       _c 32 cm.
+500    _a Songs.
+500    _a For piano, with interlinear words; includes chord symbols
+ and guitar chord diagrams.
+504    _a Filmography: v. 1, p. 86-91.
+504    _a Includes discographies.
+505 0  _a v. 1. 1962-1966 -- v. 2. 1966-1970.
+650  0 _a Rock music
+       _z England
+       _y 1961-1970.
+700 1  _a Okun, Milton.
+       _4 arr
+710 2  _a Beatles.
+952    _a ISBN from container.
+953    _a TA28
+991    _b c-Music
+       _h M1741.18
+       _i .C65 1981
+       _t Copy 1
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

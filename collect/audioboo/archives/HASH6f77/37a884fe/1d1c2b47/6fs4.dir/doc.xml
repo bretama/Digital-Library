@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">4</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">The Beatles illustrated lyrics &amp;#091;by&amp;#093; Julian Allen &amp;#091;and others&amp;#093; Edited by Alan Aldridge.</Metadata>
+    <Metadata name="dc.Publisher">New York,</Metadata>
+    <Metadata name="dc.Publisher">Delacorte Press,</Metadata>
+    <Metadata name="dc.Date">1969&amp;#093;</Metadata>
+    <Metadata name="dc.Description">Published in 1974 under title: The Beatles lyrics complete; published in 1975 under title: The Beatles lyrics.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970 Texts.</Metadata>
+    <Metadata name="dc.Creator">Aldridge, Alan, ed.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs4</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528972</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs4.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 00896cam  2200253   4500
+001     4561795
+005     19910502161618.9
+008     691114r1969    nyua          000 0 eng  
+035    _9 (DLC)   73087052
+906    _a 7
+       _b cbc
+       _c orignew
+       _d u
+       _e ncip
+       _f 19
+       _g y-gencatlg
+010    _a    73087052 
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a ML54.6.B4
+       _b I4
+082 00 _a 784.3
+245 04 _a The Beatles illustrated lyrics
+       _c [by] Julian Allen [and others] Edited by Alan
+ Aldridge.
+250    _a [1st American ed.
+260    _a New York,
+       _b Delacorte Press,
+       _c 1969]
+300    _a 2 v.
+       _b illus. (part col.)
+       _c 29 cm.
+490 0  _a A Seymour Lawrence book
+500    _a Published in 1974 under title: The Beatles lyrics
+ complete; published in 1975 under title: The Beatles
+ lyrics.
+650  0 _a Rock music
+       _y 1961-1970
+       _x Texts.
+700 1  _a Aldridge, Alan,
+       _e ed.
+710 2  _a Beatles.
+991    _b c-Music
+       _h ML54.6.B4
+       _i I4
+       _t Copy 1
+       _w BOOKS
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

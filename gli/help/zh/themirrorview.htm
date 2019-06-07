@@ -1,0 +1,44 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="themirrorview"><font size="5" face="Verdana"><strong>3.1: 下载视图</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>这部分介绍如何配置下载任务并控制下载过程。点击"下载"到该试图。屏幕的上半部分显示下载控制。底下的半部分初始时为空，但会显示等待和已完成的下载任务的列表。</p>
+
+<p>这里提供了多个下载协议，这些协议列在左侧上部。</p>
+
+<p>
+<b>Web:</b>通过HTTP和FTP协议下载网页及文件。</p>
+
+<p>
+<b>MediaWiki：</b>通过HTTP从一个MediaWiki网站上下载网页和文件。</p>
+
+<p>
+<b>OAI:</b>从OAI-PMH（开放式存档倡导）服务器下载元数据记录（以及文档，可选项）。</p>
+
+<p>
+<b>Z3950:</b>从Z39.50服务器下载与特定搜索条件匹配的MARC记录。</p>
+
+<p>
+<b>SRW:</b>从SRW服务器下载与特定搜索条件匹配的MARCXML记录。</p>
+
+<p>在左侧列表中选择适当的协议。右侧将显示所选下载协议的可用选项。要了解一个选项的功能，将鼠标停留在该选项之上，这将显示一个说明该选项的提示信息。有些选项是可选的，这类选项都附带一个选择框，要使用该选项必须选中对应的选择框。其他必须的选项没有选择框，在下载过程开始之前必须设置其值。</p>
+
+<p>设置好配置之后，点击"服务信息"检查服务器连接以及查看一些关于网页或服务器的基本信息，或者点击"下载"开始下载。</p>
+
+<p>其他两个按钮："配置代理..."链接到"参数配置"中的连接部分，可在此修改代理设置；"清空缓存"将删除所有以前下载的文件。如果你通过代理服务器连接到因特网，则需要设置代理信息。如果下载过程需要认证信息，代理服务器将显示要求用户名和密码的对话框。图书馆员界面不会在会话之间存储密码。</p>
+
+<p>下载文件将存放在"下载文件"文件夹中（仅当下载可用时），且可用于任何馆藏。文件将以其完整的web URL命名（对于Web和MediaWiki下载）或者以URL和选项值的组合命名（对于其他下载类型）。每个主机都将创建一个新文件夹，接下来是路径中的每个部分建立文件夹。这确保了每个文件都是唯一的。</p>
+
+<p>下载列表记录了每个已处理的下载。每项记录中有一个文本区域显示下载任务的具体信息以及一个进度条显示当前活动。每个记录的右侧有三个按钮。"暂停"用于暂停一个任务。"查看日志"将打开一个窗口显示下载日志文件。"关闭"将终止该下载并将该任务从列表中删除。</p>
+
+</body>
+</html>

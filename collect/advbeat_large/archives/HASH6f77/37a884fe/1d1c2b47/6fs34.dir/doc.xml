@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">34</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Hot as sun &amp;#091;sound recording&amp;#093; : a tribute to the Beatles.</Metadata>
+    <Metadata name="dc.Publisher">Chapel Hill, N.C. :</Metadata>
+    <Metadata name="dc.Publisher">Pied Piper Records,</Metadata>
+    <Metadata name="dc.Date">p1977.</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">Back in the U.S.S.R. -- I'm happy just to dance with you -- And your bird can sing -- All together now -- I'll keep you satisfied -- Bad to me -- I'll be on my way -- Step inside love.</Metadata>
+    <Metadata name="dc.Description">Performed by the Original Marauders, in the style and manner of the Beatles.</Metadata>
+    <Metadata name="dc.Subject">Rock music.</Metadata>
+    <Metadata name="dc.Creator">Original Marauders (Musical group) prf</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs34</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014474</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs34.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01178njm  22003137a 4500
+001     5751829
+005     19950304073733.2
+007     sdubsmennmpluu
+008     950303s1977    ncuuun              eng  
+035    _9 (DLC)   95776699
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 3
+       _e ncip
+       _f 19
+       _g y-genmusic
+955    _a vn23
+010    _a    95776699 
+028 00 _a 7904
+       _b Pied Piper Records
+035    _a (OCoLC)32079450 
+040    _a DLC
+       _c DLC
+050 00 _a Pied Piper Records 7904
+245 00 _a Hot as sun
+       _h [sound recording] :
+       _b a tribute to the Beatles.
+260    _a Chapel Hill, N.C. :
+       _b Pied Piper Records,
+       _c p1977.
+300    _a 1 sound disc :
+       _b analog, 33 1/3 rpm, stereo. ;
+       _c 12 in.
+511 0  _a Performed by the Original Marauders, in the style and
+ manner of the Beatles.
+505 0  _a Back in the U.S.S.R. -- I'm happy just to dance with you
+ -- And your bird can sing -- All together now -- I'll keep you
+ satisfied -- Bad to me -- I'll be on my way -- Step inside
+ love.
+500    _a Brief record.
+650  0 _a Rock music.
+710 2  _a Original Marauders (Musical group)
+       _4 prf
+710 2  _a Beatles.
+953    _a TA28
+985    _a 9503
+991    _b c-RecSound
+       _h Pied Piper Records 7904
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

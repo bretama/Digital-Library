@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\images\Long_hair_for_men_1960s.jpg</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">ImagePlugin</Metadata>
+    <Metadata name="Image">Long_hair_for_men_1960s.jpg</Metadata>
+    <Metadata name="OrigSource">Long_hair_for_men_1960s.jpg</Metadata>
+    <Metadata name="Source">Long_hair_for_men_1960s.jpg</Metadata>
+    <Metadata name="SourceFile">Long_hair_for_men_1960s.jpg</Metadata>
+    <Metadata name="FileFormat">jpeg</Metadata>
+    <Metadata name="FileSize">180262</Metadata>
+    <Metadata name="ImageType">JPEG</Metadata>
+    <Metadata name="ImageWidth">781</Metadata>
+    <Metadata name="ImageHeight">872</Metadata>
+    <Metadata name="ImageSize">176KB</Metadata>
+    <Metadata name="srclink_file">Long_hair_for_men_1960s.jpg</Metadata>
+    <Metadata name="srclinkFile">Long_hair_for_men_1960s.jpg</Metadata>
+    <Metadata name="srcicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[srclinkFile]&quot; width=&quot;[ImageWidth]&quot; height=&quot;[ImageHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbType">gif</Metadata>
+    <Metadata name="Thumb">Long_hair_for_men_1960s_thumb.gif</Metadata>
+    <Metadata name="thumbicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Thumb]&quot; alt=&quot;[Thumb]&quot; width=&quot;[ThumbWidth]&quot; height=&quot;[ThumbHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbWidth">90</Metadata>
+    <Metadata name="ThumbHeight">100</Metadata>
+    <Metadata name="ScreenType">jpeg</Metadata>
+    <Metadata name="Screen">Long_hair_for_men_1960s_screen.jpeg</Metadata>
+    <Metadata name="screenicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Screen]&quot; width=[ScreenWidth] height=[ScreenHeight]&gt;</Metadata>
+    <Metadata name="ScreenWidth">448</Metadata>
+    <Metadata name="ScreenHeight">500</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Images</Metadata>
+    <Metadata name="Title">Long hair for men 1960s</Metadata>
+    <Metadata name="Identifier">HASH01eb4052fc7f3c2f7ef687ab</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014455</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01eb/4052fc7f.dir</Metadata>
+    <Metadata name="gsdlassocfile">Long_hair_for_men_1960s.jpg:image/jpeg:</Metadata>
+    <Metadata name="gsdlassocfile">Long_hair_for_men_1960s_thumb.gif:image/gif:</Metadata>
+    <Metadata name="gsdlassocfile">Long_hair_for_men_1960s_screen.jpeg:image/jpeg:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

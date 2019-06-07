@@ -1,0 +1,13 @@
+u
+************** Import  Started **************
+The file metadata.xml is being processed by MetadataXMLPlugin.
+The file C:\Users\SAKET\Greenstone\collect\demo\tmp\1544689998\CH03-UDP.html is being processed by HTMLPlugin.
+The file C:\Users\SAKET\Greenstone\collect\demo\tmp\1544690000\CH03-UDP1.html is being processed by HTMLPlugin.
+The file b17mie\metadata.xml is being processed by MetadataXMLPlugin.
+The file b17mie\b17mie.htm is being processed by HTMLPlugin.
+The file b18ase\metadata.xml is being processed by MetadataXMLPlugin.
+The file b18ase\b18ase.htm is being processed by HTMLPlugin.
+The file b20cre\metadata.xml is being processed by MetadataXMLPlugin.
+The file b20cre\b20cre.htm is being processed by HTMLPlugin.
+The file b21wae\metadata.xml is being processed by MetadataXMLPlugin.
+The file b21wae\b21wae.htm is being processed by HTMLPlugin.

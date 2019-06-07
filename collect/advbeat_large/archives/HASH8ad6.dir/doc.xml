@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\html_lyrics\www.boskowan.com\www\jirka\beatles\beatles\whatdisay.htm</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">HTMLPlugin</Metadata>
+    <Metadata name="FileSize">3372</Metadata>
+    <Metadata name="Source">whatdisay.htm</Metadata>
+    <Metadata name="SourceFile">whatdisay.htm</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">windows_1250</Metadata>
+    <Metadata name="Title">What´d I Say</Metadata>
+    <Metadata name="FileFormat">HTML</Metadata>
+    <Metadata name="URL">http://html_lyrics/www.boskowan.com/www/jirka/beatles/beatles/whatdisay.htm</Metadata>
+    <Metadata name="UTF8URL">http://html_lyrics/www.boskowan.com/www/jirka/beatles/beatles/whatdisay.htm</Metadata>
+    <Metadata name="dc.Format">Lyrics</Metadata>
+    <Metadata name="Identifier">HASH8ad661574ba315acee3d89</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014440</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH8ad6.dir</Metadata>
+  </Description>
+  <Content>
+&lt;!--webbot bot=&quot;Include&quot; U-Include=&quot;../_private/header.htm&quot; TAG=&quot;BODY&quot; startspan --&gt;
+&lt;font face=&quot;Times New Roman&quot; size=&quot;6&quot;&gt;&lt;b&gt;
+
+&lt;/font&gt;
+
+&lt;table border=&quot;0&quot; width=&quot;1&quot; align=&quot;left&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;100%&quot;&gt;&lt;script language=&quot;JavaScript&quot;&gt;&lt;!--
+if (escape(top.document.referrer))
+document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.boskowan.com/a_boskowan/counter.asp?cAdresa=&quot; + location.href  + &quot;&amp;cOdkud=&quot; + escape(top.document.referrer) + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+else
+document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.boskowan.com/a_boskowan/counter.asp?cAdresa=&quot; + location.href  + &quot;&amp;cOdkud=direct&quot; + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+// --&gt;&lt;/script&gt;&lt;!-- Na vrcholu --&gt;
+&lt;IMG SRC=&quot;_httpextlink_&amp;amp;rl=0&amp;amp;el=direct&amp;amp;href=http://www.navrcholu.cz/cgi-bin/4web/nvhit.pl?id=00026445&quot; WIDTH=&quot;1&quot;HEIGHT=&quot;1&quot; ALT=&quot;&quot; BORDER=&quot;0&quot;&gt;
+&lt;SCRIPT LANGUAGE=&quot;JavaScript&quot;&gt;
+&lt;!-- document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.navrcholu.cz/cgi-bin/4web/nv_referer?id=00026445&amp;ref=&quot; + escape(top.document.referrer) + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+// --&gt;
+&lt;/SCRIPT&gt;
+&lt;!-- Na vrcholu - konec --&gt;
+&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;!--webbot bot=&quot;Include&quot; i-checksum=&quot;49471&quot; endspan --&gt;
+&lt;font
+FACE=&quot;Arial&quot; SIZE=&quot;2&quot;&gt;
+
+&lt;p&gt;&lt;/font&gt;&lt;font size=&quot;6&quot;&gt;&lt;strong&gt;What´d I Say&lt;/strong&gt;&lt;/font&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Words &amp;amp; music by Ray Charles) &lt;/em&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Hey mama, don't you treat me wrong&lt;/dt&gt;
+  &lt;dt&gt;Come and love your daddy all night long&lt;/dt&gt;
+  &lt;dt&gt;All right, hey, hey, all right now&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;See the girl with the diamond ring&lt;/dt&gt;
+  &lt;dt&gt;She knows how to shake that thing&lt;/dt&gt;
+  &lt;dt&gt;All right, hey, hey, mmm, all right now &lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Ahhh, ohh, ahhh, ohh, ahhh, ohh, ohh &lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Make me feel so good, make me feel so good right now&lt;/dt&gt;
+  &lt;dt&gt;Make me feel so good, make me feel so good right now&lt;/dt&gt;
+  &lt;dt&gt;Make me feel so good, make me feel so good &lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Mmm, see the girl with the red dress on&lt;/dt&gt;
+  &lt;dt&gt;She can do the dog all night long&lt;/dt&gt;
+  &lt;dt&gt;All right, hmm what'd i say, tell me what'd i say &lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Tell me what'd i say, tell me what'd i say right now&lt;/dt&gt;
+  &lt;dt&gt;Tell me what'd i say, tell me what'd i say right now&lt;/dt&gt;
+  &lt;dt&gt;Tell me what'd i say, tell me what'd i say &lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Ahhh, ohh, ahhh, ohh, ahhh, ohh, ohh &lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;It's all right, it's all right right now&lt;/dt&gt;
+  &lt;dt&gt;Baby, it's all right, baby, it's all right right now&lt;/dt&gt;
+  &lt;dt&gt;Baby, it's all right, oh yeah! &lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Baby shake that thing, baby shake that thing right now&lt;/dt&gt;
+  &lt;dt&gt;Baby shake that thing, baby shake that thing right now&lt;/dt&gt;
+  &lt;dt&gt;Baby shake that thing, well i feel all right &lt;font FACE=&quot;Arial&quot; SIZE=&quot;2&quot;&gt;&lt;/dt&gt;
+  &lt;/font&gt;
+&lt;/dl&gt;
+&lt;!--webbot bot=&quot;Include&quot; U-Include=&quot;../_private/footer.htm&quot; TAG=&quot;BODY&quot; startspan --&gt;
+
+
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;Copyright © 2003 by &lt;a href=&quot;mailto:wag@volny.cz&quot;&gt;Jirka Wagner,
+Jr.&lt;/a&gt;&lt;/strong&gt;&lt;small&gt;&lt;small&gt; &amp;nbsp; &lt;/small&gt;&lt;/small&gt;&lt;strong&gt;All Rights Reserved.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;!--webbot bot=&quot;Include&quot; i-checksum=&quot;34003&quot; endspan --&gt;
+
+
+
+</Content>
+</Section>
+</Archive>

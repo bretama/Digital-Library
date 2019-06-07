@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">tmp\beatles_midi\Ob_la_di_Ob_la_da.mid</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">UnknownPlugin</Metadata>
+    <Metadata name="FileSize">36875</Metadata>
+    <Metadata name="Source">Ob_la_di_Ob_la_da.mid</Metadata>
+    <Metadata name="SourceFile">Ob_la_di_Ob_la_da.mid</Metadata>
+    <Metadata name="FileFormat">MIDI</Metadata>
+    <Metadata name="MimeType">audio/midi</Metadata>
+    <Metadata name="unknown_file">Ob_la_di_Ob_la_da.mid</Metadata>
+    <Metadata name="srclink_file">Ob_la_di_Ob_la_da.mid</Metadata>
+    <Metadata name="srclinkFile">Ob_la_di_Ob_la_da.mid</Metadata>
+    <Metadata name="srcicon">_iconunknown_</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="gsdlzipfilename">import\beatles_midi.zip</Metadata>
+    <Metadata name="Title">Ob la di Ob la da</Metadata>
+    <Metadata name="Identifier">HASH01e39019035cf38831bc726a</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014327</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01e3.dir</Metadata>
+    <Metadata name="gsdlassocfile">Ob_la_di_Ob_la_da.mid:audio/midi:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

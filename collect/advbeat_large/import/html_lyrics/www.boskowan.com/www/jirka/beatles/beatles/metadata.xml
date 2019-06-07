@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GreenstoneDirectoryMetadata SYSTEM "http://greenstone.org/dtd/GreenstoneDirectoryMetadata/1.0/GreenstoneDirectoryMetadata.dtd">
+<GreenstoneDirectoryMetadata>
+    <FileSet>
+        <FileName>hippy\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">hippy.htm</XMetadata>
+            <XMetadata name="Title">Hippy Hippy Shake</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>anna\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">anna.htm</XMetadata>
+            <XMetadata name="Title">Anna (Go To Him)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>writer\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">writer.htm</XMetadata>
+            <XMetadata name="Title">Paperback Writer</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>drive\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">drive.htm</XMetadata>
+            <XMetadata name="Title">Drive My Car</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>lend\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">lend.htm</XMetadata>
+            <XMetadata name="Title">Lend Me Your Comb</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>mustard\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">mustard.htm</XMetadata>
+            <XMetadata name="Title">Mean Mr. Mustard</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>real\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">real.htm</XMetadata>
+            <XMetadata name="Title">Real Love</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>for_you\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">for&amp;#095;you.htm</XMetadata>
+            <XMetadata name="Title">For You Blue</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>baby_your\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">baby&amp;#095;your.htm</XMetadata>
+            <XMetadata name="Title">Baby You&apos;re A Rich Man</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>letsdance\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">letsdance.htm</XMetadata>
+            <XMetadata name="Title">Let&apos;s Dance</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>wood\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">wood.htm</XMetadata>
+            <XMetadata name="Title">Norwegian Wood</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>all_you_need\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">all&amp;#095;you&amp;#095;need.htm</XMetadata>
+            <XMetadata name="Title">All You Need Is Love</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>obladi\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">obladi.htm</XMetadata>
+            <XMetadata name="Title">Ob-la-di, Ob-la-da</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>follow\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">follow.htm</XMetadata>
+            <XMetadata name="Title">I&apos;ll Follow The Sun</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>sally\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">sally.htm</XMetadata>
+            <XMetadata name="Title">Long Tall Sally</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>tired\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">tired.htm</XMetadata>
+            <XMetadata name="Title">I&apos;m So Tired</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>carry\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">carry.htm</XMetadata>
+            <XMetadata name="Title">Carry That Weight</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>mine\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">mine.htm</XMetadata>
+            <XMetadata name="Title">I Me Mine</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>baby_its_you\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">baby&amp;#095;its&amp;#095;you.htm</XMetadata>
+            <XMetadata name="Title">Baby It&apos;s You</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>ride\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">ride.htm</XMetadata>
+            <XMetadata name="Title">Ticket To Ride</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>really\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">really.htm</XMetadata>
+            <XMetadata name="Title">You Really Got A Hold On Me</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>dont_bother\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">dont&amp;#095;bother.htm</XMetadata>
+            <XMetadata name="Title">Don&apos;t Bother Me</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>getting\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">getting.htm</XMetadata>
+            <XMetadata name="Title">Getting Better</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>ballad\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">ballad.htm</XMetadata>
+            <XMetadata name="Title">The Ballad Of John And Yoko</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>iwill\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">iwill.htm</XMetadata>
+            <XMetadata name="Title">I Will</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>index\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">index.htm</XMetadata>
+            <XMetadata name="Title">When I Get Home</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>cantbuy\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">cantbuy.htm</XMetadata>
+            <XMetadata name="Title">Can&apos;t Buy Me Love</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>boys\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">boys.htm</XMetadata>
+            <XMetadata name="Title">Boys</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>sexy\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">sexy.htm</XMetadata>
+            <XMetadata name="Title">Sexy Sadie</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>majesty\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">majesty.htm</XMetadata>
+            <XMetadata name="Title">HER MAJESTY</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>let_it\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>bepop\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>all_my_loving\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">all&amp;#095;my&amp;#095;loving.htm</XMetadata>
+            <XMetadata name="Title">All My Loving</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>hallelujah\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">hallelujah.htm</XMetadata>
+            <XMetadata name="Title">Hallelujah, I Love Her So</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>and_your_bird\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">and&amp;#095;your&amp;#095;bird.htm</XMetadata>
+            <XMetadata name="Title">And Your Bird Can Sing</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>loser\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">loser.htm</XMetadata>
+            <XMetadata name="Title">I&apos;m A Loser</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>old_brown\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">old&amp;#095;brown.htm</XMetadata>
+            <XMetadata name="Title">Old Brown Shoe</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>leave\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">leave.htm</XMetadata>
+            <XMetadata name="Title">Leave My Kitten Alone</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>all_too_much\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>wanna\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>helter\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>inspite\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>dizzy\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">dizzy.htm</XMetadata>
+            <XMetadata name="Title">Dizzy Miss Lizzie</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>another\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">another.htm</XMetadata>
+            <XMetadata name="Title">Another Girl</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>nowhere\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">nowhere.htm</XMetadata>
+            <XMetadata name="Title">Nowhere Man</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>face\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">face.htm</XMetadata>
+            <XMetadata name="Title">I&apos;ve Just Seen A Face</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>if_i_needed\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">if&amp;#095;i&amp;#095;needed.htm</XMetadata>
+            <XMetadata name="Title">If I Needed Someone</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>aint_she_sweet\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>for_no_one\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>eight\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>roll\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">roll.htm</XMetadata>
+            <XMetadata name="Title">Roll Over Beethoven</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rock\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>think\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>bull\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">bull.htm</XMetadata>
+            <XMetadata name="Title">Hey Bulldog</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>known_better\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">known&amp;#095;better.htm</XMetadata>
+            <XMetadata name="Title">I Should Have Known Better</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>besamo\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">besamo.htm</XMetadata>
+            <XMetadata name="Title">Besamo Mucho</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>please\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">please.htm</XMetadata>
+            <XMetadata name="Title">PLEASE PLEASE ME</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>whatdisay\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">whatdisay.htm</XMetadata>
+            <XMetadata name="Title">What´d I Say</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>matchbox\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">matchbox.htm</XMetadata>
+            <XMetadata name="Title">Matchbox</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>good_days\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>sixty\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>michelle\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>hold\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">hold.htm</XMetadata>
+            <XMetadata name="Title">Hold Me Tight</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>being\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>swgeorgia\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">swgeorgia.htm</XMetadata>
+            <XMetadata name="Title">Sweet Georgia Brown</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>madonna\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>because\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>loves2\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>mae\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>give\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>said\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>penny\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>i_feel\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>night\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>eleanor\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>moon\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>got\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">got.htm</XMetadata>
+            <XMetadata name="Title">Got To Get You Into My Life</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>light\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>baby_black\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>going_to_lose\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>searching\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>across\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>something\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>every\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>martha\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>only_love\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>julia\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">julia.htm</XMetadata>
+            <XMetadata name="Title">Julia</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>till\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">till.htm</XMetadata>
+            <XMetadata name="Title">Till There Was You</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>long\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">long.htm</XMetadata>
+            <XMetadata name="Title">Long, Long, Long</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>come\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">come.htm</XMetadata>
+            <XMetadata name="Title">Come Together</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>doyou\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">doyou.htm</XMetadata>
+            <XMetadata name="Title">Do You Want To Know A Secret</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>blackbird\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">blackbird.htm</XMetadata>
+            <XMetadata name="Title">Blackbird</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>second\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">second.htm</XMetadata>
+            <XMetadata name="Title">Not A Second Time</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>doctor\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">doctor.htm</XMetadata>
+            <XMetadata name="Title">Doctor Robert</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>road\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">road.htm</XMetadata>
+            <XMetadata name="Title">The Long And Winding Road</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>here_come\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">here&amp;#095;come.htm</XMetadata>
+            <XMetadata name="Title">Here Comes The Sun</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>get_back\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">get&amp;#095;back.htm</XMetadata>
+            <XMetadata name="Title">Get Back</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>a_taste\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">a&amp;#095;taste.htm</XMetadata>
+            <XMetadata name="Title">A Taste Of Honey</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rocky\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rocky.htm</XMetadata>
+            <XMetadata name="Title">Rocky Raccoon</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>looking\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">looking.htm</XMetadata>
+            <XMetadata name="Title">I&apos;m Looking Through You</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>girl\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">girl.htm</XMetadata>
+            <XMetadata name="Title">Girl</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>nobody\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">nobody.htm</XMetadata>
+            <XMetadata name="Title">Nobody I Know</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>devil\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">devil.htm</XMetadata>
+            <XMetadata name="Title">Devil In Her Heart</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>can\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">can.htm</XMetadata>
+            <XMetadata name="Title">We Can Work It Out</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>pepper2\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">pepper2.htm</XMetadata>
+            <XMetadata name="Title">Sgt. Pepper&apos;s Lonely Hearts Club Band (reprise)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>heloo_goodbye\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">heloo&amp;#095;goodbye.htm</XMetadata>
+            <XMetadata name="Title">Hello, Goodbye</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>why\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">why.htm</XMetadata>
+            <XMetadata name="Title">Tell Me Why</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>revolution9\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">revolution9.htm</XMetadata>
+            <XMetadata name="Title">Revolution 9</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>woman\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">woman.htm</XMetadata>
+            <XMetadata name="Title">She&apos;s A Woman</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>help\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">help.htm</XMetadata>
+            <XMetadata name="Title">HELP!</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>loved\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">loved.htm</XMetadata>
+            <XMetadata name="Title">Love Of The Loved</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>cats\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">cats.htm</XMetadata>
+            <XMetadata name="Title">Three Cool Cats</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>words\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">words.htm</XMetadata>
+            <XMetadata name="Title">Words Of Love</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>kansas\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">kansas.htm</XMetadata>
+            <XMetadata name="Title">Kansas City</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>jude\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">jude.htm</XMetadata>
+            <XMetadata name="Title">Hey Jude</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>wait\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">wait.htm</XMetadata>
+            <XMetadata name="Title">Wait</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>you_know\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">you&amp;#095;know.htm</XMetadata>
+            <XMetadata name="Title">You Know What To Do</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>slow\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">slow.htm</XMetadata>
+            <XMetadata name="Title">Slow Down</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rem\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rem.htm</XMetadata>
+            <XMetadata name="Title">Reminiscing</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>lucy\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">lucy.htm</XMetadata>
+            <XMetadata name="Title">Lucy In The Sky With Diamonds</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>tomorrow\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">tomorrow.htm</XMetadata>
+            <XMetadata name="Title">Tomorrow Never Knows</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>taxman\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">taxman.htm</XMetadata>
+            <XMetadata name="Title">Taxman</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>talking\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">talking.htm</XMetadata>
+            <XMetadata name="Title">I&apos;m Talking About You</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>cry\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">cry.htm</XMetadata>
+            <XMetadata name="Title">Cry Baby Cry</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>see\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">see.htm</XMetadata>
+            <XMetadata name="Title">You Won&apos;t See Me</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>bad\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">bad.htm</XMetadata>
+            <XMetadata name="Title">Bad Boy</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>flying\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">flying.htm</XMetadata>
+            <XMetadata name="Title">Flying</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>postman\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">postman.htm</XMetadata>
+            <XMetadata name="Title">Please Mr. Postman</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>saints\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">saints.htm</XMetadata>
+            <XMetadata name="Title">The Saints</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>september\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">september.htm</XMetadata>
+            <XMetadata name="Title">September In Rhe Rain</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>mylife\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">mylife.htm</XMetadata>
+            <XMetadata name="Title">In My Life</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>walrus\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">walrus.htm</XMetadata>
+            <XMetadata name="Title">I Am The Walrus</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>revolut\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">revolut.htm</XMetadata>
+            <XMetadata name="Title">Revolution</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>word\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">word.htm</XMetadata>
+            <XMetadata name="Title">The Word</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>guitar\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>hand\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>sun\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">sun.htm</XMetadata>
+            <XMetadata name="Title">Sun King</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>all_together\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">all&amp;#095;together.htm</XMetadata>
+            <XMetadata name="Title">All Together Now</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>child\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">child.htm</XMetadata>
+            <XMetadata name="Title">Little Child</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>thank\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">thank.htm</XMetadata>
+            <XMetadata name="Title">Thank You Girl</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>shout\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">shout.htm</XMetadata>
+            <XMetadata name="Title">Shout!</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>yellow\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">yellow.htm</XMetadata>
+            <XMetadata name="Title">YELLOW SUBMARINE</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>act\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">act.htm</XMetadata>
+            <XMetadata name="Title">Act Naturally</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>take\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">take.htm</XMetadata>
+            <XMetadata name="Title">Take Good Care Of My Baby</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rubybaby\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rubybaby.htm</XMetadata>
+            <XMetadata name="Title">Ruby Baby</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>mother_should\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>cryforashadow\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">cryforashadow.htm</XMetadata>
+            <XMetadata name="Title">Cry For A Shadow</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>after\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">after.htm</XMetadata>
+            <XMetadata name="Title">One After 909</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>little_help\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>here\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>thatmeansalot\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>tell_me\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>leaving\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>from\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>goes\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">goes.htm</XMetadata>
+            <XMetadata name="Title">What Goes On</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>pie\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">pie.htm</XMetadata>
+            <XMetadata name="Title">Honey Pie</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>twist\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>run\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>reply\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>yesterday\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">yesterday.htm</XMetadata>
+            <XMetadata name="Title">Yesterday</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>wild\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_2</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">wild.htm</XMetadata>
+            <XMetadata name="Title">Wild Honey Pie</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>ps\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>little\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">little.htm</XMetadata>
+            <XMetadata name="Title">Little Queenie</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>memphis\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>i_call\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">i&amp;#095;call.htm</XMetadata>
+            <XMetadata name="Title">I Call Your Name</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>happy\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">happy.htm</XMetadata>
+            <XMetadata name="Title">I&apos;m Happy Just To Dance With You</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>tell\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>we_do\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">we&amp;#095;do.htm</XMetadata>
+            <XMetadata name="Title">Why Don&apos;t We Do It In The Road?</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>need_you\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>ill_cry\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">ill&amp;#095;cry.htm</XMetadata>
+            <XMetadata name="Title">I&apos;ll Cry Instead</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>happiness\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">happiness.htm</XMetadata>
+            <XMetadata name="Title">Happiness Is A Warm Gun</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>youlike\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">youlike.htm</XMetadata>
+            <XMetadata name="Title">You Like Me Too Much</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>dig\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>maxwell\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">maxwell.htm</XMetadata>
+            <XMetadata name="Title">Maxwell&apos;s Silver Hammer</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>everybody\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">everybody.htm</XMetadata>
+            <XMetadata name="Title">Everybody&apos;s Trying To Be My Baby</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>and_i_love\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">and&amp;#095;i&amp;#095;love.htm</XMetadata>
+            <XMetadata name="Title">And I Love Her</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>good_morning\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">good&amp;#095;morning.htm</XMetadata>
+            <XMetadata name="Title">Good Morning, Good Morning</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>xmas\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>you_can\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>darling\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>only\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>dear\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">dear.htm</XMetadata>
+            <XMetadata name="Title">Dear Prudence</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>glass\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">glass.htm</XMetadata>
+            <XMetadata name="Title">Glass Onion</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>revolution\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">revolution.htm</XMetadata>
+            <XMetadata name="Title">Revolution 1</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>ask_my_why\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>back\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>all_ive_got\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">all&amp;#095;ive&amp;#095;got.htm</XMetadata>
+            <XMetadata name="Title">All I&apos;ve Got To Do</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>ahard_day\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">ahard&amp;#095;day.htm</XMetadata>
+            <XMetadata name="Title">A Hard Day&apos;s Night</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>today\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>be_long\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>love_me\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">love&amp;#095;me.htm</XMetadata>
+            <XMetadata name="Title">Love Me Do</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>chains\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>birthday\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">birthday.htm</XMetadata>
+            <XMetadata name="Title">Birthday</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>hello\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">hello.htm</XMetadata>
+            <XMetadata name="Title">Hello Little Girl</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>dont_pass\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">dont&amp;#095;pass.htm</XMetadata>
+            <XMetadata name="Title">DON&apos;T PASS ME BY</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>magical\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>dont_let\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">dont&amp;#095;let.htm</XMetadata>
+            <XMetadata name="Title">Don&apos;t Let Me Down</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>yes\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">yes.htm</XMetadata>
+            <XMetadata name="Title">Yes It Is</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>golden\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>like\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>sheila\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">sheila.htm</XMetadata>
+            <XMetadata name="Title">Sheila</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>feeling\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>araby\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>savoy\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>garden\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>digit\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>bluejay\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">bluejay.htm</XMetadata>
+            <XMetadata name="Title">Blue Jay Way</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>that\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">that.htm</XMetadata>
+            <XMetadata name="Title">That&apos;ll Be The Day</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>end\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>fix\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">fix.htm</XMetadata>
+            <XMetadata name="Title">Fixing A Hole</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>within\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>i_ll_back\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">i&amp;#095;ll&amp;#095;back.htm</XMetadata>
+            <XMetadata name="Title">I&apos;ll Be Back</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rita\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rita.htm</XMetadata>
+            <XMetadata name="Title">Lovely Rita</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>name\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">name.htm</XMetadata>
+            <XMetadata name="Title">You Know My Name (Look Up The Number)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rain\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rain.htm</XMetadata>
+            <XMetadata name="Title">Rain</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>why1\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">why1.htm</XMetadata>
+            <XMetadata name="Title">Why</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>piggies\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">piggies.htm</XMetadata>
+            <XMetadata name="Title">Piggies</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>came\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">came.htm</XMetadata>
+            <XMetadata name="Title">She Came In Through The Bathroom Window</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>blues\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">blues.htm</XMetadata>
+            <XMetadata name="Title">Yer Blues</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>honey\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">honey.htm</XMetadata>
+            <XMetadata name="Title">Honey Don&apos;t</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>everylittle\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">everylittle.htm</XMetadata>
+            <XMetadata name="Title">Every Little Thing</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>ifyouloveme\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">ifyouloveme.htm</XMetadata>
+            <XMetadata name="Title">If You Love Me, Baby</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>place\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>sleeping\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>anytime\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">anytime.htm</XMetadata>
+            <XMetadata name="Title">Any Time At All</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>doing\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">doing.htm</XMetadata>
+            <XMetadata name="Title">What You&apos;re Doing</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>pepper\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">pepper.htm</XMetadata>
+            <XMetadata name="Title">Sgt. PEPPER&apos;S LONELY HEARTS CLUB BAND</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>saw\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">saw.htm</XMetadata>
+            <XMetadata name="Title">I Saw Her Standing There</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>aday\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>yaya\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">yaya.htm</XMetadata>
+            <XMetadata name="Title">Ya Ya</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>pam\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>boy\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">boy.htm</XMetadata>
+            <XMetadata name="Title">This Boy</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>how\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>want\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">want.htm</XMetadata>
+            <XMetadata name="Title">I Want You (She&apos;s So Heavy)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>yourfeets\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>money\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>straw\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>red\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">red.htm</XMetadata>
+            <XMetadata name="Title">Red Sails In The Sunset</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>im_gonna\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">im&amp;#095;gonna.htm</XMetadata>
+            <XMetadata name="Title">I&apos;m Gonna Sit Right Down And Cry Over You</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>readyteddy\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">readyteddy.htm</XMetadata>
+            <XMetadata name="Title">Ready Teddy</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>day\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">day.htm</XMetadata>
+            <XMetadata name="Title">Day Tripper</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>sweet\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>down\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>to_know\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>free\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">free.htm</XMetadata>
+            <XMetadata name="Title">Free As A Bird</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>nothinshakin\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">nothinshakin.htm</XMetadata>
+            <XMetadata name="Title">Nothin&apos; Shakin&apos; (But the Leaves on the Tree)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>nobodys\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>bonnie\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>misery\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>love_you\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">love&amp;#095;you.htm</XMetadata>
+            <XMetadata name="Title">Love You To</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>spoil\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">spoil.htm</XMetadata>
+            <XMetadata name="Title">I Don&apos;t Want To Spoil The Party</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>story\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>remember\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">remember.htm</XMetadata>
+            <XMetadata name="Title">I Remember You</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>mother\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>get_you\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>fool\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>if_i_feel\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">if&amp;#095;i&amp;#095;feel.htm</XMetadata>
+            <XMetadata name="Title">If I Fell</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>youve_got\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">youve&amp;#095;got.htm</XMetadata>
+            <XMetadata name="Title">You&apos;ve Got To Hide Your Love Away</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>falling\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">falling.htm</XMetadata>
+            <XMetadata name="Title">Falling In Love Again</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>good_night\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>wherehave\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">wherehave.htm</XMetadata>
+            <XMetadata name="Title">Where Have You Been All My Life</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>ifyouvegot\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>two\.htm</FileName>
+        <Description/>
+    </FileSet>
+</GreenstoneDirectoryMetadata>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\tablature_txt\members.aol.com\way2smug\something.txt</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">TextPlugin</Metadata>
+    <Metadata name="FileSize">4364</Metadata>
+    <Metadata name="Source">something.txt</Metadata>
+    <Metadata name="SourceFile">something.txt</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Title">Something by the Beatles</Metadata>
+    <Metadata name="FileFormat">Text</Metadata>
+    <Metadata name="dc.Format">Tablature</Metadata>
+    <Metadata name="Identifier">HASH013ebb9b233a11e3bda6cd61</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014495</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH013e/bb9b233a.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+Something by the Beatles
+transcribed by Maxxdaddy
+
+Intro and signature riff:
+   F                  Eb  G   C
+-----------------------------------
+--10--12(13)12--10----11--12--13---
+-----------------------------------
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+Verse:
+   C                      Cmaj7
+Something in the way she moves
+C7                          F
+Attracts me like no other lover
+   D                      G
+Something in the way she woos me
+   Am                     Amdim7
+I don't want to leave her now
+     C/G               D   F  Eb  G  C
+You know I believe in how  (sig riff)
+
+Somewhere in her smile she knows
+That I don't need no other lover
+Something in her style that shows me
+I don't want to leave her now
+You know I believe in how
+(sig riff, but end with A instead of C)
+
+  A           C#m              F#m
+You're asking me will my love grow
+A/E      D     G        A   G#  G  F#  F  E
+I don't know   I don't know
+ A          C#m              F#m
+You stick around and it may show
+A/E      D     G        C   C B A# A  
+I don't know   I don't know
+
+(Solo)
+
+Something in the way she knows
+And all I have to do is think of her
+Something in the things she shows me
+I don't want to leave her now
+You know I believe in how
+
+(Outro)
+
+Guitar solo:
+     C            Cmaj7                C7
+-------------------------------------------------------------
+----------------------------------------8--10--8--11/13--13--
+--------12-------------12(14)12--9--7/9----------------------
+--12h14----14~---12h14---------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+             F                                                
+--------------------------------------------------------------------
+--13(15)13--15(17)15--13-----------13--13---------------------------
+--------------------------14--/14----------14-------12--12----------
+-----------------------------------------------/14----------14------
+----------------------------------------------------------------12--
+--------------------------------------------------------------------
+
+  D                                   G
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+-------------------11--11--14(16)14--14(16)14--14(16)14--12----------
+--------------/12----------------------------------------------------
+--12--14--12---------------------------------------------------------
+---------------------------------------------------------------------
+
+                           Am               G#+ 
+----------------------------------------------------------------------
+------14--13--12/16--15--14-------------------------------------------
+--12-------------------------b(9)7--b(9)7--5--b(9)7--b(9)7--b(9)7--5--
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+  C/G                      D                    F                 Eb  G   C
+---------------------------10/12--10--8--10--8-------------------------------
+------------------------8-----------------------10--12(13)12--10--11--12--13-
+--7(9)7--7(9)7--5--7/9-------------------------------------------------------
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+
+Ending:
+  F                 Eb  G   A                   F                 Eb  G   C
+------------------------------------16--15--14--------------------------------
+--10--12(13)12--10--11--12--14--14--------------10--12(13)12--10--11--12--14--
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+
+&lt;/pre&gt;</Content>
+</Section>
+</Archive>

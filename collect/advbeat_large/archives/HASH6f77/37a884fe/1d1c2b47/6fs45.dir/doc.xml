@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">45</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">1558506381 (paperback : alk. paper)</Metadata>
+    <Metadata name="dc.Title">Things we said today : conversations with the Beatles / Geoffrey and Brenda Giuliano.</Metadata>
+    <Metadata name="dc.Publisher">Holbrook, MA :</Metadata>
+    <Metadata name="dc.Publisher">Adams Media,</Metadata>
+    <Metadata name="dc.Date">c1998.</Metadata>
+    <Metadata name="dc.Description">Includes index.</Metadata>
+    <Metadata name="dc.Subject">Beatles Interviews.</Metadata>
+    <Metadata name="dc.Subject">Rock musicians England Interviews.</Metadata>
+    <Metadata name="dc.Subject">Rock musicians England Quotations.</Metadata>
+    <Metadata name="dc.Creator">Giuliano, Geoffrey.</Metadata>
+    <Metadata name="dc.Creator">Devi, Vrnda.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs45</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014477</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs45.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01044cam  2200289 a 4500
+001     2123138
+005     20021119081139.0
+008     970501s1998    maua          001 0ceng  
+035    _9 (DLC)   97002579
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 1
+       _e ocip
+       _f 19
+       _g y-gencatlg
+955    _a pc01 to VP00 05-01-97; vk06 05-01-97; vk05 05-02-97; CIP
+ ver. vl16 02-20-01; vl20 to BCCD 02-20-01
+       _e vl20 2001-12-12 2nd copy to BCCD
+010    _a    97002579 
+020    _a 1558506381 (paperback : alk. paper)
+040    _a DLC
+       _c DLC
+       _d DLC
+043    _a e-uk-en
+050 00 _a ML421.B4
+       _b A5 1997
+082 00 _a 782.42166/092/2
+       _a B
+       _2 21
+245 00 _a Things we said today :
+       _b conversations with the Beatles /
+       _c Geoffrey and Brenda Giuliano.
+260    _a Holbrook, MA :
+       _b Adams Media,
+       _c c1998.
+300    _a xiii, 274 p. :
+       _b ill. ;
+       _c 24 cm.
+500    _a Includes index.
+610 20 _a Beatles
+       _v Interviews.
+650  0 _a Rock musicians
+       _z England
+       _v Interviews.
+650  0 _a Rock musicians
+       _z England
+       _v Quotations.
+700 1  _a Giuliano, Geoffrey.
+700 1  _a Devi, Vrnda.
+710 2  _a Beatles.
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

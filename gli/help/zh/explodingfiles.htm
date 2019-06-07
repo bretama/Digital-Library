@@ -1,0 +1,25 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="explodingfiles"><font size="5" face="Verdana"><strong>4.7: 展开元数据文件</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>元数据数据库文件类型，比如MARC、OAI、CDS/ISIS、BibTex、Refer和ProCite，都可导入到Greenstone，但是在图书馆员界面中并不能立即查看或者修改其元数据。然而，你可以在图书馆员界面中&rdquo;展开&ldquo;该文件，然后查看或者修改其元数据。或者，特别是在使用外部应用的情况下，你可以在创建该文件的应用程序中进行修改，然后重现导入。</p>
+
+<p>"展开"一个元数据数据库文件将该文件分割成单独的记录，并且这些记录有可查看和可编辑的元数据。这个过程是不可逆的，原始的元数据文件将被删除。</p>
+
+<p>在集合的文件目录树中，可展开的文件用一个绿色图标显示。要展开一个文件，右键单击该文件并选择"展开元数据库"。弹出的窗口将显示展开过程的选项。"插件"选项指定展开过程所用的插件。在很多情况下，一种特定类型的文件只能由一种插件处理，但在有些情况下不同的文件类型使用相同的文件后缀名，可能有两个插件能处理有该后缀名的文件。"input_encoding"选项可被用于指定该数据库的编码。"metadata_set"选项指定展开过程中生成的新字段应添加到哪个元数据集中。如果没有元数据集被指定，每个新字段都将弹出一个窗口询问应如何处理该字段：作为新元素添加到一个现有元数据集中，合并到另一个元素中，或者忽略。</p>
+
+<p>在展开文件之后，将为每条记录新建一个空文档，而该记录附带的元数据将被添加到该文档中。这些文档将用数字命名，比如000001.nul，000002.nul等等。如果设置了"document_field"选项，则该字段的值，如果存在的话，将被用作文件名。展开过程中也会尝试下载该文件并用其替代空文件。"document_prefix"和"document_suffix"选项可用于从"document_field"选项值中生成合法的URL或文件路径。"records_per_folder"选项用于将展开的记录分组并组织到子文件夹中。在数据库非常大的情况下，使用这个选项将加速接下来的元数据编辑过程。</p>
+
+<p>文件是否可展开取决于文件扩展名。在某些情况下，如果文件的扩展名与可扩展文件相同，则可能被认为是可扩展的文件。例如，ProCite插件处理以.txt为扩展名的文件，但大多数.txt文件是纯文本文件而非ProCite文件。</p>
+
+</body>
+</html>

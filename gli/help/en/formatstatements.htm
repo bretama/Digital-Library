@@ -1,0 +1,27 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="formatstatements"><font size="5" face="Verdana"><strong>8.4: Format Features</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>The web pages you see when using Greenstone are not pre-stored but are generated 'on the fly' as they are needed. Format commands are used to change the appearance of these generated pages. They affect such things as which buttons appear when a document is shown, and what links are displayed by the DateList classifier.  Format commands are not easy to develop, and you should read Chapter 2 of the Greenstone Developer's Guide. This section discusses the format settings, and how the Librarian Interface gives access to them.  Under the "Format" tab, click "Format Features".</p>
+
+<p>You can apply a format command to anything in the "Choose Feature" pull-down list, which includes each classifier and a predefined list of features.  When you select a feature, there are two types of control.  Some features are simply enabled or disabled, and this is controlled by a checkbox.  Others require a format string to be specified.  For these there is a pull-down list ("Affected Component") for selecting which part of the feature the string applies to (if necessary), a text area ("HTML Format String") for entering the string, and a selection of predefined "Variables".  To insert a variable into a format string, position the cursor at the place to insert, then select the desired variable from the "Insert Variable..." combobox.</p>
+
+<p>You can specify a default format for a particular component by selecting the "All Features" feature.  This format is then applied to all applicable features unless a more specific one is defined.</p>
+
+<p>To add a new format command, select the applicable feature and component. The default value for this command will be displayed in grey. Click "Add Format" to assign it to the collection. The "HTML Format String" will become editable and you can change it if you wish. Only one format command can be assigned to each feature/component combination.</p>
+
+<p>To remove a format command, select it from the list and click "Remove Format".</p>
+
+<p>For more information about variables and the feature components, read Chapter 2 of the Greenstone Developer's Guide.</p>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MetadataSet [
+
+  <!-- The outer tag of any metadata set. Contains some number of elements.             -->
+  <!-- @param contact     A contact address for the creator.                            -->
+  <!-- @param creator     The name of the entity resposibly for this set.               -->
+  <!-- @param family      The name of this sets family.                                 -->
+  <!-- @param lastchanged The full date, user name and machine name of the last editor. --> 
+  <!--   uses the form:                                                                 -->
+  <!--   Day Mon(th) dd hh:mm:ss yyyy '-' <username> on <machine>                       -->
+  <!-- @param namespace   The namespace of this metadata set.                           -->
+  <!ELEMENT MetadataSet ((Name|Description|Element)+)>
+  <!ATTLIST MetadataSet
+				contact     CDATA #REQUIRED
+				creator     CDATA #REQUIRED
+				description CDATA #REQUIRED
+            family      CDATA #REQUIRED
+				lastchanged CDATA #REQUIRED
+            name        CDATA #REQUIRED
+				namespace   CDATA #REQUIRED>
+
+  <!-- The name of a metadata set. Is language specific. -->
+  <!ELEMENT Name (#PCDATA)>
+  <!ATTLIST Name
+            language CDATA "en">
+
+  <!-- The description of a metadata set. Is language specific. -->
+  <!ELEMENT Description (#PCDATA)>
+  <!ATTLIST Description
+            language CDATA "en">
+
+  <!-- An element in the metadata set. -->
+  <!ELEMENT Element (Attribute*,OptionList?)>
+  <!ATTLIST Element
+            name       CDATA #REQUIRED
+				occurances CDATA "0">
+
+  <!-- Each element has several attribute children. -->
+  <!ELEMENT Attribute (#PCDATA)>
+  <!ATTLIST Attribute
+            name CDATA #REQUIRED>
+
+  <!-- For listing predefined values for this element. -->
+  <!ELEMENT OptionList (Value+)>
+  <!ATTLIST OptionList
+            restricted (true|false) "false">
+]>
+<MetadataSet contact="nzdl.org" creator="New Zealand Digital Libraries Project: Greenstone" family="Extracted Greenstone" lastchanged="Tue May 20 10:30:32 2003 - jmt12 on narya" namespace="ex">
+    <Name language="en">Extracted Greenstone Metadata 1.0</Name>
+    <Description language="en">This document is the reference description, version 1.0 of the automatically extracted Greenstone Metadata Element Set.</Description>
+    <Element name="Encoding" occurances="564">
+        <Attribute language="en" name="comment">Not always available.</Attribute>
+        <Attribute language="en" name="definition">The encoding of the imported document as extracted by Greenstone.</Attribute>
+        <Attribute language="en" name="identifier">Encoding</Attribute>
+    </Element>
+    <Element name="Language" occurances="564">
+        <Attribute language="en" name="comment">Not always available.</Attribute>
+        <Attribute language="en" name="definition">The language of the imported document as extracted by Greenstone.</Attribute>
+        <Attribute language="en" name="identifier">Language</Attribute>
+    </Element>
+    <Element name="Source" occurances="1032">
+        <Attribute language="en" name="comment">Hidden in the Librarian Interface as it already shown by the various file trees.</Attribute>
+        <Attribute language="en" name="definition">The filename of the document imported by Greenstone.</Attribute>
+        <Attribute language="en" name="identifier">Source</Attribute>
+    </Element>
+    <Element name="Title" occurances="836">
+        <Attribute language="en" name="comment">Not always available.</Attribute>
+        <Attribute language="en" name="definition">The title of the imported document as extracted by Greenstone.</Attribute>
+        <Attribute language="en" name="identifier">Title</Attribute>
+    </Element>
+    <Element name="Plugin" occurances="822">
+        <Attribute language="en" name="identifier">Plugin</Attribute>
+    </Element>
+    <Element name="mp3" occurances="14">
+        <Attribute language="en" name="identifier">mp3</Attribute>
+    </Element>
+    <Element name="srcurl" occurances="14">
+        <Attribute language="en" name="identifier">srcurl</Attribute>
+    </Element>
+    <Element name="FileFormat" occurances="258">
+        <Attribute language="en" name="identifier">FileFormat</Attribute>
+    </Element>
+    <Element name="srclink" occurances="368">
+        <Attribute language="en" name="identifier">srclink</Attribute>
+    </Element>
+    <Element name="srcicon" occurances="368">
+        <Attribute language="en" name="identifier">srcicon</Attribute>
+    </Element>
+    <Element name="/srclink" occurances="368">
+        <Attribute language="en" name="identifier">/srclink</Attribute>
+    </Element>
+    <Element name="GENERATOR" occurances="88">
+        <Attribute language="en" name="identifier">GENERATOR</Attribute>
+    </Element>
+    <Element name="Publisher">
+        <Attribute language="en" name="identifier">Publisher</Attribute>
+    </Element>
+    <Element name="Subject">
+        <Attribute language="en" name="identifier">Subject</Attribute>
+    </Element>
+    <Element name="MarcIdentifier">
+        <Attribute language="en" name="identifier">MarcIdentifier</Attribute>
+    </Element>
+    <Element name="Description">
+        <Attribute language="en" name="identifier">Description</Attribute>
+    </Element>
+    <Element name="Type">
+        <Attribute language="en" name="identifier">Type</Attribute>
+    </Element>
+    <Element name="mp3:copyright" occurances="0">
+        <Attribute language="en" name="identifier">mp3:copyright</Attribute>
+    </Element>
+    <Element name="mp3:stereo" occurances="0">
+        <Attribute language="en" name="identifier">mp3:stereo</Attribute>
+    </Element>
+    <Element name="mp3:padding" occurances="0">
+        <Attribute language="en" name="identifier">mp3:padding</Attribute>
+    </Element>
+    <Element name="mp3:frame_length" occurances="0">
+        <Attribute language="en" name="identifier">mp3:frame_length</Attribute>
+    </Element>
+    <Element name="mp3:size" occurances="0">
+        <Attribute language="en" name="identifier">mp3:size</Attribute>
+    </Element>
+    <Element name="mp3:frequency" occurances="0">
+        <Attribute language="en" name="identifier">mp3:frequency</Attribute>
+    </Element>
+    <Element name="mp3:mm" occurances="0">
+        <Attribute language="en" name="identifier">mp3:mm</Attribute>
+    </Element>
+    <Element name="mp3:bitrate" occurances="0">
+        <Attribute language="en" name="identifier">mp3:bitrate</Attribute>
+    </Element>
+    <Element name="mp3:layer" occurances="0">
+        <Attribute language="en" name="identifier">mp3:layer</Attribute>
+    </Element>
+    <Element name="mp3:ms" occurances="0">
+        <Attribute language="en" name="identifier">mp3:ms</Attribute>
+    </Element>
+    <Element name="mp3:frames" occurances="0">
+        <Attribute language="en" name="identifier">mp3:frames</Attribute>
+    </Element>
+    <Element name="mp3:time" occurances="0">
+        <Attribute language="en" name="identifier">mp3:time</Attribute>
+    </Element>
+    <Element name="mp3:version" occurances="0">
+        <Attribute language="en" name="identifier">mp3:version</Attribute>
+    </Element>
+    <Element name="mp3:mode" occurances="0">
+        <Attribute language="en" name="identifier">mp3:mode</Attribute>
+    </Element>
+    <Element name="mp3:secs" occurances="0">
+        <Attribute language="en" name="identifier">mp3:secs</Attribute>
+    </Element>
+    <Element name="mp3:ss" occurances="0">
+        <Attribute language="en" name="identifier">mp3:ss</Attribute>
+    </Element>
+    <Element name="mp3:vbr" occurances="0">
+        <Attribute language="en" name="identifier">mp3:vbr</Attribute>
+    </Element>
+    <Element name="mp3:Artist" occurances="14">
+        <Attribute language="en" name="identifier">mp3:Artist</Attribute>
+    </Element>
+    <Element name="mp3:Genre" occurances="10">
+        <Attribute language="en" name="identifier">mp3:Genre</Attribute>
+    </Element>
+    <Element name="mp3:Tagversion" occurances="0">
+        <Attribute language="en" name="identifier">mp3:Tagversion</Attribute>
+    </Element>
+    <Element name="mp3:Title" occurances="14">
+        <Attribute language="en" name="identifier">mp3:Title</Attribute>
+    </Element>
+    <Element name="mp3:Tracknum" occurances="0">
+        <Attribute language="en" name="identifier">mp3:Tracknum</Attribute>
+    </Element>
+    <Element name="mp3:Album" occurances="0">
+        <Attribute language="en" name="identifier">mp3:Album</Attribute>
+    </Element>
+    <Element name="Image" occurances="34">
+        <Attribute language="en" name="identifier">Image</Attribute>
+    </Element>
+    <Element name="ImageType" occurances="34">
+        <Attribute language="en" name="identifier">ImageType</Attribute>
+    </Element>
+    <Element name="ImageWidth" occurances="34">
+        <Attribute language="en" name="identifier">ImageWidth</Attribute>
+    </Element>
+    <Element name="ImageHeight" occurances="34">
+        <Attribute language="en" name="identifier">ImageHeight</Attribute>
+    </Element>
+    <Element name="ImageSize" occurances="34">
+        <Attribute language="en" name="identifier">ImageSize</Attribute>
+    </Element>
+    <Element name="ThumbType" occurances="34">
+        <Attribute language="en" name="identifier">ThumbType</Attribute>
+    </Element>
+    <Element name="Thumb" occurances="34">
+        <Attribute language="en" name="identifier">Thumb</Attribute>
+    </Element>
+    <Element name="thumbicon" occurances="34">
+        <Attribute language="en" name="identifier">thumbicon</Attribute>
+    </Element>
+    <Element name="ThumbWidth" occurances="34">
+        <Attribute language="en" name="identifier">ThumbWidth</Attribute>
+    </Element>
+    <Element name="ThumbHeight" occurances="34">
+        <Attribute language="en" name="identifier">ThumbHeight</Attribute>
+    </Element>
+    <Element name="unknown_file" occurances="210">
+        <Attribute language="en" name="identifier">unknown_file</Attribute>
+    </Element>
+</MetadataSet>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\mp3\Abehewtey.mp3</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">MP3Plugin</Metadata>
+    <Metadata name="FileSize">5212393</Metadata>
+    <Metadata name="Source">Abehewtey.mp3</Metadata>
+    <Metadata name="SourceFile">Abehewtey.mp3</Metadata>
+    <Metadata name="mp3">Abehewtey</Metadata>
+    <Metadata name="srcurl">Abehewtey.mp3</Metadata>
+    <Metadata name="ex.id3.Title">Track 11</Metadata>
+    <Metadata name="ex.id3.Artist">Unknown Artist</Metadata>
+    <Metadata name="ex.id3.Genre">Other</Metadata>
+    <Metadata name="FileFormat">MP3</Metadata>
+    <Metadata name="srcicon">_iconmp3_</Metadata>
+    <Metadata name="srclink_file">Abehewtey.mp3</Metadata>
+    <Metadata name="srclinkFile">Abehewtey.mp3</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="Title">Track 11</Metadata>
+    <Metadata name="Identifier">HASH0166d54a2b32370fa44db34d</Metadata>
+    <Metadata name="lastmodified">1544469641</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1545014481</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH0166/d54a2b32.dir</Metadata>
+    <Metadata name="gsdlassocfile">Abehewtey.mp3:audio/mp3:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

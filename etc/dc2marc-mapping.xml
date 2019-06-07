@@ -1,0 +1,252 @@
+<Mapping>
+    <!-- English-->
+    <stopwords lang="en" >
+      <item  name="a " length="2"/>
+      <item  name="an " length="3"/>
+      <item  name="the " length="4"/>
+      <item  name="A " length="2"/>
+      <item  name="An " length="3"/>
+      <item  name="The " length="4"/>
+      <item  name="AN " length="3"/>
+      <item  name="THE " length="4"/>      
+    </stopwords>
+
+    <!--Spain-->
+    <stopwords lang="es">
+      <item  name="uno " length="4"/>
+      <item  name="una " length="4"/>
+      <item  name="el " length="3"/>
+      <item  name="la " length="3"/>
+      <item  name="las " length="4"/>
+      <item  name="los " length="4"/>
+      <item  name="un " length="3"/>
+      <item  name="unos " length="5"/>
+      <item  name="unas " length="5"/>
+    </stopwords>
+
+  <!--Catalan-->
+  <stopwords lang="ca">
+     <item  name="el " length="3"/>
+     <item  name="la " length="3"/>
+     <item  name="les " length="4"/>
+     <item  name="l'" length="2"/>
+     <item  name="un " length="3"/>
+     <item  name="una " length="4"/>
+     <item  name="uns " length="4"/>
+     <item  name="unes " length="5"/>
+     <item  name="es " length="3"/>
+     <item  name="sa " length="3"/>
+     <item  name="ses " length="4"/>
+     <item  name="sos " length="4"/>
+     <item  name="so " length="3"/>
+     <item  name="s'" length="2"/>
+   </stopwords>
+ 
+  <!--German-->  
+  <stopwords lang="de">
+     <item  name="der " length="4"/>
+     <item  name="ein " length="4"/>
+     <item  name="die " length="4"/>
+     <item  name="eine " length="5"/>
+     <item  name="das " length="4"/>
+   </stopwords>
+
+  <!--French-->
+  <stopwords lang="fr">
+     <item  name="le " length="3"/>
+     <item  name="la " length="3"/>
+     <item  name="les " length="4"/>
+     <item  name="un " length="3"/>
+     <item  name="une " length="4"/>
+     <item  name="l'" length="2"/>    
+  </stopwords>
+
+  <!--Italian-->  
+  <stopwords lang="it">
+     <item  name="il " length="3"/>
+     <item  name="lo " length="3"/>
+     <item  name="la " length="3"/>
+     <item  name="gli " length="4"/>
+     <item  name="le " length="3"/>
+     <item  name="un " length="3"/>
+     <item  name="uno " length="4"/>
+     <item  name="una " length="4"/>
+     <item  name="l'" length="2"/>
+     <item  name="un'" length="3"/>
+  </stopwords>
+
+   <!--Galician-->  
+  <stopwords lang="gl">
+     <item  name="o " length="2"/>
+     <item  name="os " length="3"/>
+     <item  name="a " length="2"/>
+     <item  name="as " length="3"/>
+     <item  name="un " length="3"/>
+     <item  name="uns " length="4"/>
+     <item  name="unha " length="5"/>
+     <item  name="unhas " length="6"/>
+   </stopwords> 
+    
+   <recordTypeMapping>
+       <type name="collection" mapping="p"/>
+       <type name="dataset" mapping="m"/>
+       <type name="event" mapping="r"/>
+       <type name="image" mapping="k"/>
+       <type name="interactive resource" mapping="m"/> 
+       <type name="service" mapping="m"/>
+       <type name="software" mapping="m"/>
+       <type name="sound" mapping="i"/>
+       <type name="text" mapping="a"/>      
+    </recordTypeMapping>
+
+    <leader> 
+       <recordLength pos="1" value="00000" />
+       <recordStatus pos="5" value="n" />
+       <recordType pos="6" value="a" />
+       <bibliographiclevel pos="7" value="m" />
+       <controlType pos="8" value=" " />
+       <codingScheme pos="9" value=" " />
+       <indicatorCount pos="10" value="2" />
+       <subfieldCodeCount pos="11" value="2" />
+       <dataBaseAddress pos="12" value="     " />
+       <encodingLevel pos="17" value="3" />
+       <descriptiveCatalogForm pos="18" value="u" />
+       <linkedRecordRequirement pos="19" value=" " />
+       <lpLength pos="20" value="4" />
+       <scpLength pos="21" value="5" />
+       <idLength pos="22" value="0" />
+       <emcpLength pos="23" value="0" /> 
+    </leader>
+        
+    <controlfield tag="001" value="the value of code 001" required="true" />
+    <controlfield tag="002" value="the value of code 002" required="false"/>
+    <controlfield tag="003" value="the value of code 003" required="true"/>
+    <controlfield tag="004" value="the value of code 004" required="false"/>
+    <controlfield tag="005" value="the value of code 005" required="false"/>
+    <controlfield tag="006" value="the value of code 006" required="false"/>
+    <controlfield tag="008" value="the value of code 008" required="true"/>    
+
+<!--this mapping provides duclin core to the following Marc fields mapping:   
+    024 |a[dc.Identifier]
+    245 |a[dc.Title]
+    246 |a[dc.Title] (repeated dc.Title)
+    260 |b[dc.Publisher] |c[dc.Date]
+    500 |a[dc.Coverage] 
+    520 |a[dc.Description]
+    540 |a[dc.Rights]
+    546 |a[dc.Language]
+    653 |a[dc.Subject]
+    655 |s[dc.Type]
+    720 |a[dc.Contributor] |a[dc.Creator]
+    787 |n[dc.Relation]
+    786 |n[dc.Source]
+    856 |q[dc.Format]
+-->
+
+ <!--if the first or second indicator is "nonfiling characters", 
+     one of subfields must have a "nonfiling" attribute with the "true" value
+     to indicate that the begining of this subfield is to be disregarded. 
+     see MarcField 245. 
+-->
+
+<!--If the marc field is same for the repeated metadata (the metadata for the first subfield),
+     set the "multiple" attibute to "true"     
+ -->
+
+<!--If the marc field is different for the repeated metadata (the metadata for the first subfield),
+     set the "repeat" attibute to "true"     
+ -->
+
+<!-- Title  --> 
+<!--
+ <MarcField multiple="false" tag="245" ind1="0" ind2="nonfiling">
+     <subfield code="a" nonfiling="true"  meta="dc.Title" punc=""/>
+ </MarcField>
+
+-->
+
+ <MarcField multiple="false" tag="245" ind1="0" ind2=" ">
+     <subfield code="a" meta="dc.Title" punc=""/>
+ </MarcField>
+
+<!--
+  <MarcField multiple="false" tag="245" ind1="0" ind2=" ">
+     <subfield code="a" meta="dc.Title" punc=""/>
+  </MarcField>
+-->
+
+
+ <MarcField repeat="true" tag="246" ind1="3" ind2="3" >
+     <subfield code="a" meta="dc.Title" punc=""/>
+  </MarcField>
+  
+<!--Coverage -->
+  <MarcField multiple="true" tag="500" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Coverage" punc=""/>
+  </MarcField>
+    
+
+<!--Contributor-->
+   <MarcField multiple="true" tag="720" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Contributor" punc=","/>
+   </MarcField>
+
+<!--Creator-->
+ <MarcField  multiple="true"  tag="720" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Creator" punc=","/>
+ </MarcField>
+
+ <!--Publisher and  Date-->
+   <MarcField  multiple="false" tag="260" ind1=" " ind2=" ">
+     <subfield code="b" meta="dc.Publisher" punc=","/>
+     <subfield code="c" meta="dc.Date" punc=""/> 
+   </MarcField>
+
+ <!-- Descrption -->
+    <MarcField multiple="true" tag="520" ind1=" " ind2=" ">
+       <subfield code="a" meta="dc.Description" punc=""/> 
+    </MarcField>
+   
+  <!--Format -->
+     <MarcField multiple="true" tag="856" ind1=" " ind2=" ">
+       <subfield code="q" meta="dc.Format" punc=""/> 
+    </MarcField>
+   
+
+ <!--Identifier -->
+     <MarcField multiple="true" tag="024" ind1="8" ind2=" ">
+        <subfield code="b" meta="dc.Identifier" punc=""/>
+     </MarcField>
+
+ <!--Language-->
+ <MarcField  multiple="false" tag="546" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Language" punc=""/>
+  </MarcField>
+        
+
+  <!-- relation -->
+   <MarcField  multiple="true" tag="787" ind1="0" ind2=" " >
+      <subfield code="n" meta="dc.Relation" punc=""/>
+   </MarcField>
+     
+  <!-- Right -->
+  <MarcField multiple="true" tag="540" ind1=" " ind2=" ">
+      <subfield code="a" meta="dc.Rights" punc=""/>
+  </MarcField>
+
+ <!-- subject --> 
+  <MarcField multiple="true" tag="653" ind1=" " ind2=" ">
+    <subfield code="a" meta="dc.Subject" punc=","/>
+  </MarcField>
+
+<!-- source -->
+ <MarcField multiple="true" tag="786" ind1="0" ind2=" ">
+     <subfield code="n" meta="dc.Source" punc=""/>
+ </MarcField>
+  
+
+ <!-- type -->
+  <MarcField multiple="true" tag="655" ind1=" " ind2="7">
+     <subfield code="a" meta="dc.Type" punc=","/>
+  </MarcField>
+</Mapping>

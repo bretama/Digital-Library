@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\html_lyrics\www.boskowan.com\www\jirka\beatles\beatles\only.htm</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">HTMLPlugin</Metadata>
+    <Metadata name="FileSize">2643</Metadata>
+    <Metadata name="Source">only.htm</Metadata>
+    <Metadata name="SourceFile">only.htm</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Title">Only A Northern Song</Metadata>
+    <Metadata name="FileFormat">HTML</Metadata>
+    <Metadata name="URL">http://html_lyrics/www.boskowan.com/www/jirka/beatles/beatles/only.htm</Metadata>
+    <Metadata name="UTF8URL">http://html_lyrics/www.boskowan.com/www/jirka/beatles/beatles/only.htm</Metadata>
+    <Metadata name="dc.Format">Lyrics</Metadata>
+    <Metadata name="Identifier">HASH01e896e09714edab0ffefd7f</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014413</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01e8/96e09714.dir</Metadata>
+  </Description>
+  <Content>
+&lt;!--webbot bot=&quot;Include&quot; U-Include=&quot;../_private/header.htm&quot; TAG=&quot;BODY&quot; startspan --&gt;
+&lt;font face=&quot;Times New Roman&quot; size=&quot;6&quot;&gt;&lt;b&gt;
+
+&lt;/font&gt;
+
+&lt;table border=&quot;0&quot; width=&quot;1&quot; align=&quot;left&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;100%&quot;&gt;&lt;script language=&quot;JavaScript&quot;&gt;&lt;!--
+if (escape(top.document.referrer))
+document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.boskowan.com/a_boskowan/counter.asp?cAdresa=&quot; + location.href  + &quot;&amp;cOdkud=&quot; + escape(top.document.referrer) + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+else
+document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.boskowan.com/a_boskowan/counter.asp?cAdresa=&quot; + location.href  + &quot;&amp;cOdkud=direct&quot; + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+// --&gt;&lt;/script&gt;&lt;!-- Na vrcholu --&gt;
+&lt;IMG SRC=&quot;_httpextlink_&amp;amp;rl=0&amp;amp;el=direct&amp;amp;href=http://www.navrcholu.cz/cgi-bin/4web/nvhit.pl?id=00026445&quot; WIDTH=&quot;1&quot;HEIGHT=&quot;1&quot; ALT=&quot;&quot; BORDER=&quot;0&quot;&gt;
+&lt;SCRIPT LANGUAGE=&quot;JavaScript&quot;&gt;
+&lt;!-- document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.navrcholu.cz/cgi-bin/4web/nv_referer?id=00026445&amp;ref=&quot; + escape(top.document.referrer) + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+// --&gt;
+&lt;/SCRIPT&gt;
+&lt;!-- Na vrcholu - konec --&gt;
+&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;!--webbot bot=&quot;Include&quot; endspan i-checksum=&quot;49471&quot; --&gt;
+
+
+&lt;p&gt;&lt;strong&gt;&lt;font SIZE=&quot;6&quot;&gt;Only A Northern Song&lt;/font&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;(Harrison) Lead Vocal: Harrison&lt;/i&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+If you're listening to this song &lt;br&gt;
+You may think the chords are going wrong &lt;br&gt;
+But they're not &lt;br&gt;
+We just wrote it like that &lt;br&gt;
+&lt;br&gt;
+When you're listening late at night &lt;br&gt;
+You may think the band are not quite right &lt;br&gt;
+But they are, they just play it like that &lt;br&gt;
+&lt;br&gt;
+It doesn't really matter what clothes I wear &lt;br&gt;
+Or how I fare or if my hair is brown &lt;br&gt;
+When it's only a Northern song &lt;br&gt;
+&lt;br&gt;
+If you think the harmony &lt;br&gt;
+Is a little dark and out of key &lt;br&gt;
+You're correct, there's nobody there &lt;br&gt;
+And I told you there's no one there &lt;/p&gt;
+&lt;!--webbot bot=&quot;Include&quot; U-Include=&quot;_private/footer1.htm&quot; TAG=&quot;BODY&quot; startspan --&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;Copyright © 2003 by &lt;a href=&quot;mailto:wag@volny.cz&quot;&gt;Jirka Wagner,
+Jr.&lt;/a&gt;&lt;/strong&gt;&lt;small&gt;&lt;small&gt;&amp;nbsp;&amp;nbsp; &lt;/small&gt;&lt;/small&gt;&lt;strong&gt;All Rights Reserved.&lt;/strong&gt;&lt;/p&gt;
+&lt;!--webbot bot=&quot;Include&quot; endspan i-checksum=&quot;5922&quot; --&gt;
+
+
+
+</Content>
+</Section>
+</Archive>

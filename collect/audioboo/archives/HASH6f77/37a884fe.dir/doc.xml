@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">2</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">092725710227</Metadata>
+    <Metadata name="dc.Title">A Beatles collection &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">Los Gatos, CA :</Metadata>
+    <Metadata name="dc.Publisher">Joplin &amp; Sweeney Music,</Metadata>
+    <Metadata name="dc.Date">p1989.</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">Here, there and everywhere -- I'll follow the sun -- Girl -- The long and winding road -- Penny Lane -- If I fell -- Things we said today -- Because -- When I'm 64.</Metadata>
+    <Metadata name="dc.Description">Neil Hogan, solo guitar.</Metadata>
+    <Metadata name="dc.Subject">Popular music 1981-1990.</Metadata>
+    <Metadata name="dc.Creator">Hogan, Neil. prf</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs2</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528971</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01122cjm  22003017a 4500
+001     5648705
+005     20030805111845.0
+007     sduzsnznnmlne
+008     920515s1989    cauuun                   
+035    _9 (DLC)   92758636
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 5
+       _e ncip
+       _f 19
+       _g y-genmusic
+955    _a vn00 2003-07-31
+       _e vn34 2003-07-31 retro CD update to MBRS
+       _e vn34 2003-07-31 copy 2 to MBRS/RS
+010    _a    92758636 
+024 1  _a 092725710227
+028 02 _a JS 102-CD
+       _b Joplin &amp; Sweeney Music
+040    _a DLC
+       _c DLC
+050 00 _a SDA 73765
+245 02 _a A Beatles collection
+       _h [sound recording].
+260    _a Los Gatos, CA :
+       _b Joplin &amp; Sweeney Music,
+       _c p1989.
+300    _a 1 sound disc :
+       _b digital ;
+       _c 4 3/4 in.
+511 0  _a Neil Hogan, solo guitar.
+505 0  _a Here, there and everywhere -- I'll follow the sun -- Girl
+ -- The long and winding road -- Penny Lane -- If I fell --
+ Things we said today -- Because -- When I'm 64.
+500    _a Brief record.
+650  0 _a Popular music
+       _y 1981-1990.
+700 1  _a Hogan, Neil.
+       _4 prf
+710 2  _a Beatles.
+953    _a TA28
+991    _b c-RecSound
+       _h Joplin &amp; Sweeney JS 102-CD
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

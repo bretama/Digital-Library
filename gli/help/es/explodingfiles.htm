@@ -1,0 +1,25 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="explodingfiles"><font size="5" face="Verdana"><strong>4.7: Expandiendo Ficheros de Metadados</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>Se pueden importar tipos de archivos de bases de datos de metadatos, como MARC, OAI, CDS/ISIS, BibTEx, Refer y Procite, pero sus metadatos no se pueden ver ni editar en la Interfaz de Bibliotecario. De todas maneras, se puede "explotar" el archivo en el GLI y luego ver o editar los metadatos. Alternativamente, y en particular cuando est&eacute; manteniendo una aplicaci&oacute;n externa master, puede utilizar el programa que cre&oacute; el archivo, hacer las correcciones y luego reimportar.</p>
+
+<p>"Expandir" un fichero de base de datos de metadatos en registros individuales, con metadatos visibles y editables. El proceso es irreversible: se borra el fichero original de metadatos.</p>
+
+<p>Los archivos expandibles muestran un icono verde en el &aacute;rbol de la colecci&oacute;n. Para expandirlos, pulse el bot&oacute;n derecho del rat&oacute;n sobre &eacute;l, y elija "Explotar la base de datos de metadatos". Una ventana emergente mostrar&aacute; opciones para el proceso. La primera opci&oacute;n ("plugin") define el plugin a utilizar. En la mayor&iacute;a de los casos, s&oacute;lo un plugin puede procesar un tipo de fichero dado, pero en algunos casos, cuando los ficheros comparten la misma extensi&oacute;n de nombre de fichero, puede haber dos plugins que procesen la misma extensi&oacute;n. La opci&oacute;n "input_encoding" se usa para indicar la codificaci&oacute;n de la base de datos. La opci&oacute;n "metadata_set" indica a que conjunto de metadatos deben a&ntilde;adirse los nuevos campos. Si no se indica ninguna, se le preguntar&aacute; qu&eacute; hacer con cada campo nuevo de la base de datos: a&ntilde;adirlo como tal al conjunto en uso, unirlo a otro elemento, o ignorarlo.</p>
+
+<p>Cuando se expande un fichero, se crea un nuevo documento para cada registro, y se le asignan los datos de metadatos del registro original. Se nombran usando secuencias como 000001.nul, 000002.nul etc. Si se ha activado la opci&oacute;n "document_field" (a un nombre de campo de la base de datos) se usar&aacute; este varlo para el nombre. El proceso de expansi&oacute;n tambi&eacute;n intentar&aacute; descargar el fichero y usarlo en vez de un fichero vac&iacute;o. las opciones "document_prefix" y "document_suffix" pueden utilizarse para crear un URL o ruta v&aacute;lidos para el valor document_field. La opci&oacute;n "records_per_folder" pueden usarse para agrupar registros expandido en subcarpetas. Si la base de datos es muy grande, usar esta opci&oacute;n acelerar&aacute; la edici&oacute;n subsecuente de metadatos.</p>
+
+<p>La expansi&oacute;n se determina por la extensi&oacute;n del nombre de fichero. En algunos casos, los ficheros pueden etiquetarse incorrectamente como expandibles, si tienen extensiones similares. Por ejemplo, el plugin para ProCite procesa ficheros con al extensi&oacute;n .txt, pero muchos ficheros .txt son s&oacute;lo ficheros de texto, no de ProCite.</p>
+
+</body>
+</html>

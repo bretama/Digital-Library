@@ -1,0 +1,44 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="themirrorview"><font size="5" face="Verdana"><strong>3.1: La vue &laquo;T&eacute;l&eacute;chargement&raquo;</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>Cette section d&eacute;crit comment configurer une demande de t&eacute;l&eacute;chargement et comment contr&ocirc;ler le processus. Acc&eacute;der &agrave; la vue "T&eacute;l&eacute;charger" en cliquant sur l'onglet. La moiti&eacute; sup&eacute;rieure de l'&eacute;cran affiche le dispositif de contr&ocirc;le des t&eacute;l&eacute;chargements. La moiti&eacute; inf&eacute;rieure est initialement vide, mais affichera la liste des demandes de t&eacute;l&eacute;chargement en attente et r&eacute;alis&eacute;es.</p>
+
+<p>Il y a plusieurs protocoles qui peuvent &ecirc;tre utilis&eacute;s pour t&eacute;l&eacute;charger des enregistrements, et ils sont &eacute;num&eacute;r&eacute;s en haut &agrave; gauche.</p>
+
+<p>
+<b>Web :</b> t&eacute;l&eacute;charger des pages web et des fichiers via HTTP et FTP.</p>
+
+<p>
+<b>MediaWiki:</b> t&eacute;l&eacute;charge des pages web et des fichiers via HTTP &agrave; partir d'un site web MediaWiki.</p>
+
+<p>
+<b>OAI :</b> t&eacute;l&eacute;charger des enregistrements de m&eacute;tadonn&eacute;es (et faculativement des documents) d'un serveur OAI-PMH (Open Archives Initiative) .</p>
+
+<p>
+<b>Z39.50 :</b> t&eacute;l&eacute;charger d'un serveur Z39.50 des notices MARC qui correspondent &agrave; un crit&egrave;re de recherche.</p>
+
+<p>
+<b>SRW :</b> t&eacute;l&eacute;charger des enregistrements MARCXML qui correspondent &agrave; un crit&egrave;re de recherche depuis un serveur SRW.</p>
+
+<p>S&eacute;lectionnez le protocole appropri&eacute; en cliquant dessus dans la liste de gauche. La partie droite affiche les options disponibles pour le protocole de t&eacute;l&eacute;chargement s&eacute;lectionn&eacute;. Placer le pointeur de la souris sur une option pour savoir ce qu'elle fait : une infobulle appara&icirc;tra. Certaines options sont &laquo;facultatives&raquo; : il faut alors cocher la case correspondante pour pouvoir utiliser l'option. D'autres sont &laquo;obligatoires&raquo; : il n'y a pas de case &agrave; cocher, une valeur doit &ecirc;tre entr&eacute;e pour que le t&eacute;l&eacute;chargement soit effectu&eacute;.</p>
+
+<p>Une fois que la configuration est cr&eacute;&eacute;e, cliquer sur "Informations sur le serveur" pour v&eacute;rifier la connexion au serveur et afficher des informations de base sur la page Web ou sur le serveur, puis cliquer sur "T&eacute;l&eacute;chargement" pour commencer le t&eacute;l&eacute;chargement.</p>
+
+<p>Il y a deux autres boutons : "Configuration du Proxy&hellip;", qui rejoint le panneau &laquo;Connexion&raquo; des Pr&eacute;f&eacute;rences o&ugrave; les param&egrave;tres du proxy peuvent &ecirc;tre modifi&eacute;s ; et  "Effacer la m&eacute;moire cache", qui supprime tous les fichiers t&eacute;l&eacute;charg&eacute;s pr&eacute;c&eacute;demment. Vous devrez fournir des informations sur le proxy si vous utilisez un serveur mandataire (proxy) pour vous connecter &agrave; l'Internet. Si une authentification est n&eacute;cessaire quand un t&eacute;l&eacute;chargement est en cours de traitement, le serveur mandataire (proxy) va demander un nom d'utilisateur et un mot de passe. L'Interface Biblioth&eacute;caire ne stocke pas les mots de passe entre les sessions.</p>
+
+<p>Les fichiers sont t&eacute;l&eacute;charg&eacute;s dans un dossier nomm&eacute; "Fichiers t&eacute;l&eacute;charg&eacute;s" (qui n'est pr&eacute;sent que quand le t&eacute;l&eacute;chargement est autoris&eacute;), et peuvent &ecirc;tre utilis&eacute;s dans toute collection. Les fichiers portent le nom de leur URL web compl&egrave;te (pour ceux t&eacute;l&eacute;charg&eacute;s du web et des serveurs MediaWiki) ou d'une combinaison entre URL et valeurs g&eacute;n&eacute;r&eacute;es par les options (pour d'autres types de t&eacute;l&eacute;chargement). Un nouveau dossier est cr&eacute;&eacute; pour chaque site h&ocirc;te, suivi par d'autres dossiers pour chaque &eacute;l&eacute;ment du chemin. Cela permet de s'assurer que chaque fichier ait un chemin distinct.</p>
+
+<p>La liste de t&eacute;l&eacute;chargement contient une entr&eacute;e pour chaque &eacute;l&eacute;ment t&eacute;l&eacute;charg&eacute;. Chaque entr&eacute;e affiche une zone de texte qui donne les d&eacute;tails du processus et une barre qui mesure la progression de la t&acirc;che en cours. Trois boutons apparaissent &agrave; la droite de chaque entr&eacute;e. "Pause" est employ&eacute; pour arr&ecirc;ter temporairement un t&eacute;l&eacute;chargement. "Voir l'historique" ouvre une fen&ecirc;tre affichant l'historique du t&eacute;l&eacute;chargement. "Fermer" termine le t&eacute;l&eacute;chargement et enl&egrave;ve la t&acirc;che de la liste.</p>
+
+</body>
+</html>

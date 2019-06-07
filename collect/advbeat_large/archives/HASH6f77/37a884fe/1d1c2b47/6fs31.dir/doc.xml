@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">31</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">1559402652</Metadata>
+    <Metadata name="dc.Title">A hard day's night &amp;#091;computer file&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">New York :</Metadata>
+    <Metadata name="dc.Publisher">Voyager,</Metadata>
+    <Metadata name="dc.Date">c1993.</Metadata>
+    <Metadata name="dc.Description">Title from disc label.</Metadata>
+    <Metadata name="dc.Description">Presents a full-length film in which the Beatles escape the harassment of their manager and Paul's grandfather by taking a train from Liverpool to London. Includes original script; profiles of the Beatles, cast, and crew; clips from the director's early work; and word search feature.</Metadata>
+    <Metadata name="dc.Description">System requirements: Macintosh; 4MB RAM; System 6.0.7 or later; 256-color (thirteen-inch or larger) or 256-grayscale (twelve-inch or larger) monitor; QuickTime-compatible CD-ROM drive. Apple twelve-inch RGB color monitors support video, but not supplemental text.</Metadata>
+    <Metadata name="dc.Subject">Hard day's night (Motion picture)</Metadata>
+    <Metadata name="dc.Subject">Feature films.</Metadata>
+    <Metadata name="dc.Subject">Musical films.</Metadata>
+    <Metadata name="dc.Creator">Voyager Company.</Metadata>
+    <Metadata name="dc.Creator">Beatles. prf</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs31</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014473</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs31.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01548cmm  2200325 a 4500
+001     5002322
+005     19990108085452.6
+008     961108s1993    nyu        m        eng  
+035    _9 (DLC)   96802497
+906    _a 7
+       _b cbc
+       _c orignew
+       _d u
+       _e ncip
+       _f 19
+       _g y-gencompf
+955    _a vb22 11-08-96
+010    _a    96802497 
+020    _a 1559402652
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a PN1997.H2593
+082 10 _a 791.43
+       _2 12
+245 02 _a A hard day's night
+       _h [computer file].
+246 1  _i Title on front cover of container:
+       _a Beatles in A hard day's night
+256    _a Computer data and program.
+260    _a New York :
+       _b Voyager,
+       _c c1993.
+300    _a 1 computer laser optical disc ;
+       _c 4 3/4 in. +
+       _e 1 user's guide.
+538    _a System requirements: Macintosh; 4MB RAM; System 6.0.7 or
+ later; 256-color (thirteen-inch or larger) or 256-grayscale
+ (twelve-inch or larger) monitor; QuickTime-compatible CD-ROM
+ drive. Apple twelve-inch RGB color monitors support video, but
+ not supplemental text.
+500    _a Title from disc label.
+520    _a Presents a full-length film in which the Beatles escape
+ the harassment of their manager and Paul's grandfather by
+ taking a train from Liverpool to London. Includes original
+ script; profiles of the Beatles, cast, and crew; clips from the
+ director's early work; and word search feature.
+630 00 _a Hard day's night (Motion picture)
+650  0 _a Feature films.
+650  0 _a Musical films.
+710 2  _a Voyager Company.
+710 2  _a Beatles.
+       _4 prf
+991    _b c-MRC
+       _h PN1997.H2593
+       _i [1996 01505]
+       _t Copy 1
+       _w CF
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

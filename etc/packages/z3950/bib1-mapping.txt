@@ -1,0 +1,32 @@
+# Mapping between Bib1 Attributes and Dublin Core
+
+# These are the Dublin Core Use Attributes
+1097 dc.Title
+1098 dc.Creator
+1099 dc.Subject
+1100 dc.Description
+1101 dc.Publisher
+1102 dc.Date
+1103 dc.Type
+1104 dc.Identifier
+1105 dc.Language
+1106 dc.Contributor
+1107 dc.Format
+1108 dc.Source
+1109 dc.Relation
+1110 dc.Coverage
+1111 dc.Rights
+
+# These are general Bib1 Use attributes
+# The Greenstone z3950 client uses 1016 (=Any), 1, 4 for querying
+1       Creator
+4	Title
+9	Subject
+13	Subject
+21	Subject
+31	Date
+54	Language
+1003	Creator
+1020	Contributor
+
+

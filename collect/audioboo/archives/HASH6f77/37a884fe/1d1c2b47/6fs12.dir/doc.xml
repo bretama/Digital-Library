@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">12</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0399410139 (pbk.)</Metadata>
+    <Metadata name="dc.Title">Beatles in their own words / compiled by Miles ; edited by Pearce Marchbank.</Metadata>
+    <Metadata name="dc.Publisher">New York :</Metadata>
+    <Metadata name="dc.Publisher">Delilah/Putnam :</Metadata>
+    <Metadata name="dc.Date">c1978.</Metadata>
+    <Metadata name="dc.Subject">Beatles.</Metadata>
+    <Metadata name="dc.Subject">Rock musicians England Biography.</Metadata>
+    <Metadata name="dc.Creator">Miles, Barry, 1943-</Metadata>
+    <Metadata name="dc.Creator">Marchbank, Pearce.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs12</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528974</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs12.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 00867cam  2200265 a 4500
+001     3684025
+005     20020731144419.0
+008     840125s1978    nyua          000 0ceng  
+035    _9 (DLC)   78056240
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 2
+       _e ocip
+       _f 19
+       _g y-gencatlg
+010    _a    78056240 
+020    _a 0399410139 (pbk.)
+040    _a DLC
+       _c DLC
+       _d DLC
+043    _a e-uk-en
+050 00 _a ML421.B4
+       _b B43 1978
+082 00 _a 784.5/4/00922
+       _a B
+       _2 19
+245 00 _a Beatles in their own words /
+       _c compiled by Miles ; edited by Pearce Marchbank.
+260    _a New York :
+       _b Delilah/Putnam :
+       _b Distributed by the Putnam Pub. Group,
+       _c c1978.
+300    _a 125 p. :
+       _b ill. ;
+       _c 26 cm.
+610 20 _a Beatles.
+650  0 _a Rock musicians
+       _z England
+       _x Biography.
+700 1  _a Miles, Barry,
+       _d 1943-
+700 1  _a Marchbank, Pearce.
+710 2  _a Beatles.
+991    _b c-Music
+       _h ML421.B4
+       _i B43 1978
+       _t Copy 1
+       _w BOOKS
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

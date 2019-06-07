@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">29</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Easy listening Beatles &amp;#091;sound recording&amp;#093; : for people who hate rock and roll.</Metadata>
+    <Metadata name="dc.Publisher">New York, N.Y. :</Metadata>
+    <Metadata name="dc.Publisher">Columbia,</Metadata>
+    <Metadata name="dc.Date">p1973.</Metadata>
+    <Metadata name="dc.Description">Popular music.</Metadata>
+    <Metadata name="dc.Description">Words and music by John Lennon, Paul McCartney and George Harrison.</Metadata>
+    <Metadata name="dc.Description">Hey Jude (Ray Conniff) -- Fool on the hill (Percy Faith, his orchestra and chorus) -- Yesterday (Ray Conniff) -- Eleanor Rigby (Johnny Mathis) -- You've got to hide your love away (Percy Faith and his orchestra) -- My sweet Lord (Johnny Mathis) -- Something (Peter Nero) -- The long and winding road (Andre Kostelanetz) -- Michelle (Andre Kostelanetz and his orchestra) -- Variations on the theme &quot;Ob-la-di ob-la-da&quot; (Peter Nero) -- Let it be (Jerry Vale).</Metadata>
+    <Metadata name="dc.Description">Arranged and performed by various artists and ensembles.</Metadata>
+    <Metadata name="dc.Subject">Popular music 1971-1980.</Metadata>
+    <Metadata name="dc.Creator">Lennon, John, 1940-1980.</Metadata>
+    <Metadata name="dc.Creator">McCartney, Paul.</Metadata>
+    <Metadata name="dc.Creator">Harrison, George, 1943-</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs29</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528978</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs29.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01585cjm  2200349 a 4500
+001     5677124
+005     20020523154210.0
+007     sdubsmennmplu
+008     930427s1973    nyuppn              eng d
+035    _9 (DLC)   93709825
+906    _a 7
+       _b cbc
+       _c copycat
+       _d 4
+       _e ncip
+       _f 19
+       _g y-genmusic
+010    _a    93709825 
+028 02 _a KC 32525
+       _b Columbia
+035    _a (OCoLC)11663640
+040    _a TM
+       _c DLC
+       _d DLC
+042    _a lccopycat
+050 00 _a Columbia KC 32525
+245 00 _a Easy listening Beatles
+       _h [sound recording] :
+       _b for people who hate rock and roll.
+260    _a New York, N.Y. :
+       _b Columbia,
+       _c p1973.
+300    _a 1 sound disc :
+       _b analog, 33 1/3 rpm, stereo. ;
+       _c 12 in.
+500    _a Popular music.
+500    _a Words and music by John Lennon, Paul McCartney and George
+ Harrison.
+511 0  _a Arranged and performed by various artists and
+ ensembles.
+505 0  _a Hey Jude (Ray Conniff) -- Fool on the hill (Percy Faith,
+ his orchestra and chorus) -- Yesterday (Ray Conniff) -- Eleanor
+ Rigby (Johnny Mathis) -- You've got to hide your love away
+ (Percy Faith and his orchestra) -- My sweet Lord (Johnny
+ Mathis) -- Something (Peter Nero) -- The long and winding road
+ (Andre Kostelanetz) -- Michelle (Andre Kostelanetz and his
+ orchestra) -- Variations on the theme &quot;Ob-la-di ob-la-da&quot;
+ (Peter Nero) -- Let it be (Jerry Vale).
+650  0 _a Popular music
+       _y 1971-1980.
+700 1  _a Lennon, John,
+       _d 1940-1980.
+700 1  _a McCartney, Paul.
+700 1  _a Harrison, George,
+       _d 1943-
+710 2  _a Beatles.
+952    _a New
+953    _a TA28
+991    _b c-RecSound
+       _h Columbia KC 32525
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

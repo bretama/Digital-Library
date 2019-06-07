@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\serway\serway.html</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">HTMLPlugin</Metadata>
+    <Metadata name="FileSize">823</Metadata>
+    <Metadata name="Source">serway.html</Metadata>
+    <Metadata name="SourceFile">serway.html</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="URL">http://serway/serway.html</Metadata>
+    <Metadata name="UTF8URL">http://serway/serway.html</Metadata>
+    <Metadata name="Title">table { border-collapse: collapse; } th { background-color: #4CAF50; color:...</Metadata>
+    <Metadata name="FileFormat">HTML</Metadata>
+    <Metadata name="hascover">1</Metadata>
+    <Metadata name="dc.Language">English</Metadata>
+    <Metadata name="dc.Subject">Physics</Metadata>
+    <Metadata name="dc.Title">Serway Physics</Metadata>
+    <Metadata name="dls.Organization">Natural Science</Metadata>
+    <Metadata name="Identifier">serway</Metadata>
+    <Metadata name="lastmodified">1544984542</Metadata>
+    <Metadata name="lastmodifieddate">20181216</Metadata>
+    <Metadata name="oailastmodified">1545137745</Metadata>
+    <Metadata name="oailastmodifieddate">20181218</Metadata>
+    <Metadata name="assocfilepath">serway.dir</Metadata>
+    <Metadata name="gsdlassocfile">cover.jpg:image/jpeg:</Metadata>
+  </Description>
+  <Content>
+&lt;div style=&quot;overflow-x:auto;&quot;&gt;
+&lt;table style=&quot;width:50%;margin-left:20%;&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Title&lt;/th&gt;
+    &lt;th&gt;Author&lt;/th&gt; 
+    &lt;th&gt;ISBN &lt;/th&gt;
+    &lt;th&gt;Number of copy &lt;/th&gt;
+    &lt;th&gt;Shelf number&lt;/th&gt;
+    &lt;th&gt;column number&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Serway Physics&lt;/td&gt;
+    &lt;td&gt; Serway &lt;/td&gt;
+    &lt;td&gt;12350&lt;/td&gt;
+    &lt;td&gt;12 &lt;/td&gt;
+    &lt;td&gt;4&lt;/td&gt;
+    &lt;td&gt;2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+
+</Content>
+</Section>
+</Archive>

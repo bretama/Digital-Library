@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MetadataSet SYSTEM "http://www.greenstone.org/dtd/MetadataSet/1.0/MetadataSet.dtd"><MetadataSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" namespace="cdwalite" lastchanged="" family="" creator="" contact="">
+<!-- This MDS file was generated with the xsd-to-mds.xsl script (located in gli/classes/xml) using the XSD for CDWALite (http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd). More information about CDWALite can be found here: http://www.getty.edu/research/publications/electronic_publications/cdwa/cdwalite.pdf. -->
+    <SetLanguage code="en">
+        <Name>CDWALite</Name>
+        <Description/>
+    </SetLanguage>
+    <Element name="objectWorkTypeWrap">
+        <Language code="en">
+            <Attribute name="label">objectWorkTypeWrap</Attribute>
+            <Attribute name="definition">A wrapper for Object/Work Type</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="objectWorkType">
+            <Language code="en">
+                <Attribute name="label">objectWorkType</Attribute>
+                <Attribute name="definition">A term or terms identifying the specific kind of object or work being described. For a collection, include repeating instances for terms identifying all of or the most important items in the collection.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+        </Element>
+    </Element>
+    <Element name="titleWrap">
+        <Language code="en">
+            <Attribute name="label">titleWrap</Attribute>
+            <Attribute name="definition">Wrapper for Title information. </Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="titleSet">
+            <Language code="en">
+                <Attribute name="label">titleSet</Attribute>
+                <Attribute name="definition">Wrapper for one title and its related information. If there is more than one title, repeat the Title Set element.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="title">
+                <Language code="en">
+                    <Attribute name="label">title</Attribute>
+                    <Attribute name="definition">Titles, identifying phrases, or names given to a work of art, architecture, or material culture. For complex works, series, or collections, the title may refer to a discrete unit within the larger entity (a print from a series, a photograph in a collection, a panel from a fresco cycle, a building within a temple complex) or it may identify only the larger entity (series, collection, cycle) itself.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="sourceTitle">
+                <Language code="en">
+                    <Attribute name="label">sourceTitle</Attribute>
+                    <Attribute name="definition">The source for the title, generally a published source.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+    <Element name="displayCreator">
+        <Language code="en">
+            <Attribute name="label">displayCreator</Attribute>
+            <Attribute name="definition">The name, brief biographical information, and roles (if necessary) of the named creator or creators in the design and production of the work, presented in a syntax suitable for display to the end-user and including any necessary indications of uncertainty, ambiguity, and nuance. If there is no known creator, make a reference to the presumed culture or nationality of the unknown creator.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+    </Element>
+    <Element name="indexingCreatorWrap">
+        <Language code="en">
+            <Attribute name="label">indexingCreatorWrap</Attribute>
+            <Attribute name="definition">Wrapper for one or more sets of Indexing Creator elements. </Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="indexingCreatorSet">
+            <Language code="en">
+                <Attribute name="label">indexingCreatorSet</Attribute>
+                <Attribute name="definition">Set for creator indexing elements. If there are multiple creators, repeat Indexing Creator Set.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="nameCreatorSet">
+                <Language code="en">
+                    <Attribute name="label">nameCreatorSet</Attribute>
+                    <Attribute name="definition">Set for name elements. If there are multiple names, repeat the Name Set.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+                <Element name="nameCreator">
+                    <Language code="en">
+                        <Attribute name="label">nameCreator</Attribute>
+                        <Attribute name="definition">The names, appellations, or other identifiers assigned to an individual, group of people, firm or other corporate body, or other entity that has contributed to the design, creation, production, manufacture, or alteration of the work.</Attribute>
+                        <Attribute name="comment"/>
+                    </Language>
+                </Element>
+                <Element name="sourceNameCreator">
+                    <Language code="en">
+                        <Attribute name="label">sourceNameCreator</Attribute>
+                        <Attribute name="definition">The source for the name, generally a published source.</Attribute>
+                        <Attribute name="comment"/>
+                    </Language>
+                </Element>
+            </Element>
+            <Element name="nationalityCreator">
+                <Language code="en">
+                    <Attribute name="label">nationalityCreator</Attribute>
+                    <Attribute name="definition">National or cultural affiliation of the person or corporate body.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="vitalDatesCreator">
+                <Language code="en">
+                    <Attribute name="label">vitalDatesCreator</Attribute>
+                    <Attribute name="definition">A description of the lifespan of the person or the existence of the corporate body, using "ca." and any other expressions of uncertainty or nuance. For Birth and Death date attributes, record years of birth and death, estimated where necessary. For a corporate body, use birthdate and deathdate to record the dates of founding and dissolution.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="genderCreator">
+                <Language code="en">
+                    <Attribute name="label">genderCreator</Attribute>
+                    <Attribute name="definition">The sex of the individual. Not applicable for corporate bodies.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="roleCreator">
+                <Language code="en">
+                    <Attribute name="label">roleCreator</Attribute>
+                    <Attribute name="definition">The role played by the creator or other agent in the creation or production of the work.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="attributionQualifierCreator">
+                <Language code="en">
+                    <Attribute name="label">attributionQualifierCreator</Attribute>
+                    <Attribute name="definition">A qualifier used when the attribution is uncertain, is in dispute, when there is more than one creator, when there is a former attribution, or when the attribution otherwise requires explanation.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="extentCreator">
+                <Language code="en">
+                    <Attribute name="label">extentCreator</Attribute>
+                    <Attribute name="definition">When there are multiple creators, a term indicating the part of the work created by this creator.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+    <Element name="displayMeasurements">
+        <Language code="en">
+            <Attribute name="label">displayMeasurements</Attribute>
+            <Attribute name="definition">Information about the dimensions, size, or scale of the work, presented in a syntax suitable for display to the end-user and including any necessary indications of uncertainty, ambiguity, and nuance. It may include the scale of the work. It may also include the number of the parts of a complex work, series, or collection.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+    </Element>
+    <Element name="indexingMeasurementsWrap">
+        <Language code="en">
+            <Attribute name="label">indexingMeasurementsWrap</Attribute>
+            <Attribute name="definition">A wrapper for the Indexing Measurements.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="indexingMeasurementsSet">
+            <Language code="en">
+                <Attribute name="label">indexingMeasurementsSet</Attribute>
+                <Attribute name="definition">The dimensions, size, shape, scale, format, or storage configuration of the work, including volume, weight, area or running time. Measurements are formatted to allow retrieval; preferably in metric units where applicable; if multiple parts of the work are measured, repeat the Indexing Measurements element.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="measurementsSet">
+                <Language code="en">
+                    <Attribute name="label">measurementsSet</Attribute>
+                    <Attribute name="definition">The dimensions or other measurements for one aspect of a work (e.g., width); may be combined with extent, qualifier, and other sub-elements as necessary.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="extentMeasurements">
+                <Language code="en">
+                    <Attribute name="label">extentMeasurements</Attribute>
+                    <Attribute name="definition">An explanation of the part of the work being measured; included when necessary for clarity.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="qualifierMeasurements">
+                <Language code="en">
+                    <Attribute name="label">qualifierMeasurements</Attribute>
+                    <Attribute name="definition">A word or phrase that elaborates on the nature of the measurements of the work when necessary, as when the measurements are approximate.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="formatMeasurements">
+                <Language code="en">
+                    <Attribute name="label">formatMeasurements</Attribute>
+                    <Attribute name="definition">The configuration of a work, including technical formats, used as necessary.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="shapeMeasurements">
+                <Language code="en">
+                    <Attribute name="label">shapeMeasurements</Attribute>
+                    <Attribute name="definition">The shape of a work, used for unusual shapes (e.g., an oval painting).</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="scaleMeasurements">
+                <Language code="en">
+                    <Attribute name="label">scaleMeasurements</Attribute>
+                    <Attribute name="definition">An expression of the ratio between the size of the representation of something and that thing (e.g., the size of the drawn structure and the actual built work). Used for studies, record drawings, models, and other representations drawn or constructed to scale.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+    <Element name="displayMaterialsTech">
+        <Language code="en">
+            <Attribute name="label">displayMaterialsTech</Attribute>
+            <Attribute name="definition">An indication of the substances or materials used in the creation of a work, as well as any implements, production or manufacturing techniques, processes, or methods incorporated in its fabrication, presented in a syntax suitable for display to the end-user and including any necessary indications of uncertainty, ambiguity, and nuance. For works on paper, descriptions of watermarks may also be included. (For marks applied to the work or support by the artist or subsequently by another person, see Inscriptions.)</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+    </Element>
+    <Element name="indexingMaterialsTechWrap">
+        <Language code="en">
+            <Attribute name="label">indexingMaterialsTechWrap</Attribute>
+            <Attribute name="definition">A wrapper for Indexing Materials/Techniques</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="indexingMaterialsTechSet">
+            <Language code="en">
+                <Attribute name="label">indexingMaterialsTechSet</Attribute>
+                <Attribute name="definition">Materials and techniques indexed with controlled terms for retrieval; if multiple parts of the work require separate materials and techniques, or if you are recording media and support separately, repeat this element with the type attribute and/or the extent sub-element.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="termMaterialsTech">
+                <Language code="en">
+                    <Attribute name="label">termMaterialsTech</Attribute>
+                    <Attribute name="definition">A term to index materials and/or technique; may be combined with extent as necessary.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="extentMaterialsTech">
+                <Language code="en">
+                    <Attribute name="label">extentMaterialsTech</Attribute>
+                    <Attribute name="definition">An explanation of the part of the work to which the materials or technique are applicable; included when necessary for clarity.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="sourceMaterialsTech">
+                <Language code="en">
+                    <Attribute name="label">sourceMaterialsTech</Attribute>
+                    <Attribute name="definition">The source of the information about materials and technique, often used when citing a published source of watermarks.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+    <Element name="displayStateEditionWrap">
+        <Language code="en">
+            <Attribute name="label">displayStateEditionWrap</Attribute>
+            <Attribute name="definition">A wrapper for Display State Editions</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="displayState">
+            <Language code="en">
+                <Attribute name="label">displayState</Attribute>
+                <Attribute name="definition">A description of the state of the work; used primarily for prints and other multiples.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+        </Element>
+        <Element name="displayEdition">
+            <Language code="en">
+                <Attribute name="label">displayEdition</Attribute>
+                <Attribute name="definition">A description of the edition of the work; used primarily for prints and other multiples.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+        </Element>
+        <Element name="sourceStateEdition">
+            <Language code="en">
+                <Attribute name="label">sourceStateEdition</Attribute>
+                <Attribute name="definition">The published source of the state or edition information. </Attribute>
+                <Attribute name="comment"/>
+            </Language>
+        </Element>
+    </Element>
+    <Element name="styleWrap">
+        <Language code="en">
+            <Attribute name="label">styleWrap</Attribute>
+            <Attribute name="definition">A wrapper for Style Elements</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="style">
+            <Language code="en">
+                <Attribute name="label">style</Attribute>
+                <Attribute name="definition">Term that identifies the named, defined style, historical or artistic period, movement, group, or school whose characteristics are represented in the work being catalogued.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+        </Element>
+    </Element>
+    <Element name="cultureWrap">
+        <Language code="en">
+            <Attribute name="label">cultureWrap</Attribute>
+            <Attribute name="definition">A wrapper for Culture elements</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="culture">
+            <Language code="en">
+                <Attribute name="label">culture</Attribute>
+                <Attribute name="definition">Name of the culture, people, or nationality from which the work originated.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+        </Element>
+    </Element>
+    <Element name="displayCreationDate">
+        <Language code="en">
+            <Attribute name="label">displayCreationDate</Attribute>
+            <Attribute name="definition">A concise description of the date or range of dates associated with the creation, design, production, presentation, performance, construction, or alteration of the work or its components, presented in a syntax suitable for display to the end-user and including any necessary indications of uncertainty, ambiguity, and nuance.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+    </Element>
+    <Element name="indexingDatesWrap">
+        <Language code="en">
+            <Attribute name="label">indexingDatesWrap</Attribute>
+            <Attribute name="definition">A wrapper for Indexing Dates.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="indexingDatesSet">
+            <Language code="en">
+                <Attribute name="label">indexingDatesSet</Attribute>
+                <Attribute name="definition">A wrapper for one set of years in the proleptic Gregorian calendar delimiting the span of time during which the creation and production of the work took place, as indicated in the Display Creation Date. If the creation took place in a single year, repeat the same year in earliest and latest dates. For ca. and other uncertain or approximate dates, estimate the greatest possible span for indexing (generally, allow at least 5 years for &#147;ca.&#148;). If different parts of the work were done at different times, or if different activities in the production of the work were done at different times, repeat Indexing Dates.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="dateQualifier">
+                <Language code="en">
+                    <Attribute name="label">dateQualifier</Attribute>
+                    <Attribute name="definition">A clarification of the meaning of the date, used when necessary. </Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="earliestDate">
+                <Language code="en">
+                    <Attribute name="label">earliestDate</Attribute>
+                    <Attribute name="definition">A year that broadly delimits the beginning of an implied date span</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="latestDate">
+                <Language code="en">
+                    <Attribute name="label">latestDate</Attribute>
+                    <Attribute name="definition">A year that broadly delimits the end of an implied date span. </Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+    <Element name="locationWrap">
+        <Language code="en">
+            <Attribute name="label">locationWrap</Attribute>
+            <Attribute name="definition">A wrapper for Location/Repository information.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="locationSet">
+            <Language code="en">
+                <Attribute name="label">locationSet</Attribute>
+                <Attribute name="definition">Set for location elements. If there are multiple locations, repeat the Location Set.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="locationName">
+                <Language code="en">
+                    <Attribute name="label">locationName</Attribute>
+                    <Attribute name="definition">The name and geographic location of the repository that is currently responsible for the work, or, for monumental works and architecture, the geographic location of the work. If the work is lost, destroyed, has location unknown, or the work is in an anonymous private collection, indicate this. Also may include creation location, discovery location, and other former locations.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="workID">
+                <Language code="en">
+                    <Attribute name="label">workID</Attribute>
+                    <Attribute name="definition">Any unique numeric or alphanumeric identifier(s) assigned to a work by a repository.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+    <Element name="indexingSubjectWrap">
+        <Language code="en">
+            <Attribute name="label">indexingSubjectWrap</Attribute>
+            <Attribute name="definition">A wrapper for Subject Indexing information about the work, group, collection, or series that is being catalogued.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="indexingSubjectSet">
+            <Language code="en">
+                <Attribute name="label">indexingSubjectSet</Attribute>
+                <Attribute name="definition">A wrapper for one set of Subject Indexing information. If a work has multiple parts or otherwise has separate, multiple subjects, repeat this element with Extent Subject. This element may also be repeated to distinguish between subjects that reflect what a work is &#147;of&#148; (description and identification) from what it is &#147;about&#148; (interpretation).</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="extentSubject">
+                <Language code="en">
+                    <Attribute name="label">extentSubject</Attribute>
+                    <Attribute name="definition">When there are multiple subjects, a term indicating the part of the work to which these subject terms apply.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="subjectTerm">
+                <Language code="en">
+                    <Attribute name="label">subjectTerm</Attribute>
+                    <Attribute name="definition">Terms that identify, describe, and/or interpret what is depicted in and by a work. These may include proper names (e.g., people, events, places), iconography, themes from literature, or generic terms describing the material world, or topics (e.g., concepts, themes, or issues).  </Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+    <Element name="classWrap">
+        <Language code="en">
+            <Attribute name="label">classWrap</Attribute>
+            <Attribute name="definition">A wrapper for classfication information</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="classification">
+            <Language code="en">
+                <Attribute name="label">classification</Attribute>
+                <Attribute name="definition">Term used to categorize a work by grouping it together with other works on the basis of similar characteristics, including materials, form, shape, function, region of origin, cultural context, or historical or stylistic period. If the work is assigned to multiple classifications, repeat this element.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+        </Element>
+    </Element>
+    <Element name="descriptiveNoteWrap">
+        <Language code="en">
+            <Attribute name="label">descriptiveNoteWrap</Attribute>
+            <Attribute name="definition">A wrapper for Description/Descriptive Note information.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="descriptiveNoteSet">
+            <Language code="en">
+                <Attribute name="label">descriptiveNoteSet</Attribute>
+                <Attribute name="definition">If there are multiple notes, repeat the note Set.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="descriptiveNote">
+                <Language code="en">
+                    <Attribute name="label">descriptiveNote</Attribute>
+                    <Attribute name="definition">A relatively brief essay-like text that describes the content and context of the work, including comments and an interpretation that may supplement, qualify, or explain the physical characteristics, subject, circumstances of creation or discovery, or other information about the work.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="sourceDescriptiveNote">
+                <Language code="en">
+                    <Attribute name="label">sourceDescriptiveNote</Attribute>
+                    <Attribute name="definition">The source for the descriptive note, generally a published source.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+    <Element name="inscriptionsWrap">
+        <Language code="en">
+            <Attribute name="label">inscriptionsWrap</Attribute>
+            <Attribute name="definition">A wrapper for Inscription information.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="inscriptions">
+            <Language code="en">
+                <Attribute name="label">inscriptions</Attribute>
+                <Attribute name="definition">A description or transcription of any distinguishing or identifying physical lettering, annotations, texts, markings, or labels that are affixed, applied, stamped, written, inscribed, or attached to the work, excluding any mark or text inherent in the materials of which the work is made (record watermarks in Display Materials/Techniques).</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+        </Element>
+    </Element>
+    <Element name="relatedWorksWrap">
+        <Language code="en">
+            <Attribute name="label">relatedWorksWrap</Attribute>
+            <Attribute name="definition">A wrapper for Related Works information.</Attribute>
+            <Attribute name="comment"/>
+        </Language>
+        <Element name="relatedWorkSet">
+            <Language code="en">
+                <Attribute name="label">relatedWorkSet</Attribute>
+                <Attribute name="definition">A wrapper for one work, group, collection, or series that is directly related to the work at hand, including direct relationships between two works, between a work and its components, and between an item and the larger group, collection, or series of works. Related works may also include works that were created as pendants or otherwise to be displayed together with the work at hand. If there is more than one Related Work for the work being catalogued, repeat this element.</Attribute>
+                <Attribute name="comment"/>
+            </Language>
+            <Element name="linkRelatedWork">
+                <Language code="en">
+                    <Attribute name="label">linkRelatedWork</Attribute>
+                    <Attribute name="definition">An uri/url reference that is universal and in the worldwide web environment. Note that it differs from the ID attribute, which represents local, system specific data.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="relatedWorkRelType">
+                <Language code="en">
+                    <Attribute name="label">relatedWorkRelType</Attribute>
+                    <Attribute name="definition">A term describing the nature of the relationship between the work at hand and the related entity.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="labelRelatedWork">
+                <Language code="en">
+                    <Attribute name="label">labelRelatedWork</Attribute>
+                    <Attribute name="definition">An identification of the related work, group, collection, or series that will be meaningful to end-users, including some or all of the following information, as necessary for clarity and if known: title, creator, object/work type, and creation date. Display it with the Location of Related Work.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+            <Element name="locRelatedWork">
+                <Language code="en">
+                    <Attribute name="label">locRelatedWork</Attribute>
+                    <Attribute name="definition">The current location of the related work, generally a repository or, for architecture and monumental works, a geographic place. For series and other works published in multiples, location may not be applicable.</Attribute>
+                    <Attribute name="comment"/>
+                </Language>
+            </Element>
+        </Element>
+    </Element>
+</MetadataSet>

@@ -1,0 +1,76 @@
+s
+************** Import  Started **************
+The file 4_5981107341137806159.pdf is being processed by EmbeddedMetadataPlugin.
+The file 4_5985452246018556880.pdf is being processed by EmbeddedMetadataPlugin.
+The file 8086Worksheet1.pdf is being processed by EmbeddedMetadataPlugin.
+The file CSE_LEUL.pdf is being processed by EmbeddedMetadataPlugin.
+The file Ch5-6-80x86_features.pdf is being processed by EmbeddedMetadataPlugin.
+The file Chapter 2 .pdf is being processed by EmbeddedMetadataPlugin.
+The file Chapter Four.pdf is being processed by EmbeddedMetadataPlugin.
+The file Enhanced PDF handling.pdf is being processed by EmbeddedMetadataPlugin.
+The file File and Printer Sharing with Windows.pdf is being processed by EmbeddedMetadataPlugin.
+The file Greenstone_Customizing_GUI1.pdf is being processed by EmbeddedMetadataPlugin.
+The file LEUL_CSE.pdf is being processed by EmbeddedMetadataPlugin.
+The file LitReview.pdf is being processed by EmbeddedMetadataPlugin.
+The file Lit_Review.pdf is being processed by EmbeddedMetadataPlugin.
+The file MenfesawiWugiya.pdf is being processed by EmbeddedMetadataPlugin.
+The file MenfesawiWugiya2.pdf is being processed by EmbeddedMetadataPlugin.
+The file MetsiheteTibeb.pdf is being processed by EmbeddedMetadataPlugin.
+The file Moodle_User_Manual_V2.pdf is being processed by EmbeddedMetadataPlugin.
+The file Thesis Writing Guidline.pdf is being processed by EmbeddedMetadataPlugin.
+The file ch-1.pdf is being processed by EmbeddedMetadataPlugin.
+The file ch-3.pdf is being processed by EmbeddedMetadataPlugin.
+The file chapter 1.pdf is being processed by EmbeddedMetadataPlugin.
+The file ctl_2016_moodle_for_dummies.pdf is being processed by EmbeddedMetadataPlugin.
+The file en_language_support - Greenstone.pdf is being processed by EmbeddedMetadataPlugin.
+The file greenstone.pdf is being processed by EmbeddedMetadataPlugin.
+The file inroads2009.pdf is being processed by EmbeddedMetadataPlugin.
+The file literaturereviews.pdf is being processed by EmbeddedMetadataPlugin.
+The file metadata.xml is being processed by MetadataXMLPlugin.
+The file mgsree-DLFDP09-lecture-01-Greenstone.pdf is being processed by EmbeddedMetadataPlugin.
+The file printer sharing.pdf is being processed by EmbeddedMetadataPlugin.
+The file sharing_files_and_printers.pdf is being processed by EmbeddedMetadataPlugin.
+The file tigengdictionary.pdf is being processed by EmbeddedMetadataPlugin.
+The file yeterarawusibket.pdf is being processed by EmbeddedMetadataPlugin.
+The file C:\Program Files\Greenstone\tmp\F153.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F262.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F513.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F627.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F535.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F667.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F649.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F215.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F103.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F369.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F560.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F107.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F862.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F392.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F235.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F304.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F731.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F231.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F173.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F641.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F391.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F483.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F40.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F728.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F755.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F102.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F959.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F520.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\tmp\F69.html is being processed by HTMLPlugin.
+The file tigengdictionary.pdf was recognised but could not be processed by any plugin.
+The file yeterarawusibket.pdf was recognised but could not be processed by any plugin.
+************** Import Finished **************
+31 documents were considered for processing:
+    29 documents were processed and included in the collection.
+    2 were rejected.
+
+************** Build  Started **************
+Compressing text...
+Creating an index based on text;dc.Title,ex.dc.Title,Title;dc.Creator;...
+Creating information database...
+Creating auxiliary files and tidying up...
+************** Build Finished **************

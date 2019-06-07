@@ -1,0 +1,85 @@
+#
+# This file is used by MARCPlug for mapping MARC field numbers to
+# Dublin Core metadata.
+#
+# The field numbers listed in this file are for USMARC / MARC21.
+#
+# Lines beginning with "#" are comments.
+# The format for these files are:
+#  <number> -> GreenstoneMetadataName
+#
+# This is based on the Library of Congress MARC -> Dublin Core mapping as 
+# found at  http://www.loc.gov/marc/marc2dc.html
+#
+# The problem with that is that some mappings are conditional on
+# subfield values...
+
+### Contributor	###
+
+### Coverage	###
+651, 662 -> dc.Coverage
+751, 752 -> dc.Coverage
+
+### Creator	###
+# Note, the LOC crosswalk uses dc.Contributor instead of dc.Creator
+720 -> dc.Creator
+100, 110, 111	-> dc.Creator
+700, 710, 711 -> dc.Creator
+
+### Date	###
+# Control field substring, not currently supported by mapping
+# 008/07-10		  -> dc.Date 
+260$c$g     -> dc.Date
+
+### Description	###
+# 520 = "Summary, Note"
+500-505, 507-529 -> dc.Description
+531-539, 541-545, 547-599 -> dc.Description
+
+### Format ###
+340 -> dc.Format
+856$q -> dc.Format
+
+### Identifier	###
+020$a, 022$a, 024$a  -> dc.Identifier
+856$u -> dc.Identifier
+
+### Language	###
+# Control field substring, not currently supported by mapping
+# 008/35-37		  -> dc.Language		# ISO 639-2 encoding 
+
+041$a$b$d$e$f$g$h$j -> dc.Language
+546 -> dc.Language
+
+### Publisher	###
+260$a$b -> dc.Publisher
+
+### Relation	###
+# 787 = "Nonspecific Relationship Note"
+787$o$t -> dc.Relation
+530, 760-785 -> dc.Relation
+## should be the following, but what does this mean??
+# 530, 760-787$o$t -> dc.Relation
+
+### Rights	###
+506, 540 -> dc.Rights
+
+### Source	###
+786$o$t -> dc.Source
+534$t -> dc.Source
+
+### Subject	###
+#050, 060, 080, 082 -> dc.Subject
+600, 610, 611, 630, 650, 653 -> dc.Subject
+
+### Title	###
+# 245 = "Title Statement" 
+245     -> dc.Title 
+# 246 = "Varying Form of Title" 
+
+
+### Type	###
+655 -> dc.Type
+# Leader fields not currently supported by mapping
+# Leader06, Leader07	  -> dc.Type		
+

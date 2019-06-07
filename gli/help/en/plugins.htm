@@ -1,0 +1,31 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="plugins"><font size="5" face="Verdana"><strong>6.2: Document Plugins</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>This section describes how to configure the document plugins the collection uses.  It explains how you specify what plugins to use, what parameters to pass to them, and in what order they occur.  Under the "Design" tab, click "Document Plugins".</p>
+
+<p>To add a plugin, select it using the "Select plugin to add" pull-down list near the bottom and then click "Add Plugin".  A window appears entitled "Configuring Arguments"; it is described later.  Once you have configured the new plugin, it is added to the end of the "Assigned Plugins" list. Generally, you would only have one instance of each plugin. However, you can add the same plugin more than once; in that case, the multiple instances would normally be configured differently to provide a useful result (for example by setting the process_exp argument, see http://wiki.greenstone.org/wiki/gsdoc/tutorial/en/enhanced_pdf.htm ).</p>
+
+<p>To see a short description of a plugin, select it in the "Select plugin to add" pull-down list, then hover the mouse over it. A tool-tip displaying the description will appear.</p>
+
+<p>To remove a plugin, select it in the list and click "Remove Plugin".</p>
+
+<p>Plugins are configured by providing arguments.  To alter them, select the plugin from the list and click "Configure Plugin" (or double-click the plugin). A "Configuring Arguments" dialog appears with various controls for specifying arguments.</p>
+
+<p>There are different kinds of controls.  Some are checkboxes, and clicking one adds the appropriate option to the plugin.  Others are text strings, with a checkbox and a text field.  Click the box to enable the argument, then type appropriate text (regular expression, file path etc) in the box.  Others are pull-down menus from which you can select from a given set of values.  To learn what an argument does, let the mouse hover over its name for a moment and a description will appear.</p>
+
+<p>When you have changed the configuration, click "OK" to commit the changes and close the dialog, or "Cancel" to close the dialog without changing any plugin arguments.</p>
+
+<p>The plugins in the list are executed in order, and the ordering is sometimes important. Select a plugin in the list and use the "Move Up" and "Move Down" buttons to change its place in the list.</p>
+
+</body>
+</html>

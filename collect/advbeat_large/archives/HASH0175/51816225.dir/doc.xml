@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\html_lyrics\www.boskowan.com\www\jirka\beatles\beatles\thatmeansalot.htm</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">HTMLPlugin</Metadata>
+    <Metadata name="FileSize">3284</Metadata>
+    <Metadata name="Source">thatmeansalot.htm</Metadata>
+    <Metadata name="SourceFile">thatmeansalot.htm</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">windows_1250</Metadata>
+    <Metadata name="Title">That Means A Lot</Metadata>
+    <Metadata name="FileFormat">HTML</Metadata>
+    <Metadata name="URL">http://html_lyrics/www.boskowan.com/www/jirka/beatles/beatles/thatmeansalot.htm</Metadata>
+    <Metadata name="UTF8URL">http://html_lyrics/www.boskowan.com/www/jirka/beatles/beatles/thatmeansalot.htm</Metadata>
+    <Metadata name="dc.Format">Lyrics</Metadata>
+    <Metadata name="Identifier">HASH0175518162259835598924bd</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014435</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH0175/51816225.dir</Metadata>
+  </Description>
+  <Content>
+&lt;!--webbot bot=&quot;Include&quot; U-Include=&quot;../_private/header.htm&quot; TAG=&quot;BODY&quot; startspan --&gt;
+&lt;font face=&quot;Times New Roman&quot; size=&quot;6&quot;&gt;&lt;b&gt;
+
+&lt;/font&gt;
+
+&lt;table border=&quot;0&quot; width=&quot;1&quot; align=&quot;left&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;100%&quot;&gt;&lt;script language=&quot;JavaScript&quot;&gt;&lt;!--
+if (escape(top.document.referrer))
+document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.boskowan.com/a_boskowan/counter.asp?cAdresa=&quot; + location.href  + &quot;&amp;cOdkud=&quot; + escape(top.document.referrer) + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+else
+document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.boskowan.com/a_boskowan/counter.asp?cAdresa=&quot; + location.href  + &quot;&amp;cOdkud=direct&quot; + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+// --&gt;&lt;/script&gt;&lt;!-- Na vrcholu --&gt;
+&lt;IMG SRC=&quot;_httpextlink_&amp;amp;rl=0&amp;amp;el=direct&amp;amp;href=http://www.navrcholu.cz/cgi-bin/4web/nvhit.pl?id=00026445&quot; WIDTH=&quot;1&quot;HEIGHT=&quot;1&quot; ALT=&quot;&quot; BORDER=&quot;0&quot;&gt;
+&lt;SCRIPT LANGUAGE=&quot;JavaScript&quot;&gt;
+&lt;!-- document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.navrcholu.cz/cgi-bin/4web/nv_referer?id=00026445&amp;ref=&quot; + escape(top.document.referrer) + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+// --&gt;
+&lt;/SCRIPT&gt;
+&lt;!-- Na vrcholu - konec --&gt;
+&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;!--webbot bot=&quot;Include&quot; i-checksum=&quot;49471&quot; endspan --&gt;
+
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;font size=&quot;7&quot;&gt;&lt;strong&gt;That Means A Lot&lt;/strong&gt;&lt;/font&gt;&lt;/dt&gt;
+  &lt;dt&gt;&lt;em&gt;(John Lennon, Paul McCartney; Lead Vocal: Paul McCartney)&lt;/em&gt; &lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;A friend says that your love&lt;/dt&gt;
+  &lt;dt&gt;Won't mean a lot&lt;/dt&gt;
+  &lt;dt&gt;And you know that your love&lt;/dt&gt;
+  &lt;dt&gt;Is all you've got&lt;/dt&gt;
+  &lt;dt&gt;At times things are so fine&lt;/dt&gt;
+  &lt;dt&gt;And at times they're not&lt;/dt&gt;
+  &lt;dt&gt;But when she says she loves you&lt;/dt&gt;
+  &lt;dt&gt;That means a lot&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;A friend says that a love&lt;/dt&gt;
+  &lt;dt&gt;Is never true&lt;/dt&gt;
+  &lt;dt&gt;And you know that this&lt;/dt&gt;
+  &lt;dt&gt;Don't apply on you&lt;/dt&gt;
+  &lt;dt&gt;A touch can mean so much&lt;/dt&gt;
+  &lt;dt&gt;When it's all you've got&lt;/dt&gt;
+  &lt;dt&gt;When she says she loves you&lt;/dt&gt;
+  &lt;dt&gt;That means a lot&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Love can be deep inside&lt;/dt&gt;
+  &lt;dt&gt;Love can be suicide&lt;/dt&gt;
+  &lt;dt&gt;Can't you see you can't hide&lt;/dt&gt;
+  &lt;dt&gt;What you feel when it's real&lt;/dt&gt;
+  &lt;dt&gt;&amp;nbsp;&lt;/dt&gt;
+  &lt;dt&gt;A friend says that your love&lt;/dt&gt;
+  &lt;dt&gt;Won't mean a lot&lt;/dt&gt;
+  &lt;dt&gt;And you know that your love&lt;/dt&gt;
+  &lt;dt&gt;Is all you've got&lt;/dt&gt;
+  &lt;dt&gt;A touch can mean so much&lt;/dt&gt;
+  &lt;dt&gt;When it's all you've got&lt;/dt&gt;
+  &lt;dt&gt;But when she says she loves you&lt;/dt&gt;
+  &lt;dt&gt;That means a lots&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Can't you see, yeah&lt;/dt&gt;
+  &lt;dt&gt;Can't you see, yeah&lt;/dt&gt;
+  &lt;dt&gt;Can't you see, yeah&lt;/dt&gt;
+  &lt;dt&gt;Can't you see, yeah&lt;/dt&gt;
+  &lt;dt&gt;Can't you see, yeah&lt;/dt&gt;
+  &lt;dt&gt;Can't you see, yeah&lt;/dt&gt;
+  &lt;dt&gt;Can't you see, yeah&lt;/dt&gt;
+  &lt;dt&gt;Can't you see, yeah &lt;em&gt;(fade out)&lt;/em&gt;&lt;/dt&gt;
+&lt;/dl&gt;
+&lt;!--webbot bot=&quot;Include&quot; U-Include=&quot;_private/footer1.htm&quot; TAG=&quot;BODY&quot; startspan --&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;Copyright © 2003 by &lt;a href=&quot;mailto:wag@volny.cz&quot;&gt;Jirka Wagner,
+Jr.&lt;/a&gt;&lt;/strong&gt;&lt;small&gt;&lt;small&gt;&amp;nbsp;&amp;nbsp; &lt;/small&gt;&lt;/small&gt;&lt;strong&gt;All Rights Reserved.&lt;/strong&gt;&lt;/p&gt;
+&lt;!--webbot bot=&quot;Include&quot; i-checksum=&quot;5922&quot; endspan --&gt;
+
+
+
+</Content>
+</Section>
+</Archive>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DirectoryMetadata SYSTEM "http://greenstone.org/dtd/DirectoryMetadata/1.0/DirectoryMetadata.dtd">
+<DirectoryMetadata>
+	<FileSet>
+		<FileName>IMG_0641\.JPG</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">IMG_0641.JPG</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>IMG_0642\.JPG</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">IMG_0642.JPG</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>IMG_0643\.JPG</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">IMG_0643.JPG</Metadata>
+		</Description>
+	</FileSet>
+</DirectoryMetadata>

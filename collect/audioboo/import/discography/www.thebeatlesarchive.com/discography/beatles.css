@@ -1,0 +1,33 @@
+table {
+	background-color : #4898D2;
+}
+.menu {
+	border-color : Black;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color: #000000;
+	background-color : #4898D2;
+}
+.disco {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px; color: #000000;
+	background-color : #367CC2;
+}
+p {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	color: Black;
+}
+h1 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 15px;
+	color: #000000;
+}
+A:link, A:visited {
+    text-decoration: none;
+	color: Yellow;
+}
+A:hover { 
+    text-decoration: none;
+	color: #ffcc00;
+}

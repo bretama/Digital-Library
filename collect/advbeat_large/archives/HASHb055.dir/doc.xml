@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\mp3\MSBfX19fX18=.mp3</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">MP3Plugin</Metadata>
+    <Metadata name="FileSize">5429752</Metadata>
+    <Metadata name="Source">1 ______.mp3</Metadata>
+    <Metadata name="SourceFile">MSBfX19fX18=.mp3</Metadata>
+    <Metadata name="mp3">1 ______</Metadata>
+    <Metadata name="srcurl">MSBfX19fX18=.mp3</Metadata>
+    <Metadata name="ex.id3.Title">01</Metadata>
+    <Metadata name="ex.id3.Artist">01</Metadata>
+    <Metadata name="ex.id3.Genre">Blues</Metadata>
+    <Metadata name="FileFormat">MP3</Metadata>
+    <Metadata name="srcicon">_iconmp3_</Metadata>
+    <Metadata name="srclink_file">MSBfX19fX18=.mp3</Metadata>
+    <Metadata name="srclinkFile">MSBfX19fX18=.mp3</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="Title">01</Metadata>
+    <Metadata name="Identifier">HASHb055fdf883b871091ee7d6</Metadata>
+    <Metadata name="lastmodified">1544499627</Metadata>
+    <Metadata name="lastmodifieddate">20181211</Metadata>
+    <Metadata name="oailastmodified">1545014480</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASHb055.dir</Metadata>
+    <Metadata name="gsdlassocfile">MSBfX19fX18=.mp3:audio/mp3:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GreenstoneDirectoryMetadata SYSTEM "http://greenstone.org/dtd/GreenstoneDirectoryMetadata/1.0/GreenstoneDirectoryMetadata.dtd">
+<GreenstoneDirectoryMetadata>
+    <FileSet>
+        <FileName>something\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">something.txt</XMetadata>
+            <XMetadata name="Title">Something by the Beatles</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>please\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">please.txt</XMetadata>
+            <XMetadata name="Title">PLEASE PLEASE ME </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>revolution\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">revolution.txt</XMetadata>
+            <XMetadata name="Title">REVOLUTION </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>maxwell\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">maxwell.txt</XMetadata>
+            <XMetadata name="Title">Maxwell&apos;s Silver Hammer</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>black\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">black.txt</XMetadata>
+            <XMetadata name="Title">Blackbird</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>yerblues\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">yerblues.txt</XMetadata>
+            <XMetadata name="Title">Yer Blues (Lennon/McCartney)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>flying\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">flying.txt</XMetadata>
+            <XMetadata name="Title">FLYING BY THE BEATLES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>while\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">while.txt</XMetadata>
+            <XMetadata name="Title">WHILE MY GUITAR GENTLY WEEPS </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>drivemy\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">drivemy.txt</XMetadata>
+            <XMetadata name="Title">DRIVE MY CAR </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>theword\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">theword.txt</XMetadata>
+            <XMetadata name="Title">THE WORD </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>foryou\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">foryou.txt</XMetadata>
+            <XMetadata name="Title">FOR YOU BLUE </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>octopuss\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">octopuss.txt</XMetadata>
+            <XMetadata name="Title">OCTOPUS&apos;S GARDEN </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>dontpass\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">dontpass.txt</XMetadata>
+            <XMetadata name="Title">DON&apos;T PASS ME BY</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>sgtpepper\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">sgtpepper.txt</XMetadata>
+            <XMetadata name="Title">SGT. PEPPER&apos;S LONELY HEART CLUB BAND </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>michelle\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">michelle.txt</XMetadata>
+            <XMetadata name="Title">MICHELLE </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>iwantu\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">iwantu.txt</XMetadata>
+            <XMetadata name="Title">I Want You (She&apos;s So Heavy)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>hardday\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">hardday.txt</XMetadata>
+            <XMetadata name="Title">HARD DAY&apos;S NIGHT </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>allmy\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">allmy.txt</XMetadata>
+            <XMetadata name="Title">All My Loving</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>sheloves\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">sheloves.txt</XMetadata>
+            <XMetadata name="Title">SHE LOVES YOU </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>andyour\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">andyour.txt</XMetadata>
+            <XMetadata name="Title">AND YOUR BIRD CAN SING BY THE BEATLES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>lucy\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">lucy.txt</XMetadata>
+            <XMetadata name="Title">LUCY IN THE SKY WITH DIAMONDS BY THE BEATLES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>hermajesty\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">hermajesty.txt</XMetadata>
+            <XMetadata name="Title">HER MAJESTY</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>strawberry\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">strawberry.txt</XMetadata>
+            <XMetadata name="Title">Strawberry Fields Forever</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>birthday\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">birthday.txt</XMetadata>
+            <XMetadata name="Title">Birthday - The Beatles   </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>piggies\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">piggies.txt</XMetadata>
+            <XMetadata name="Title">PIGGIES BY GEORGE HARRISON (BEATLES)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>herecomes\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">herecomes.txt</XMetadata>
+            <XMetadata name="Title">Here Comes The Sun</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>andilove\.txt</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>come\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">come.txt</XMetadata>
+            <XMetadata name="Title">COME TOGETHER </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>iwanna\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">iwanna.txt</XMetadata>
+            <XMetadata name="Title">I WANNA HOLD YOUR HAND </XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>letitbe\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">letitbe.txt</XMetadata>
+            <XMetadata name="Title">LET IT BE BY THE BEATLES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>dontlet\.txt</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="TEXTPlug">1</XMetadata>
+            <XMetadata name="Source">dontlet.txt</XMetadata>
+            <XMetadata name="Title">DON&apos;T LET ME DOWN </XMetadata>
+        </Description>
+    </FileSet>
+</GreenstoneDirectoryMetadata>

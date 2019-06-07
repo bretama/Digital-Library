@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">5</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">157912058X</Metadata>
+    <Metadata name="dc.Title">The Beatles illustrated lyrics / edited by Alan Aldridge.</Metadata>
+    <Metadata name="dc.Publisher">New York :</Metadata>
+    <Metadata name="dc.Publisher">Black Dog &amp; Leventhal Publishers :</Metadata>
+    <Metadata name="dc.Date">&amp;#091;1999?&amp;#093;</Metadata>
+    <Metadata name="dc.Description">Originally published: London : MacDonald, 1969.</Metadata>
+    <Metadata name="dc.Description">Includes index.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970 Texts.</Metadata>
+    <Metadata name="dc.Creator">Aldridge, Alan.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs5</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014464</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs5.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 00961cam  22002534a 4500
+001     3090155
+005     20021016105301.0
+008     981110r19991969nyua          001 0 eng  
+035    _9 (DLC)   98043707
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 1
+       _e ocip
+       _f 19
+       _g y-gencatlg
+955    _a pc14 to vp00 11-10-98; vk09 11-10-98; vk05 11-12-98
+       _a ps11 2002-10-08 bk rec'd, to CIP ver.
+       _f vk05 2002-10-15 CIP ver. to Music Division
+010    _a    98043707 
+020    _a 157912058X
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a ML54.6.B4
+       _b I4 1999
+082 00 _a 782.42166/0268
+       _2 21
+245 04 _a The Beatles illustrated lyrics /
+       _c edited by Alan Aldridge.
+260    _a New York :
+       _b Black Dog &amp; Leventhal Publishers :
+       _b Distributed by Workman Pub. Co.,
+       _c [1999?]
+300    _a 267 p. :
+       _b ill. (chiefly col.) ;
+       _c 29 cm.
+500    _a Originally published: London : MacDonald, 1969.
+500    _a Includes index.
+650  0 _a Rock music
+       _y 1961-1970
+       _x Texts.
+700 1  _a Aldridge, Alan.
+710 2  _a Beatles.
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

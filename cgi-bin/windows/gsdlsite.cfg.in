@@ -1,0 +1,71 @@
+# this file should be placed in the same directory as your library
+# executable file. it defines parameters that are particular to a
+# given site, and therefore should be edited to suit your site.
+
+# points to the GSDLHOME directory
+# This must be set, and must point to the top level Greenstone directory
+# (usually gsdl or Greenstone)
+gsdlhome    **GSDLHOME**
+
+# this is the http address of GSDLHOME
+# if your webserver's DocumentRoot is set to $GSDLHOME
+# then httpprefix can be commented out
+httpprefix  /greenstone
+
+# this is the http address of the Greenstone web directory (which contains
+# images, style etc)
+# if your web directory is a top level folder inside $GSDLHOME, then this
+# can remain commented out, and will default to httpprefix/web
+#httpweb     /greenstone/web
+
+# this should contain the http address of the library.cgi script. This 
+# is not needed if the http server sets the environment variable 
+# SCRIPT_NAME
+# Generally this is not needed with Apache
+#gwcgi       /greenstone/cgi-bin/library.cgi
+
+# maxrequests is the most requests a fastcgi process
+# will serve before it exits. This can be set to a
+# low figure (like 1) while debugging and then set
+# to a high figure (like 10000) when everything is
+# working well.
+# Only applies if you are using fastcgi
+maxrequests 10000
+
+# Remote Greenstone Options (for server side)
+
+# If Perl is not already on your PATH, set the following to the 
+# full path of the perl bin directory (Perl's parent folder) 
+# and it will be prepended to the PATH.
+#perlpath /usr/bin
+
+# Options for FLI
+
+# If using Greenstone's GLIServer to run the Fedora Librarian
+# Interface (FLI), then you need to set fedora version and fedora home
+# variables, either below, or as environment variables. 
+# FEDORA_VERSION is the major version number of Fedora and  
+# FEDORA_HOME is the full path to your Fedora installation.
+# Setting fedorahome and fedoraversion here will over-ride the
+# FEDORA_HOME and FEDORA_VERSION environment variables.
+#fedorahome /full/path/to/fedora
+#fedoraversion 3
+
+# If using Greenstone's GLIServer to run the Fedora Librarian
+# Interface (FLI), then you need to set the full path to Java either as below 
+# or as the JAVA_HOME environment variable.
+# Setting javahome here will over-ride the JAVA_HOME environment variable.
+#javahome /full/path/to/j2sdk1.4-or-higher
+
+# Options for Open Office (used in converting Office documents)
+
+# If using Open Office on Windows, then you can optionally customise the 
+# following properties (defaults are as shown). E.g. if Open Office is not 
+# located in C:\Program Files\OpenOffice.org 3\program, then you'll want 
+# to provide its new path by specifying soffice_home.
+#soffice_home "C:\Program Files\OpenOffice.org 3\program"
+#soffice_host 127.0.0.1
+#soffice_port 8200
+#jodconverter_port 8100
+
+# Leave an empty line at the end

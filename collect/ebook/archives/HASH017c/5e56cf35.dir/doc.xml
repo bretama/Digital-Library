@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Title">Digital Signal Processing (DSP) Fundamentals</Metadata>
+    <Metadata name="URL">http://C:/Program Files/Greenstone/tmp/F173.html</Metadata>
+    <Metadata name="UTF8URL">http://C:/Program Files/Greenstone/tmp/F173.html</Metadata>
+    <Metadata name="gsdlsourcefilename">import\ch-1.pdf</Metadata>
+    <Metadata name="gsdlconvertedfilename">C:\Program Files\Greenstone\tmp\F173.html</Metadata>
+    <Metadata name="OrigSource">F173.html</Metadata>
+    <Metadata name="Source">ch-1.pdf</Metadata>
+    <Metadata name="SourceFile">ch-1.pdf</Metadata>
+    <Metadata name="Plugin">PDFPlugin</Metadata>
+    <Metadata name="FileSize">1576441</Metadata>
+    <Metadata name="FilenameRoot">ch-1</Metadata>
+    <Metadata name="FileFormat">PDF</Metadata>
+    <Metadata name="srcicon">_iconpdf_</Metadata>
+    <Metadata name="srclink_file">doc.pdf</Metadata>
+    <Metadata name="srclinkFile">doc.pdf</Metadata>
+    <Metadata name="NumPages">30</Metadata>
+    <Metadata name="dc.Creator">ss</Metadata>
+    <Metadata name="dc.Subject">Biology</Metadata>
+    <Metadata name="dc.Title">ch1</Metadata>
+    <Metadata name="dls.Organization">Natural Science|Biology|Moodle</Metadata>
+    <Metadata name="ex.ExifTool.ExifToolVersion">8.57</Metadata>
+    <Metadata name="ex.File.Directory">C:\Program Files\Greenstone\collect\ebook\import</Metadata>
+    <Metadata name="ex.File.FileModifyDate">2018:12:11 10:18:00-08:00</Metadata>
+    <Metadata name="ex.File.FileName">ch-1.pdf</Metadata>
+    <Metadata name="ex.File.FilePermissions">666</Metadata>
+    <Metadata name="ex.File.FileSize">1576441</Metadata>
+    <Metadata name="ex.File.FileType">PDF</Metadata>
+    <Metadata name="ex.File.MIMEType">application/pdf</Metadata>
+    <Metadata name="ex.PDF.Author">Jerry Hill</Metadata>
+    <Metadata name="ex.PDF.Company">ARRL</Metadata>
+    <Metadata name="ex.PDF.CreateDate">2016:02:21 16:46:55+03:00</Metadata>
+    <Metadata name="ex.PDF.Creator">Jerry Hill</Metadata>
+    <Metadata name="ex.PDF.Linearized">true</Metadata>
+    <Metadata name="ex.PDF.ModifyDate">2016:02:21 16:46:58+03:00</Metadata>
+    <Metadata name="ex.PDF.PDFVersion">1.5</Metadata>
+    <Metadata name="ex.PDF.PageCount">30</Metadata>
+    <Metadata name="ex.PDF.PageLayout">SinglePage</Metadata>
+    <Metadata name="ex.PDF.Producer">Adobe PDF Library 9.0</Metadata>
+    <Metadata name="ex.PDF.TaggedPDF">true</Metadata>
+    <Metadata name="ex.PDF.Title">Digital Signal Processing &amp;#40;DSP&amp;#41; Fundamentals</Metadata>
+    <Metadata name="ex.XMP.Company">ARRL</Metadata>
+    <Metadata name="ex.XMP.CreateDate">2016:02:21 16:46:55+03:00</Metadata>
+    <Metadata name="ex.XMP.Creator">Jerry Hill</Metadata>
+    <Metadata name="ex.XMP.CreatorTool">Acrobat PDFMaker 9.0 for PowerPoint</Metadata>
+    <Metadata name="ex.XMP.DocumentID">uuid:c28e1ee5-dda0-495b-8fbf-ebf1af0cd731</Metadata>
+    <Metadata name="ex.XMP.Format">application/pdf</Metadata>
+    <Metadata name="ex.XMP.InstanceID">uuid:fa60e2bc-e021-4c77-bb3f-9935aff59990</Metadata>
+    <Metadata name="ex.XMP.MetadataDate">2016:02:21 16:46:58+03:00</Metadata>
+    <Metadata name="ex.XMP.ModifyDate">2016:02:21 16:46:58+03:00</Metadata>
+    <Metadata name="ex.XMP.Producer">Adobe PDF Library 9.0</Metadata>
+    <Metadata name="ex.XMP.Title">Digital Signal Processing &amp;#40;DSP&amp;#41; Fundamentals</Metadata>
+    <Metadata name="ex.XMP.XMPToolkit">Adobe XMP Core 4.2.1-c041 52.342996&amp;#44; 2008/05/07-20:48:00</Metadata>
+    <Metadata name="Identifier">HASH017c5e56cf356b58384b7c5e</Metadata>
+    <Metadata name="lastmodified">1544552280</Metadata>
+    <Metadata name="lastmodifieddate">20181211</Metadata>
+    <Metadata name="oailastmodified">1545141387</Metadata>
+    <Metadata name="oailastmodifieddate">20181218</Metadata>
+    <Metadata name="assocfilepath">HASH017c/5e56cf35.dir</Metadata>
+    <Metadata name="gsdlassocfile">doc.pdf:application/pdf:</Metadata>
+  </Description>
+  <Content>
+&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;Overview&lt;br /&gt;• What is DSP?&lt;br /&gt;• Converting Analog into Digital&lt;br /&gt;• Signals and signal processing&lt;br /&gt;• Classification of signals&lt;br /&gt;• Signal processing operations &lt;br /&gt;• Advantages of DSP &lt;br /&gt;• Some applications of DSP&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;What is DSP?&lt;br /&gt;DSP process digital signals:&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Analog-to-Digital Converter (ADC)&lt;br /&gt;Binary representation of the analog signal&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Digital-to-Analog Converter (DAC)&lt;br /&gt;Digital representation of the signal is converted to &lt;br /&gt;continuous analog signal.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Human sense organs are analog. We are analog !!!&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;What is DSP?&lt;br /&gt;• Converting a continuously changing &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;waveform (analog) into a series of discrete &lt;br /&gt;levels (digital)&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;What is DSP?&lt;br /&gt;• The analog waveform is sliced into equal &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;segments and the waveform amplitude is &lt;br /&gt;measured in the middle of each segment&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;• The collection of measurements make up the &lt;br /&gt;digital representation of the waveform&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;0&lt;br /&gt;0.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;22 0&lt;br /&gt;.4&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;4 0.&lt;br /&gt;64 0&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;.8&lt;br /&gt;2 0.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;98 1.&lt;br /&gt;11 1.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;2 1.&lt;br /&gt;24 1.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;27&lt;br /&gt;1.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;24&lt;br /&gt;1.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;2&lt;br /&gt;1.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;11&lt;br /&gt;0.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;98&lt;br /&gt;0.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;82&lt;br /&gt;0.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;64&lt;br /&gt;0.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;44&lt;br /&gt;0.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;22&lt;br /&gt;0&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-0&lt;br /&gt;.2&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;2&lt;br /&gt;-0&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;.4&lt;br /&gt;4&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-0&lt;br /&gt;.6&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;4&lt;br /&gt;-0&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;.8&lt;br /&gt;2&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-0&lt;br /&gt;.9&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;8&lt;br /&gt;-1&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;.1&lt;br /&gt;1&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-1&lt;br /&gt;.2&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-1&lt;br /&gt;.2&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;6&lt;br /&gt;-1&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;.2&lt;br /&gt;8&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-1&lt;br /&gt;.2&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;6 -1&lt;br /&gt;.2 -1&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;.1&lt;br /&gt;1&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-0&lt;br /&gt;.9&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;8 -0&lt;br /&gt;.8&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;2 -0&lt;br /&gt;.6&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;4 -0&lt;br /&gt;.4&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;4 -0&lt;br /&gt;.2&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;2&lt;br /&gt;0&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-2&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-1.5&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-1&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;-0.5&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;0&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;0.5&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;1&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;1.5&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;2&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;Analog to Digital Conversion details  &lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;Advantages of DSP&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;•More flexible. &lt;br /&gt;•Often easier system upgrade. &lt;br /&gt;•Data easily stored -memory. &lt;br /&gt;•Better control over accuracy requirements. &lt;br /&gt;•Reproducibility. &lt;br /&gt;•Cheaper &lt;br /&gt;•No drift with time and temperature &lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;•Telecommunications &lt;br /&gt;•Consumer Electronics &lt;br /&gt;•Medicine &lt;br /&gt;•Speech process &lt;br /&gt;•Seismology &lt;br /&gt;•Military &lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;</Content>
+</Section>
+</Archive>

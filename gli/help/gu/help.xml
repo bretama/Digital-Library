@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<!DOCTYPE TutorialList [
+     <!ENTITY nbsp "&#160;">
+     <!ENTITY rarr "&#8594;">
+     <!ENTITY mdash "&#8212;">
+]>
+<Document>
+<Section name="introduction">
+<Title>
+<Text id="1">પ્રસ્તાવના</Text>
+</Title>
+<Section name="ofmiceandmenus">
+<Title>
+</Title>
+</Section>
+<Section name="howtoavoidthisdocument">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="startingoff">
+<Title>
+</Title>
+<Section name="creatingacollection">
+<Title>
+</Title>
+</Section>
+<Section name="savingacollection">
+<Title>
+</Title>
+</Section>
+<Section name="openingacollection">
+<Title>
+</Title>
+</Section>
+<Section name="deletingcollections">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="downloadingfiles">
+<Title>
+</Title>
+<Section name="themirrorview">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="collectingfiles">
+<Title>
+</Title>
+<Section name="thegatherview">
+<Title>
+</Title>
+</Section>
+<Section name="creatingshortcuts">
+<Title>
+</Title>
+</Section>
+<Section name="creatingfolders">
+<Title>
+</Title>
+</Section>
+<Section name="addingfiles">
+<Title>
+</Title>
+</Section>
+<Section name="replacingfiles">
+<Title>
+</Title>
+</Section>
+<Section name="removingfiles">
+<Title>
+</Title>
+</Section>
+<Section name="explodingfiles">
+<Title>
+</Title>
+</Section>
+<Section name="filteringthetree">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="enrichingacollection">
+<Title>
+</Title>
+<Section name="theenrichview">
+<Title>
+</Title>
+</Section>
+<Section name="selectingmetadatasets">
+<Title>
+</Title>
+</Section>
+<Section name="appendingmetadata">
+<Title>
+</Title>
+</Section>
+<Section name="addingpreviouslydefinedmetadata">
+<Title>
+</Title>
+</Section>
+<Section name="updatingmetadata">
+<Title>
+</Title>
+</Section>
+<Section name="reviewingmetadata">
+<Title>
+</Title>
+<Text id="100">જો વધારે ફાઈલો પસંદ કરેલ હોય તો ટેબલ તૈયાર કરવામાં અમુક સમય લાગી શકે છે. જ્યારે "તમામ મેટાડેટા' વિન્ડો ખુલ્લી હોય ત્યારે તમો લાઇબ્રેરીયન ઇન્ટરફેશનો અવિરત ઉપયોગ કરી શકો છો.</Text>
+<Text id="101">જયારે તે ખુબજ વિસ્તાર પામે ત્યારે કોલમ્સ ફિલ્ટરના ઉપયોગ દ્વારા "બધા જ મેટાડેટા" ટેબલને ફિલ્ટર કરી શકો છો. જેવા નવા ફિલ્ટર ઉમેરવામાં આવે તે સંજોગોમાં માત્ર એ જ રો તેને મેચ કરશે જે બાકી રહેતા હોય.ફિલ્ટર  સેટ કરવા, સુધારવા અથવા રદબાતલ કરવા કોલમની ઉપરના ભાગે આપેલ  "ગળણી" જેવા દેખાતા આઈકોન પર ક્લિક કરો. તમારે ફિલ્ટર પસંદ કરવું પડશે. એકવખત ફિલ્ટર સેટ થઈ જાય તરત જ કોલમ હેડર કલર બદલશે.  </Text>
+<Text id="102">ફિલ્ટર પ્રોમ્પ્ટમાં "સિમ્પલ" અને "એડવાન્સ" ટેબ હોય છે. સિમ્પલ વર્જન કોલમને ફિલ્ટર કરે છે જેથી તે એ જ રો બતાવે છે કે જેમાં કોઈ ચોક્કસ મેટાડેટા વેલ્યુ હોય ("*" તમામ વેલ્યુ મેચ કરે છે). પુલ-ડાઉન યાદીમાંથી તમો મેટાડેટા વેલ્યુ પસંદ કરી શકો છો. એડવાન્સ વર્જન વિવિધ મેચિંગ ઓપરેશન્સ દર્શાવે છે: જેમ કે શરુઆત આનાથી જ થવી જોઈએ, આ એની સાથે હોવું જોઈએ નહિ, વર્ણાનુક્રમે કા તો આના કરતા ઓછા અથવા સરખા હોવા જોઈએ. કોઈપણ સ્ટ્રીંગ હોય જે વેલ્યુ મેચ થવાની છે તેમાં સુધારા વધારા કરી શકાય, અને જો મેચિંગ કેસ ઇન્સેન્સિટીવ (નાના અથવા મોટા મૂળાક્ષરો માંથી કોઈપણ મૂળાક્ષરોનો ઉપયોગની સ્વીકૃતિ) હોય તો પણ તમો તેને પસંદ કરી શકો છો. અંતમાં, બીજી મેચિંગ શરત તમો નક્કી કરી શકો છો કે જેનો ઉપયોગ રેન્જ વેલ્યુ નક્કી કરવા માટે ('અને' પસંદ કરીને) અથવા વૈકલ્પિક વેલ્યુ ('અથવા' પસંદ કરીને) પસંદ કરવા કરી શકો છો. આ જગ્યાની નીચે એક બોક્ષ છે જેનાથી સોર્ટ ક્રમ બદલી શકાય છે (ચડતા ક્રમ કે ઉતરતા ક્રમમાં). એક વખત આ ક્રિયા પૂર્ણ થયા બાદ કોલમમાં નવું ફિલ્ટરનો ઉપયોગ કરવા માટે  'ફિલ્ટર સેટ કરો" પર ક્લિક કરો. હાલ અસ્તિત્વમાં રહેલ ફિલ્ટરને દુર કરવા "ફિલ્ટર સાફ કરો" પર ક્લિક કરો. યાદ રાખો, એકવખત ફિલ્ટર સાફ કર્યા બાદ ફિલ્ટરની વેલ્યુ મૂળ સ્થિતિમાં પરત મેળવી શકાય છે. </Text>
+<Text id="103">દા:ત "બધાજ મેટાડેટા" ટેબલ સોર્ટ કરવા, કોલમ પસંદ કરો, ડિફોલ્ટ સેટિંગ (સિમ્પલ ફિલ્ટર ચાલુ "*"), અને ચડતો ક્રમ અથવા ઉતરતો ક્રમ પસંદ કરો.</Text>
+</Section>
+<Section name="importingpreviouslyassignedmetadata">
+<Title>
+<Text id="104">અગાઉ નક્કી કરેલ મેટાડેટાને ઈમ્પોર્ટ કરો.</Text>
+</Title>
+<Text id="105">અગાઉ નક્કી કરેલ મેટાડેટાને ઈમ્પોર્ટ કેવી રીતે કરવા તેનું વર્ણન આ વિભાગમાં દર્શાવવામાં આવ્યું છે: સંગ્રહમાં પ્રલેખો ઉમેરવામાં આવે તે પહેલા પ્રલેખ સાથે મેટાડેટા નક્કી કરવામાં આવે છે.</Text>
+</Section>
+</Section>
+<Section name="designingacollection">
+<Title>
+</Title>
+<Section name="thedesignview">
+<Title>
+</Title>
+</Section>
+<Section name="plugins">
+<Title>
+</Title>
+</Section>
+<Section name="searchindexes">
+<Title>
+</Title>
+<Section name="searchindexoptions">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="partitionindexes">
+<Title>
+</Title>
+<Section name="definefilters">
+<Title>
+</Title>
+</Section>
+<Section name="assignpartitions">
+<Title>
+</Title>
+</Section>
+<Section name="assignlanguages">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="classifiers">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="producingthecollection">
+<Title>
+</Title>
+<Section name="thecreateview">
+<Title>
+</Title>
+</Section>
+<Section name="builderrors">
+<Title>
+</Title>
+</Section>
+<Section name="expertbuilding">
+<Title>
+</Title>
+</Section>
+<Section name="scheduledbuilding">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="formattingacollection">
+<Title>
+</Title>
+<Section name="theformatview">
+<Title>
+</Title>
+</Section>
+<Section name="generalsettings">
+<Title>
+</Title>
+</Section>
+<Section name="searchmetadatasettings">
+<Title>
+</Title>
+</Section>
+<Section name="formatstatements">
+<Title>
+</Title>
+</Section>
+<Section name="translatetext">
+<Title>
+</Title>
+</Section>
+<Section name="xcollectionsearching">
+<Title>
+</Title>
+</Section>
+<Section name="collectionspecificmacros">
+<Title>
+</Title>
+</Section>
+<Section name="depositormetadatasettings">
+<Title>
+</Title>
+</Section>
+</Section>
+<Section name="miscellaneous">
+<Title>
+</Title>
+<Section name="preferences">
+<Title>
+</Title>
+</Section>
+<Section name="fileassociations">
+<Title>
+</Title>
+</Section>
+<Section name="exporting">
+<Title>
+</Title>
+</Section>
+<Section name="exportingcollections">
+<Title>
+</Title>
+</Section>
+</Section>
+</Document>

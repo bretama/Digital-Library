@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DirectoryMetadata SYSTEM "http://greenstone.org/dtd/DirectoryMetadata/1.0/DirectoryMetadata.dtd">
+<DirectoryMetadata>
+	<FileSet>
+		<FileName>4_5985452246018556880\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">moodle 1</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Chemistry</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science|Chemistry|Moodle|First Year</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">gere</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>chapter 1\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">chapter 1.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">History</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Social Science|History|Books</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">zz</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>Chapter 2 \.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">Chapter 2 .pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">geography</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Social Science|Geography|Books</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">jj</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>Chapter Four\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">Chapter Four.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">civics</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Social Science|Civics|Books</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">kk</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>CSE_LEUL\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">CSE_LEUL.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">maths</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Social Science|Civics|Moodle</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">ll</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>inroads2009\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">inroads2009.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">ict</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Mathematics and ICT|Mathematics|Moodle</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">oo</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>LEUL_CSE\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">LEUL_CSE.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">tigrigna</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Mathematics and ICT|Mathematics|Books</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">pp</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>ch-3\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">ch-3.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Physics</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science|Physics|Books</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">cc</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>Ch5-6-80x86_features\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">Ch5-6-80x86_features.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Physics</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science|Physics|Moodles</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">ff</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>Lit_Review\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Subject">amharic</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Mathematics and ICT|ICT|Books</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">yy</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>literaturereviews\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Subject">english</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Mathematics and ICT|ICT|Moodle</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">ee</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>LitReview\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Subject">saho</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Languages|saho</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">ss</Metadata>
+		</Description>
+	</FileSet>
+	
+	<FileSet>
+		<FileName>ch-1\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">ch1</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Biology</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science|Biology|Moodle</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">ss</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>4_5981107341137806159\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">Introduction to Chemistry</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Chemistry</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science|Chemistry|Books</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">brhane</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>8086Worksheet1\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">Introduction To Biology</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Biology</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science|Biology|Books</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">ww</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>File and Printer Sharing with Windows\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">file and printer sharing</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">zemiz</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Chemistry</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science|Chemistry|Moodle</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>Greenstone_Customizing_GUI1\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">Greenstone_Customizing_GUI1.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">brhane</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Fiction</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>MenfesawiWugiya2\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dls.Organization">Research</Metadata>
+			<Metadata mode="accumulate" name="dc.Title">MenfesawiWugiya2.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">leul</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>MetsiheteTibeb\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">MetsiheteTibeb.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">mengstu</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Education</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>ctl_2016_moodle_for_dummies\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">ctl_2016_moodle_for_dummies.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">leul</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Aesthetics</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Aesthetics and physical Education|Aesthetics</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>en_language_support - Greenstone\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dls.Organization">Aesthetics and physical Education||Music</Metadata>
+			<Metadata mode="accumulate" name="dc.Title">en_language_support - Greenstone.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">brhane</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Music</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>mgsree-DLFDP09-lecture-01-Greenstone\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">mgsree-DLFDP09-lecture-01-Greenstone.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">bb</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Amharic</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Languages|Amharic</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>Moodle_User_Manual_V2\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dls.Organization">Languages|Tigrigna</Metadata>
+			<Metadata mode="accumulate" name="dc.Title">Moodle_User_Manual_V2.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">bv</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Tigrigna</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>printer sharing\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Subject">English</Metadata>
+			<Metadata mode="accumulate" name="dc.Title">printer sharing.pdf</Metadata>
+			<Metadata mode="accumulate" name="dc.Creator">vb</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Languages|English</Metadata>
+		</Description>
+	</FileSet>
+</DirectoryMetadata>

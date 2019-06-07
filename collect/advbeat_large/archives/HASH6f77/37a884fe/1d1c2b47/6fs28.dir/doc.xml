@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">28</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">3582800113</Metadata>
+    <Metadata name="dc.Title">Downtown does the Beatles live at the Knitting Factory, 1992 &amp;#091;sound recording&amp;#093;</Metadata>
+    <Metadata name="dc.Publisher">New York, NY :</Metadata>
+    <Metadata name="dc.Publisher">Knitting Factory Works,</Metadata>
+    <Metadata name="dc.Date">p1992.</Metadata>
+    <Metadata name="dc.Description">Title from booklet.</Metadata>
+    <Metadata name="dc.Description">Compact disc.</Metadata>
+    <Metadata name="dc.Description">Program notes in container.</Metadata>
+    <Metadata name="dc.Description">Being for the benefit of Mr. Kite / Les Miserables Brass Band (2:36) -- Come together / Defunkt (5:56) -- I wanna hold your hand / Alex Chilton (2:23) -- Why don't we do it in the road / Lydia Lunch (3:31) -- Day in the life / Eugene Chadbourne (4:40) -- Dear Prudence / Samm Bennett and Chunk (4:40) -- We can work it out / King Missile (2:13) -- Taxman / Fred Longerg-Holm (5:54) -- Blue jay way / Buddha Pest (5:30) -- Don't let me down / Arto Lindsay, Mark Ribot, Syd Straw, Joe Baron, Greg Cohn (3:35) -- Revolution #9 / Kurt Hoffman's Band of Weeds (2:54) -- Eleanor Rigby / Les Miserables Brass Band (5:30).</Metadata>
+    <Metadata name="dc.Description">Various artists.</Metadata>
+    <Metadata name="dc.Description">All songs recorded live at the Knitting Factory, New York.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1991-2000.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="dc.Creator">Knitting Factory (Nightclub)</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs28</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014472</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs28.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01822cjm  22003612a 4500
+001     12068267
+005     20030808160213.0
+007     sdufsngnnmmneu
+008     940302s1992    nyurcn              eng d
+035    _a (OCoLC)ocm29938701
+906    _a 7
+       _b cbc
+       _c copycat
+       _d 3
+       _e ncip
+       _f 19
+       _g y-soundrec
+955    _a vn00 2003-08-07
+       _e vn34 2003-08-07 retro CD update to MBRS
+       _e vn34 2003-08-08 copy 2 to MBRS/RS
+010    _a    99587427 
+024 1  _a 3582800113
+028 02 _a KFWCD-113
+       _b Knitting Factory Works
+033    _b 3804
+       _c N4
+040    _a PUL
+       _c PUL
+       _d DLC
+042    _a lcderive
+050 00 _a SDA 73844
+245 00 _a Downtown does the Beatles live at the Knitting Factory,
+ 1992
+       _h [sound recording]
+260    _a New York, NY :
+       _b Knitting Factory Works,
+       _c p1992.
+300    _a 1 sound disc (48 min.) :
+       _b digital, stereo. ;
+       _c 4 3/4 in.
+306    _a 004728
+500    _a Title from booklet.
+511 0  _a Various artists.
+518    _a All songs recorded live at the Knitting Factory, New
+ York.
+500    _a Compact disc.
+500    _a Program notes in container.
+505 0  _a Being for the benefit of Mr. Kite / Les Miserables Brass
+ Band (2:36) -- Come together / Defunkt (5:56) -- I wanna hold
+ your hand / Alex Chilton (2:23) -- Why don't we do it in the
+ road / Lydia Lunch (3:31) -- Day in the life / Eugene
+ Chadbourne (4:40) -- Dear Prudence / Samm Bennett and Chunk
+ (4:40) -- We can work it out / King Missile (2:13) -- Taxman /
+ Fred Longerg-Holm (5:54) -- Blue jay way / Buddha Pest (5:30)
+ -- Don't let me down / Arto Lindsay, Mark Ribot, Syd Straw, Joe
+ Baron, Greg Cohn (3:35) -- Revolution #9 / Kurt Hoffman's Band
+ of Weeds (2:54) -- Eleanor Rigby / Les Miserables Brass Band
+ (5:30).
+650  0 _a Rock music
+       _y 1991-2000.
+710 2  _a Beatles.
+710 2  _a Knitting Factory (Nightclub)
+985    _c OCLC
+       _e Claimed Recordings
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

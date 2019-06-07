@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GreenstoneDirectoryMetadata SYSTEM "http://greenstone.org/dtd/GreenstoneDirectoryMetadata/1.0/GreenstoneDirectoryMetadata.dtd">
+<GreenstoneDirectoryMetadata>
+    <FileSet>
+        <FileName>sgtpepperlonelyheartsclubband\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">sgtpepperlonelyheartsclubband.htm</XMetadata>
+            <XMetadata name="Title">Sgt. PEPPER&apos;S LONELY HEARTS CLUB BAND</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>pleasepleaseme\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">pleasepleaseme.htm</XMetadata>
+            <XMetadata name="Title">PLEASE PLEASE ME</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>index\.html</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">index.html</XMetadata>
+            <XMetadata name="Title">The BEATLES Archive - The Beatles Discography</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>raritiesUS\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">raritiesUS.htm</XMetadata>
+            <XMetadata name="Title">RARITIES - (US Version)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>anthology2\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">anthology2.htm</XMetadata>
+            <XMetadata name="Title">ANTHOLOGY 2</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>help\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">help.htm</XMetadata>
+            <XMetadata name="Title">HELP!</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>beatles65\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">beatles65.htm</XMetadata>
+            <XMetadata name="Title">BEATLES &apos;65</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>magicalmisterytour\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">magicalmisterytour.htm</XMetadata>
+            <XMetadata name="Title">MAGICAL MISTERY TOUR</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>revolverUS\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">revolverUS.htm</XMetadata>
+            <XMetadata name="Title">REVOLVER (US Version)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>beatlesballads\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">beatlesballads.htm</XMetadata>
+            <XMetadata name="Title">THE BEATLES BALLADS</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>introducingthebeatles\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">introducingthebeatles.htm</XMetadata>
+            <XMetadata name="Title">INTRODUCING THE BEATLES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>magicalmisterytourUS\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">magicalmisterytourUS.htm</XMetadata>
+            <XMetadata name="Title">MAGICAL MISTERY TOUR</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>meetthebeatles\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">meetthebeatles.htm</XMetadata>
+            <XMetadata name="Title">MEET THE BEATLES!</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>liveatthebbc\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">liveatthebbc.htm</XMetadata>
+            <XMetadata name="Title">LIVE AT THE BBC</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>reelmusic\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">reelmusic.htm</XMetadata>
+            <XMetadata name="Title">REEL MUSIC</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>acollectionofbeatlesoldies\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">acollectionofbeatlesoldies.htm</XMetadata>
+            <XMetadata name="Title">A COLLECTION OF BEATLES OLDIES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>beatlesforsale\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">de</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">beatlesforsale.htm</XMetadata>
+            <XMetadata name="Title">BEATLES FOR SALE</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>helpUS\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">helpUS.htm</XMetadata>
+            <XMetadata name="Title">HELP! - SoundTrack (US Version)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>yesterdayandtoday\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">yesterdayandtoday.htm</XMetadata>
+            <XMetadata name="Title">YESTERDAY AND TODAY</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rubbersoul\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rubbersoul.htm</XMetadata>
+            <XMetadata name="Title">RUBBER SOUL</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rubbersoulUS\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rubbersoulUS.htm</XMetadata>
+            <XMetadata name="Title">RUBBER SOUL (US Version)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>letitbe\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">letitbe.htm</XMetadata>
+            <XMetadata name="Title">Let It Be</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>revolver\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">revolver.htm</XMetadata>
+            <XMetadata name="Title">revolver</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>twentygreatsethitsUS\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">twentygreatsethitsUS.htm</XMetadata>
+            <XMetadata name="Title">20 GREATEST HITS - (US Version)</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>yellowsubmarine\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">yellowsubmarine.htm</XMetadata>
+            <XMetadata name="Title">YELLOW SUBMARINE</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>withthebeatles\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">withthebeatles.htm</XMetadata>
+            <XMetadata name="Title">WITH THE BEATLES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>heyjude\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>rockandrollmusic\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rockandrollmusic.htm</XMetadata>
+            <XMetadata name="Title">ROCK &apos;N&apos; ROLL MUSIC</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>lovesongs\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">lovesongs.htm</XMetadata>
+            <XMetadata name="Title">LOVE SONGS</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>rarities\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">rarities.htm</XMetadata>
+            <XMetadata name="Title">RARITIES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>pastmasters\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">pastmasters.htm</XMetadata>
+            <XMetadata name="Title">PAST MASTERS - Volume ONE &amp;amp; TWO</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>yellowsubmarinesongtrack\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">yellowsubmarinesongtrack.htm</XMetadata>
+            <XMetadata name="Title">YELLOW SUBMARINE SONGTRACK</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>somethingnew\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">somethingnew.htm</XMetadata>
+            <XMetadata name="Title">SOMETHING NEW</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>beatlesstory\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">beatlesstory.htm</XMetadata>
+            <XMetadata name="Title">THE BEATLES&apos; STORY</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>anthology3\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">anthology3.htm</XMetadata>
+            <XMetadata name="Title">ANTHOLOGY 3</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>twentygreatsethits\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">twentygreatsethits.htm</XMetadata>
+            <XMetadata name="Title">20 GREATEST HITS</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>19621966\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">19621966.htm</XMetadata>
+            <XMetadata name="Title">1962 - 1966</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>aharddaysnight\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">aharddaysnight.htm</XMetadata>
+            <XMetadata name="Title">A Hard Day&apos;s Night</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>abbeyroad\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">abbeyroad.htm</XMetadata>
+            <XMetadata name="Title">ABBEY ROAD</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>heyjudeUS\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">heyjudeUS.htm</XMetadata>
+            <XMetadata name="Title">HEY JUDE!</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>earlybeatles\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">earlybeatles.htm</XMetadata>
+            <XMetadata name="Title">THE EARLY BEATLES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>aharddaysnightUS\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>anthology1\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>19671970\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>thebeatles\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">thebeatles.htm</XMetadata>
+            <XMetadata name="Title">THE BEATLES</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>one\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">one.htm</XMetadata>
+            <XMetadata name="Title">1</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>beatlesatthehollywoodbowl\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">beatlesatthehollywoodbowl.htm</XMetadata>
+            <XMetadata name="Title">THE BEATLES AT THE HOLLYWOOD BOWL</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>beatlessecondalbum\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">beatlessecondalbum.htm</XMetadata>
+            <XMetadata name="Title">THE BEATLES&apos; SECOND ALBUM</XMetadata>
+        </Description>
+    </FileSet>
+    <FileSet>
+        <FileName>beatlesvi\.htm</FileName>
+        <Description/>
+    </FileSet>
+    <FileSet>
+        <FileName>letitbenaked\.htm</FileName>
+        <Description>
+            <XMetadata name="Language">en</XMetadata>
+            <XMetadata name="Encoding">iso_8859_1</XMetadata>
+            <XMetadata name="HTMLPlug">1</XMetadata>
+            <XMetadata name="Source">letitbenaked.htm</XMetadata>
+            <XMetadata name="Title">LET IT BE... NAKED</XMetadata>
+        </Description>
+    </FileSet>
+</GreenstoneDirectoryMetadata>

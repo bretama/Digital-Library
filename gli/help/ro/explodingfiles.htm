@@ -1,0 +1,25 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="explodingfiles"><font size="5" face="Verdana"><strong>4.7: &bdquo;Destinderea&rdquo; Fişierelor de Metadate</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>Tipurile de fişiere specifice bazelor de date pentru metadate precum MARC, CDS/ISIS, BibTex, Refer şi Procite pot fi importate &icirc;n Greenstone, dar metadatele acestora nu pot fi văzute sau editate &icirc;n Interfaţa Bibliotecarului. Pentru a vedea şi edita metadatele, va trebui să vă &icirc;ntoarceţi la programul care a generat fişierul.</p>
+
+<p>&bdquo;Destinderea&rdquo; unui fişier de metadate al unei baze de date &icirc;mparte conţinutul acestuia &icirc;n &icirc;nregistrări individuale, care prezintă metadate vizibile şi editabile. Acest proces este ireversibil: fişierul de metadate original este şters.</p>
+
+<p>Directoarele care pot fi destinse au o pictogramă verde &icirc;n arborele colecţiei. Pentru a destinde unul, apăsați clic dreapta şi optaţi pentru &bdquo;Destinde baza de metadate&rdquo;. O fereastă popup arată opţiunile care privesc procesul de destindere. Prima opţiune (&bdquo;extensie&rdquo;) specifică extensia necesară destinderii. &Icirc;n cele mai multe cazuri, doar un singur plugin va procesa un anumit tip de fişier, dar &icirc;n unele cazuri, acolo unde diferite tipuri de fişiere partajează aceeaşi extensie, pot fi două pluginuri care să proceseze fişierul care necesită respectiva extensie. Opţiunea &bdquo;codarea_intrărilor&rdquo; poate fi utilizată pentru a specifica codarea bazei de date. Opţiunea &bdquo;set_de_metadate&rdquo; specifică setul de metadate al cărui c&acirc;mpuri generate prin destindere ar trebui să fie completate. Dacă nu este specificat niciunul vi se va cere ce trebuie făcut cu fiecare c&acirc;mp din baza de date: adăugaţi-l ca pe un nou element la un set de metadate existent, fuzionaţi-l cu un alt element sau pur şi simplu ignoraţi-l.</p>
+
+<p>Atunci c&acirc;nd este destins un document este creat un document gol pentru fiecare &icirc;nregistrare, iar metadatele &icirc;nregistrării sunt atribuite documentului. Acestea sunt denumite folosindu-se numere precum 000001.nul, 000002.nul etc. Dacă este setată opţiunea &bdquo;document_field&rdquo; (c&acirc;mpului rezervat numeleui fişierului bazei de date), valoarea acestui c&acirc;mp, dacă aceasta există, va fi utilizată pentri a denumi fişierul. Procesul de destindere va &icirc;ncerca, de asemenea, să descarce fişierul şi să-l folosească &icirc;n locul unui fişier gol. Opţiunile &bdquo;document_prefix&rdquo; şi &bdquo;document_suffix&rdquo; pot fi utilizate pentru a construi un URL valid cau calea la un fişier pornind de la valoarea lui document_field. Opţiunea &bdquo;records_per_folders&rdquo; poate fi utilizată pentru a grupa &icirc;nregistrările destinse &icirc;n subdirectoare. Dacă baza de date este foarte mare, folosirea acestei opţiuni va accelera editarea subsecventă a metadatelor.</p>
+
+<p>Capacitatea de destindere este determinată de extensia fişierului. &Icirc;n unele cazuri, fişierele pot fi etichetate incorect ca expandabile dacă acestea au aceeaşi extensie precum fişierele care pot fi destinse. De exemplu, plugin-ul ProCite procesează fişierele av&acirc;nd extensia .txt, dar marea majoritate a fişierelor .txt sunt de fapt fişiere text simple şi nu fişiere ProCite.</p>
+
+</body>
+</html>

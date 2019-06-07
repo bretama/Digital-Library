@@ -1,0 +1,23 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="searchindexoptions"><font size="5" face="Verdana"><strong>6.3.1: 检索索引选项</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>其他参数也控制索引的创建方式。这些选项对某个特定索引可能并不使用，在这种情况下，这些选项将呈灰色显示。</p>
+
+<p>MG与MGPP索引可设置是否使用词根与大小写不敏感检索。如果选择使用，将创建词根和大小写不敏感的索引，而用户将可在搜索中设置是否使用大小写不敏感与词根检索。如果选择不使用，检索将区分大小写并且不支持词根检索，而且馆藏的偏好页面也不会显示这些选项。</p>
+
+<p>MGPP索引支持不区分重音符号的检索。这与不区分大小写的搜索类似，取代匹配大小写字母的是是否匹配发音符号。Lucene索引缺省是不区分大小写的，但不提供选项来选择是否在馆藏的偏好页面显示这些选项。</p>
+
+<p>中文、日文和韩文通常都没有被分词。由于索引依赖于文本中的此间空格，这意味着这些语言索引将是不可检索的。设置"CJK文本分割"选项将在每个中文/日文/韩文字符之间以及检索词之间添加空格，以便实现字符级的检索。</p>
+
+</body>
+</html>

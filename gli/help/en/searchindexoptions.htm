@@ -1,0 +1,23 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="searchindexoptions"><font size="5" face="Verdana"><strong>6.3.1: Search Index Options</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>There are some additional options controlling how the indexes are built. These may not be available for a particular index, in which case will be greyed out.</p>
+
+<p>Stemming and case-folding may be enabled or disabled for MG and MGPP indexes. If enabled, stemmed and case-folded indexes will be created, and the user will have the option of searching with case folding and stemming on or off. If disabled, searching will be case-sensitive and unstemmed, and the options will not be displayed on the preferences page of the collection.</p>
+
+<p>Accent-folding is available for MGPP indexes. This works in a similar way to case-folding, but instead of lower and upper case letters matching, letters with diacritics match those without. A Lucene index is always accent-folded; no option to switch this on and off will be displayed to the user on the collection's preferences page.</p>
+
+<p>Chinese, Japanese and Korean text is often not segmented into individual words. As indexing relies on word breaks being present in the text, this results in an unsearchable index. Setting the "CJK Text Segmentation" option will add spaces between each Chinese/Japanese/Korean character in the text and in search terms, so that character level searching is carried out.</p>
+
+</body>
+</html>

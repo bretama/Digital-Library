@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MetadataSet SYSTEM "http://www.greenstone.org/dtd/MetadataSet/1.0/MetadataSet.dtd">
+<MetadataSet contact="rlasher@forsythe.stanford.edu" creator="The Internet Engineering Task Force" family="RFC 1807" language_dependent="label, definition, comment" lastchanged="Tue Sep 05 14:40:36 NZST 2006 - kjdon on kanuka" namespace="rfc1807">
+    <SetLanguage code="en">
+        <Name language="en">RFC 1807 Metadata Element Set, Version TR-v2.1</Name>
+        <Description language="en">    This document is the reference description for Internet Engineering Task Force (IETF) Request for Comments (RFC) 1807 metadata standard for bibliographic records, expressed as a metadata set for Greenstone.  </Description>
+    </SetLanguage>
+    <Element name="bib-version">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Bib-version</Attribute>
+            <Attribute name="definition">The format version of RFC-1807 record.</Attribute>
+            <Attribute name="comment">This is the first field of any record. It is a mandatory field. It identifies the version of the format used to create this bibliographic record. This RFC defines BIB-Version TR-v2.1 BIB-VERSIONs that start with the letter X (case independent) are considered experimental. Bib-records sent with such a BIB-VERSION should NOT be incorporated in the permanent database of the recipient. Using this version of this format, this field is always: Format: BIB-VERSION:: CS-TR-v2.1  </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Compulsory</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="minimum_occurrence">1</Attribute>
+        <Attribute name="maximum_occurrence">1</Attribute>
+    </Element>
+    <Element name="id">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Id</Attribute>
+            <Attribute name="definition">The identifier for the RFC-1807 record.</Attribute>
+            <Attribute name="comment">This is the second field of any record. It is also a mandatory field. The ID field identifies the bibliographic record and is used in management of these records. Its format is &quot;ID:: XXX//YYY&quot;, where XXX is the publisher-ID (the controlled symbol of the publisher) and YYY is the ID (e.g., report number) of the publication as assigned by the publisher. This ID is typically printed on the cover, and may contain slashes. The organization symbols &quot;DUMMY&quot; and &quot;TEST&quot; (case independent) are reserved for test records that should NOT be incorporated in the permanent database of the recipients. Format: ID:: &lt;publisher-ID&gt;//&lt;free-text&gt; Example: ID:: OUKS//CS-TR-91-123 </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Compulsory</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="minimum_occurrence">1</Attribute>
+        <Attribute name="maximum_occurrence">1</Attribute>
+    </Element>
+    <Element name="entry">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Entry</Attribute>
+            <Attribute name="definition">The date RFC-1807 record was created.</Attribute>
+            <Attribute name="comment">This is a mandatory field. It is the date of creating this bibliographic record. The format for ENTRY date is &quot;Month Day, Year&quot;. The month must be alphabetic (spelled out). The &quot;Day&quot; is a 1- or 2-digit number. The &quot;Year&quot; is a 4-digit number. Format: ENTRY:: &lt;date&gt; Example: ENTRY:: January 15, 1992 </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Compulsory</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="minimum_occurrence">1</Attribute>
+        <Attribute name="maximum_occurrence">1</Attribute>
+    </Element>
+    <Element name="organization">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Organization</Attribute>
+            <Attribute name="definition">The full name of the publishing organization</Attribute>
+            <Attribute name="comment">It is the full name spelled out (no acronyms, please) of the publishing organization. The use of this name is controlled together with the controlled symbol of the publisher (as discussed above for the ID field). Avoid acronyms because there are many common acronyms, such as ISI and USC. Please provide it in ascending order, such as &quot;X University, Y Department&quot; (not &quot;Y Department, X University&quot;) Format:  ORGANIZATION:: &lt;free-text&gt; Example:  ORGANIZATION:: Stanford University, Department of Computer Science  </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="title">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Title</Attribute>
+            <Attribute name="definition">The title of the work</Attribute>
+            <Attribute name="comment">This is the title of the work as assigned by the author. This field should include the complete title with all the subtitles, if any. Format:  TITLE:: &lt;free-text&gt;  Example:  TITLE:: The Computerization of Oceanview with High Speed Fiber Optics Communication </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="type">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Type</Attribute>
+            <Attribute name="definition">The type of publication</Attribute>
+            <Attribute name="comment">Indicates the type of publication (summary, final project report, etc.) as assigned by the issuing organization. Format:  TYPE:: &lt;free-text&gt; Example:  TYPE:: Technical Report  </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="revision">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Revision</Attribute>
+            <Attribute name="definition">If the record is a revision of a previously issued record</Attribute>
+            <Attribute name="comment">Indicates that the current bibliographic record is a revision of a previously issued record and is intended to replace it. Revision information consists of a date and/or followed by a semicolon and by text in an open ended format. The revised bibliographic record should contain a complete record for the publication, not just a list of changes to the old record. If revision is omitted, the record is assumed to be a new record and not a revision.  If the revision date is specified as 0, this is assumed to be January 1, 1900 (the previous RFC, used revision data of 0, 1, 2, 3, etc. this specification is for programs that might process records from RFC1357). The text before the semicolon in this field is a date of the form month day, year. Any record with a more recent revision date replaces completely any record with an earlier revision date (supplied either explicitly or by default). Use the text to describe the revision. Reasons to send out a revised record include an error in the original, or change in the access information. Format:  REVISION:: January 1, 1995; &lt;free-text&gt; Example: REVISION:: January 1, 1995; FTP information added </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="withdraw">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Withdraw</Attribute>
+            <Attribute name="definition">Withdraw means the document is no longer available.</Attribute>
+            <Attribute name="comment">Withdraw means the document is no longer available. Some Institutions choose to delete the record others remove some of the fields. It is up to each institution to decide how to process withdraw records. A withdraw record has all of the mandatory fields plus the withdraw field and a mandatory revision field. The Withdraw field should indicate the reason for the withdraw in free text. Example for withdrawing a bibliographic record:: BIB-VERSION::  CS-TR-v2.1 ID:: OUKS//CS-TR-91-123 ENTRY:: January 21, 1995 ORGANIZATION:: Oceanview University, Kansas, Computer Science TITLE:: The Computerization of Oceanview with High Speed Fiber Optics Communication REVISION:: January 21, 1995 WITHDRAW:: Withdrawn, found to be irrelevant END::  OUKS//CS-TR-91-123  </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="author">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Author</Attribute>
+            <Attribute name="definition">The author</Attribute>
+            <Attribute name="comment">Personal names only. Normal last name first inversion. Editors should be listed here as well, identified with the usual &quot;(ed.)&quot; as shown below in the last example. If the report was not authored by a person (e.g., it was authored by a committee or a panel) use CORP-AUTHOR (see below) instead of AUTHOR. Multiple authors are entered by using multiple lines, each in the form of &quot;AUTHOR:: &lt;free-text&gt;&quot;. The system preserves the order of the authors. Format: AUTHOR:: &lt;free-text&gt; Example:  AUTHOR:: Finnegan, James A. AUTHOR:: Pooh, Winnie The AUTHOR:: Lastname, Firstname (ed.) </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="corp-author">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Corp-author</Attribute>
+            <Attribute name="definition">The corporate author</Attribute>
+            <Attribute name="comment">The corporate author (e.g., a committee or a panel) that authored the report, which may be different from the ORGANIZATION issuing the report. In entering the corporate name please omit initial &quot;the&quot; or &quot;a&quot;.  If it is really part of the name, please invert it. Format: CORP-AUTHOR:: &lt;free-text&gt; Example: CORP-AUTHOR:: Committee on long-range computing </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="contact">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Contact</Attribute>
+            <Attribute name="definition">The contact for the author(s)</Attribute>
+            <Attribute name="comment">The contact for the author(s). Open-ended, most likely E-mail and postal addresses. A CONTACT field for each author should be provided, separately, or for all the AUTHOR fields. E-mail addresses should always be in &quot;pointy brackets&quot; (as in the example below). Format: CONTACT:: &lt;free-text&gt; Example: CONTACT:: Prof. J. A. Finnegan, CS Dept, Oceanview Univ., Oceanview, Kansas, 54321 Tel: 913-456-7890 &lt;Finnegan@cs.ouks.edu&gt; </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="date">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Date</Attribute>
+            <Attribute name="definition">The publication date</Attribute>
+            <Attribute name="comment">The publication date. The formats are &quot;Month Year&quot; and &quot;Month Day, Year&quot;. The month must be alphabetic (spelled out). The &quot;Day&quot; is a 1- or 2-digit number. The &quot;Year&quot; is a 4- digit number. Format:  DATE:: &lt;date&gt; Example: DATE:: January 1992 Example:  DATE:: January 15, 1992  </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="pages">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Pages</Attribute>
+            <Attribute name="definition">Total number of pages</Attribute>
+            <Attribute name="comment">Total number of pages, without being too picky about it. Final numbered page is actually preferred, if it is a reasonable approximation to the total number of pages. Format: PAGES:: &lt;number&gt; Example:  PAGES:: 48 </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="copyright">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Copyright</Attribute>
+            <Attribute name="definition">Copyright information</Attribute>
+            <Attribute name="comment">Copyright information. Open ended format. The COPYRIGHT field applies to the cited report, rather than to the current bibliographic record. Format:  COPYRIGHT:: &lt;free-text&gt; Example: COPYRIGHT:: Copyright for the report (c) 1991, by J. A. Finnegan. All rights reserved. Permission is granted for any academic use of the report. </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="handle">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Handle</Attribute>
+            <Attribute name="definition">Handles are unique identifiers that are used to rerieve location data.</Attribute>
+            <Attribute name="comment">Handles are unique permanent identifiers that are  used in the Handle Management System to retrieve location data. A handle is a printable string which when given to a handle server returns the location of the data. Handles are used to identify digital objects stored within a digital library. If the technical report is available in electronic form, the Handle MUST be supplied in the bibliographic record. Format is &quot;HANDLE:: hdl:&lt;naming authority&gt;/string  of characters&quot;. The string of characters can be the report number of the technical report as assigned by the publisher. For more information on handles and handle servers see the CNRI WEB page at http://www.cnri.reston.va.us. NOTE: White space in HANDLE due to line wrap is ignored. Format: HANDLE:: hdl:&lt;naming authority&gt;/string of characters Example: HANDLE:: hdl:oceanview.electr/CS-TR-91-123</Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="other_access">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Other_access</Attribute>
+            <Attribute name="definition">Other access information like URLs and URNs</Attribute>
+            <Attribute name="comment">For URLs, URNs, and other yet to be invented  formatted retrieval systems. Only one URL or URN per occurrence of the field. URL and URN information is available in the internet drafts from the IETF (Internet Engineering Task Force). The most recent drafts can be found on the CNRI WEB page at http://www.cnri.reston.va.us. NOTE: White space in a URL or URN due to line wrap is ignored. Format: OTHER_ACCESS:: URL:&lt;URL&gt; OTHER_ACCESS:: URN:&lt;URN&gt; Example: OTHER_ACCESS:: URL:http://elib.stanford.edu/Document/STANFORD.CS:CS-TN-94-1 Example: OTHER_ACCESS:: URL:ftp://JUPITER.CS.OUKS.EDU/PUBS/computerization.txt. When the URN standard is finalized naming authorities will be registered and URNs will be viable unique identifiers. Until then this is a place holder. For the latest URN drafts see CNRI WEB page at http://www.cnri.reston.va.us </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="retrieval">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Retrieval</Attribute>
+            <Attribute name="definition">Describes how to get a copy of the full text</Attribute>
+            <Attribute name="comment">Open-ended format describing how to get a copy of the full text. This is an optional, repeatable field. No limitations are placed on the dissemination of the bibliographic records. If there are limitations on the dissemination of the publication, it should be protected by some means such as passwords. This format does not address this protection. Format:  RETRIEVAL:: &lt;free-text&gt; RETRIEVAL:: for full text with color pictures send a self-addressed stamped envelope to Prof. J.A. Finnegan, CS Dept, Oceanview University, Oceanview, KS 54321 </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="keyword">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Keyword</Attribute>
+            <Attribute name="definition">Keywords</Attribute>
+            <Attribute name="comment">Specify any keywords, controlled or uncontrolled. This is an optional, repeatable field. Multiple keywords are entered using multiple lines in the form of  &quot;KEYWORD::  &lt;free-text&gt;.  Format: KEYWORD:: &lt;free-text&gt; Example: KEYWORD:: Scientific Communication KEYWORD:: Communication Theory </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="cr-category">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Cr-category</Attribute>
+            <Attribute name="definition">The Computer Reviews Category index</Attribute>
+            <Attribute name="comment">Specify the CR-category.  The CR-category (the Computer Reviews Category) index (e.g., &quot;B.3&quot;) should always be included, optionally followed by the name of that category. If the name is specified it should be fully specified with parent levels as needed to clarify it, as in the second example below. Use multiple lines for multiple categories. Every year, the January issue of CR has the full list of these categories, with a detailed discussion of the CR Classification System, and a full index. Typically the full index appears in every January issue, and the top two levels in every issue. Format: CR-CATEGORY:: &lt;free-text&gt; Example: CR-CATEGORY:: D.1 Example: CR-CATEGORY:: B.3 Hardware, Memory Structures </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="period">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Period</Attribute>
+            <Attribute name="definition">Time period covered</Attribute>
+            <Attribute name="comment">Time period covered (date range). Applicable primarily to progress reports, etc. Any format is acceptable, as long as the two dates are separated with &quot; to &quot; (the word &quot;to&quot; surrounded by spaces) and each date is in the format allowed for dates, as described above for the date field. Format: PERIOD:: &lt;date&gt; to &lt;date&gt;  Example:  PERIOD:: January 1990 to March 1990</Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="series">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Series</Attribute>
+            <Attribute name="definition">Series title</Attribute>
+            <Attribute name="comment">Series title, including volume number within series. Open-ended format, with producing institution strongly  encouraged to be internally consistent. Format: SERIES:: &lt;free-text&gt;  Example: SERIES:: Communication </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="monitoring">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Monitoring</Attribute>
+            <Attribute name="definition">The monitoring organization(s)</Attribute>
+            <Attribute name="comment">The name(s) of the monitoring organization(s). Format: MONITORING:: &lt;free-text&gt; Example: MONITORING:: ONR </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="funding">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Funding</Attribute>
+            <Attribute name="definition">The funding organization(s)</Attribute>
+            <Attribute name="comment">The name(s) of the funding organization(s). Format: FUNDING:: &lt;free-text&gt; Example: FUNDING:: ARPA </Attribute>
+            <Attribute name="comment">The name(s) of the funding organization(s). Format: FUNDING:: &lt;free-text&gt; Example: FUNDING:: ARPA </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="contract">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Contract</Attribute>
+            <Attribute name="definition">The contract number(s)</Attribute>
+            <Attribute name="comment">The contract number(s). Format: CONTRACT:: &lt; free-text&gt;  Example: CONTRACT:: MMA-90-23-456 </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="grant">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Grant</Attribute>
+            <Attribute name="definition">The grant number(s)</Attribute>
+            <Attribute name="comment">The grant number(s). Format: GRANT:: &lt;free-text&gt; Example:  GRANT:: NASA-91-2345</Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="language">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Language</Attribute>
+            <Attribute name="definition">The language in which the report is written</Attribute>
+            <Attribute name="comment">The language in which the report is written. Please use the full English name of that language. Please include the Abstract in English, if possible. If the language is not specified, English is assumed. Format: LANGUAGE:: &lt;free-text&gt; Example: LANGUAGE:: English  Example: LANGUAGE:: French</Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="notes">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Notes</Attribute>
+            <Attribute name="definition">Miscellaneous free text</Attribute>
+            <Attribute name="comment">Miscellaneous free text. Format: NOTES:: &lt;free-text&gt; Example: NOTES:: This report is the full version of the paper with the same title in IEEE Trans ASSP Dec 1976 </Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+    <Element name="abstract">
+        <!-- English -->
+        <Language code="en">
+            <Attribute name="label">Abstract</Attribute>
+            <Attribute name="definition">The abstract of the report</Attribute>
+            <Attribute name="comment">Highly recommended, but not mandatory. Even though no limit is defined for its length, it is suggested not to expect applications to be able to handle more than 10,000 characters. The ABSTRACT is expected to be used for subject searching since titles are not enough. Even if the report is not in English, an English ABSTRACT is preferable. If no formal abstract appears on document, the producers of the bibliographic records are encouraged to use pieces of the introduction, first paragraph, etc. Format:  ABSTRACT:: xxxx .............. xxxxxxxx</Attribute>
+        </Language>
+        <!-- Non-language specific -->
+        <Attribute name="version">1.0</Attribute>
+        <Attribute language="en" name="registration_authority">The Internet Engineering Task Force</Attribute>
+        <Attribute name="obligation">Optional</Attribute>
+        <Attribute name="datatype">Character String</Attribute>
+        <Attribute name="maximum_occurrence">Unlimited</Attribute>
+    </Element>
+</MetadataSet>

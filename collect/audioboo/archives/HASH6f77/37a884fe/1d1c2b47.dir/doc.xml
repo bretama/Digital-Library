@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">3</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">071193293X (England)</Metadata>
+    <Metadata name="dc.Identifier">0793518326 (U.S.)</Metadata>
+    <Metadata name="dc.Title">The Beatles : complete scores.</Metadata>
+    <Metadata name="dc.Publisher">London ;</Metadata>
+    <Metadata name="dc.Publisher">Wise Publications ;</Metadata>
+    <Metadata name="dc.Date">c1993.</Metadata>
+    <Metadata name="dc.Description">&quot;Full transcriptions from the original recordings : every song written &amp; recorded by the Beatles&quot;--Cover.</Metadata>
+    <Metadata name="dc.Description">Staff and tablature notation; includes chord symbols.</Metadata>
+    <Metadata name="dc.Description">Discography: p. 1131-1136.</Metadata>
+    <Metadata name="dc.Subject">Rock music England.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs3</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528972</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01133ncm  2200301 a 4500
+001     5687935
+005     19930908113309.4
+008     930823s1993    enkrca   a     n    eng  
+035    _9 (DLC)   93722302
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 2
+       _e ncip
+       _f 19
+       _g y-genmusic
+010    _a    93722302 
+020    _a 071193293X (England)
+020    _a 0793518326 (U.S.)
+028 32 _a NO90548
+       _b Wise Publications
+028 32 _a HL00673228
+       _b H. Leonard Pub. Corp.
+040    _a DLC
+       _c DLC
+043    _a e-uk-en
+050 00 _a M1741.18
+       _b .B36 1993
+245 04 _a The Beatles :
+       _b complete scores.
+260    _a London ;
+       _a New York :
+       _b Wise Publications ;
+       _a Milwaukee, WI :
+       _b Exclusive distributors for U.S.A. and Canada, H.
+ Leonard Pub. Corp.,
+       _c c1993.
+300    _a 1 score (1136 p.) :
+       _b ill. ;
+       _c 27 cm.
+500    _a &quot;Full transcriptions from the original recordings : every
+ song written &amp; recorded by the Beatles&quot;--Cover.
+500    _a Staff and tablature notation; includes chord symbols.
+504    _a Discography: p. 1131-1136.
+650  0 _a Rock music
+       _z England.
+710 2  _a Beatles.
+953    _a TA28
+991    _b c-Music
+       _h M1741.18
+       _i .B36 1993
+       _t Copy 1
+       _m Case
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

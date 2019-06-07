@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">tmp\beatles_midi\Honey_Pie.mid</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">UnknownPlugin</Metadata>
+    <Metadata name="FileSize">15331</Metadata>
+    <Metadata name="Source">Honey_Pie.mid</Metadata>
+    <Metadata name="SourceFile">Honey_Pie.mid</Metadata>
+    <Metadata name="FileFormat">MIDI</Metadata>
+    <Metadata name="MimeType">audio/midi</Metadata>
+    <Metadata name="unknown_file">Honey_Pie.mid</Metadata>
+    <Metadata name="srclink_file">Honey_Pie.mid</Metadata>
+    <Metadata name="srclinkFile">Honey_Pie.mid</Metadata>
+    <Metadata name="srcicon">_iconunknown_</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="gsdlzipfilename">import\beatles_midi.zip</Metadata>
+    <Metadata name="Title">Honey Pie</Metadata>
+    <Metadata name="Identifier">HASH01da0af1bcf0e975d3d3f353</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014326</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01da.dir</Metadata>
+    <Metadata name="gsdlassocfile">Honey_Pie.mid:audio/midi:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">37</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Live performances &amp;#091;sound recording&amp;#093; : 1962-1963.</Metadata>
+    <Metadata name="dc.Publisher">&amp;#091;S.l.&amp;#093; :</Metadata>
+    <Metadata name="dc.Publisher">Multi Coloured Music,</Metadata>
+    <Metadata name="dc.Date">p1991.</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">Besame mucho -- How do you do it -- One afther &amp;#091;sic&amp;#093; 909 -- I be on my way -- Some other guy -- Too much monkey business -- I got to find my baby -- Youngblood -- A shot of rhythm and blues -- Sure to fall -- That's allright mama -- Carol -- Soldier of love -- Lend me your comb -- Clarabel&amp;#091;l&amp;#093;a -- Sweet little sixteen.</Metadata>
+    <Metadata name="dc.Description">Beatles.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970.</Metadata>
+    <Metadata name="dc.Creator">Beatles. prf</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs37</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528981</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs37.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01194cjm  22003017a 4500
+001     5719999
+005     19941013102521.1
+007     sduzsnznnmlneu
+008     941012s1991    xx uun              eng  
+035    _9 (DLC)   94761339
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 3
+       _e ncip
+       _f 19
+       _g y-genmusic
+955    _a vn33
+010    _a    94761339 
+028 00 _a BUR 9103
+       _b Multi Coloured Music
+035    _a (OCoLC)31273712 
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a Multi Coloured Music BUR 9103
+245 00 _a Live performances
+       _h [sound recording] :
+       _b 1962-1963.
+260    _a [S.l.] :
+       _b Multi Coloured Music,
+       _c p1991.
+300    _a 1 sound disc :
+       _b digital ;
+       _c 4 3/4 in.
+511 0  _a Beatles.
+505 0  _a Besame mucho -- How do you do it -- One afther [sic] 909
+ -- I be on my way -- Some other guy -- Too much monkey business
+ -- I got to find my baby -- Youngblood -- A shot of rhythm and
+ blues -- Sure to fall -- That's allright mama -- Carol --
+ Soldier of love -- Lend me your comb -- Clarabel[l]a -- Sweet
+ little sixteen.
+500    _a Brief record.
+650  0 _a Rock music
+       _y 1961-1970.
+710 2  _a Beatles.
+       _4 prf
+953    _a TA28
+985    _a 9410
+991    _b c-RecSound
+       _h Multi Coloured Music BUR 9103
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

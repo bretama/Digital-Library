@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\html_lyrics\www.boskowan.com\www\jirka\beatles\beatles\rubybaby.htm</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">HTMLPlugin</Metadata>
+    <Metadata name="FileSize">2908</Metadata>
+    <Metadata name="Source">rubybaby.htm</Metadata>
+    <Metadata name="SourceFile">rubybaby.htm</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">windows_1250</Metadata>
+    <Metadata name="Title">Ruby Baby</Metadata>
+    <Metadata name="FileFormat">HTML</Metadata>
+    <Metadata name="URL">http://html_lyrics/www.boskowan.com/www/jirka/beatles/beatles/rubybaby.htm</Metadata>
+    <Metadata name="UTF8URL">http://html_lyrics/www.boskowan.com/www/jirka/beatles/beatles/rubybaby.htm</Metadata>
+    <Metadata name="dc.Format">Lyrics</Metadata>
+    <Metadata name="Identifier">HASH018be7c99dd3344a91f0d920</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014424</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH018b.dir</Metadata>
+  </Description>
+  <Content>
+&lt;font FACE=&quot;Arial&quot; SIZE=&quot;2&quot;&gt;&lt;!--webbot bot=&quot;Include&quot; U-Include=&quot;../_private/header.htm&quot;
+TAG=&quot;BODY&quot; startspan --&gt;
+&lt;font face=&quot;Times New Roman&quot; size=&quot;6&quot;&gt;&lt;b&gt;
+
+&lt;/font&gt;
+
+&lt;table border=&quot;0&quot; width=&quot;1&quot; align=&quot;left&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;100%&quot;&gt;&lt;script language=&quot;JavaScript&quot;&gt;&lt;!--
+if (escape(top.document.referrer))
+document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.boskowan.com/a_boskowan/counter.asp?cAdresa=&quot; + location.href  + &quot;&amp;cOdkud=&quot; + escape(top.document.referrer) + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+else
+document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.boskowan.com/a_boskowan/counter.asp?cAdresa=&quot; + location.href  + &quot;&amp;cOdkud=direct&quot; + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+// --&gt;&lt;/script&gt;&lt;!-- Na vrcholu --&gt;
+&lt;IMG SRC=&quot;_httpextlink_&amp;amp;rl=0&amp;amp;el=direct&amp;amp;href=http://www.navrcholu.cz/cgi-bin/4web/nvhit.pl?id=00026445&quot; WIDTH=&quot;1&quot;HEIGHT=&quot;1&quot; ALT=&quot;&quot; BORDER=&quot;0&quot;&gt;
+&lt;SCRIPT LANGUAGE=&quot;JavaScript&quot;&gt;
+&lt;!-- document.write(&quot;&lt;IMG SRC=_httpextlink_&amp;amp;rl=1&amp;amp;href=http://\\&quot;http://www.navrcholu.cz/cgi-bin/4web/nv_referer?id=00026445&amp;ref=&quot; + escape(top.document.referrer) + &quot;\\&quot; WIDTH=1 HEIGHT=1 ALT=\\&quot;\\&quot; BORDER=0&gt;&quot;);
+// --&gt;
+&lt;/SCRIPT&gt;
+&lt;!-- Na vrcholu - konec --&gt;
+&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;!--webbot bot=&quot;Include&quot; i-checksum=&quot;49471&quot; endspan --&gt;
+
+
+&lt;p&gt;&lt;/font&gt;&lt;font size=&quot;6&quot;&gt;&lt;strong&gt;Ruby Baby&lt;/strong&gt;&lt;/font&gt; 
+
+&lt;dl&gt;
+  &lt;dt&gt;I love a girl and Ruby is her name&lt;/dt&gt;
+  &lt;dt&gt;This girl don't love me but i love her just the same&lt;/dt&gt;
+  &lt;dt&gt;Woh-oh-oh-oh-oh&lt;/dt&gt;
+  &lt;dt&gt;Ruby Ruby how i want ya&lt;/dt&gt;
+  &lt;dt&gt;Like a ghost i'm gonna haunt ya&lt;/dt&gt;
+  &lt;dt&gt;Ruby Ruby Ruby will you be mine&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Each time i see you baby my heart cries&lt;/dt&gt;
+  &lt;dt&gt;I tell ya i'm gonna steal you away from all those guys&lt;/dt&gt;
+  &lt;dt&gt;Woh-oh-oh-oh-oh&lt;/dt&gt;
+  &lt;dt&gt;From the happy day i met ya&lt;/dt&gt;
+  &lt;dt&gt;I made a bet that i was goin' to get ya&lt;/dt&gt;
+  &lt;dt&gt;Ruby Ruby Ruby will you be mine&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Hey-hey,hey-hey,hey-hey.....&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Now i love this girl i said Ruby is her name&lt;/dt&gt;
+  &lt;dt&gt;When this girl looks at me she just sets my soul in flame&lt;/dt&gt;
+  &lt;dt&gt;Woh-oh-oh-oh-oh&lt;/dt&gt;
+  &lt;dt&gt;Got some ????? kisses too&lt;/dt&gt;
+  &lt;dt&gt;I gonna give them all to you&lt;/dt&gt;
+  &lt;dt&gt;Ruby Ruby when will you be mine&lt;/dt&gt;
+  &lt;dt&gt;I gonna get you sometime&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Hey-hey,hey-hey,hey-hey.....&lt;/dt&gt;
+  &lt;dt&gt;Ruby Ruby Ruby Ruby will you be mine.....&lt;/dt&gt;
+&lt;/dl&gt;
+&lt;!--webbot bot=&quot;Include&quot; U-Include=&quot;_private/footer1.htm&quot; TAG=&quot;BODY&quot; startspan --&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;Copyright © 2003 by &lt;a href=&quot;mailto:wag@volny.cz&quot;&gt;Jirka Wagner,
+Jr.&lt;/a&gt;&lt;/strong&gt;&lt;small&gt;&lt;small&gt;&amp;nbsp;&amp;nbsp; &lt;/small&gt;&lt;/small&gt;&lt;strong&gt;All Rights Reserved.&lt;/strong&gt;&lt;/p&gt;
+&lt;!--webbot bot=&quot;Include&quot; i-checksum=&quot;5922&quot; endspan --&gt;
+
+
+
+</Content>
+</Section>
+</Archive>

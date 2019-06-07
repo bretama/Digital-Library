@@ -1,0 +1,42 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="searchindexes"><font size="5" face="Verdana"><strong>6.3: Search Indexes</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>Indexes specify what parts of the collection are searchable.  This section explains how to add and remove indexes, and set a default index.  Under the "Design" tab, click "Search Indexes".</p>
+
+<p>The top right of the "Search Indexes" panel displays information about which indexer is currently being used by the collection. This can be changed by clicking "Change...". A popup window appears with the list of options: MG, MGPP, and Lucene. Changing this affects how the indexes are built, and may affect search functionality.</p>
+
+<p>The "Assigned Indexes" list shows what indexes are currently assigned to the collection. </p>
+
+<p>To add an index, click "New Index"... A popup window appears with a list of sources, which includes text and metadata. Select which sources you want to index. The "Select All" and "Select None" buttons will check or uncheck all of the items in the list, respectively. Once a new index has been defined, click "Add Index" to add it to the collection. "Add Index" will only become active once the settings describe a new index that is not already assigned to the collection. </p>
+
+<p>For MG indexes, you also need to choose the granularity of the index, using the "Indexing level:" menu. </p>
+
+<p>For MGPP and Lucene indexes, index granularity is determined globally, not per index. The possible levels are displayed on the main "Search Indexes" pane, and can be added to the collection by ticking the checkboxes.</p>
+
+<p>A special index is available for MGPP and Lucene: an "allfields" index which merely provides combined searching over all specified indexes, without having to specify a separate index that contains all sources. To add this index, check the "Add combined searching over all assigned indexes (allfields)" check box and click "Add Index".</p>
+
+<p>For MGPP and Lucene, an "Add All" button is also provided, as a shortcut to adding all metadata and text sources as individual indexes.</p>
+
+<p>To edit an index, select it and click "Edit Index". A similar dialog to the "New Index" one is shown. </p>
+
+<p>To remove an index, select it from the list of Assigned indexes and click "Remove Index".</p>
+
+<p>The order in which the indexes are specified in the Assigned Indexes list is the order they appear in the drop down menu on the search page. Use the "Move Up" and "Move Down" buttons to change this ordering.</p>
+
+<p>The one that is selected by default on the search page is called the "default index". This can be set by selecting an index from the list and clicking "Set Default". The default index is tagged with "[Default Index]" in the "Assigned Indexes" list. If no default index is set, the first one in the list will be used as the default.</p>
+
+<p>The names used for the drop-down list of indexes on the search page can be set in the "Search" panel of the "Format" view (see <a href="searchmetadatasettings.htm">Search</a>).</p>
+
+
+</body>
+</html>

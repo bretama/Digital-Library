@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">50</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">You sing The Beatles. 1 &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">Irvington, N.Y. :</Metadata>
+    <Metadata name="dc.Publisher">Pocket Songs,</Metadata>
+    <Metadata name="dc.Date">p1985.</Metadata>
+    <Metadata name="dc.Description">Renditions not by the original artists.</Metadata>
+    <Metadata name="dc.Description">Side B has background version of songs in reverse order.</Metadata>
+    <Metadata name="dc.Description">Lyrics enclosed.</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">She loves you -- Love me do -- All my lovin' -- We can work it out -- Hard day's night -- I feel fine.</Metadata>
+    <Metadata name="dc.Subject">Recorded accompaniments.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs50</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528984</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs50.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01064njm  2200313 a 4500
+001     5735623
+005     19950501154350.2
+007     ssulsnjlcnnncu
+008     950501s1985    nyuuun              eng  
+035    _9 (DLC)   95702292
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 5
+       _e ncip
+       _f 19
+       _g y-genmusic
+010    _a    95702292 
+028 00 _a PS 005
+       _b Pocket Songs
+040    _a DLC
+       _c DLC
+050 00 _a RZA 3880
+245 00 _a You sing The Beatles.
+       _n 1
+       _h [sound recording].
+260    _a Irvington, N.Y. :
+       _b Pocket Songs,
+       _c p1985.
+300    _a 1 sound cassette :
+       _b analog, stereo., Dolby processed.
+440  0 _a You sing the hits
+500    _a Renditions not by the original artists.
+500    _a Side B has background version of songs in reverse
+ order.
+500    _a Lyrics enclosed.
+505 0  _a She loves you -- Love me do -- All my lovin' -- We can
+ work it out -- Hard day's night -- I feel fine.
+500    _a Brief record.
+650  0 _a Recorded accompaniments.
+650  0 _a Rock music
+       _y 1961-1970.
+710 2  _a Beatles.
+953    _a TA28
+991    _b c-RecSound
+       _h RZA 3880
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

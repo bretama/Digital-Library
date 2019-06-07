@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\Gallery\IMG_0013.JPG</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">ImagePlugin</Metadata>
+    <Metadata name="Image">IMG_0013.JPG</Metadata>
+    <Metadata name="OrigSource">IMG_0013.JPG</Metadata>
+    <Metadata name="Source">IMG_0013.JPG</Metadata>
+    <Metadata name="SourceFile">IMG_0013.JPG</Metadata>
+    <Metadata name="FileFormat">jpeg</Metadata>
+    <Metadata name="FileSize">1208355</Metadata>
+    <Metadata name="ImageType">JPEG</Metadata>
+    <Metadata name="ImageWidth">2592</Metadata>
+    <Metadata name="ImageHeight">1936</Metadata>
+    <Metadata name="ImageSize">1.152MB</Metadata>
+    <Metadata name="srclink_file">IMG_0013.JPG</Metadata>
+    <Metadata name="srclinkFile">IMG_0013.JPG</Metadata>
+    <Metadata name="srcicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[srclinkFile]&quot; width=&quot;[ImageWidth]&quot; height=&quot;[ImageHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbType">gif</Metadata>
+    <Metadata name="Thumb">IMG_0013_thumb.gif</Metadata>
+    <Metadata name="thumbicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Thumb]&quot; alt=&quot;[Thumb]&quot; width=&quot;[ThumbWidth]&quot; height=&quot;[ThumbHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbWidth">100</Metadata>
+    <Metadata name="ThumbHeight">75</Metadata>
+    <Metadata name="ScreenType">jpeg</Metadata>
+    <Metadata name="Screen">IMG_0013_screen.jpeg</Metadata>
+    <Metadata name="screenicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Screen]&quot; width=[ScreenWidth] height=[ScreenHeight]&gt;</Metadata>
+    <Metadata name="ScreenWidth">500</Metadata>
+    <Metadata name="ScreenHeight">373</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="ex.Composite.Aperture">2.4</Metadata>
+    <Metadata name="ex.Composite.CircleOfConfusion">0.00309852062735187</Metadata>
+    <Metadata name="ex.Composite.FOV">58.7155566804916</Metadata>
+    <Metadata name="ex.Composite.FocalLength35efl">32</Metadata>
+    <Metadata name="ex.Composite.HyperfocalDistance">1.4644085180346</Metadata>
+    <Metadata name="ex.Composite.ImageSize">2592x1936</Metadata>
+    <Metadata name="ex.Composite.LightValue">14.7642496053695</Metadata>
+    <Metadata name="ex.Composite.ScaleFactor35efl">9.6969696969697</Metadata>
+    <Metadata name="ex.Composite.ShutterSpeed">0.0006468305304</Metadata>
+    <Metadata name="ex.Composite.SubSecCreateDate">2018:02:11 02:37:46.363</Metadata>
+    <Metadata name="ex.Composite.SubSecDateTimeOriginal">2018:02:11 02:37:46.363</Metadata>
+    <Metadata name="ex.Composite.ThumbnailImage">&amp;#40;Binary data 7702 bytes&amp;#41;</Metadata>
+    <Metadata name="ex.EXIF.ApertureValue">2.40000000859426</Metadata>
+    <Metadata name="ex.EXIF.BrightnessValue">10.6712828</Metadata>
+    <Metadata name="ex.EXIF.ColorSpace">1</Metadata>
+    <Metadata name="ex.EXIF.ComponentsConfiguration">1 2 3 0</Metadata>
+    <Metadata name="ex.EXIF.Compression">6</Metadata>
+    <Metadata name="ex.EXIF.CreateDate">2018:02:11 02:37:46</Metadata>
+    <Metadata name="ex.EXIF.DateTimeOriginal">2018:02:11 02:37:46</Metadata>
+    <Metadata name="ex.EXIF.ExifImageHeight">1936</Metadata>
+    <Metadata name="ex.EXIF.ExifImageWidth">2592</Metadata>
+    <Metadata name="ex.EXIF.ExifVersion">0221</Metadata>
+    <Metadata name="ex.EXIF.ExposureCompensation">0</Metadata>
+    <Metadata name="ex.EXIF.ExposureMode">0</Metadata>
+    <Metadata name="ex.EXIF.ExposureProgram">2</Metadata>
+    <Metadata name="ex.EXIF.ExposureTime">0.0006468305304</Metadata>
+    <Metadata name="ex.EXIF.FNumber">2.4</Metadata>
+    <Metadata name="ex.EXIF.Flash">32</Metadata>
+    <Metadata name="ex.EXIF.FlashpixVersion">0100</Metadata>
+    <Metadata name="ex.EXIF.FocalLength">3.3</Metadata>
+    <Metadata name="ex.EXIF.FocalLengthIn35mmFormat">32</Metadata>
+    <Metadata name="ex.EXIF.ISO">32</Metadata>
+    <Metadata name="ex.EXIF.LensInfo">3.3 3.3 2.4 2.4</Metadata>
+    <Metadata name="ex.EXIF.LensMake">Apple</Metadata>
+    <Metadata name="ex.EXIF.LensModel">iPad Air back camera 3.3mm f/2.4</Metadata>
+    <Metadata name="ex.EXIF.Make">Apple</Metadata>
+    <Metadata name="ex.EXIF.MeteringMode">5</Metadata>
+    <Metadata name="ex.EXIF.Model">iPad Air</Metadata>
+    <Metadata name="ex.EXIF.ModifyDate">2018:02:11 02:37:46</Metadata>
+    <Metadata name="ex.EXIF.Orientation">6</Metadata>
+    <Metadata name="ex.EXIF.ResolutionUnit">2</Metadata>
+    <Metadata name="ex.EXIF.SceneCaptureType">0</Metadata>
+    <Metadata name="ex.EXIF.SceneType">1</Metadata>
+    <Metadata name="ex.EXIF.SensingMethod">2</Metadata>
+    <Metadata name="ex.EXIF.ShutterSpeedValue">0.000646999832870861</Metadata>
+    <Metadata name="ex.EXIF.Software">11.2.5</Metadata>
+    <Metadata name="ex.EXIF.SubSecTimeDigitized">363</Metadata>
+    <Metadata name="ex.EXIF.SubSecTimeOriginal">363</Metadata>
+    <Metadata name="ex.EXIF.SubjectArea">1295 967 1425 851</Metadata>
+    <Metadata name="ex.EXIF.ThumbnailLength">7702</Metadata>
+    <Metadata name="ex.EXIF.ThumbnailOffset">1728</Metadata>
+    <Metadata name="ex.EXIF.WhiteBalance">0</Metadata>
+    <Metadata name="ex.EXIF.XResolution">72</Metadata>
+    <Metadata name="ex.EXIF.YCbCrPositioning">1</Metadata>
+    <Metadata name="ex.EXIF.YResolution">72</Metadata>
+    <Metadata name="ex.ExifTool.ExifToolVersion">8.57</Metadata>
+    <Metadata name="ex.File.BitsPerSample">8</Metadata>
+    <Metadata name="ex.File.ColorComponents">3</Metadata>
+    <Metadata name="ex.File.Directory">C:\Users\SAKET\Greenstone\collect\audioboo\import\Gallery</Metadata>
+    <Metadata name="ex.File.EncodingProcess">0</Metadata>
+    <Metadata name="ex.File.ExifByteOrder">MM</Metadata>
+    <Metadata name="ex.File.FileModifyDate">2018:12:11 14:42:20+03:00</Metadata>
+    <Metadata name="ex.File.FileName">IMG_0013.JPG</Metadata>
+    <Metadata name="ex.File.FilePermissions">666</Metadata>
+    <Metadata name="ex.File.FileSize">1208355</Metadata>
+    <Metadata name="ex.File.FileType">JPEG</Metadata>
+    <Metadata name="ex.File.ImageHeight">1936</Metadata>
+    <Metadata name="ex.File.ImageWidth">2592</Metadata>
+    <Metadata name="ex.File.MIMEType">image/jpeg</Metadata>
+    <Metadata name="ex.File.YCbCrSubSampling">2 2</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0001">9</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0002">bplist00O��&amp;_'��CKJCB/&amp;���$P#2CMK:;/&amp;��#���t9F?.-.������Pp=B:&amp;#41;-%�����x�a&amp;#62;B&amp;#60;1/!�������S&amp;#62;=&amp;#60;.&amp;#44;&amp;�������P&amp;#62;:9%&amp;#41;%���I_�A=610'&quot;���HO�/B30/!���GP�$A/&amp;'���410=-&quot;
+����3��7&amp;#41;$����.���-������� �e�#���8���ROnp�����������&amp;#123;X�
+�����D</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0003">bplist00�UflagsUvalueYtimescaleUepochn9���;��'-/8=?</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0004">1</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0005">249</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0006">257</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0007">1</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0008">0.03599934843 -0.956879526 -0.1217341372</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x000e">1</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0014">1</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0017">0</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x0019">0</Metadata>
+    <Metadata name="ex.MakerNotes.Unknown_0x001f">0</Metadata>
+    <Metadata name="Title">IMG 0013</Metadata>
+    <Metadata name="Identifier">HASH017d3fa6a3c11035eabddbb5</Metadata>
+    <Metadata name="lastmodified">1544528540</Metadata>
+    <Metadata name="lastmodifieddate">20181211</Metadata>
+    <Metadata name="oailastmodified">1544528934</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH017d.dir</Metadata>
+    <Metadata name="gsdlassocfile">IMG_0013.JPG:image/jpeg:</Metadata>
+    <Metadata name="gsdlassocfile">IMG_0013_thumb.gif:image/gif:</Metadata>
+    <Metadata name="gsdlassocfile">IMG_0013_screen.jpeg:image/jpeg:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

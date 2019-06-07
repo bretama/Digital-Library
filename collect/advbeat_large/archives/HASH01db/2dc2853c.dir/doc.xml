@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\tablature_txt\members.aol.com\way2smug\michelle.txt</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">TextPlugin</Metadata>
+    <Metadata name="FileSize">1200</Metadata>
+    <Metadata name="Source">michelle.txt</Metadata>
+    <Metadata name="SourceFile">michelle.txt</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Title">MICHELLE </Metadata>
+    <Metadata name="FileFormat">Text</Metadata>
+    <Metadata name="dc.Format">Tablature</Metadata>
+    <Metadata name="Identifier">HASH01db2dc2853c313776d82881</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014492</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01db/2dc2853c.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+MICHELLE 
+TAB BY MAXXDADDY
+
+Intro:
+-----8---8---8---8---8--6-----8-
+-----9---9---9---9---6--6--9--8-
+-/10---9---8---7-----6--------9-
+--------------------------------
+--------------------------------
+--------------------------------
+
+Verse:
+
+-8--8--9------9-------------------8----------8-
+-6--6--6--9----9----6---9--12--9--8---9------8-
+-5--5--6--6-----9---7--10--13-10--9-----10---9-
+-7--7--6--6--9------6---9--12--9------9----9---
+-----------------------------------------------
+-----------------------------------------------
+
+
+Chorus:
+ Fm   G#6   C#    C    Fm
+-8-----4----9-----8----8--
+-9-----6----9-----8----9--
+-10----5----10----9----10- go to intro
+-10----4----11----10---10-
+-8-----6----11----10---8--
+-------4----9-----8-------
+
+
+Solo:
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+----------------------7~--8-10-11~--6~-5~-6-8-----5-6--------6------
+------7-8-10-8~--8-10-------------------------6-8-----5-7~-5---8-7~-
+-8-10---------------------------------------------------------------
+
+&lt;/pre&gt;</Content>
+</Section>
+</Archive>

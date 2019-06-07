@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">48</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">7863546061</Metadata>
+    <Metadata name="dc.Title">Yesterday sound recording ; a recollection of the Beatles / all selections by &amp;#091;John&amp;#093; Lennon and &amp;#091;Paul&amp;#093; McCartney.</Metadata>
+    <Metadata name="dc.Publisher">New York :</Metadata>
+    <Metadata name="dc.Publisher">RCA,</Metadata>
+    <Metadata name="dc.Date">c1983.</Metadata>
+    <Metadata name="dc.Description">Yesterday -- All my loving -- Eleanor Rigby -- Norwegian Wood --Can't buy me love -- Here, there and everywhere -- Michelle -- Hey Jude -- The long and winding road -- A hard day's night.</Metadata>
+    <Metadata name="dc.Description">Elena Duran, flute; Stephane Grappelli, violin; Laurie Holloway, piano; Allen Walley, basss; Alan Ganley, drums.</Metadata>
+    <Metadata name="dc.Subject">Rock music.</Metadata>
+    <Metadata name="dc.Creator">Lennon, John, 1940-1980.</Metadata>
+    <Metadata name="dc.Creator">McCartney, Paul.</Metadata>
+    <Metadata name="dc.Creator">Duran, Elena.</Metadata>
+    <Metadata name="dc.Creator">Grappelli, Stéphane.</Metadata>
+    <Metadata name="dc.Creator">Holloway, Laurie.</Metadata>
+    <Metadata name="dc.Creator">Walley, Allen.</Metadata>
+    <Metadata name="dc.Creator">Ganley, Allan.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs48</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014478</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs48.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01343cjm  22003491a 4500
+001     12052014
+005     20000617180748.0
+007     sdrbsmenn-----
+008     840418s1983    nyuppn                   
+035    _a (OCoLC)ocm10640105
+906    _a 0
+       _b cbc
+       _c copycat
+       _d 3
+       _e ncip
+       _f 19
+       _g y-soundrec
+010    _a    99574428 
+024 1  _a 7863546061
+028 02 _a CPL 1-4606
+       _b RCA
+040    _a DLC
+       _c IW
+       _d OCoLC
+       _d DLC
+042    _a lcderive
+050 00 _a RCA CPL 1-4606
+245 00 _a Yesterday
+       _h sound recording ;
+       _b a recollection of the Beatles /
+       _c all selections by [John] Lennon and [Paul]
+ McCartney.
+260    _a New York :
+       _b RCA,
+       _c c1983.
+300    _a 1 sound disc (ca. 29 min.) :
+       _b 33 1/3 rpm, stereo. ;
+       _c 12 in.
+505 0  _a Yesterday -- All my loving -- Eleanor Rigby -- Norwegian
+ Wood --Can't buy me love -- Here, there and everywhere --
+ Michelle -- Hey Jude -- The long and winding road -- A hard
+ day's night.
+511 0  _a Elena Duran, flute; Stephane Grappelli, violin; Laurie
+ Holloway, piano; Allen Walley, basss; Alan Ganley, drums.
+650  0 _a Rock music.
+700 1  _a Lennon, John,
+       _d 1940-1980.
+700 1  _a McCartney, Paul.
+700 1  _a Duran, Elena.
+700 1  _a Grappelli, Stéphane.
+700 1  _a Holloway, Laurie.
+700 1  _a Walley, Allen.
+700 1  _a Ganley, Allan.
+710 22 _a Beatles.
+985    _c OCLC
+       _e Claimed Recordings
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

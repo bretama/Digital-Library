@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\html_lyrics\www.boskowan.com\www\jirka\beatles\beatles\cdsmall.jpg</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">ImagePlugin</Metadata>
+    <Metadata name="Image">cdsmall.jpg</Metadata>
+    <Metadata name="OrigSource">cdsmall.jpg</Metadata>
+    <Metadata name="Source">cdsmall.jpg</Metadata>
+    <Metadata name="SourceFile">cdsmall.jpg</Metadata>
+    <Metadata name="FileFormat">jpeg</Metadata>
+    <Metadata name="FileSize">960</Metadata>
+    <Metadata name="ImageType">JPEG</Metadata>
+    <Metadata name="ImageWidth">49</Metadata>
+    <Metadata name="ImageHeight">32</Metadata>
+    <Metadata name="ImageSize">9.6e+002b</Metadata>
+    <Metadata name="srclink_file">cdsmall.jpg</Metadata>
+    <Metadata name="srclinkFile">cdsmall.jpg</Metadata>
+    <Metadata name="srcicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[srclinkFile]&quot; width=&quot;[ImageWidth]&quot; height=&quot;[ImageHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbType">gif</Metadata>
+    <Metadata name="Thumb">cdsmall_thumb.gif</Metadata>
+    <Metadata name="thumbicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Thumb]&quot; alt=&quot;[Thumb]&quot; width=&quot;[ThumbWidth]&quot; height=&quot;[ThumbHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbWidth">100</Metadata>
+    <Metadata name="ThumbHeight">65</Metadata>
+    <Metadata name="ScreenType">jpeg</Metadata>
+    <Metadata name="Screen">cdsmall_screen.jpeg</Metadata>
+    <Metadata name="screenicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Screen]&quot; width=[ScreenWidth] height=[ScreenHeight]&gt;</Metadata>
+    <Metadata name="ScreenWidth">500</Metadata>
+    <Metadata name="ScreenHeight">327</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Lyrics</Metadata>
+    <Metadata name="Title">cdsmall</Metadata>
+    <Metadata name="Identifier">HASH981495ec4ac1c7f506db28</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014367</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH9814.dir</Metadata>
+    <Metadata name="gsdlassocfile">cdsmall.jpg:image/jpeg:</Metadata>
+    <Metadata name="gsdlassocfile">cdsmall_thumb.gif:image/gif:</Metadata>
+    <Metadata name="gsdlassocfile">cdsmall_screen.jpeg:image/jpeg:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

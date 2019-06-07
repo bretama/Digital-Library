@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\mp3\ODA0QX4x.MP3</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">MP3Plugin</Metadata>
+    <Metadata name="FileSize">4709564</Metadata>
+    <Metadata name="Source">የሚጠብቀኝ አይተኛም አያንቀላፋም የዘማሪ ይልማ ሐይሉ አዲስ መዝሙር.mp3</Metadata>
+    <Metadata name="SourceFile">ODA0QX4x.MP3</Metadata>
+    <Metadata name="mp3">804A~1.MP3</Metadata>
+    <Metadata name="srcurl">ODA0QX4x.MP3</Metadata>
+    <Metadata name="FileFormat">MP3</Metadata>
+    <Metadata name="srcicon">_iconmp3_</Metadata>
+    <Metadata name="srclink_file">ODA0QX4x.MP3</Metadata>
+    <Metadata name="srclinkFile">ODA0QX4x.MP3</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="Title">የሚጠብቀኝ አይተኛም አያንቀላፋም የዘማሪ ይልማ ሐይሉ አዲስ መዝሙር</Metadata>
+    <Metadata name="Identifier">HASH011ea5401f3800e169153651</Metadata>
+    <Metadata name="lastmodified">1544499699</Metadata>
+    <Metadata name="lastmodifieddate">20181211</Metadata>
+    <Metadata name="oailastmodified">1545014480</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH011e.dir</Metadata>
+    <Metadata name="gsdlassocfile">ODA0QX4x.MP3:audio/mp3:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

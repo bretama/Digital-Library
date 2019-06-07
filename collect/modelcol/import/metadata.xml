@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DirectoryMetadata SYSTEM "http://greenstone.org/dtd/DirectoryMetadata/1.0/DirectoryMetadata.dtd">
+<DirectoryMetadata>
+
+    <!-- 
+	 Two examples of the syntax to use to attach metadata to files in a
+         given directory within the 'import' area.
+
+         Copy this file to the folder where the files or interest are, and
+	 then uncomment (or copy and paste) the <FileSet> block and
+	 edit to suit the file name(s) and metadata values required
+    -->
+
+
+    <!-- 
+	 Example 1:
+	   Attached dc.Title and dc.Subject (x 2) to a single, named file
+    -->
+
+<!--
+    <FileSet>
+        <FileName>sample-file1\.txt</FileName>
+        <Description>
+            <Metadata name="dc.Title">Sample Title</Metadata>
+            <Metadata name="dc.Subject">Subject A</Metadata>
+            <Metadata mode="accumulate" name="dc.Subject">Subject B</Metadata>
+        </Description>
+    </FileSet>
+-->
+
+    <!-- 
+	 Example 2:
+	   Attached dc.Subject to all files in this folder that match the given
+	   regular expression 
+    -->
+
+<!--
+    <FileSet>
+        <FileName>.*</FileName>
+        <Description>
+            <Metadata mode="accumulate" name="dc.Subject">Subject X</Metadata>
+        </Description>
+    </FileSet>
+-->
+
+</DirectoryMetadata>

@@ -1,0 +1,69 @@
+infodbtype	gdbm
+creator		leultekie33@gmail.com
+maintainer	bretama9@gmail.com
+public		true
+
+buildtype	mg
+
+beta		false
+
+indexes		document:text document:ex.Title document:ex.Source
+defaultindex	document:text
+
+plugin	ZIPPlugin
+plugin	GreenstoneXMLPlugin
+plugin	TextPlugin
+plugin	HTMLPlugin
+plugin	ImagePlugin
+plugin	EmailPlugin
+plugin	PDFPlugin
+plugin	RTFPlugin
+plugin	WordPlugin
+plugin	PostScriptPlugin
+plugin	MARCPlugin
+plugin	MP3Plugin
+plugin	UnknownPlugin -process_exp \.mid$ -mime_type audio/midi -file_format MIDI
+plugin	MetadataXMLPlugin
+plugin	ArchivesInfPlugin
+plugin	DirectoryPlugin
+
+# (\s+&#091;.*) in removesuffix is to remove eg [sound recording] from the Title. Greenstone escapes [] as they are used to represent metadata format elements, hence the use of &#091; instead of \[ in the regex.
+classify	AZCompactList -metadata dc.Title,Title -mingroup 1 -minnesting 20 -removesuffix "(?i)(\s+\d+)|(\s*[[:punct:]]\s+.*)|(\s+&#091;.*)|(\s*by the beatles\s*)" -firstvalueonly -buttonname Title -removeprefix (?i)\s*beatles\s+\-\s+
+classify	AZCompactList -metadata dc.Format -buttonname Browse -sort Title
+# classify	Phind
+
+format DateList "<td>[link][icon][/link]</td><td>[highlight]{Or}{[dls.Title],[dc.Title],[Title],Untitled}[/highlight]</td><td>[Date]</td>"
+
+format HList "[link][highlight]{Or}{[dls.Title],[dc.Title],[Title],Untitled}[/highlight][/link]"
+
+format VList "<td valign=top>
+{If}{[numleafdocs],[link][icon][/link]}
+{If}{[dc.Format] eq \'Lyrics\',[link]_iconlyrics_[/link]}
+{If}{[dc.Format] eq \'Discography\',[link]_icondisc_[/link]}
+{If}{[dc.Format] eq \'Tablature\',[link]_icontab_[/link]}
+{If}{[dc.Format] eq \'MARC\',[link]_iconmarc_[/link]}
+{If}{[dc.Format] eq \'Images\',[srclink][thumbicon][/srclink]}
+{If}{[dc.Format] eq \'Supplementary\',[srclink][srcicon][/srclink]}
+{If}{[dc.Format] eq \'Audio\',[srclink]{If}{[FileFormat] eq \'MIDI\',_iconmidi_,_iconmp3_}[/srclink]}
+</td>
+<td>
+{If}{[numleafdocs],([numleafdocs])}
+</td>
+<td valign=top>
+[highlight]
+{Or}{[dc.Title],[Title],Untitled}
+[/highlight]
+</td>"
+
+format DocumentHeading "{Or}{[parent(Top):Title],[Title],untitled}<br>"
+
+format DocumentText "[Text]"
+
+format DocumentButtons "Detach|Highlight"
+
+collectionmeta	.document:text [l=en] "text"
+collectionmeta	.document:Title [l=en] "titles"
+collectionmeta	.document:Source [l=en] "filenames"
+collectionmeta	collectionname [l=en] "Audio-Books"
+collectionmeta	collectionextra [l=en] "Demonstration collection illustrating the use of heterogeneous documents. Source documents are about The Beatles pop group in the following formats: HTML, TXT, JPEG, Word, PDF, MIDI, MP3, and MARC file formats."
+collectionmeta	iconcollection [l=en] "_httpprefix_/collect/advbeat_large/images/button_multimedia.png"

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\tablature_txt\members.aol.com\way2smug\hermajesty.txt</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">TextPlugin</Metadata>
+    <Metadata name="FileSize">649</Metadata>
+    <Metadata name="Source">hermajesty.txt</Metadata>
+    <Metadata name="SourceFile">hermajesty.txt</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Title">HER MAJESTY</Metadata>
+    <Metadata name="FileFormat">Text</Metadata>
+    <Metadata name="dc.Format">Tablature</Metadata>
+    <Metadata name="Identifier">HASH01b118423c40dbda94d59ce9</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014490</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01b1.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+HER MAJESTY
+
+D                                        E7                    D 
+Her Majesty's a pretty nice girl but she doesn't have a lot to say
+D                                        E                   A
+Her Majesty's a pretty nice girl but she changes from day to day
+Bm                                           D                       G
+I wanna tell her that I love her a lot but I gotta get a belly fulla wine
+Em/G            D           B7        Em7           A        D      
+Her Majesty's a pretty nice girl some day I'm gonna make her mine
+   B7         Em7           A7       D
+oh yeah, some day I'm gonna make her mine
+
+
+&lt;/pre&gt;</Content>
+</Section>
+</Archive>

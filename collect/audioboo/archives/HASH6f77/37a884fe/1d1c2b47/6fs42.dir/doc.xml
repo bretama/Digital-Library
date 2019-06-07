@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">42</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Rock 'n' roll music. Vol. 2 &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">Middlesex &amp;#091;England&amp;#093; :</Metadata>
+    <Metadata name="dc.Publisher">MFP,</Metadata>
+    <Metadata name="dc.Date">p1976.</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">Dizzy Miss Lizzy -- Anytime at all -- Drive my car -- Everybody's trying to be my baby -- The night before -- I'm down -- Revolution -- Back in the U.S.S.R. -- Helter skelter -- Taxman -- Got to get you into my life -- Hey bulldog -- Birthday -- Get back.</Metadata>
+    <Metadata name="dc.Description">Performed by the Beatles.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1971-1980.</Metadata>
+    <Metadata name="dc.Creator">Beatles. prf</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs42</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528982</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs42.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01084njm  22002897a 4500
+001     5699134
+005     19940701063550.0
+007     sdubsmennmpluu
+008     940113s1976    enkuun              eng  
+035    _9 (DLC)   93853246
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 3
+       _e ncip
+       _f 19
+       _g y-genmusic
+955    _a ns32
+010    _a    93853246 
+028 00 _a MFP 50507
+       _b MFP
+035    _a (OCoLC)29623998 
+040    _a DLC
+       _c DLC
+050 00 _a MFP MFP 50507
+245 00 _a Rock 'n' roll music.
+       _n Vol. 2
+       _h [sound recording].
+260    _a Middlesex [England] :
+       _b MFP,
+       _c p1976.
+300    _a 1 sound disc :
+       _b analog, 33 1/3 rpm, stereo. ;
+       _c 12 in.
+511 0  _a Performed by the Beatles.
+505 0  _a Dizzy Miss Lizzy -- Anytime at all -- Drive my car --
+ Everybody's trying to be my baby -- The night before -- I'm
+ down -- Revolution -- Back in the U.S.S.R. -- Helter skelter --
+ Taxman -- Got to get you into my life -- Hey bulldog --
+ Birthday -- Get back.
+500    _a Brief record.
+650  0 _a Rock music
+       _y 1971-1980.
+710 2  _a Beatles.
+       _4 prf
+953    _a TA28
+991    _b c-RecSound
+       _h MFP MFP 50507
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

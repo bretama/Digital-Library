@@ -1,0 +1,11 @@
+Copyright (C) 2003 Quality First Software GmbH
+
+qflib - License
+
+qflib is distributed for free under the terms of the Mozilla Public License Version 1.1, MPL for short. It comes without warranty of any kind. The license grants you free use of qflib, access to the source and the right to modify and redistribute it.
+
+The only restrictions are that you cannot remove Quality First Software GmbH's copyright and that modifications of qflib are automatically covered by the MPL as well. Code that just uses the library through its published interface (referred to as "greater work" in the license) is free to use any license whatever.
+
+As long as these conditions are met there is nothing to inhibit commercial use or commercial distribution of qflib, e.g. together with other software on a CD-rom.
+
+We decided in favor of the MPL because it appears to be a good compromise between protecting openness and free use on the one hand and enabling interoperation with third party software under any license on the other. The text of the license is short and precise compared to others and is comprehensible for the layman. 

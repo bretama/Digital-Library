@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">17</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0860077306 :</Metadata>
+    <Metadata name="dc.Title">The Beatles lyrics / with an introduction by Jimmy Savile.</Metadata>
+    <Metadata name="dc.Publisher">London :</Metadata>
+    <Metadata name="dc.Publisher">Futura Publications,</Metadata>
+    <Metadata name="dc.Date">1975.</Metadata>
+    <Metadata name="dc.Description">Cover title: The Beatles illustrated lyrics.</Metadata>
+    <Metadata name="dc.Description">First published in 1969 under title: The Beatles illustrated lyrics; published in 1974 under title: The Beatles lyrics complete.</Metadata>
+    <Metadata name="dc.Description">Includes index.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970 Texts.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs17</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528975</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs17.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01028cam  2200289 i 4500
+001     3657717
+005     19981112075903.5
+008     760910r19751969enkacf        001 0 eng  
+035    _9 (DLC)   76374170
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 3
+       _e ncip
+       _f 19
+       _g y-gencatlg
+010    _a    76374170 
+015    _a GB76-00260
+020    _a 0860077306 :
+       _c £1.50
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a ML54.6.B4
+       _b I4
+082 00 _a 784/.3
+245 04 _a The Beatles lyrics /
+       _c with an introduction by Jimmy Savile.
+260    _a London :
+       _b Futura Publications,
+       _c 1975.
+300    _a 208 p., [64] p. of plates :
+       _b ill., ports. ;
+       _c 20 cm.
+490 0  _a An Omega book
+500    _a Cover title: The Beatles illustrated lyrics.
+500    _a First published in 1969 under title: The Beatles
+ illustrated lyrics; published in 1974 under title: The Beatles
+ lyrics complete.
+500    _a Includes index.
+650  0 _a Rock music
+       _y 1961-1970
+       _x Texts.
+710 2  _a Beatles.
+740 0  _a Beatles illustrated lyrics.
+991    _b c-Music
+       _h ML54.6.B4
+       _i I4
+       _t Copy 1
+       _w BOOKS
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

@@ -1,0 +1,15 @@
+[gsdl]
+enterlib=/gsdl
+keeplog=0
+consolelog=0
+portnumber=8282
+keepport=0
+externalaccess=0
+autoenter=0
+gli.autoenter=1
+browser=3
+start_browser=1
+gli.start_browser=0
+address_resolution_method=2
+hostIP=
+hosts=

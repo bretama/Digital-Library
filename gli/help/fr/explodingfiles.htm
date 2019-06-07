@@ -1,0 +1,25 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="explodingfiles"><font size="5" face="Verdana"><strong>4.7: &laquo;Eclater&raquo; les fichiers de m&eacute;tadonn&eacute;es  </strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>Les m&eacute;tadonn&eacute;es issues de bases de donn&eacute;es telles que MARC, OAI, CDS/ISIS, BibTex, Refer et ProCite peuvent &ecirc;tre import&eacute;s dans Greenstone, mais elles ne peuvent pas &ecirc;tre consult&eacute;es ou modifi&eacute;es IMMEDIATEMENT dans l'Interface Biblioth&eacute;caire. Cependant, vous pouvez &laquo;&eacute;clater&raquo; le fichier de la base dans l'Interface Biblioth&eacute;caire pour que ces op&eacute;rations deviennent possibles. Alternativement, vous pouvez, particuli&egrave;rement si vous maintenez une application externe ma&icirc;tre, retourner au programme qui a cr&eacute;&eacute; le fichier, effectuer vos corrections, et importer de nouveau la base.</p>
+
+<p>&laquo;Eclater&raquo; un fichier de base de donn&eacute;es le divise en enregissements individuels, chacun avec m&eacute;tadonn&eacute;es visibles et modifiables. Ce processus est irr&eacute;versible: l'original du fichier de m&eacute;tadonn&eacute;es est supprim&eacute;.</p>
+
+<p>Les fichiers &laquo;&eacute;clatables&raquo; ont une ic&ocirc;ne verte dans l'Arboresence de la collection . Pour en &eacute;clater un, clic droit puis s&eacute;lectionner "&Eacute;clater la base de donn&eacute;es de m&eacute;tadonn&eacute;es". Une fen&ecirc;tre secondaire affiche des options du processus d'&eacute;clatement. L'option &laquo;plugiciel&raquo; pr&eacute;cise le plugiciel &agrave; utiliser pour &eacute;clater la base. Dans la plupart des cas, un seul plugiciel traite un type de fichier donn&eacute;, mais dans certains cas, quand diff&eacute;rents types de fichiers partagent la m&ecirc;me extension de nom de fichier, il peut y avoir deux plugiciels qui traitent les fichiers avec cette extension. L'option &laquo;input_encoding&raquo; peut &ecirc;tre utilis&eacute;e pour sp&eacute;cifier l'encodage de la base de donn&eacute;es. L'option &laquo;metadata_set&raquo; sp&eacute;cifie quel jeu de m&eacute;tadonn&eacute;es doit &ecirc;tre enrichi des nouveaux champs g&eacute;n&eacute;r&eacute;s par l'&eacute;clatement. Si rien n'est sp&eacute;cifi&eacute;, il vous est demand&eacute; que faire avec chaque nouveau champ de la base de donn&eacute;es : l'ajouter comme un nouvel &eacute;l&eacute;ment d'un jeu de m&eacute;tadonn&eacute;es existant, le fusionner avec un autre &eacute;l&eacute;ment, ou l'ignorer.</p>
+
+<p>Lorsqu'un fichier est &eacute;clat&eacute;, un nouveau document vide est cr&eacute;&eacute; pour chaque enregistrement, et les m&eacute;tadonn&eacute;es de l'enregistrement sont attribu&eacute;es au document. Les documents sont nomm&eacute;es en utilisant des num&eacute;ros tels que 000001.nul, 000002.nul etc... Si l'option &laquo;document_field&raquo;  est d&eacute;finie (avec un nom de champ de base de donn&eacute;es), la valeur de ce champ, s'il est pr&eacute;sent, est utilis&eacute;e pour le nom du fichier. Le processus de l'&eacute;clatement tente &eacute;galement de t&eacute;l&eacute;charger le fichier et de l'utiliser &agrave; la place d'un fichier vide. Les options &laquo;document_prefix&raquo; et &laquo;document_suffix&raquo;  peuvent &ecirc;tre utilis&eacute;es pour fabriquer une URL ou le chemin du fichier &agrave; partir de la valeur du document_field. L'option &laquo;records_per_folder&raquo; peut &ecirc;tre utilis&eacute;e pour regrouper en sous-dossiers les enregistrements &eacute;clat&eacute;s. Si la base de donn&eacute;es est tr&egrave;s fournie, l'utilisation de cette option permettra d'acc&eacute;l&eacute;rer la modification ult&eacute;rieure de m&eacute;tadonn&eacute;es.</p>
+
+<p>La possibilit&eacute; d'&eacute;clater un fichier est d&eacute;termin&eacute;e par son extension. Dans certains cas, un fichier peut &ecirc;tre identifi&eacute; comme &laquo;&eacute;clatable&raquo; alors que ce n'est pas le cas, s'il a la m&ecirc;me extension qu'un fichier r&eacute;ellement &laquo;&eacute;clatable&raquo;. Par exemple, le plugiciel ProCite traite les fichiers avec une extension .txt, mais la plupart des fichiers .txt sont des fichiers texte ordinaires, et non des fichiers ProCite.</p>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DirectoryMetadata SYSTEM "http://greenstone.org/dtd/DirectoryMetadata/1.0/DirectoryMetadata.dtd">
+<DirectoryMetadata>
+	<FileSet>
+		<FileName>CH03-UDP\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">udp demo</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Chemistry</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science</Metadata>
+			<Metadata mode="accumulate" name="dc.Language">English</Metadata>
+		</Description>
+	</FileSet>
+	<FileSet>
+		<FileName>CH03-UDP1\.pdf</FileName>
+		<Description>
+			<Metadata mode="accumulate" name="dc.Title">udp-cont...</Metadata>
+			<Metadata mode="accumulate" name="dc.Subject">Biology</Metadata>
+			<Metadata mode="accumulate" name="dls.Organization">Natural Science</Metadata>
+			<Metadata mode="accumulate" name="dc.Language">English</Metadata>
+		</Description>
+	</FileSet>
+</DirectoryMetadata>

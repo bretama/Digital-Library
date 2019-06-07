@@ -1,0 +1,88 @@
+How to add a translation for a metadata set.
+
+Note: When using the word element, we are speaking of a document object model element. Whereas when we say Element we are talking about a particular document object model element used to describe an item from the current set.
+
+1. Prepare your source text in a UTF8 encoded document, or use a fully Unicode compliant text editor. Open the metadata set file that you want to edit.
+
+Example: To add a new language to the dublin.mds, open the file in a UTF8 editor.
+
+2. In MetadataSet DOM element edit, or add if necessary, an argument named "language_dependent". As its value add a list of comma separated attribute names. These are the names of the attributes which are taken to be language dependent (see 4). This is optional.
+
+Example: While editing the dublin.mds scroll down to the start of the MetadataSet xml block, which looks like:
+
+<MetadataSet 
+  contact     = "dcmi-feedback@dublincore.org"
+  creator     = "Dublin Core Metadata Initiative"
+  family      = "Dublin Core"
+  lastchanged = "Tue Jun 04 10:35:30 2002 - jmt12 on blackbird"
+  namespace   = "dc" 
+>
+
+and add the mentioned line so it reads something like:
+
+<MetadataSet 
+  contact     = "dcmi-feedback@dublincore.org"
+  creator     = "Dublin Core Metadata Initiative"
+  family      = "Dublin Core"
+  lastchanged = "Tue Jun 04 10:35:30 2002 - jmt12 on blackbird"
+  namespace   = "dc" 
+  language_dependent = "label, definition, comment"
+>
+
+where label, definition and command are the attributes that we wish to be language specific.
+
+3. Near the top of the document add a language specific set description block of the form
+
+  <SetLanguage code="**">
+    <Name>**</Name>
+    <Description>**</Description>
+  </SetLanguage>
+
+  Replace the ** with the relevant detail. Code is the two letter language code according to ISO 3166.
+
+Example: To add the French translation to the dublin.mds scroll down to just below the MetadataSet xml block, and add the SetLanguage xml block:
+
+  <SetLanguage code="fr">
+    <Name language="fr">El\303\251ments de m\303\251tadonn\303\251es du Dublin Core, Version 1.1: Description de R\303\251ference</Name>
+    <Description language="fr">Ce document r\303\251sume...</Description>
+  </SetLanguage>
+
+4. For each Element xml block defined in the metadata set, add a new Language xml block and within it add the language specfic Attributes. The block is of the form:
+
+    <Language code="**">
+       <Attribute name="**">**</Attribute>
+       ...
+    </Language>
+
+  Replace the ** with the relevant detail. Once again code is the two letter language code according to ISO 3166. Note that the names specified in the name argument of an Attribute must also be listed in the language_dependent argument of the MetadataSet (see 1) (OPTIONAL)
+
+Example: Thus to add a French translation for the Element "Title", scroll down to the Element xml block defining Title. This should start:
+
+  <Element name="Title" remember_values="true">
+  ...
+  ...
+  ...
+  </Element>
+
+Now add in a new Language block so it looks something like this:
+
+  <Element name="Title" remember_values="true">
+  ...
+     <!-- French -->
+     <Language code="fr">
+        <Attribute name="label">Titre</Attribute>
+        <Attribute name="definition">Le nom donn\303\251 \303\240  la ressource.</Attribute>
+        <Attribute name="comment">Typiquement, un titre sera le nom par lequel la ressource est officiellement connue.</Attribute>
+     </Language>
+  ...
+  </Element>    
+
+5. Finally edit the file <gli_install>/classes/xml/languages.xml. Locate the appropriate Language and add the argument mds="true" to enable this language. This controls what languages appear on the preferences page within the GLI.
+
+Example: Finally to enable the French translation, find the entry in the languages.xml file that reads:
+
+  <Language name="FRENCH"              code="FR" ... >ROMANCE</Language>
+
+And change it so it now says:
+
+  <Language name="FRENCH"              code="FR" ... mds="true">ROMANCE</Language> 

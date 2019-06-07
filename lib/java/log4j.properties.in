@@ -1,0 +1,68 @@
+## greenstone home 
+gsdl2.home=@gsdl2home@
+
+##Configure log4j's operation at the meta level                              
+##Observe log4j parsing this file
+#log4j.debug=true
+##Set this to false for log4j to actually obey the log4j.disable property(next)
+log4j.disableOverride=false
+##Disable all logging in all categories for messages with priority equal to
+##or lower than the one given here
+log4j.disable=DEBUG
+
+#####configure the loggers####
+##general logger
+log4j.rootCategory=INFO, infolog
+
+##usage logger
+log4j.category.org.greenstone.gsdl3.LibraryServlet=INFO, usagelog
+log4j.additivity.org.greenstone.gsdl3.LibraryServlet=false
+
+##server logger
+##Set to INFO if you want INFO (success) messages to appear as well
+##Set to WARN if you want to turn INFO and DEBUG messages off.
+log4j.category.org.greenstone.server=WARN, stdout, serverlog
+log4j.additivity.org.greenstone.server=false
+
+#####configure appenders and their options####
+##console logger - send only ERROR messages out to the console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.Threshold=ERROR
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%5p [%t] (%F:%L) - %m%n
+
+##general logger
+log4j.appender.infolog=org.apache.log4j.RollingFileAppender
+log4j.appender.infolog.File=${gsdl2.home}/etc/logs-gsi/greenstone.log
+#Control the maximum log file size
+log4j.appender.infolog.MaxFileSize=100KB
+#Keep backup file(s) (backups will be in filename.1, .2, .3 etc.)
+log4j.appender.infolog.MaxBackupIndex=3
+
+##usage logger
+log4j.appender.usagelog=org.apache.log4j.RollingFileAppender
+log4j.appender.usagelog.File=${gsdl2.home}/etc/logs-gsi/usage.log
+#Control the maximum log file size
+log4j.appender.usagelog.MaxFileSize=1000KB
+
+##Server's logger
+log4j.appender.serverlog=org.apache.log4j.RollingFileAppender
+log4j.appender.serverlog.File=${gsdl2.home}/etc/logs-gsi/server.log
+
+
+#####Configure appender layouts and their options#### 
+## general logger layout
+log4j.appender.infolog.layout=org.apache.log4j.PatternLayout
+log4j.appender.infolog.layout.ConversionPattern=%-5p: [%d{yyyy-MM-dd hh:mm:ss}] %C{1}.%M()%n %m%n
+
+##usage logger layout
+# Usage log contains:                                                        
+#      loggingTime + servletName + args (in URL plus saved in a session) +  
+#      remoteAddress + sessionID + browerInfo                               
+log4j.appender.usagelog.layout=org.apache.log4j.PatternLayout
+log4j.appender.usagelog.layout.ConversionPattern=[%d{yyyy-MM-dd hh:mm:ss}] %m%n
+
+##server logger layout
+log4j.appender.serverlog.layout=org.apache.log4j.PatternLayout
+log4j.appender.serverlog.layout.ConversionPattern=%-5p: [%d{yyyy-MM-dd hh:mm:ss}] %C{1}.%M()%n %m%n
+

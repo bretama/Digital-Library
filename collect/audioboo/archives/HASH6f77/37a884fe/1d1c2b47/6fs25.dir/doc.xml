@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">25</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">089408355325</Metadata>
+    <Metadata name="dc.Identifier">089408355325</Metadata>
+    <Metadata name="dc.Title">The blues white album &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">Cleveland :</Metadata>
+    <Metadata name="dc.Publisher">Telarc,</Metadata>
+    <Metadata name="dc.Date">p2002.</Metadata>
+    <Metadata name="dc.Description">Compact disc.</Metadata>
+    <Metadata name="dc.Description">Why don't we do it in the road? / Jimmy Thackery &amp; the Drivers -- Yer blues / Lucky Peterson -- Happiness is a warm gun / Anders Osborne -- Revolution / Kenny Neal, Lucky Peterson, Tab Benoit -- Ob-la-di, ob-la-da / Maria Muldaur -- While my guitar gently weeps / Joe Louis Walker -- Don't pass me by / T-Bone Walker -- I'm so tired / Chris Duarte -- Blackbird / Colin Linden -- Dear Prudence / Charlie Musselwhite, Colin Linden.</Metadata>
+    <Metadata name="dc.Description">Various artists covering songs from The Beatles' White album.</Metadata>
+    <Metadata name="dc.Description">Recorded at The Studio, Portland, Me., June 2001.</Metadata>
+    <Metadata name="dc.Subject">Blues (Music) 1991-2000.</Metadata>
+    <Metadata name="dc.Creator">Thackery, Jimmy.</Metadata>
+    <Metadata name="dc.Creator">Peterson, Lucky.</Metadata>
+    <Metadata name="dc.Creator">Osborne, Anders.</Metadata>
+    <Metadata name="dc.Creator">Neal, Kenny.</Metadata>
+    <Metadata name="dc.Creator">Benoit, Tab.</Metadata>
+    <Metadata name="dc.Creator">Muldaur, Maria.</Metadata>
+    <Metadata name="dc.Creator">Walker, Joe Louis.</Metadata>
+    <Metadata name="dc.Creator">Wolk, T-Bone.</Metadata>
+    <Metadata name="dc.Creator">Duarte, Chris.</Metadata>
+    <Metadata name="dc.Creator">Linden, Colin.</Metadata>
+    <Metadata name="dc.Creator">Musselwhite, Charlie.</Metadata>
+    <Metadata name="dc.Creator">Drivers (Blues group)</Metadata>
+    <Metadata name="dc.Creator">Beatles. Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs25</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528977</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs25.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 02042cjm  22005291a 4500
+001     12699666
+005     20020717131202.0
+007     sd|zsngnnmmned
+008     020311p20022001ohubln                  d
+028 02 _a CD-83553
+       _b Telarc Blues
+035    _a (DLC)   2002563429
+050 00 _a SDA 44910
+906    _a 0
+       _b ibc
+       _c copycat
+       _d 3
+       _e ncip
+       _f 20
+       _g y-genmusic
+010    _a   2002563429
+024 10 _a 089408355325
+024 1  _a 089408355325
+028 02 _a CD-83553
+       _b Telarc
+033 00 _a 200106--
+035    _a (OCoLC)ocm49270538
+040    _a UOJ
+       _c UOJ
+       _d JED
+       _d DLC
+042    _a lcderive
+245 04 _a The blues white album
+       _h [sound recording].
+260    _a Cleveland :
+       _b Telarc,
+       _c p2002.
+300    _a 1 sound disc (51 min.) :
+       _b digital ;
+       _c 4 3/4 in.
+306    _a 005119
+511 0  _a Various artists covering songs from The Beatles' White
+ album.
+500    _a Compact disc.
+518    _a Recorded at The Studio, Portland, Me., June 2001.
+505 00 _t Why don't we do it in the road? /
+       _r Jimmy Thackery &amp; the Drivers --
+       _t Yer blues /
+       _r Lucky Peterson --
+       _t Happiness is a warm gun /
+       _r Anders Osborne --
+       _t Revolution /
+       _r Kenny Neal, Lucky Peterson, Tab Benoit --
+       _t Ob-la-di, ob-la-da /
+       _r Maria Muldaur --
+       _t While my guitar gently weeps /
+       _r Joe Louis Walker --
+       _t Don't pass me by /
+       _r T-Bone Walker --
+       _t I'm so tired /
+       _r Chris Duarte --
+       _t Blackbird /
+       _r Colin Linden --
+       _t Dear Prudence /
+       _r Charlie Musselwhite, Colin Linden.
+650  0 _a Blues (Music)
+       _y 1991-2000.
+700 1  _a Thackery, Jimmy.
+700 1  _a Peterson, Lucky.
+700 1  _a Osborne, Anders.
+700 1  _a Neal, Kenny.
+700 1  _a Benoit, Tab.
+700 1  _a Muldaur, Maria.
+700 1  _a Walker, Joe Louis.
+700 1  _a Wolk, T-Bone.
+700 1  _a Duarte, Chris.
+700 1  _a Linden, Colin.
+700 1  _a Musselwhite, Charlie.
+710 2  _a Drivers (Blues group)
+710 2  _a Beatles.
+       _t Beatles.
+925 0  _a acquire
+       _b 2 copies
+       _x policy default
+952    _a muzerec
+955    _a vn03 2002-03-11 to MBRS/RS
+       _e vn23 2002-07-17 copy 2 to MBRS/RS
+985    _c OCLC
+       _e srreplace 2002-05
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

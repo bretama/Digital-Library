@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<!DOCTYPE TutorialList [
+     <!ENTITY nbsp "&#160;">
+     <!ENTITY rarr "&#8594;">
+     <!ENTITY mdash "&#8212;">
+]>
+<Document>
+<Section name="introduction">
+<Title>
+<Text id="1">Introduction</Text>
+</Title>
+<Text id="2">The Greenstone Librarian Interface is a tool for collecting documents, adding metadata, then building digital library collections. It provides access to the Greenstone Digital Library Software's functionality from a graphical point and click interface.</Text>
+<Section name="ofmiceandmenus">
+<Title>
+<Text id="3">Of Mice and Menus</Text>
+</Title>
+<Text id="4">This section provides basic information about interacting with the Librarian Interface. If you are familiar with programs such as Internet Explorer or Microsoft Office and are comfortable with mouse clicks and menus, skip to <Reference target="howtoavoidthisdocument"/>.</Text>
+<Text id="5">The Librarian Interface follows Microsoft Windows conventions and draws upon ordinary knowledge of Windows.</Text>
+<Text id="6">Any part of the screen that you interact with, such as a button or text field, is called a "control".  At any given time one control, called the "focus", is highlighted and responds to the keyboard.  Several controls allow you to select parts that are highlighted in dark blue.  Some controls are greyed out to indicate that they are disabled.</Text>
+<Text id="7">You can move and left- or right-click the mouse in the usual way.  Many components also allow you to "drag" them, by clicking and holding the left mouse button, move them with the mouse, and "drop" them elsewhere by releasing the button.  Potential drop targets alter their appearance when a component hovers over them.</Text>
+<Text id="8">You can use the keyboard to type into text fields. [Tab] enables one to navigate among multiple text fields.</Text>
+<Text id="11">Exit the Librarian Interface program by choosing "Exit" from the "File" menu.  Your collection will be saved first.</Text>
+</Section>
+<Section name="howtoavoidthisdocument">
+<Title>
+<Text id="12">How to Avoid Reading This Document</Text>
+</Title>
+<Text id="13">Don't read this help text all the way through!  Just read enough to learn how to get help when you need it.</Text>
+<Text id="14">Clicking on the "Help" icon in a given context either brings up the relevant help text or marks the relevant help heading with a question mark icon.</Text>
+<Text id="15">For many controls, if you station the mouse over them a "tool tip" appears that says what they do.</Text>
+<Text id="16">Before using the Librarian Interface, first read the Greenstone documentation.</Text>
+</Section>
+</Section>
+<Section name="startingoff">
+<Title>
+<Text id="17">Starting Off</Text>
+</Title>
+<Text id="18">This section covers how to create, load, save and delete collections.</Text>
+<Section name="creatingacollection">
+<Title>
+<Text id="19">Creating a New Collection</Text>
+</Title>
+<Text id="20">To create a new collection, open the "File" menu and choose "New".  Several fields need to be filled out -- but you can change their values later if you need to, in the Format view.</Text>
+<Text id="21">"Collection title" is the text displayed at the top of your collection's home page.  It can be any length.</Text>
+<Text id="22">"Description of content" should describe, in as much detail as possible, what the collection is about. Use the [Enter] key to break it into paragraphs.</Text>
+<Text id="23">Finally you must specify whether the new collection will have the same appearance and metadata sets as an existing collection, or whether to start a default "New Collection". Default new collections have a standard configuration and use the Dublin Core metadata set. These can be changed later.</Text>
+<Text id="24">Click "OK" to create the collection. </Text>
+<Text id="25">Clicking "Cancel" returns you to the main screen immediately.</Text>
+</Section>
+<Section name="savingacollection">
+<Title>
+<Text id="26">Saving the Collection</Text>
+</Title>
+<Text id="27">Save your work regularly by opening the "File" menu and choosing "Save". Saving a collection is not the same as making it ready for use in Greenstone (see <Reference target="producingthecollection"/>).</Text>
+<Text id="28">The Librarian Interface protects your work by saving it whenever you exit the program or load another collection.</Text>
+<Text id="29a">Collections are saved to a folder within your Greenstone installation's "collect" folder, named with a short version of the collection name. Documents are saved to the "import" sub-folder, and metadata is saved to "metadata.xml" files within this folder. Configuration information is saved to the "collect.cfg" file within the "etc" sub-folder. Some information is also saved in a file named for the collection and with file extension ".col".</Text>
+</Section>
+<Section name="openingacollection">
+<Title>
+<Text id="30">Opening an Existing Collection</Text>
+</Title>
+<Text id="31">To open an existing collection, choose "Open" from the "File" menu to get the Open Collection prompt.  A list of your Greenstone collections appears. Select one to see its description, and click "Open" to load it.</Text>
+<Text id="32">In case more than one Greenstone Librarian Interface program is running concurrently, the relevant directories are "locked" to prevent interference. On opening a collection, a small temporary lock file is created in its folder.  Before opening a collection, the Librarian Interface checks to ensure that no lock file already exists.  However, when the Librarian Interface is exited prematurely the lock file is sometimes left in place.  When you open such a collection, the Librarian asks if you want to "steal" control of it. Feel free to do so unless you think that someone else is currently working on the same collection.</Text>
+<Text id="33">When you open a collection that the Greenstone Librarian Interface did not create, the Dublin Core metadata set will be assigned to it, and any existing metadata will be imported just as it is when you drag in files with existing metadata. The process is described in the <Reference target="importingpreviouslyassignedmetadata"/> section. </Text>
+</Section>
+<Section name="deletingcollections">
+<Title>
+<Text id="34">Deleting Collections</Text>
+</Title>
+<Text id="35">To permanently delete collections from your Greenstone installation, choose "Delete..." from the "File" menu. A list of your collections appears. Select one to see its description, then tick the box at the bottom of the dialog and click "Delete". This action is irreversible, so be careful.</Text>
+</Section>
+</Section>
+<Section name="downloadingfiles">
+<Title>
+<Text id="36">Downloading Files from the Internet</Text>
+</Title>
+<Text id="37">The <AutoText key="glidict::GUI.Download"/> view helps you download resources from the Internet. This section explains the Librarian Interface's downloading process.</Text>
+<Section name="themirrorview">
+<Title>
+<Text id="38">The Download view</Text>
+</Title>
+<Text id="39">This section describes how to configure a download task and control the downloading process. Access the <AutoText key="glidict::GUI.Download"/> view by clicking its tab. The top half of the screen shows the downloading controls. The bottom half is initially empty, but will show a list of pending and completed download jobs. </Text>
+<Text id="39a">There are several protocols that can be used for downloading records, and these are listed on the left hand side at the top.</Text>
+<Text id="39b"><b>Web:</b> downloads web pages and files via HTTP and FTP.</Text>
+<Text id="39b-1"><b>MediaWiki:</b> downloads web pages and files via HTTP from a MediaWiki website.</Text>
+<Text id="39c"><b>OAI:</b> downloads metadata records (and optionally documents) from an OAI-PMH (Open Archives Initiative) server.</Text>
+<Text id="39d"><b>Z39.50:</b> downloads MARC records that match a particular search criterion from a Z39.50 server.</Text>
+<Text id="39e"><b>SRW:</b> downloads MARCXML records that match a particular search criterion from an SRW server.</Text>
+<Text id="39f">Select the appropriate protocol by clicking it in the left hand list. The right-hand side displays the options available for the selected download protocol. To find out what an option does, hover the mouse over it: a tool-tip explaining the option will appear. Some options are 'optional': these are presented with a check box which must be ticked on for the option to be used. Others are 'required': these have no check box, and a value must be given before the download is carried out. </Text>
+<Text id="39g">Once the configuration is set up, click <AutoText key="glidict::Download.ServerInformation"/> to check the connection to the server and view some basic information about the web page or server, or click <AutoText key="glidict::Mirroring.Download"/> to start the download. </Text>
+<Text id="39g-1">There are two other buttons: <AutoText key="glidict::Mirroring.Preferences"/>, which links to the connection section of the Preferences where proxy settings can be edited; and <AutoText key="glidict::Mirroring.ClearCache"/>, which deletes all previously downloaded files. You will need to set up proxy information if you use a proxy server to connect to the Internet. If authentication is needed when a download is being processed, the proxy server will prompt for username and password.  The Librarian Interface does not store passwords between sessions.</Text>
+<Text id="40">Files are downloaded into a folder called <AutoText key="glidict::Tree.DownloadedFiles"/> (only present when downloading is enabled), and can be used in any collections.  Files are named by their full web URL (for Web and MediaWiki downloads) or a combination of URL and option values (for other download types). A new folder is created for each host, followed by others for each part of the path. This ensures that each file is distinct.</Text>
+<Text id="42">The download list has an entry for each download processed. Each entry has a text region that gives details of the task along with a progress bar showing current activity. Three buttons appear to the right of each entry. <AutoText key="glidict::Mirroring.DownloadJob.Pause"/> is used to pause a task. <AutoText key="glidict::Mirroring.DownloadJob.Log"/> opens a window showing the download log file. <AutoText key="glidict::Mirroring.DownloadJob.Close"/> terminates the download and removes the task from the list.  </Text>
+</Section>
+</Section>
+<Section name="collectingfiles">
+<Title>
+<Text id="44">Collecting Files for Your Collection</Text>
+</Title>
+<Text id="45">Once you have a new collection you need to get some files into it.  These may come from your ordinary file space, from previously downloaded files, or from other Greenstone collections.  Some may already have attached metadata.  This section describes how to import files.</Text>
+<Section name="thegatherview">
+<Title>
+<Text id="46">The Gather View</Text>
+</Title>
+<Text id="47">This section introduces the Gather area that you use to select what files to include in the collection you are building. The Librarian Interface starts with the Gather view.  To return to this view later, click the <AutoText key="glidict::GUI.Gather"/> tab directly below the menu bar.</Text>
+<Text id="48">The two large areas titled "Workspace" and "Collection" are used to move files into your collection.  They contain "file trees" that represent files and folders.</Text>
+<Text id="49">Select an item in the tree by clicking it.  (There are other ways; see below.) Double-click a folder, or single-click the switch symbol beside it, to expand (or collapse) its contents.  Double-click a file (or right-click and select <AutoText key="glidict::Menu.Open_Externally"/>) to open it using its associated application program (see <Reference target="fileassociations"/>).</Text>
+<Text id="50">The Workspace file tree shows the sources of data available to the Librarian Interface -- the local file system (including disk and CD-ROM drives), the contents of existing Greenstone collections, and the cache of downloaded files. You can copy and view these files but you cannot move, delete, or edit them, with the exception of the downloaded files, which can be deleted.  Navigate this space to find the files you want to include in the collection.</Text>
+<Text id="51">The Collection file tree represents the contents of the collection so far.  Initially, it is empty.</Text>
+<Text id="52">You can resize the spaces by mousing over the grey bar that separates the trees (the shape of the pointer changes) and dragging.</Text>
+<Text id="53">At the bottom of the window is a status area that shows the progress of actions involving files (copying, moving and deleting). These can take some time to complete. The "Stop" button stops any action that is currently in progress. </Text>
+<Text id="54">Two large buttons occupy the lower right corner of the screen. "New Folder", with a picture of a folder, creates new folders (see <Reference target="creatingfolders"/>). "Delete", with a garbage can, removes files. Clicking the Delete button will remove any selected files from the Collection file tree. Alternatively, files can be deleted by dragging them onto the Delete button. </Text>
+<Text id="55">To select several sequential items, select the first and then hold down [Shift] and click on the last -- the selection will encompass all intervening items.  Select non-sequential files by holding down [Ctrl] while clicking.  Use these two methods together to select groups of non-adjacent items.</Text>
+</Section>
+<Section name="creatingshortcuts">
+<Title>
+<Text id="55a">Creating A Shortcut in the Workspace Tree</Text>
+</Title>
+<Text id="56">Certain folders -- such as the one containing your own web pages -- sometimes have special significance. If you like, the Librarian Interface can map them to the top level of the file tree.  To do this, right-click the desired folder.  Select "Create Shortcut", and enter a name for the folder.  To remove an item, right-click the mapped folder and select "Remove Shortcut".</Text>
+</Section>
+<Section name="creatingfolders">
+<Title>
+<Text id="57">Creating Folders</Text>
+</Title>
+<Text id="58">Use folders in the Collection file tree to group files together and make them easier to find.  Folders can be placed inside folders.  There is virtually no limit to how many folders you can have or how deeply they can be nested.</Text>
+<Text id="59">To create a new folder, click right in the Collection Pane (or click right on an existing folder in the Collection Tree to insert the new folder in it) and click on the New Folder option. The new folder appears within the selected one, or at the top level if none is selected. You are prompted for the folder's name (default "New Folder").</Text>
+<Text id="60">Folders can also be created by right-clicking in the Collection Tree, or over a folder, choosing "New Folder" and proceeding as above.</Text>
+</Section>
+<Section name="addingfiles">
+<Title>
+<Text id="61">Adding Files</Text>
+</Title>
+<Text id="62">Files can be copied into the collection by dragging and dropping.  The mouse pointer becomes a ghost of the selected item (or, if more than one is selected, the number of them).  Drop the selection into the Collection Tree to copy the files there (if the source was the Workspace Tree) or move them around within the collection (if the source was the Collection Tree).</Text>
+<Text id="63">When copying multiple files, they are all placed in the target folder at the same level, irrespective of the folder structure they occupied originally. When you copy a second file with the same name into the same folder, you are asked whether to overwrite the first one.  Respond "No" and the file will not be copied, but the others will be.  To cancel all remaining copy actions, click the "Stop" button.</Text>
+<Text id="64">Only the "highest" items in a selection are moved.  A folder is higher than its children.  You cannot select files within a folder and also the folder itself.</Text>
+<Text id="65">When you add a file, the Librarian Interface searches through the source folders for auxiliary files containing metadata previously assigned to the added file and, if it finds one, begins to import this metadata.  As the operation proceeds, you may be prompted (perhaps several times) for extra information to match the imported metadata to the metadata sets in your collection.  This process involves many different prompts, described in the <Reference target="importingpreviouslyassignedmetadata"/> section.  For a more detailed explanation of associating metadata with files read Chapter 2 of the Greenstone Developer's Guide -- Getting the most out of your documents.</Text>
+<Text id="65a">You can also add a "dummy" document to the collection by right-clicking in the Collection Tree or on a folder, and selecting <AutoText key="glidict::CollectionPopupMenu.New_Dummy_Doc"/>. This will create a new empty file to which metadata can be assigned. The file can be replaced with a "real" file later on.</Text>
+</Section>
+<Section name="replacingfiles">
+<Title>
+<Text id="65b">Renaming and Replacing Files</Text>
+</Title>
+<Text id="65c">Files can be renamed by right-clicking them and selecting <AutoText key="glidict::CollectionPopupMenu.Rename"/> from the list. Enter the new name at the prompt and click "OK".</Text>
+<Text id="65d">Files can be replaced in the collection by right-clicking the file to replace and choosing <AutoText key="glidict::CollectionPopupMenu.Replace"/>. A file browser will open up: navigate to the new document and click "Open". The new document will replace the old one in the collection, and any metadata will be transferred to it. This is particularly useful for replacing dummy documents by their real ones.</Text>
+<Text id="65e">Some file types are converted to HTML by third-party software during import, for example, Word, Excel, PDF etc. The HTML produced during import may not be very well formatted. These documents have a further right-click option: <AutoText key="glidict::Menu.Replace_SrcDoc_With_HTML"/>. Selecting this option will replace the original file in the collection with the HTML version, which can then be edited.</Text>
+</Section>
+<Section name="removingfiles">
+<Title>
+<Text id="66">Removing Files</Text>
+</Title>
+<Text id="67">There are several methods for removing files and folders.  You must first indicate what items to remove by selecting one or more files and folders as described in <Reference target="thegatherview"/>.</Text>
+<Text id="68">Once files have been selected, click the "delete" button to remove them, or press the [Delete] key on your keyboard, or drag them from the collection to the delete button and drop them there.</Text>
+</Section>
+<Section name="explodingfiles">
+<Title>
+<Text id="exm-1">"Exploding" Metadata Files</Text>
+</Title>
+<Text id="exm-2">Metadata database file types, such as MARC, OAI, CDS/ISIS, BibTex, Refer and ProCite, can be imported into Greenstone but their metadata cannot be IMMEDIATELY viewed or edited in the Librarian Interface. However, you can "explode" the file in the Librarian Interface and view or edit the metadata afterwards. Alternatively, particularly if you are maintaining a master external application, you can go back to the program that created the file, make your corrections, and reimport.</Text>
+<Text id="exm-3">"Exploding" a metadata database file splits it into individual records, with viewable and editable metadata. This process is irreversible: the original metadata file is deleted.</Text>
+<Text id="exm-4">Explodable files have a green icon in the Collection tree. To explode one, right click it and choose <AutoText key="glidict::Menu.Explode_Metadata_Database"/>. A popup window shows options for the exploding process. The "plugin" option specifies the plugin to be used for exploding. In most cases, only one plugin will process a particular type of file, but in some cases, where different file types share the same filename extension, there may be two plugins that both process files with that extension. The "input_encoding" option can be used to specify the encoding of the database. The "metadata_set" option specifies the metadata set to which the new fields generated by exploding should be added. If none is specified, you will be prompted for what to do with each new field in the database: add it as a new element to an existing metadata set, merge with another element, or ignore.</Text>
+<Text id="exm-5">When a file is exploded, a new empty document is created for each record, and the metadata from the record is assigned to the document. These are named using numbers such as 000001.nul, 000002.nul etc. If the "document_field" option is set (to a database field name), the value of this field, if present, will be used for the filename. The exploding process will also try to download the file and use it instead of an empty file. The "document_prefix" and "document_suffix" options can be used to make a valid URL or file path from the document_field value. The "records_per_folder" option can be used to group exploded records into sub-folders. If the database is very large, using this option will accelerate subsequent metadata editing.</Text>
+<Text id="exm-6">Explodability is determined by file extension. In some cases, files may be incorrectly labelled as explodable if they have the same file extension as an explodable file. For example, the ProCite plugin processes files with a .txt extension, but most .txt files are plain text files, not ProCite files.</Text>
+</Section>
+<Section name="filteringthetree">
+<Title>
+<Text id="69">Filtering the Trees</Text>
+</Title>
+<Text id="70">"Filtering" the collection and workspace trees allows you to narrow down the search for particular files.</Text>
+<Text id="71">The "Show Files" pull-down menu underneath each tree shows a list of predefined filters, such as "Images".  Choosing this temporarily hides all other files in the tree.  To restore the tree, change the filter back to "All Files".  These operations do not alter the collection, nor do they affect the folders in the tree.</Text>
+<Text id="72">You can specify a custom filter by typing in a pattern to match files against (Librarian and Expert modes only). Use standard file system abbreviations such as "*.doc" ("*" matches any characters).</Text>
+</Section>
+</Section>
+<Section name="enrichingacollection">
+<Title>
+<Text id="73">Enriching Your Collection with Metadata</Text>
+</Title>
+<Text id="74">Having gathered several files into the collection, now enrich them with additional information called "metadata".  This section explains how metadata is created, edited, assigned and retrieved, and how to use external metadata sources (also see Chapter 2 of the Greenstone Developer's Guide -- Getting the most out of your documents).</Text>
+<Section name="theenrichview">
+<Title>
+<Text id="75">The Enrich View</Text>
+</Title>
+<Text id="76">Use the <AutoText key="glidict::GUI.Enrich"/> view to assign metadata to the documents in the collection. Metadata is data about data -- typically title, author, creation date, and so on.  Each metadata item has two parts: <AutoText key="glidict::Metadata.Element"/> tells what kind of item it is (such as author), and <AutoText key="glidict::Metadata.Value"/> gives the value of that metadata element (such as the author's name).</Text>
+<Text id="77">On the left of the <AutoText key="glidict::GUI.Enrich"/> view is the Collection Tree. All the right-click functionality that was available for the Collection Tree in the <AutoText key="glidict::GUI.Gather"/> view is available here too. To the right is the Metadata Table, which shows metadata for any selected files or folders in the Collection Tree.  Columns are named in black at the top, and can be resized by dragging the separating line. If several files or folders are selected, black text indicates that the value is common to all of the selected items, while grey text indicates that it is not. Editing grey values will only affect those documents with that metadata. Any new metadata values entered will be added to all selected items.</Text>
+<Text id="78">A folder icon may appear beside some metadata entries.  This indicates that the values are inherited from a parent (or ancestor) folder.  Inherited metadata cannot be edited or removed, only appended to.  Click on the folder icon to go immediately to the folder where the metadata is assigned.</Text>
+<Text id="79">Clicking on a metadata element in the table will display the existing values for that element in the <AutoText key="glidict::EnrichPane.ExistingValues" args="..."/> area below the table. This "Value Tree" expands and collapses.  Usually it is a list that shows all values entered previously for the selected element.  Clicking an entry automatically places it into the value field.  Conversely, typing in the value field selects the Value Tree entry that starts with the characters you have typed.  Pressing [Tab] auto-completes the typing with the selected value.</Text>
+<Text id="80">Metadata values can be organized into a hierarchy. This is shown in the Value Tree using folders for internal levels. Hierarchical values can be entered using the character "|" to separate the levels. For example, "Cards|Red|Diamonds|Seven" might be used in a hierarchy that represents a pack of playing cards. This enables values to be grouped together. Groups can also be assigned as metadata to files.</Text>
+<Text id="81">Greenstone extracts metadata automatically from documents into a metadata set whose elements are prefixed by "ex.".  This has no value tree and cannot be edited. </Text>
+</Section>
+<Section name="selectingmetadatasets">
+<Title>
+<Text id="82">Selecting Metadata Sets</Text>
+</Title>
+<Text id="83">Sets of predefined metadata elements are known as "metadata sets".  An example is the Dublin Core metadata set.  When you add a metadata set to your collection, its elements become available for selection.  You can have more than one set; to prevent name clashes a short identifier that identifies the metadata set is pre-pended to the element name.  For instance the Dublin Core element Creator becomes "dc.Creator".  Metadata sets are stored in the Librarian Interface's metadata folder and have the suffix ".mds".</Text> 
+<Text id="84">When you create a new collection, the Dublin Core metadata set is added by default. You can change which metadata sets are used in a collection by clicking the <AutoText key="glidict::EnrichPane.ManageMetadataSets"/> button underneath the Collection Tree in the Enrich view. This brings up a new window for managing the collection's metadata sets.</Text>
+<Text id="84a">The <AutoText key="glidict::MetadataSetDialog.Current_Sets"/> list shows you what sets are currently used by the collection.</Text>
+<Text id="84b">To use another metadata set with the loaded collection, click "Add...". A popup window shows you the default metadata sets that GLI knows about. To add one of these, select it from the list and click "Add". If you have defined your own metadata set, you can use the "Browse" button to locate the file on your file system.</Text>
+<Text id="84c">To create a new metadata set, click "New...". This will launch the Greenstone Editor for Metadata Sets, GEMS. An initial popup window prompts you for the set name, namespace and description. You can also choose to base the new set on an existing one, in which case it will inherit all the elements from the specified set. Click OK. The main window shows the elements of metadata set on the left hand side, and some attributes for the set on the right hand side. If you have based the set on an existing one, one or more elements will be displayed. Clicking one displays attributes of the element in the right hand side.</Text>
+<Text id="84d">To add a new element, right click on the name of the set and choose "Add Element". To add a new subelement, right click on the element and choose "Add Subelement". Elements and subelements can be deleted by choosing "Delete (Sub)element" from the right click menu. </Text>
+<Text id="84e">Note: the Greenstone Editor for Metadata Sets can be run independently of GLI by selecting it from the Greenstone folder in the Start menu, or by running gems.sh or gems.bat in the gli folder of your Greenstone installation.</Text>
+<Text id="84f">Sometimes two metadata sets may have the same namespace, for example, Dublin Core and Qualified Dublin Core both use the namespace "dc". Such sets cannot be used in the collection at the same time. If you try to add a set with a namespace already used by the collection, a warning will be shown. If you go ahead, the existing set will be removed and the new one added. Any assigned metadata values will be transferred to the new set providing those elements still exist.</Text>
+<Text id="191">With GEMS you can edit existing metadata sets as well as create new ones. Clicking the "Edit" button launches GEMS with the specified metadata set open. Once you have finished editing the set (as described above), save it (File->Save) and close GEMS.</Text>
+<Text id="192">If a collection no longer needs a metadata set, select it and press "Remove". If you have assigned any metadata to its elements you will be asked how to deal with this metadata when you next open the collection.</Text>
+</Section>
+<Section name="appendingmetadata">
+<Title>
+<Text id="85">Appending New Metadata</Text>
+</Title>
+<Text id="86">We now add a metadata item -- both element and value -- to a file.  First select the file from the Collection file tree on the left.  The action causes any metadata previously assigned to this file to appear in the table at the right.</Text>
+<Text id="87">Next select the metadata element you want to add by clicking its row in the table.</Text>
+<Text id="88">Type the value into the value field.  Use the "|" character to add structure, as described in <Reference target="theenrichview"/>. Pressing the [Up] or [Down] arrow keys will save the metadata value and move the selection appropriately. Pressing [Enter] will save the metadata value and create a new empty entry for the metadata element, allowing you to assign multiple values to a metadata element.</Text>
+<Text id="89">You can also add metadata to a folder, or to several multiply selected files at once.  It is added to all files within the folder or selection, and to child folders.  Keep in mind that if you assign metadata to a folder, any new files in it automatically inherit the folder's values.</Text>
+</Section>
+<Section name="addingpreviouslydefinedmetadata">
+<Title>
+<Text id="90">Adding Previously Defined Metadata</Text>
+</Title>
+<Text id="91">To add metadata that has an existing value, first select the file, then select the metadata element that you are assigning to, then select the required value from the value tree, expanding hierarchy folders as necessary.  The value of the selected entry automatically appears in the metadata field (alternatively, use the value tree's auto-select and auto-complete features). </Text>
+<Text id="92">The process of adding metadata with already-existing values to folders or multiple files is just the same.</Text>
+</Section>
+<Section name="updatingmetadata">
+<Title>
+<Text id="93">Editing or Removing Metadata</Text>
+</Title>
+<Text id="94">To edit or remove a piece of metadata, first select the appropriate file, and then the metadata value from the table. Edit the value field, deleting all text if you wish to remove the metadata.</Text>
+<Text id="95">The process is the same when updating a folder with child folders or multiple files, but you can only update metadata that is common to all files/folders selected.</Text>
+<Text id="96">The value tree shows all currently assigned values as well as previous values for the current session, so changed or deleted values will remain in the tree. Closing the collection and then re-opening it will remove all values that are no longer assigned.</Text>
+</Section>
+<Section name="reviewingmetadata">
+<Title>
+<Text id="97">Reviewing Assigned Metadata</Text>
+</Title>
+<Text id="98">Sometimes you need to see the metadata assigned to many files at once -- for instance, to determine how many files are left to work on, or to get some idea of the spread of dates.</Text>
+<Text id="99">Select the files in the Collection Tree you wish to examine, then right-click and choose "Assigned Metadata...". A window called "All Metadata", dominated by a large table with many columns, appears.  The first column shows file names; the rows show all metadata values assigned to those files.</Text>
+<Text id="100">Drawing the table can take some time if many files are selected.  You can continue to use the Librarian Interface while the "All Metadata" window is open.</Text>
+<Text id="101">When it gets too large, you can filter the "All Metadata" table by applying filters to the columns.  As new filters are added, only those rows that match them remain visible.  To set, modify or clear a filter, click on the "funnel" icon at the top of a column.  You are prompted for information about the filter. Once a filter is set, the column header changes colour.</Text>
+<Text id="102">The filter prompt has a "Simple" and an "Advanced" tab.  The Simple version filters columns so that they only show rows that contain a certain metadata value ("*" matches all values).  You can select metadata values from the pull-down list. The Advanced version allows different matching operations: must start with, does not contain, alphabetically less than and is equal to.  The value to be matched can be edited to be any string (including "*"), and you can choose whether the matching should be case insensitive.  Finally, you can specify a second matching condition that you can use to specify a range of values (by selecting AND) or alternative values (by selecting OR).  Below this area is a box that allows you to change the sort order (ascending or descending).  Once you have finished, click "Set Filter" to apply the new filter to the column. Click "Clear Filter" to remove a current filter.  Note that the filter details are retained even when the filter is cleared.</Text>
+<Text id="103">For example, to sort the "All Metadata" table, choose a column, select the default filter setting (a Simple filter on "*"), and choose ascending or descending ordering.</Text>
+</Section>
+<Section name="importingpreviouslyassignedmetadata">
+<Title>
+<Text id="104">Importing Previously Assigned Metadata</Text>
+</Title>
+<Text id="105">This section describes how to import previously assigned metadata: metadata assigned to documents before they were added to the collection.</Text>
+<Text id="106">If a document has some assigned metadata in a form recognized by the Librarian Interface (i.e. in a metadata.xml file in the same folder as the document) -- for example, when you choose documents from an existing Greenstone collection -- it is imported automatically when you add the document to a (new) collection. Greenstone will recognize the metadata.xml (which does not have to be added to the collection), and automatically attempt to import the metadata. </Text>
+<Text id="107">To import the metadata, the metadata must be mapped to the metadata sets available in the collection. The Librarian Interface prompts for the necessary information.  The prompt gives brief instructions and then shows the name of the metadata element that is being imported, just as it appears in the source file.  This field cannot be edited or changed.  Next you choose what metadata set the new element should map to, and then the appropriate metadata element in that set.  The system automatically selects the closest match, in terms of set and element, for the new metadata.</Text>
+<Text id="108">Having checked the mapping, you can choose "Add" to add the new metadata element to the chosen metadata set.  (This is only enabled if there is no element of the same name within the chosen set.) "Merge" maps the new element to the one chosen by the user.  Finally, "Ignore" does not import any metadata with this element name.  Once you have specified how to import a certain piece of metadata, the mapping information is retained for the collection's lifetime.</Text>
+<Text id="109">For details on the metadata.xml files which Greenstone uses to store the metadata, see Chapter 2 of the Greenstone Developer's Guide -- Getting the most out of your documents.</Text>
+</Section>
+</Section>
+<Section name="designingacollection">
+<Title>
+<Text id="110">Configuring Your Collection</Text>
+</Title>
+<Text id="111">Once your files are marked up with metadata, you next decide how the documents should be accessed by the end users. What kind of information is searchable?  What ways are provided to browse through the documents? These things can be customized; this section describes how to do it.</Text>
+<Section name="thedesignview">
+<Title>
+<Text id="112">The Design View</Text>
+</Title>
+<Text id="113">This section introduces you to the design view and explains how to navigate between the various views within this pane.</Text>
+<Text id="114">With the Librarian Interface, you can configure how the documents are processed, and how the collection is accessed by the user.  The configuration options are divided into different sections, each associated with a particular stage of collection customization.</Text>
+<Text id="115">On the left is a list of different views, and on the right are the controls associated with the current one.  To change to a different view, click its name in the list.</Text>
+<Text id="116">To understand the stages and terms involved in designing a collection, first read Chapters 1 and 2 of the Greenstone Developer's Guide.</Text>
+</Section>
+<Section name="plugins">
+<Title>
+<Text id="121">Document Plugins</Text>
+</Title>
+<Text id="122">This section describes how to configure the document plugins the collection uses.  It explains how you specify what plugins to use, what parameters to pass to them, and in what order they occur.  Under the "Design" tab, click "Document Plugins".</Text>
+<Text id="123">To add a plugin, select it using the "Select plugin to add" pull-down list near the bottom and then click "Add Plugin".  A window appears entitled "Configuring Arguments"; it is described later.  Once you have configured the new plugin, it is added to the end of the "Assigned Plugins" list. Generally, you would only have one instance of each plugin. However, you can add the same plugin more than once; in that case, the multiple instances would normally be configured differently to provide a useful result (for example by setting the process_exp argument, see http://wiki.greenstone.org/wiki/gsdoc/tutorial/en/enhanced_pdf.htm ).</Text>
+<Text id="123aa">To see a short description of a plugin, select it in the "Select plugin to add" pull-down list, then hover the mouse over it. A tool-tip displaying the description will appear.</Text>
+<Text id="124">To remove a plugin, select it in the list and click "Remove Plugin".</Text>
+<Text id="125">Plugins are configured by providing arguments.  To alter them, select the plugin from the list and click "Configure Plugin" (or double-click the plugin). A "Configuring Arguments" dialog appears with various controls for specifying arguments.</Text>
+<Text id="126">There are different kinds of controls.  Some are checkboxes, and clicking one adds the appropriate option to the plugin.  Others are text strings, with a checkbox and a text field.  Click the box to enable the argument, then type appropriate text (regular expression, file path etc) in the box.  Others are pull-down menus from which you can select from a given set of values.  To learn what an argument does, let the mouse hover over its name for a moment and a description will appear.</Text>
+<Text id="127">When you have changed the configuration, click "OK" to commit the changes and close the dialog, or "Cancel" to close the dialog without changing any plugin arguments.</Text>
+<Text id="128">The plugins in the list are executed in order, and the ordering is sometimes important. Select a plugin in the list and use the <AutoText key="glidict::CDM.Move.Move_Up"/> and <AutoText key="glidict::CDM.Move.Move_Down"/> buttons to change its place in the list.</Text>
+</Section>
+<Section name="searchindexes">
+<Title>
+<Text id="134">Search Indexes</Text>
+</Title>
+<Text id="si-1">Indexes specify what parts of the collection are searchable.  This section explains how to add and remove indexes, and set a default index.  Under the <AutoText key="glidict::GUI.Design"/> tab, click <AutoText key="glidict::CDM.GUI.Indexes"/>.</Text>
+<Text id="si-2">The top right of the <AutoText key="glidict::CDM.GUI.Indexes"/> panel displays information about which indexer is currently being used by the collection. This can be changed by clicking <AutoText key="glidict::CDM.BuildTypeManager.Change"/>. A popup window appears with the list of options: MG, MGPP, and Lucene. Changing this affects how the indexes are built, and may affect search functionality.</Text>
+<Text id="si-2a">The <AutoText key="glidict::CDM.IndexManager.Indexes"/> list shows what indexes are currently assigned to the collection. </Text>
+<Text id="si-3">To add an index, click <AutoText key="glidict::CDM.IndexManager.New_Index"/>... A popup window appears with a list of sources, which includes text and metadata. Select which sources you want to index. The <AutoText key="glidict::CDM.IndexManager.Select_All"/> and <AutoText key="glidict::CDM.IndexManager.Select_None"/> buttons will check or uncheck all of the items in the list, respectively. Once a new index has been defined, click <AutoText key="glidict::CDM.IndexManager.Add_Index"/> to add it to the collection. <AutoText key="glidict::CDM.IndexManager.Add_Index"/> will only become active once the settings describe a new index that is not already assigned to the collection. </Text>
+<Text id="s1-3a">For MG indexes, you also need to choose the granularity of the index, using the <AutoText key="glidict::CDM.IndexManager.Level"/> menu. </Text>
+<Text id="si-4">For MGPP and Lucene indexes, index granularity is determined globally, not per index. The possible levels are displayed on the main <AutoText key="glidict::CDM.GUI.Indexes"/> pane, and can be added to the collection by ticking the checkboxes.</Text>
+<Text id="si-5">A special index is available for MGPP and Lucene: an "allfields" index which merely provides combined searching over all specified indexes, without having to specify a separate index that contains all sources. To add this index, check the <AutoText key="glidict::CDM.IndexManager.Allfields_Index"/> check box and click <AutoText key="glidict::CDM.IndexManager.Add_Index"/>.</Text>
+<Text id="si-6">For MGPP and Lucene, an <AutoText key="glidict::CDM.IndexManager.Add_All"/> button is also provided, as a shortcut to adding all metadata and text sources as individual indexes.</Text>
+<Text id="si-7">To edit an index, select it and click <AutoText key="glidict::CDM.IndexManager.Edit_Index"/>. A similar dialog to the <AutoText key="glidict::CDM.IndexManager.New_Index"/> one is shown. </Text>
+<Text id="si-8">To remove an index, select it from the list of Assigned indexes and click <AutoText key="glidict::CDM.IndexManager.Remove_Index"/>.</Text>
+<Text id="si-9">The order in which the indexes are specified in the Assigned Indexes list is the order they appear in the drop down menu on the search page. Use the <AutoText key="glidict::CDM.Move.Move_Up"/> and <AutoText key="glidict::CDM.Move.Move_Down"/> buttons to change this ordering.</Text>
+<Text id="si-10">The one that is selected by default on the search page is called the "default index". This can be set by selecting an index from the list and clicking "Set Default". The default index is tagged with "[Default Index]" in the "Assigned Indexes" list. If no default index is set, the first one in the list will be used as the default.</Text>
+<Text id="si-11">The names used for the drop-down list of indexes on the search page can be set in the <AutoText key="glidict::CDM.GUI.SearchMetadata"/> panel of the <AutoText key="glidict::GUI.Format"/> view (see <Reference target="searchmetadatasettings"/>).</Text>
+<Section name="searchindexoptions">
+<Title>
+<Text id="sio-1">Search Index Options</Text>
+</Title>
+<Text id="sio-2">There are some additional options controlling how the indexes are built. These may not be available for a particular index, in which case will be greyed out.</Text>
+<Text id="sio-3">Stemming and case-folding may be enabled or disabled for MG and MGPP indexes. If enabled, stemmed and case-folded indexes will be created, and the user will have the option of searching with case folding and stemming on or off. If disabled, searching will be case-sensitive and unstemmed, and the options will not be displayed on the preferences page of the collection.</Text>
+<Text id="sio-4">Accent-folding is available for MGPP indexes. This works in a similar way to case-folding, but instead of lower and upper case letters matching, letters with diacritics match those without. A Lucene index is always accent-folded; no option to switch this on and off will be displayed to the user on the collection's preferences page.</Text>
+<Text id="sio-5">Chinese, Japanese and Korean text is often not segmented into individual words. As indexing relies on word breaks being present in the text, this results in an unsearchable index. Setting the <AutoText key="glidict::CDM.IndexingManager.Separate_cjk"/> option will add spaces between each Chinese/Japanese/Korean character in the text and in search terms, so that character level searching is carried out.</Text>
+</Section>
+</Section>
+<Section name="partitionindexes">
+<Title>
+<Text id="143">Partition Indexes</Text>
+</Title>
+<Text id="144">Indexes are built on particular text or metadata sources.  The search space can be further controlled by partitioning the indexes, either by language or by a predetermined filter.  This section describes how to do this.  Under the "Design" tab, click "Partition Indexes".</Text>
+<Text id="145">The "Partition Indexes" view has three tabs; "Define Filters", "Assign Partitions" and "Assign Languages".  To learn more about partitions read about sub-collections and sub-indexes in Chapter 2 of the Greenstone Developer's Guide.</Text>
+<Text id="146">Note that for MG collections, the total number of partitions generated is a combination of all indexes, sub-collection filters and languages chosen. Two indexes with two sub-collection filters in two languages would yield eight index partitions. For MGPP, all indexes are created in one physical index, so there would only be four index partitions. For Lucene, the number of physical indexes is determined by the number of levels assigned to the collection, one index per level. So for the above situation, one level would result in four physical indexes, while two levels would result in eight.</Text>
+<Section name="definefilters">
+<Title>
+<Text id="147">Define Filters</Text>
+</Title>
+<Text id="148">Filters allow you to group together into a sub-collection all documents in an index for which a metadata value matches a given pattern.</Text>
+<Text id="149">To create a filter, click the "Define Filters" tab and enter a name for the new filter into the "Subcollection filter name:" field.  Next choose a document attribute to match against, either a metadata element or the name of the file in question.  Enter a regular expression to use during the matching. You can toggle between "Including" documents that match the filter, or "Excluding" them.  Finally, you can specify any of the standard PERL regular expression flags to use when matching (e.g.  "i" for case-insensitive matching). Finally, click "Add Filter" to add the filter to the "Defined Subcollection Filters" list.</Text>
+<Text id="150">To remove a filter, select it from the list and click "Remove Filter".</Text>
+<Text id="151">To alter a filter, select it from the list, change any of the values that appear in the editing controls and click "Replace Filter" to commit the changes.</Text>
+<Text id="151a">Defining filters does not create sub-collections. Sub-collections are specified in the <AutoText key="glidict::CDM.SubcollectionManager.Subindex_Controls"/> tab, based on the filters you have just defined.</Text>
+</Section>
+<Section name="assignpartitions">
+<Title>
+<Text id="152">Assign Partitions</Text>
+</Title>
+<Text id="153">Having defined one or more sub-collection filters, use the "Assign Partitions" tab to build indexes for it (or for a group of filters).  Select the desired filter or filters from the "Defined Subcollection Filters" list and click "Add Partition". Each specified partition will result in a sub-collection that contains documents that match any of the filters associated with that partition.</Text>
+<Text id="154a">To alter a partition, select it from the list, modify the filters, and click <AutoText key="glidict::CDM.SubcollectionIndexManager.Replace_Subindex"/>.</Text>
+<Text id="154">To remove a partition, select it from the list and click "Remove Partition".</Text>
+<Text id="154b">The order that the partitions are specified in the Assigned Partitions list is the order they appear in the drop down menu on the search page. Use the <AutoText key="glidict::CDM.Move.Move_Up"/> and <AutoText key="glidict::CDM.Move.Move_Down"/> buttons to change this ordering.</Text>
+<Text id="155">To make a partition the default one, select it from the list and click <AutoText key="glidict::CDM.SubcollectionIndexManager.Set_Default_Subindex"/>.</Text>
+<Text id="155a">The names used for the drop-down list of partitions on the search page can be set in the <AutoText key="glidict::CDM.GUI.SearchMetadata"/> part of the <AutoText key="glidict::GUI.Format"/> panel (see <Reference target="searchmetadatasettings"/>).</Text>
+</Section>
+<Section name="assignlanguages">
+<Title>
+<Text id="156">Assign Languages</Text>
+</Title>
+<Text id="157">This section details how to restrict search indexes to particular languages. You do this by generating a partition using the "Assign Languages" tab of the "Partition Indexes" panel.</Text>
+<Text id="157-1">Language partitions use metadata to determine which documents are in the specified languages and therefore should be included in the partition. Greenstone generates "ex.Language" metadata for most documents, and this is the default metadata to use. However, this can be changed by setting <AutoText key="glidict::CDM.LanguageManager.LanguageMetadata"/> to the correct metadata element.</Text>
+<Text id="158">To add a new language partition, select one or more languages from the "Languages to add" list, and click "Add Partition".</Text>
+<Text id="158a">To change an existing partition, select it from the "Assigned Language Partitions" list, modify the selected languages in the "Languages to add" list below, and click "Replace Partition".</Text>
+<Text id="159">To remove a language partition, select it from the "Assigned Language Partitions" list and click "Remove Partition".</Text>
+<Text id="159a">The order that the language partitions are specified in the Assigned Language Partitions list is the order they appear in the drop down menu on the search page. Use the <AutoText key="glidict::CDM.Move.Move_Up"/> and <AutoText key="glidict::CDM.Move.Move_Down"/> buttons to change this ordering.</Text>
+<Text id="160">To set the default language partition, select it from the list and click "Set Default".</Text>
+<Text id="160a">The names used for the drop-down list of language partitions on the search page can be set in the <AutoText key="glidict::CDM.GUI.SearchMetadata"/> part of the <AutoText key="glidict::GUI.Format"/> panel (see <Reference target="searchmetadatasettings"/>).</Text>
+</Section>
+</Section>
+<Section name="classifiers">
+<Title>
+<Text id="166">Browsing Classifiers</Text>
+</Title>
+<Text id="167">This section explains how to assign "classifiers", which are used for browsing, to the collection.  Under the "Design" tab, click "Browsing Classifiers".</Text>
+<Text id="168">To add a classifier, select it using the "Select classifier to add" pull-down list near the bottom and then click "Add Classifier...".  A window appears entitled "Configuring Arguments"; instructions for this dialog are just the same as for plugins (see <Reference target="plugins"/>). Once you have configured the new classifier, it is added to the end of the "Assigned Classifiers" list.</Text>
+<Text id="168a">To see a short description of a classifier, select it in the "Select classifier to add" pull-down list, then hover the mouse over it. A tool-tip displaying the description will appear.</Text>
+<Text id="168b">Each classifier has several arguments that can be configured. Important arguments include "metadata", which specifies the metadata that documents will be classified on, and "buttonname", which is the name that will appear in the navigation bar.</Text>
+<Text id="169">To remove a classifier, select it from the list and click "Remove Classifier".</Text>
+<Text id="170">To change the arguments for a classifier, select it from the list and click "Configure Classifier" (or double-click on the classifier in the list).</Text>
+<Text id="171">The ordering of classifiers in the collection's navigation bar is reflected in their order here.  To change it, select the classifier you want to move and click <AutoText key="glidict::CDM.Move.Move_Up"/> or <AutoText key="glidict::CDM.Move.Move_Down"/>.</Text>
+<Text id="172">For further information on classifiers read Chapter 2, Greenstone Developer's Guide -- Getting the most out of your documents.</Text>
+</Section>
+</Section>
+<Section name="producingthecollection">
+<Title>
+<Text id="193">Producing Your Collection</Text>
+</Title>
+<Text id="194">Having collected the documents for the collection, annotated them with metadata, and designed how the collection will appear, you can now produce the collection using Greenstone.  This section explains how.</Text>
+<Section name="thecreateview">
+<Title>
+<Text id="195">The Create View</Text>
+</Title>
+<Text id="196">The Create view is used to create the collection by running Greenstone collection-building scripts on the information you have provided. Access the Create view by clicking the Create tab.</Text>
+<Text id="196a">Clicking "Build Collection" initiates the collection building process.  The time this takes depends on the size of the collection and the number of indexes being created (for huge collections it can be hours). A progress bar indicates how much of the process has been completed. To cancel the process at any time, click "Cancel Build". The lower part of the panel shows some output from the build process. The upper part shows some options for controlling the build process.</Text>
+<Text id="197">Once the collection has successfully built, clicking "Preview Collection" will launch a web browser showing the home page of the collection.</Text>
+</Section>
+<Section name="builderrors">
+<Title>
+<Text id="199a">Errors in collection building</Text>
+</Title>
+<Text id="199b">Sometimes things go wrong during collection building. Maybe some files couldn't be processed: the rest of the collection builds fine, and can be previewed, but some documents are absent. Or the whole collection is not built properly, in which case a message says <AutoText key="glidict::CollectionManager.Cannot_Create_Collection"/> When this happens, it may be helpful to switch the GLI into expert mode (File->Preferences->Mode, see <Reference target="preferences"/>), set the import and build "verbosity" options to 5, and rebuild, to see if there are any other error messages.</Text>
+</Section>
+<Section name="expertbuilding">
+<Title>
+<Text id="198a">Create view in Expert mode</Text>
+</Title>
+<Text id="198">In Expert mode, you can use the "Message Log" entry at the left to review previous attempts to build the collection, whether successful or not. Select the log you want by clicking on the desired date in the "Log History" list.</Text>
+<Text id="200a">In this mode, a full list of import and build options are shown in the Import and Build tabs to the left. The various settings are controlled just like the "Configuring Arguments" window described in the <Reference target="plugins"/> section.  Some fields require numeric arguments, and you can type these in or use the arrows to increase or decrease the current value (in some cases, the interface restricts the range you can enter).  Others are enabled by clicking a checkbox (click again to disable).</Text>
+<Text id="201a">For more information about importing and building read Chapter 1 of the Greenstone Developer's Guide -- Understanding the collection-building process.</Text>
+</Section>
+<Section name="scheduledbuilding">
+<Title>
+<Text id="sched-1">Scheduling collection Builds</Text>
+</Title>
+<Text id="sched-2">Scheduled collection building is available in Expert mode. Some configuration needs to be done before this will work; see http://wiki.greenstone.org/wiki/index.php/Scheduled_Collection_Building_from_the_Librarian_Interface for details. The <AutoText key="glidict::CreatePane.Schedule"/> tab on the left-hand side of the Create view shows a list of options controlling the scheduling process. The "schedule" option needs to be set for scheduling to be undertaken. The other options specifiy: the frequency of rebuild; whether to add a new schedule, update an existing one or delete the current schedule; and email details if you want email notification.</Text>
+</Section>
+</Section>
+<Section name="formattingacollection">
+<Title>
+<Text id="fc-1">Customizing Your Collection's Appearance</Text>
+</Title>
+<Text id="fc-2">Once you have built the collection, you next decide how it should appear to the user. What names should be used for the drop-down list of indexes in the search form? How should search results be displayed? What metadata should be displayed when a document is viewed? These can be customized; this section explains how to do it. </Text>
+<Section name="theformatview">
+<Title>
+<Text id="fc-3">The Format View</Text>
+</Title>
+<Text id="fc-4">This section introduces you to the Format view. </Text>
+<Text id="fc-5">With the Librarian Interface you can configure how the collection appears to the user. The configuration options are divided into sections, each associated with a different type of customization.</Text>
+<Text id="fc-6">On the left is a list of parameters and on the right are the control elements associated with each parameter. To edit a parameter, click its name in the list.</Text>
+<Text id="fc-7">Under the list of parameters is a "Preview Collection" button. Changes made in the Format view don't require a collection rebuild, so can be previewed straight away. However, the collection must have been built at least once to allow previewing.</Text>
+</Section>
+<Section name="generalsettings">
+<Title>
+<Text id="117">General</Text>
+</Title>
+<Text id="118">This section explains how to review and alter the general settings associated with your collection.  First, under the "Format" tab, click "General".</Text>
+<Text id="119">Here some collection wide metadata can be set or modified, including the title and description entered when starting a new collection.</Text>
+<Text id="120">First are the contact email addresses of the collection's creator and maintainer. The following field allows you to change the collection title. The folder that the collection is stored in is shown next, but this cannot be altered. Then comes the icon to show at the top left of the collection's "About" page (in the form of a URL), followed by the icon used in the Greenstone library page to link to the collection. Next is a checkbox that controls whether the collection should be publicly accessible. Finally comes the "Collection Description" text area as described in <Reference target="creatingacollection"/>.</Text>
+</Section>
+<Section name="searchmetadatasettings">
+<Title>
+<Text id="fc-s1">Search</Text>
+</Title>
+<Text id="fc-s2">This section explains how to set the display text for the drop down lists on the search page. Under the "Format" tab, click "Search".</Text>
+<Text id="fc-s3">This pane contains a table listing each search index, level, and partition. Here you can enter the text to be used for the names in the drop-down lists on the search page. This pane only allows you to set the text for one language, the current language used by GLI. To translate these names for other languages, use the "Translate Text" panel of the Format view (see <Reference target="translatetext"/>).</Text>
+</Section>
+<Section name="formatstatements">
+<Title>
+<Text id="173">Format Features</Text>
+</Title>
+<Text id="174">The web pages you see when using Greenstone are not pre-stored but are generated 'on the fly' as they are needed. Format commands are used to change the appearance of these generated pages. They affect such things as which buttons appear when a document is shown, and what links are displayed by the DateList classifier.  Format commands are not easy to develop, and you should read Chapter 2 of the Greenstone Developer's Guide. This section discusses the format settings, and how the Librarian Interface gives access to them.  Under the "Format" tab, click "Format Features".</Text>
+<Text id="175">You can apply a format command to anything in the "Choose Feature" pull-down list, which includes each classifier and a predefined list of features.  When you select a feature, there are two types of control.  Some features are simply enabled or disabled, and this is controlled by a checkbox.  Others require a format string to be specified.  For these there is a pull-down list ("Affected Component") for selecting which part of the feature the string applies to (if necessary), a text area ("HTML Format String") for entering the string, and a selection of predefined "Variables".  To insert a variable into a format string, position the cursor at the place to insert, then select the desired variable from the <AutoText key="glidict::CDM.FormatManager.Insert_Variable"/> combobox.</Text>
+<Text id="176">You can specify a default format for a particular component by selecting the "All Features" feature.  This format is then applied to all applicable features unless a more specific one is defined.</Text>
+<Text id="177">To add a new format command, select the applicable feature and component. The default value for this command will be displayed in grey. Click <AutoText key="glidict::CDM.FormatManager.Add"/> to assign it to the collection. The "HTML Format String" will become editable and you can change it if you wish. Only one format command can be assigned to each feature/component combination.</Text>
+<Text id="178">To remove a format command, select it from the list and click "Remove Format".</Text>
+<Text id="180">For more information about variables and the feature components, read Chapter 2 of the Greenstone Developer's Guide.</Text>
+</Section>
+<Section name="translatetext">
+<Title>
+<Text id="182">Translate Text</Text>
+</Title>
+<Text id="183">This section describes the translation pane, where you can translate text fragments for parts of the collection's interface into other languages. Under the "Format" tab, click "Translate Text".</Text>
+<Text id="184">First choose an entry from the "Features" list.  The language-specific strings associated with this feature appear below.  Use the "Language of translation" pull-down list to select the target language, and type the translated text into the text area, referring to the "Initial Text Fragment" if necessary.  Click "Add Translation" when finished.</Text>
+<Text id="185">To remove an existing translation, select it in the "Assigned Translations" table and click "Remove Translation".</Text>
+<Text id="186">To edit a translation, select it, edit the "Translated Text" area and click "Replace Translation".</Text>
+</Section>
+<Section name="xcollectionsearching">
+<Title>
+<Text id="161">Cross-Collection Search</Text>
+</Title>
+<Text id="162">Greenstone can search across several different collections as though they were one. This is done by specifying a list of other collections to be searched along with the current one.  Under the "Format" tab, click "Cross-Collection Search".</Text>
+<Text id="163">The Cross-Collection Search panel shows a checklist of available collections. The current collection is ticked and cannot be de-selected.  To add another collection to be searched in parallel, click it in the list (click again to remove it).  If only one collection is selected, there is no cross-collection searching.</Text>
+<Text id="164">If the individual collections do not have the same indexes (including sub-collection partitions and language partitions) as each other, cross-collection searching will not work properly. The user will only be able to search using indexes common to all collections.</Text>
+<Text id="165">For further details, see Chapter 1 of the Greenstone Developer's Guide.</Text>
+</Section>
+<Section name="collectionspecificmacros">
+<Title>
+<Text id="fc-m1">Collection Specific Macros</Text>
+</Title>
+<Text id="fc-m2">Under the "Format" tab, click "Collection Specific Macros".</Text> 
+<Text id="fc-m3">This pane shows the contents of the collection's extra.dm macro file. This is where collection specific macros can be defined. To learn more about macros, see Chapter 3 of the Greenstone Developer's Guide.</Text>
+</Section>
+<Section name="depositormetadatasettings">
+<Title>
+<Text id="dm-1">Depositor Metadata</Text>
+</Title>
+<Text id="dm-2">The Greenstone Depositor enables users to add new documents into an existing collection through a web interface. This section describes the Depositor Metadata pane, where you can specify which metadata fields should be used to describe the new documents added through Depositor. Any metadata sets that have been associated with the current collection will be available for selection. If there is no other metadata set than the "Greenstone Extracted Metadata Set" associated with the collection, the "Dublin Core Metadata Set" will be used as default. To learn more about the Depositor, see the online tutorial exercise at http://wiki.greenstone.org/wiki/gsdoc/tutorial/en/depositor.htm. Under the "Format" tab, click "Depositor Metadata".</Text>
+<Text id="dm-3">The Depositor Metadata panel shows a checklist of available metadata fields. If there is more than one metadata set associated with the collection, neighbouring metadata sets are displayed in different colours. Hover the mouse over a metadata element: a tool-tip displaying its description will appear.</Text>
+<Text id="dm-4">Check those you want to be used to describe new documents when they are deposited through the Depositor. A drop-down list with two choices will appear beside each checked element. This allows you to specify the type of input box for the element in the web interface. "text" means that a single line input box will be used, whereas "textarea" means that a multi-line input box will be used. Select an appropriate box type for each field.</Text>
+<Text id="dm-5">At least one metadata element must be selected. If there is only one selected element in the list, de-selecting it will pop-up a warning message: <AutoText key="glidict::CDM.DepositorMetadataManager.Warning"/></Text>
+</Section>
+</Section>
+<Section name="miscellaneous">
+<Title>
+<Text id="202">Miscellaneous</Text>
+</Title>
+<Text id="203">This section describes features of the Librarian Interface that are not associated with any particular view.</Text>
+<Section name="preferences">
+<Title>
+<Text id="204">Preferences</Text>
+</Title>
+<Text id="205">This section explains the preferences dialog, accessed by opening "File" -> "Preferences".</Text>
+<Text id="206">The preferences window opens at the "General" tab. The first option is a text field for entering your e-mail address. This will be used for the "creator" and "maintainer" collection metadata items for new collections. The next option is a pull-down list of the languages in which the Librarian Interface can be presented. If you change the language by choosing one from the list, the Librarian Interface will restart itself in order to load the new language. A font specification text box is also supplied: a good setting for displaying Unicode is "Arial Unicode MS, BOLD, 14".</Text>
+<Text id="207">If "View Extracted Metadata" is checked, the various controls dealing with metadata always show all metadata that has been extracted automatically from documents.  De-selecting it hides this metadata (although it is still available during collection design, and within the final Greenstone collection). If "Show file sizes" is checked, the file size is shown next to each file in the Workspace and Collection file trees in the Gather and Enrich views.</Text>
+<Text id="208">The "Mode" tab is used to control the level of detail within the interface. At its lowest setting, "Library Assistant", the design and format views are disabled. The user can add/remove documents, add/edit metadata and rebuild the collection. The Create panel is in its simple form. The "Librarian" mode provides access to all of the features of design and format, with the simple form of the Create pane. "Expert" mode includes the full Create pane, and allows the full output from the collection building to be recorded in the logs. To change or review modes, click the radio button next to the mode you are interested in. You can see what mode you are in by looking at the Librarian Interface's title bar.</Text>
+<Text id="210">The "Connection" tab lets you alter the path to the locally-running Greenstone library server, which is used when Previewing collections. It also lets you set proxy information for connecting to the Internet (e.g. when downloading files; see the <Reference target="downloadingfiles"/> section for details). Check the box to enable proxy connection and supply details of the proxy host address and port number. The proxy connection is established when you close the Preferences dialog.</Text>
+<Text id="211">During the course of a session the Librarian Interface may give warning messages which inform you of possibly unforeseen consequences of an action.  You can disable the messages by checking the "Do not show this warning again" box. You can re-enable warning messages using the "Warnings" tab.  Check the boxes next to warning messages you want to see again.</Text>
+</Section>
+<Section name="fileassociations">
+<Title>
+<Text id="212">File Associations</Text>
+</Title>
+<Text id="213">The Librarian Interface uses particular application programs to open particular file types. To alter file associations open the "File" menu and click "File Associations...".</Text>
+<Text id="214">To add an association, select the target file extension from the pull-down list, or type in a new extension (do not include the ".").  Next either type the command that launches the desired application in the appropriate field, or choose the application from the "Browse" dialog.  "%1" can be used in the launch command to insert the name of the file being opened.  Once these are filled out, "Add" is enabled and can be clicked to add the association.</Text>
+<Text id="215">To edit an association, select an existing file extension.  Any existing associated command is shown in the "launch command" field.  Edit it, and then click "Replace".</Text>
+<Text id="216">To remove an association, select an existing file extension and click "Remove".</Text>
+<Text id="217">File associations are stored in the Librarian Interface's main folder, in a file called "associations.xml".</Text>
+</Section>
+<Section name="exporting">
+<Title>
+<Text id="exp-1">Exporting collections to other formats</Text>
+</Title>
+<Text id="exp-2">Greenstone can export the contents and/or metadata of a collection to several standard formats, including METS, DSpace and MARCXML.</Text>
+<Text id="exp-3">To export a collection, open the "File" menu and choose "Export...". You can choose which format to export to by selecting it in the "Export to" drop-down list. Specify a name for the directory where you want to put the exported files&mdash;the files will end up in &lt;path to greenstone&gt;/tmp/exported_xxx, where xxx is the name you specified. Select one collection in the list of available collections, then click "Export Collection".</Text>
+<Text id="exp-4">There are other options specific to the various formats. You can specify XSLT files which will be applied to the resulting XML document(s) in order to customize the output format. Exporting to MARCXML uses a mapping file to map Greenstone metadata to MARC fields. The default mapping file maps only Dublin Core metadata. You can specify a custom mapping file to be used instead.</Text>
+</Section>
+<Section name="exportingcollections">
+<Title>
+<Text id="218">Exporting Collections to CD/DVD</Text>
+</Title>
+<Text id="219">Greenstone can export one or more collections to a self-installing CD/DVD for Windows. </Text>
+<Text id="220">To export a collection, open the "File" menu and choose "Write CD/DVD Image". A list of Greenstone collections appears; click on any one to see its description. Tick the check boxes of the collections to export. You can enter the CD/DVD's name in the "CD/DVD name" box: this is what will appear in the Start menu when the CD/DVD has been installed. You can choose whether the resulting CD-ROM or DVD runs directly from the disk drive, or installs some files onto the computer. Then click "Write CD/DVD image". The process involves copying many files and may take a few minutes.</Text>
+<Text id="221">Upon completion, Greenstone will show the name of a folder containing the exported collections. Use a CD/DVD writer to copy its contents to a blank CD/DVD.</Text>
+</Section>
+</Section>
+</Document>

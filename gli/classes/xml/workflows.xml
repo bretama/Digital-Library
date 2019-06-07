@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PredefinedWorkflows [
+  <!ELEMENT PredefinedWorkflows (Workflow*)>
+  <!ELEMENT Workflow            (#PCDATA)>
+  <!ATTLIST Workflow
+	download			  CDATA "true"
+	gather				  CDATA "true"
+	enrich				  CDATA "true"
+	design				  CDATA "true"
+	create				  CDATA "true"
+	export				  CDATA "true">
+]>
+
+<PredefinedWorkflows>
+  <Workflow>Workflow.AllPanels</Workflow>
+  <Workflow download="false">Workflow.LocalSourceCollectionBuilding</Workflow>
+  <Workflow design="false" create="false">Workflow.DocumentEnriching</Workflow>
+</PredefinedWorkflows>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Title">1</Metadata>
+    <Metadata name="URL">http://C:/Program Files/Greenstone/tmp/F262.html</Metadata>
+    <Metadata name="UTF8URL">http://C:/Program Files/Greenstone/tmp/F262.html</Metadata>
+    <Metadata name="gsdlsourcefilename">import\4_5985452246018556880.pdf</Metadata>
+    <Metadata name="gsdlconvertedfilename">C:\Program Files\Greenstone\tmp\F262.html</Metadata>
+    <Metadata name="OrigSource">F262.html</Metadata>
+    <Metadata name="Source">4_5985452246018556880.pdf</Metadata>
+    <Metadata name="SourceFile">4_5985452246018556880.pdf</Metadata>
+    <Metadata name="Plugin">PDFPlugin</Metadata>
+    <Metadata name="FileSize">68757</Metadata>
+    <Metadata name="FilenameRoot">4_5985452246018556880</Metadata>
+    <Metadata name="FileFormat">PDF</Metadata>
+    <Metadata name="srcicon">_iconpdf_</Metadata>
+    <Metadata name="srclink_file">doc.pdf</Metadata>
+    <Metadata name="srclinkFile">doc.pdf</Metadata>
+    <Metadata name="NumPages">1</Metadata>
+    <Metadata name="dc.Creator">gere</Metadata>
+    <Metadata name="dc.Subject">Chemistry</Metadata>
+    <Metadata name="dc.Title">moodle 1</Metadata>
+    <Metadata name="dls.Organization">Natural Science|Chemistry|Moodle|First Year</Metadata>
+    <Metadata name="ex.ExifTool.ExifToolVersion">8.57</Metadata>
+    <Metadata name="ex.File.Directory">C:\Program Files\Greenstone\collect\ebook\import</Metadata>
+    <Metadata name="ex.File.FileModifyDate">2018:12:10 02:52:02-08:00</Metadata>
+    <Metadata name="ex.File.FileName">4_5985452246018556880.pdf</Metadata>
+    <Metadata name="ex.File.FilePermissions">666</Metadata>
+    <Metadata name="ex.File.FileSize">68757</Metadata>
+    <Metadata name="ex.File.FileType">PDF</Metadata>
+    <Metadata name="ex.File.MIMEType">application/pdf</Metadata>
+    <Metadata name="ex.PDF.Author">user</Metadata>
+    <Metadata name="ex.PDF.CreateDate">2018:07:31 23:22:45+03:00</Metadata>
+    <Metadata name="ex.PDF.Creator">Microsoft® Word 2016</Metadata>
+    <Metadata name="ex.PDF.Language">en-US</Metadata>
+    <Metadata name="ex.PDF.Linearized">false</Metadata>
+    <Metadata name="ex.PDF.ModifyDate">2018:07:31 23:22:45+03:00</Metadata>
+    <Metadata name="ex.PDF.PDFVersion">1.7</Metadata>
+    <Metadata name="ex.PDF.PageCount">1</Metadata>
+    <Metadata name="ex.PDF.Producer">Microsoft® Word 2016</Metadata>
+    <Metadata name="ex.PDF.TaggedPDF">true</Metadata>
+    <Metadata name="ex.XMP.CreateDate">2018:07:31 23:22:45+03:00</Metadata>
+    <Metadata name="ex.XMP.Creator">Microsoft® Word 2016</Metadata>
+    <Metadata name="ex.XMP.CreatorTool">Microsoft® Word 2016</Metadata>
+    <Metadata name="ex.XMP.DocumentID">uuid:D4FF2BF6-91F3-4B28-A730-1D04CBABB11C</Metadata>
+    <Metadata name="ex.XMP.InstanceID">uuid:D4FF2BF6-91F3-4B28-A730-1D04CBABB11C</Metadata>
+    <Metadata name="ex.XMP.ModifyDate">2018:07:31 23:22:45+03:00</Metadata>
+    <Metadata name="ex.XMP.Producer">Microsoft® Word 2016</Metadata>
+    <Metadata name="ex.XMP.XMPToolkit">3.1-701</Metadata>
+    <Metadata name="Identifier">HASH01aa73f8cbf2cf3673104964</Metadata>
+    <Metadata name="lastmodified">1544439122</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1545141357</Metadata>
+    <Metadata name="oailastmodifieddate">20181218</Metadata>
+    <Metadata name="assocfilepath">HASH01aa.dir</Metadata>
+    <Metadata name="gsdlassocfile">doc.pdf:application/pdf:</Metadata>
+  </Description>
+  <Content>
+&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;MU-MIT, Department of Computer Science &amp;amp; Engineering &lt;br /&gt;Advanced  Microprocessor Worksheet one &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;1  &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;1. Draw and discuss the architecture of 8086. Mention the jobs performed by BIU and EU. &lt;br /&gt;2. How is the 20 bit address saved in 8086 microprocessor and what is the technology used &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;in 8086? &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;3. Consider contents of registers DS=18FFH, BX=0204H, SI=0015H. Two 8 bit numbers &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;are stored in the data segment memory. The first number is located at a displacement of &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;contents of BX, and the second number is displaced by the contents of the SI register &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;from the first number. &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;A) What is the effective (offset) address for the two numbers in memory respectively? &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;B) Generate the Physical Addresses for the two numbers &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;C) Write an Assembly language program that adds the two numbers and stores the result &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;at a displacement of 50H from the location of the second number. &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;D) Discuss the addressing modes applied in your program &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;4. Write a program that clears bits 1 &amp;amp;2 and sets bits 7, 8 &amp;amp; 10 of register DX &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;5. When are the status signals S3-S6 output to the bus? &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;6. Do 8086 and 8088 have the same instruction set? explain their difference &lt;br /&gt;7. Explain the applications of latches and buffers in 886/8088 buses &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;8. Write a program that converts an ASCII code to EBCDIC code. Assume DS=4600H, &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;ASCII code for letter B=42H, and offset address for the look up table which is in the data &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;segment memory is 0256H. &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;9. Write an ALP to evaluate X (Y + Z), where X = 10 H, Y = 20 H and Z = 30 H &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;10. What is the purpose of multiplexing address/data bus and address/status signals? &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;11. Draw the demultiplexed and buffered bus structure for the 8088 microprocessor and &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;compare it with the 8086 microprocessor. &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;12. Consider an 8088 memory system containing four ROM chips of 128KB each and eight &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;RAM chips of 64KB each. [Assume the Address range for the ROM chips 0000H-&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;7FFFFH, and 8FFFFH-FFFFFH for the RAM chips] &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;A) Design a circuit that interfaces the 8088 microprocessor with the memory systems &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;using appropriate chip select circuits and including control signals &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;B) Decode the 20 bit address for the locations in the individual chips &lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt; &lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;</Content>
+</Section>
+</Archive>

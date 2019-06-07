@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">tmp\beatles_midi\Strawberry_Fields_For_Ever.mid</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">UnknownPlugin</Metadata>
+    <Metadata name="FileSize">53611</Metadata>
+    <Metadata name="Source">Strawberry_Fields_For_Ever.mid</Metadata>
+    <Metadata name="SourceFile">Strawberry_Fields_For_Ever.mid</Metadata>
+    <Metadata name="FileFormat">MIDI</Metadata>
+    <Metadata name="MimeType">audio/midi</Metadata>
+    <Metadata name="unknown_file">Strawberry_Fields_For_Ever.mid</Metadata>
+    <Metadata name="srclink_file">Strawberry_Fields_For_Ever.mid</Metadata>
+    <Metadata name="srclinkFile">Strawberry_Fields_For_Ever.mid</Metadata>
+    <Metadata name="srcicon">_iconunknown_</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="gsdlzipfilename">import\beatles_midi.zip</Metadata>
+    <Metadata name="Title">Strawberry Fields For Ever</Metadata>
+    <Metadata name="Identifier">HASH01f01f7121594104946407b0</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014328</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01f0.dir</Metadata>
+    <Metadata name="gsdlassocfile">Strawberry_Fields_For_Ever.mid:audio/midi:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

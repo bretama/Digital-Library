@@ -1,0 +1,39 @@
+s
+************** Import  Started **************
+The file metadata.xml is being processed by MetadataXMLPlugin.
+The file C:\Program Files\Greenstone\collect\demo\tmp\1545137364\CH03-UDP.html is being processed by HTMLPlugin.
+The file C:\Program Files\Greenstone\collect\demo\tmp\1545137365\CH03-UDP1.html is being processed by HTMLPlugin.
+The file b17mie\metadata.xml is being processed by MetadataXMLPlugin.
+The file b17mie\b17mie.htm is being processed by HTMLPlugin.
+The file b18ase\metadata.xml is being processed by MetadataXMLPlugin.
+The file b18ase\b18ase.htm is being processed by HTMLPlugin.
+The file b20cre\metadata.xml is being processed by MetadataXMLPlugin.
+The file b20cre\b20cre.htm is being processed by HTMLPlugin.
+The file b21wae\metadata.xml is being processed by MetadataXMLPlugin.
+The file b21wae\b21wae.htm is being processed by HTMLPlugin.
+The file b22bue\metadata.xml is being processed by MetadataXMLPlugin.
+The file b22bue\b22bue.htm is being processed by HTMLPlugin.
+The file ec158e\metadata.xml is being processed by MetadataXMLPlugin.
+The file ec158e\ec158e.htm is being processed by HTMLPlugin.
+The file ec159e\metadata.xml is being processed by MetadataXMLPlugin.
+The file ec159e\ec159e.htm is being processed by HTMLPlugin.
+The file ec160e\metadata.xml is being processed by MetadataXMLPlugin.
+The file ec160e\ec160e.htm is being processed by HTMLPlugin.
+The file fb33fe\metadata.xml is being processed by MetadataXMLPlugin.
+The file fb33fe\fb33fe.htm is being processed by HTMLPlugin.
+The file fb34fe\metadata.xml is being processed by MetadataXMLPlugin.
+The file fb34fe\fb34fe.htm is being processed by HTMLPlugin.
+The file serway\metadata.xml is being processed by MetadataXMLPlugin.
+The file serway\serway.html is being processed by HTMLPlugin.
+The file wb34te\metadata.xml is being processed by MetadataXMLPlugin.
+The file wb34te\wb34te.htm is being processed by HTMLPlugin.
+************** Import Finished **************
+14 documents were considered for processing:
+    14 documents were processed and included in the collection.
+
+************** Build  Started **************
+Compressing text...
+Creating an index based on text;dc.Title,Title;dc.Subject;dls.Organization;dls.Keyword;...
+Creating information database...
+Creating auxiliary files and tidying up...
+************** Build Finished **************

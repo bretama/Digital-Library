@@ -1,0 +1,24 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="partitionindexes"><font size="5" face="Verdana"><strong>6.4: 分区索引</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>索引是被建立在特别的文本或者源元数据上的。那搜索空间可以更进一步地通过分区索引来控制，也可以通过语种或者一个预先确定的过滤器。这个部份描述了如何可以做到这些。在"设计"标签下，点击"分区索引"。</p>
+
+<p>"分区索引"预览共有三个标签；"定义过滤器"，"指定分区"和"指定语种"。更多关于分区的详细资料可阅读Greenstone开发者手册第二章里的子馆藏和子索引章节。</p>
+
+<p>请注意，对于MG馆藏而言，所生成的分区总数是所有索引、子馆藏过滤器和所选择语种的合并。带有两种语种的两个子馆藏过滤器的索引会生成八个索引分区。对于MGPP来说，所有的索引都在一个物理索引中， 所以此时只有四个索引分区。对于Lucene来说，物理索引的数量是根据馆藏指定的级别数量决定的，每个级别生成一个索引。因此对于上述情况，若只有一个级别将生成四个物理索引，而若有两个级别将生成八个物理索引。</p>
+
+
+
+
+</body>
+</html>

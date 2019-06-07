@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<!DOCTYPE TutorialList [
+     <!ENTITY nbsp "&#160;">
+     <!ENTITY rarr "&#8594;">
+     <!ENTITY mdash "&#8212;">
+]>
+<Document>
+<Section name="introduction">
+<Title>
+<Text id="1">ओऴख</Text>
+</Title>
+<!-- Missing translation: 2 -->
+<Section name="ofmiceandmenus">
+<Title>
+<!-- Missing translation: 3 -->
+</Title>
+<!-- Missing translation: 4 -->
+<!-- Missing translation: 5 -->
+<!-- Missing translation: 6 -->
+<!-- Missing translation: 7 -->
+<!-- Missing translation: 8 -->
+<Text id="11">"File" मेनू मधून "Exit" ची निवड करून ग्रंथपाल पडद्याच्या बाहेर या.तुमचा संग्रह प्रथम साठवला जाईल.</Text>
+</Section>
+<Section name="howtoavoidthisdocument">
+<Title>
+<Text id="12">संकलित केलेली माहिती वाचण्याचे कसे टाळावे.</Text>
+</Title>
+<Text id="13">सर्व मार्गांमधील हा मदतीचा मजकूर वाचू नका.जेव्हा तुम्हांला मदतीची गरज असेल तेव्हा मदत कशी मिळवावी हे शिकण्यासाठी पुरेसे वाचा.</Text>
+<Text id="14">."Help" मेनूतील घटक हे ,सर्वात जास्त मदतीचा जूळणारा घटक जो लहान पुस्तकाच्या चिन्हासहित असतो त्यांना नमूद करतात.</Text>
+<!-- Missing translation: 15 -->
+<Text id="16">ग्रंथपाल पडदा वापरण्यापूर्वी,ग्रीनस्टोनमधील संकलित केलेली माहिती वाचा.</Text>
+</Section>
+</Section>
+<Section name="startingoff">
+<Title>
+<Text id="17">बंद करण्यास सुरवात करा.</Text>
+</Title>
+<!-- Missing translation: 18 -->
+<Section name="creatingacollection">
+<Title>
+<!-- Missing translation: 19 -->
+</Title>
+<!-- Missing translation: 20 -->
+<!-- Missing translation: 21 -->
+<!-- Missing translation: 22 -->
+<!-- Missing translation: 23 -->
+<!-- Missing translation: 24 -->
+<!-- Missing translation: 25 -->
+</Section>
+<Section name="savingacollection">
+<Title>
+<!-- Missing translation: 26 -->
+</Title>
+<!-- Missing translation: 27 -->
+<!-- Missing translation: 28 -->
+<!-- Missing translation: 29a -->
+</Section>
+<Section name="openingacollection">
+<Title>
+<!-- Missing translation: 30 -->
+</Title>
+<!-- Missing translation: 31 -->
+<!-- Missing translation: 32 -->
+<!-- Missing translation: 33 -->
+</Section>
+<Section name="deletingcollections">
+<Title>
+<!-- Missing translation: 34 -->
+</Title>
+<!-- Missing translation: 35 -->
+</Section>
+</Section>
+<Section name="downloadingfiles">
+<Title>
+<!-- Missing translation: 36 -->
+</Title>
+<!-- Missing translation: 37 -->
+<Section name="themirrorview">
+<Title>
+<!-- Missing translation: 38 -->
+</Title>
+<!-- Missing translation: 39 -->
+<!-- Missing translation: 39a -->
+<!-- Missing translation: 39b -->
+<!-- Missing translation: 39c -->
+<!-- Missing translation: 39d -->
+<!-- Missing translation: 39e -->
+<!-- Missing translation: 39f -->
+<!-- Missing translation: 39g -->
+<!-- Missing translation: 39g-1 -->
+<!-- Missing translation: 40 -->
+<!-- Missing translation: 42 -->
+</Section>
+</Section>
+<Section name="collectingfiles">
+<Title>
+<!-- Missing translation: 44 -->
+</Title>
+<!-- Missing translation: 45 -->
+<Section name="thegatherview">
+<Title>
+<!-- Missing translation: 46 -->
+</Title>
+<!-- Missing translation: 47 -->
+<!-- Missing translation: 48 -->
+<!-- Missing translation: 49 -->
+<!-- Missing translation: 50 -->
+<!-- Missing translation: 51 -->
+<!-- Missing translation: 52 -->
+<!-- Missing translation: 53 -->
+<!-- Missing translation: 54 -->
+<!-- Missing translation: 55 -->
+</Section>
+<Section name="creatingshortcuts">
+<Title>
+<!-- Missing translation: 55a -->
+</Title>
+<!-- Missing translation: 56 -->
+</Section>
+<Section name="creatingfolders">
+<Title>
+<!-- Missing translation: 57 -->
+</Title>
+<!-- Missing translation: 58 -->
+<!-- Missing translation: 59 -->
+<!-- Missing translation: 60 -->
+</Section>
+<Section name="addingfiles">
+<Title>
+<!-- Missing translation: 61 -->
+</Title>
+<!-- Missing translation: 62 -->
+<!-- Missing translation: 63 -->
+<!-- Missing translation: 64 -->
+<!-- Missing translation: 65 -->
+<!-- Missing translation: 65a -->
+</Section>
+<Section name="replacingfiles">
+<Title>
+<!-- Missing translation: 65b -->
+</Title>
+<!-- Missing translation: 65c -->
+<!-- Missing translation: 65d -->
+</Section>
+<Section name="removingfiles">
+<Title>
+<!-- Missing translation: 66 -->
+</Title>
+<!-- Missing translation: 67 -->
+<!-- Missing translation: 68 -->
+</Section>
+<Section name="explodingfiles">
+<Title>
+<!-- Missing translation: exm-1 -->
+</Title>
+<!-- Missing translation: exm-2 -->
+<!-- Missing translation: exm-3 -->
+<!-- Missing translation: exm-4 -->
+<!-- Missing translation: exm-5 -->
+<!-- Missing translation: exm-6 -->
+</Section>
+<Section name="filteringthetree">
+<Title>
+<!-- Missing translation: 69 -->
+</Title>
+<!-- Missing translation: 70 -->
+<!-- Missing translation: 71 -->
+<!-- Missing translation: 72 -->
+</Section>
+</Section>
+<Section name="enrichingacollection">
+<Title>
+<!-- Missing translation: 73 -->
+</Title>
+<!-- Missing translation: 74 -->
+<Section name="theenrichview">
+<Title>
+<!-- Missing translation: 75 -->
+</Title>
+<!-- Missing translation: 76 -->
+<!-- Missing translation: 77 -->
+<!-- Missing translation: 78 -->
+<!-- Missing translation: 79 -->
+<!-- Missing translation: 80 -->
+<!-- Missing translation: 81 -->
+</Section>
+<Section name="selectingmetadatasets">
+<Title>
+<!-- Missing translation: 82 -->
+</Title>
+<!-- Missing translation: 83 -->
+<!-- Missing translation: 84 -->
+<!-- Missing translation: 84a -->
+<!-- Missing translation: 84b -->
+<!-- Missing translation: 84c -->
+<!-- Missing translation: 84d -->
+<!-- Missing translation: 84e -->
+<!-- Missing translation: 84f -->
+<!-- Missing translation: 191 -->
+<!-- Missing translation: 192 -->
+</Section>
+<Section name="appendingmetadata">
+<Title>
+<!-- Missing translation: 85 -->
+</Title>
+<!-- Missing translation: 86 -->
+<!-- Missing translation: 87 -->
+<!-- Missing translation: 88 -->
+<!-- Missing translation: 89 -->
+</Section>
+<Section name="addingpreviouslydefinedmetadata">
+<Title>
+<!-- Missing translation: 90 -->
+</Title>
+<!-- Missing translation: 91 -->
+<!-- Missing translation: 92 -->
+</Section>
+<Section name="updatingmetadata">
+<Title>
+<!-- Missing translation: 93 -->
+</Title>
+<!-- Missing translation: 94 -->
+<!-- Missing translation: 95 -->
+<!-- Missing translation: 96 -->
+</Section>
+<Section name="reviewingmetadata">
+<Title>
+<!-- Missing translation: 97 -->
+</Title>
+<!-- Missing translation: 98 -->
+<!-- Missing translation: 99 -->
+<Text id="100">जर खूप माहितीसंच निवडलेले तर तक्ता आखण्यास वेळ लागतो.ग्रंथपाल पडद्यावरचे काम तुम्ही सुरू ठेवा.सर्व 'मेटाडेटा ' ही खिडकी चालूच राहिल.</Text>
+<Text id="101">जेव्हा तो खूप मोठा होतो,तेव्हा तुम्ही" All metadata" तालिकेसाठी गाळणी वापरुन त्यातील स्तंभ गाळू शकता.नविन फिल्टर्स मिळविल्यानंतर, अशाच ओळी ज्या दृश्य स्वरूपात शिल्लक असणा-या (माहितीशी) जुळतात.संच बनविण्यासाठी ,परावर्तीत करण्यासाठी किंवा फिल्टर स्वच्छ करण्यासाठी स्तंभाच्या वरच्या बाजूस असणा-या "funnel" च्या चिन्हावर कळ दाबा.तुम्हांला मार्गदर्शक माहिती मिळेल.एकदा फिल्टर तिथे व्यवस्थित बसल्यावर स्तंभातील वरच्या भागाचा रंग बदलतो. </Text>
+<Text id="102">फिल्टर मार्गदर्शक हि"Simple" आणि  "Advanced" कळ आहे.साधी रूपांतरित आवृत्ती काही स्तंभाना गाळते म्हणून ते फक्त अशाच ओळी दाखवितात ज्यात निश्चित मेटाडेटा मूल्ये असतात.("*"matches all values).तुम्ही खाली ओढण्याच्या यादीतून मेटाडेटा मूल्यांची निवड करू शकता.प्रगत सुधारित आवृत्ती निरनिराळ्या जुळणा-या प्रक्रियेसाठी परवाणगी देते.ह्याच्या बरोबर सुरवात करा,सामाविष्ट करू नका,वर्गक्रमानूसार कमी आणि बरोबरीने संपादित केलेल्या कोणतीही साखळीतील मूल्ये एकमेकांशी जूळतील (including"*")आणि तुम्ही                                                 शेवटी तुम्ही दूस-या जुळणा-या अटींना  निवडू  शकता जे विशीष्ट पध्ततीने मांडलेल्या मूल्यांना नमूद करू शकता (by selecting AND) किंवा एकाआड एक मुल्यांसाठी  (by selecting OR) ह्या भागाच्या खाली एक रकाना असतो,जो.तुम्हांला वेगवेगळ्या प्रकारात बदलण्याची परवाणगी देतो(assending or descending).एकदा हे सर्व करून संपल्यानंतर स्तंभातील नविन फिल्टर ला  लागू करण्यासाठी "Set Filter"वर कळ दाबा.सध्याचा असलेला फिल्टर काढून टाकण्यासाठी  "Clear Filter"वर कळ दाबा.ह्याची नोंद करा की फिल्टर जरी स्वच्छ केला तरी फिल्टर ची तपशीलवार माहिती शिल्लक रहायला पाहिजे.</Text>
+<Text id="103">उदाहरणार्थ,"All Metadata"टेबलचे वर्गीकरण करण्यासाठी स्तंभाची निवड करा चूकिच्या फिल्टर रचनेची निवड करा.(a simple filter on"*") आणि चढत्या उतरत्या क्रमाने त्याची निवड करा.</Text>
+</Section>
+<Section name="importingpreviouslyassignedmetadata">
+<Title>
+<Text id="104">पूर्वी निश्चित केलेला मेटाडेटा संगणकात आणणे.</Text>
+</Title>
+<Text id="105">हा विभाग सध्याचा निश्चित केलेला मेटाडेटा कसा आयात करावा याचे वर्णन करतो,संग्रहात प्रलेख मिळविण्यापूर्वीच मेटाडेटा अशाच प्रलेखांना  निश्चित करतो.</Text>
+<!-- Missing translation: 106 -->
+<Text id="107">.ग्रंथपाल पडदा तत्परतेने अशी आवश्यक माहिती दाखवत असतो.तत्काळ तुम्हाला थोडक्यात सूचना दिल्या जातील.आणि नंतर आयात केलेल्या मेटाडेटा घटकांची नावे मिळतील.थोडक्यात जे माध्यम संचिकात दिसतात.आयात केलेला  मेटाडेटा संपादित करता येत नाही किंवा त्यात बदल करता येत नाही.त्यानंतर तुम्ही अशा  मेटाडेटा संचाची निवड करू शकता ज्यांना नविन प्रमाणित केलेले असेल नंतर संचातील त्याच्याशी जूळणारा  मेटाडेटा घटक असतो.नविन  मेटाडेटा साठी हि पध्दत आपोआप संच आणि  घटकांतील सर्वात जास्त त्याला सुसंगत असणारे शब्द निवडते.</Text>
+<Text id="108">नकाशाची तपासणी करण्यासाठी तुम्ही निवडलेल्या मेटाडेटा संचातून नविन मेटाडेटा घटक मिळविण्यासाठी "Add"ची निवड करू शकता.(हे तेव्हाच शक्य होईल जेव्हा तेथे निवडलेल्या संचातील घटकांची नावे एकसारखी नसतील)."Merge"नविन घटकांच्या माहितीसाठी वाचकाने कोणत्याही एका घटकाची  निवड करावी.शेवटी "Ignore"कोणत्याही मेटाडेटाला त्या घटकांच्या नावासहित सूचित करू शकत नाही.एकदा तुम्ही  मेटाडेटातील काही विशीष्ट भाग कसा आयात करावा हे नमूद केले तर , मॅपींगची माहिती हि संग्रहासाठी आयुष्यभर शिल्लक राहते(ठेवता येते).</Text>
+<Text id="109">मेटाडेटा .xml संचिकेवर अचूक माहितीसाठी जी ग्रीनस्टोन मेटाडेटा साठवून ठेवण्यासाठी वापरतात,त्यासाठी  ग्रीनस्टोन विकसीत मार्गदर्शिकेतील अध्याय 2 पहा- - तमच्या संकलित केलेल्या माहितीच्या बाहेर अधिक  माहिती  मिळवण्यासाठी.</Text>
+</Section>
+</Section>
+<Section name="designingacollection">
+<Title>
+<Text id="110">तुमच्या  संग्रहाचे स्वरूप निश्चित होत आहे.</Text>
+</Title>
+<Text id="111">मेटाडेटा वापरून तुमचा माहिती संग्रह तयार झाल्यानंतर तुम्ही ठरवू शकता की,वाचक माहिती संग्रहात कसा प्रवेश करेल आणि तो कशी  माहिती मिळवेल? कोणकोणत्या प्रकारांनी वाचक माहिती चाळेल?  </Text>
+<Section name="thedesignview">
+<Title>
+<Text id="112">चिन्हांकित प्रदर्शन.</Text>
+</Title>
+<Text id="113">हा विभाग तुम्हांला चिन्हांकित प्रदर्शनाची ओळख करून देतो.आणि विवीध दृष्टीतून ह्या खिडकीच्या आत ते कशाप्रकारे चालवावे याचे वर्णन करतो.</Text>
+<Text id="114">ग्रंथपाल पडद्याच्या माध्यमातून, तूम्हांला याचा अंदाज येईल की संकलित केलेल्या माहितीची प्रक्रिया कशा प्रकारे होते आणि वाचकाकडून कशा प्रकारे संग्रहाची माहिती मिळवी जाईल.                  पर्याय हा निरनिराळ्या भागांमध्ये विभागलेला असतो,त्यातील प्रत्येक घटक हा विशीष्ट पातळीवरच्या संग्रहाशी संलग्न असतो. </Text>
+<Text id="115">डाव्या बाजूला विवीध प्रदर्शनांची यादी असते, आणि उजव्या बाजूला चालू प्रक्रियेसाठी संलग्न नियंत्रक असतात. विवीध प्रदर्शन बदलण्यासाठी यादितील त्याच्या नावावर कळ दाबा.</Text>
+<Text id="116">उतरत्या संग्रहाच्या पाय-या कोणत्या आणि अटी कोणत्या हे समजून घेण्यासाठी प्रथम   ग्रीनस्टोन विकसीत मार्गदर्शिकेतील अध्याय 1आणि  अध्याय 2 वाचा.</Text>
+</Section>
+<Section name="plugins">
+<Title>
+<Text id="121">संकलित केलेली माहिती जोडणे.</Text>
+</Title>
+<Text id="122">हा विभाग संग्रहात असणा-या प्रलेखांना कसे जोडावे जोडण्यासाठी कसे निश्चित करावे याचे वर्णन करतो.तुम्ही कोणत्या विशीष्ट प्रकारचे प्लगिन्स  कसे  वापरले,कोणते प्रमापक त्यांना ओलांडून जातात,आणि कोणत्या आज्ञावलीत ते घडून येतात यांचेही वर्णन करतात."Design"या बटणाखाली"Document Plugins" वर कळ दाबा.</Text>
+<Text id="123">प्लगिन ला मिळविण्यासाठी, "Select plugins to add"या तळाच्या बाजूला असणा-या खाली ओढण्याच्या यादितून निवड करून त्याचा वापर करा.आणि नंतर  "Add Plugin" वर कळ दाबा."Configuring Arguments";नावाची खिडकी दिसू लागते,त्याचे वर्णन नंतर येते.नविन प्लगिन्स साठी तुमची निश्चिती झाल्यानंतर ते "Assigned Plugins"च्या यादित शेवटी मिळविले जातात.ग्रंथपाल या वळणामध्ये,प्रत्येक प्लगिन,UnknownPlug शिवाय संग्रहात फक्त एकदाच सामावले जाऊ शकतात.मोठ्या वळणामध्ये,प्लगिन्स खूप वेळा दिसू शकतात. ते आज्ञावलित बसविण्यासाठी हे उपयोगी पडण्यासाठी _exp argument ह्या प्रक्रियेची गरज भासू शकते.</Text>
+<Text id="123aa">प्लगिन ची थोडक्यात माहिती पाहण्याठी  "Select plugin to add" या खाली-ओढण्याच्या यादितून त्याची निवड करा,नंतर संगणकमूषक त्यावर ठेऊन मागेपूढे करावे.तळ-टिप त्याच्या प्रदर्शनासहित दिसू लागेल. </Text>
+<Text id="124">प्लगिन ला काढून टाकण्यासाठी,यादितून त्याची निवड करा आणि  "Remove Plugin"वर कळ दाबा.</Text>
+<Text id="125">प्लगिन्स ची निश्चिती       पुरविल्यानंतर होते.त्यांना कमी करण्यासाठी,प्लगिन ची यादितून  निवड करा आणि  "Configure Plugin"वर कळ दाबा(किंवा प्लगिन वर दोनदा कळ दाबा)."Configuring Arguments"मधील संवाद विशीष्ट       साठी विवीध नियंत्रकासहित दिसू लागतात.</Text>
+<Text id="126">तिथे वेगवेगळ्या प्रकारचे नियंत्रके असतात.त्यातील काही तपास रकाने असतात,आणि एकावर  कळ दाबताच त्याच्याशी जुळणारा पर्याय प्लगिन मध्ये मिळविला जातो.इतर लिखित मालिका ,त्यांचा तपास रकाना आणि लिखित क्षेत्रांसहित असतात.argument ला समर्थ करण्यासाठी रकान्यावर वर कळ दाबा,नंतर त्याच्याशी जुळणारा मजकुर (नेहमीची पध्दत,संचिकेचा मार्ग इ.) रकान्यात टाईप करा.इतर  खाली-ओढण्याचे मेनू असतात ज्यामधून तुम्ही दिलेल्या मुल्यांकित संचातून निवड करू शकता.argument काय करू शकतात हे शिकण्यासाठी एका क्षणाकरिता  संगणकमूषक त्याच्या नावावर ठेऊन मागेपूढे करावा आणि मग त्याची वर्णनासहित माहिती दिसू लागेल.</Text>
+<Text id="127">जेव्हा तुम्हांला configuration बदलायचे असेल तेव्हा बदल मान्य करण्यासाठी आणि संवाद बंद करण्यासाठी  "OK"वर कळ दाबा,किंवा कोणत्याहि plugin arguments मधे बदल न करता  संवाद बंद करण्यासाठी  "Cancel"वर कळ दाबा.</Text>
+<!-- Missing translation: 128 -->
+</Section>
+<Section name="searchindexes">
+<Title>
+<Text id="134">सूचींना शोधणे.</Text>
+</Title>
+<!-- Missing translation: si-1 -->
+<!-- Missing translation: si-2 -->
+<!-- Missing translation: si-2a -->
+<!-- Missing translation: si-3 -->
+<!-- Missing translation: s1-3a -->
+<!-- Missing translation: si-4 -->
+<!-- Missing translation: si-5 -->
+<!-- Missing translation: si-6 -->
+<!-- Missing translation: si-7 -->
+<!-- Missing translation: si-8 -->
+<!-- Missing translation: si-9 -->
+<!-- Missing translation: si-10 -->
+<!-- Missing translation: si-11 -->
+<!-- Missing translation: si-12 -->
+</Section>
+<Section name="partitionindexes">
+<Title>
+<Text id="143">विभागलेल्या सूची.</Text>
+</Title>
+<!-- Missing translation: 144 -->
+<!-- Missing translation: 145 -->
+<!-- Missing translation: 146 -->
+<Section name="definefilters">
+<Title>
+<Text id="147">फिल्टर्स ची व्याख्या देणे.</Text>
+</Title>
+<Text id="148">फिल्टर्स तुम्हांला सह-संग्रहातील सर्व संकलित केलेली माहिती सूचीत असलेली जी दिलेल्या आराखड्यातील मेटाडेटा मूल्यांशी जूळतात अशांना एकत्रित आणण्याची परवाणगी देतात.</Text>
+<Text id="149">फिल्टर ची निर्मीती करण्यासाठी "Define Filters"ह्या बटणावर कळ दाबा.आणि "Subcollection filter name:" च्या क्षेत्रातून नविन फिल्टर्स साठी त्यात नावाचा प्रवेश करा.नंतर अशी संकलित केलेली माहिती मिळवा जी एकतर मेटाडेटा घटक किंवा प्रश्नातील नावाशी जूळण्यास विरोध करतील.जुळवणी करण्यासाठी पध्दतीने प्रवेश करा.तुम्ही "Excluding"संकलित केलेली माहिती जी फिल्टर्सशी .जुळणारी असेल किंवा "Excluding"त्यांना करू शकता.शेवटी तुम्ही कोणताही सर्वोत्कृष्ठ PERL नमूद करू शकता जेव्हा .जुळवणी करायची असेल तेव्हा नेहमीप्रमानेच त्या झेंड्याचा वापर करावा.       शेवटी       च्या यादित फिल्टर मिळवण्यासाठी          वर कळ दाबा."	
+source::15	"For many controls, if you station the mouse over them a "tool tip" appears that says what they do.
+	</Text>
+<Text id="150">फिल्टर काढून टाकण्यासाठी यादितून त्याची निवड करा आणि  "Remove Filter" वर कळ दाबा.	</Text>
+<Text id="151">"फिल्टर मध्ये दुरूस्ती करण्यासाठी यादितून त्याची निवड करा,संपादित नियंत्रणांमध्ये दिसणा-या कोणत्याही मूल्यां मध्ये बदल करण्यासाठी "Replace Filter"वर बदल स्वीकारण्यासाठी कळ दाबा."	</Text>
+<Text id="151a">Defining filters हे सह-संग्रहाची निर्मीती करू शकत नाही. सह-संग्रहाची हे <AutoText key="glidict::CDM.SubcollectionManager.Subindex_Controls"/>, नमूद केलेले असतात ते फिल्टर्स वर बेतलेले असतात तुम्हांला फक्त त्याची व्याख्या द्यावी लागेल.	</Text>
+</Section>
+<Section name="assignpartitions">
+<Title>
+<!-- Missing translation: 152 -->
+</Title>
+<Text id="153">एक किंवा अधिक सह-संग्रह फिल्टर्स व्याख्या देण्यासाठी Assign Partitions या कळीचा उपयोग त्यासाठी सूची बांधण्यासाठी करावा.तुम्हांला पाहिजे असलेल्या फिल्टर किंवा फिल्टर्स ची"Defined Subcollection Filters" च्या यादितून  निवड करा आणि "Add Partition" वर कळ दाबा.प्रत्येक विभाजीत हा सह-संग्रहाचा निकाल नमूद करेल जो संकलित केलेल्या माहितीला सामावून घेईल,जो विभाजीताच्या कोणत्याही फिल्टर शी संबंधित असेल,त्याच्याशी जूळणारा असेल.</Text>
+<Text id="154a">विभाजीताचे स्वरूप बदलण्यासाठी यादितून त्याची निवड करा.फिल्टर मध्ये बदल घडवून आणण्यासाठी, आणि<AutoText key="glidict::CDM.SubcollectionIndexManager.Replace_Subindex"/>याच्या वर कळ दाबा. </Text>
+<Text id="154">विभाजीत काढून टाकण्यासाठी यादितून त्याची निवड करा आणि"Remove Partition" वर कळ दाबा.</Text>
+<Text id="154b">अशी आज्ञा जी विभाजीते नमूद केलेल्या  Assigned Partitions च्या यादित आज्ञा दिल्यावर खाली असलेल्या मेनूवरील शोध पा वर दिसू लागतील त्यासाठी  <AutoText key="glidict::CDM.Move.Move_Up"/> आणि <AutoText key="glidict::CDM.Move.Move_Up"/>बटणांचा वापर दिलेली हि  आज्ञा बदलण्यासाठी करा.</Text>
+<Text id="155">चुकून एखादा विभाजीत तयार झाल्यास,यादितून त्याची निवड करा आणि  <AutoText key="glidict::CDM.SubcollectionIndexManager.Set_Default_Subindex"/> वर कळ दाबा. </Text>
+<Text id="155a">जी नावे शोध पानांवरिल खाली टाकलेल्या विभाजीत यादिसाठी वापरलेली आहेत ती <AutoText key="glidict::CDM.GUI.SearchMetadata"/>यात लावली जातात,हा <AutoText key="glidict::GUI.Format"/> या तावदानाचाभाग असतो. (see <Reference target="searchmetadatasettings"/>).</Text>
+</Section>
+<Section name="assignlanguages">
+<Title>
+<Text id="156">भाषा नेमून देणे.</Text>
+</Title>
+<Text id="157">हा विभाग याची तपशीलवार माहिती देतो की विशीष्ट भाषेतील शोध निर्देशिकेवर मर्यादा कशा घालाव्यात. तुम्ही हे विभाजीत निर्माण करून त्याचा वापर करू शकता.त्यासाठी   "Partition Indexes" च्या प्रदर्शनातून "Assign Languages"  या कळीचा वापर करा.</Text>
+<Text id="158">नविन भाषा विभाजीत मिळविण्यासाठी  "Assign Languages"ह्या कळीचा वापर त्यांच्यासाठी सूची बांधण्यासाठी करावा. "Languages to add"या यादितून ऐक किंवा अनेक भाषांची निवड करा आणि   "Add Partition"वर कळ दाबा. </Text>
+<Text id="158a">असलेले विभाजीत बदलण्यासाठी  "Assigned Language Partitions"यादितून त्याची निवड करा,निवडलेल्या भाषेत बदल घडवून आणण्यासाठी "Languages to add" या यादिच्या खाली "Replace Partition" वर कळ दाबा. </Text>
+<Text id="159">भाषा विभाजीत काढून टाकण्यासाठी  "Assigned Language Partitions" या यादितून त्याची निवड करा आणि "Remove Partition" वर कळ दाबा. </Text>
+<Text id="159a">भाषा विभाजीताला दिलेली आज्ञा हि विशेषता नेमून दिलेल्या भाषा विभाजीतातील यादित आज्ञा दिल्यास त्या शोध पानांवरिल सुविधा त्यात दिसतात.दिलेली आज्ञा बदलण्यासाठी <AutoText key="glidict::CDM.Move.Move_Up"/> या बटणाचा वापर करावा.</Text>
+<Text id="160">भाषा विभाजीत चुकून सेट झाल्यावर यादितून त्याची निवड करा आणि "Set Default" वर कळ दाबा. </Text>
+<Text id="160a">शोध पानांवरिल खाली टाकण्याच्या यादितील भाषा विभाजीतांसाठी वापरलेली नावे <AutoText key="glidict::CDM.GUI.SearchMetadata"/>यात सेट करता येवू शकतात.तो <AutoText key="glidict::GUI.Format"/>  या तावदानाचा भाग असतो. (see <Reference target="searchmetadatasettings"/>).</Text>
+</Section>
+</Section>
+<Section name="classifiers">
+<Title>
+<Text id="166">वर्गीकरणकर्त्यांना चाळणे.</Text>
+</Title>
+<Text id="167">हा विभाग  "classifiers"निश्चीत कसे करावे, जे संग्रहाला चाळण्यासाठी वापरले जातात,त्यांचे वर्णन करतात. "Design"या बटणाखाली "Browsing Classifiers"वर कळ दाबा.</Text>
+<!-- Missing translation: 168 -->
+<Text id="168a">वर्गीकरणकर्त्यांची थोडक्यात माहिती पाहण्यासाठी,"Select classifier to add"या खाली-ओढण्याच्या यादितून त्याची निवड करा,नंतर संगणकमूषक त्यावर ठेवून मागेपूढे करा.तळ-टिपेत त्याचे वर्णन दिसू लागेल.</Text>
+<Text id="168b"> प्रत्येक वर्गीकरणकर्त्यांला खूपशे ग्रंथ सारांश असतात असू शकतात,जे आकृतीसह असू शकतात.महत्वाच्या  ग्रंथाच्या सारांशात "metadata"समाविष्ट असतात जे अशा मेटाडेटांना नमूद करतात,ज्यात संकलित केलेली माहितीचे वर्गीकरण केलेले असते,आणि "buttonname"हे नाव नेविगेशन स्तंभात दिसू लागते.</Text>
+<Text id="169"> वर्गीकरणकर्त्यांला काढून टाकण्यासाठी यादितून त्याची निवड करा आणि "Remove Classifier"  वर कळ दाबा. </Text>
+<Text id="170"> वर्गीकरणकर्त्यांच्या ग्रंथाच्या सारांशामधे बदल करण्यासाठी यादितून त्याची निवड करा  आणि  "Configure Classifier" (or double-click on the classifier in the list).वर कळ दाबा.  </Text>
+<Text id="171">संग्रहातील नेविगेशन  स्तंभातील वर्गीकरणकर्त्यांच्या आज्ञेवरती येथे त्याचा परिणाम होऊ शकतो. त्यामधे बदल करण्यासाठी, ज्या वर्गीकरणकर्त्यांमधे बदल करायचा आहे, त्याची निवड करा  आणि  "Move Up" or "Move Down" वर कळ दाबा.  </Text>
+<!-- Missing translation: 172 -->
+</Section>
+</Section>
+<Section name="producingthecollection">
+<Title>
+<!-- Missing translation: 193 -->
+</Title>
+<!-- Missing translation: 194 -->
+<Section name="thecreateview">
+<Title>
+<!-- Missing translation: 195 -->
+</Title>
+<!-- Missing translation: 196 -->
+<!-- Missing translation: 196a -->
+<!-- Missing translation: 197 -->
+</Section>
+<Section name="builderrors">
+<Title>
+<!-- Missing translation: 199a -->
+</Title>
+<!-- Missing translation: 199b -->
+</Section>
+<Section name="expertbuilding">
+<Title>
+<!-- Missing translation: 198a -->
+</Title>
+<!-- Missing translation: 198 -->
+<!-- Missing translation: 200a -->
+<!-- Missing translation: 201a -->
+</Section>
+</Section>
+<Section name="formattingacollection">
+<Title>
+<!-- Missing translation: fc-1 -->
+</Title>
+<!-- Missing translation: fc-2 -->
+<Section name="theformatview">
+<Title>
+<!-- Missing translation: fc-3 -->
+</Title>
+<!-- Missing translation: fc-4 -->
+<!-- Missing translation: fc-5 -->
+<!-- Missing translation: fc-6 -->
+<!-- Missing translation: fc-7 -->
+</Section>
+<Section name="generalsettings">
+<Title>
+<Text id="117">सर्वसाधारण.</Text>
+</Title>
+<Text id="118">हा विभाग तुमच्या संग्रहाशी संलग्न असलेल्या सर्वसाधारण रचनेतून ग्रंथप्रदर्शन कसे  करावे आणि त्यात काही बदल करावयाचा असल्यास कसा करायचा याचे वर्णन करतो.पहिल्यांदा "Format" बटणाच्या खाली "General" वर कळ दाबा.</Text>
+<Text id="119">येथे काही संग्रहातील मोठा मेटाडेटा हा बांधता येतो.किंवा त्यात बदल करता येतो,त्याच्या शिर्षक आणि वर्णनासहित ,त्याचा प्रवेश केलेला असतो.जेव्हा तुम्ही नविन  संग्रहाला सुरवात करता.</Text>
+<Text id="120">प्रथम संग्रहाच्या निर्मिती आणि व्यवस्थापकामधून संपर्क email चे पत्ते.खालील क्षेत्र तुम्हांला संग्रहाचे शीर्षक बदलण्याची परवाणगी देते.ज्यामध्ये संग्रह साठवून ठेवलेला आहे असा घडीपत्रक नंतर दाखविला जातो,परंतू त्यात काही बदल करता येत नाही. नंतर अशा चिन्हावर या जे  संग्रहातील"About"या पानाच्या वर डाव्या बाजूला दाखविलेले आहे(URL च्या स्वरूपात).वापरलेल्या चिन्हानंतर ग्रीनस्टोन ग्रंथालय पानाच्या खाली संग्रहाशी त्याची जोडणी केलेली असते.नंतर दूरूस्त रकाना हा वाचकांना संग्रहाची माहिती मिळवता येण्यावर नियंत्रण ठेवतो.शेवटी येणारे "Collection Description"हे लिखीत क्षेत्र <Reference target=" creatingcollection"/> यात वर्णन केलेले असते.    </Text>
+</Section>
+<Section name="searchmetadatasettings">
+<Title>
+<!-- Missing translation: fc-s1 -->
+</Title>
+<!-- Missing translation: fc-s2 -->
+<!-- Missing translation: fc-s3 -->
+</Section>
+<Section name="formatstatements">
+<Title>
+<!-- Missing translation: 173 -->
+</Title>
+<Text id="174">जेव्हा ,ग्रीनस्टोन आगोदरच साठवून ठेवलेला नसेल पण 'on the fly' वर त्याची गरज असल्यास तो तयार केला असेल तर तूम्ही वेब पेज पाहू शकता.रूपरेषेच्या आज्ञेचा उपयोग, हया निर्मान केलेल्या पानांचे स्वरूप बदलण्यासाठी होतो. ते अशासारख्या बटणांनावर परिणाम करतात,जी बटणे संकलित केलेली माहिती दाखवितात,आणि  DateList या वर्गीकरणकर्याकडून कोणती लिंक्स पुरविली जाते.</Text>
+<!-- Missing translation: 175 -->
+<!-- Missing translation: 176 -->
+<!-- Missing translation: 177 -->
+<!-- Missing translation: 178 -->
+<!-- Missing translation: 180 -->
+</Section>
+<Section name="translatetext">
+<Title>
+<!-- Missing translation: 182 -->
+</Title>
+<!-- Missing translation: 183 -->
+<!-- Missing translation: 184 -->
+<!-- Missing translation: 185 -->
+<!-- Missing translation: 186 -->
+</Section>
+<Section name="xcollectionsearching">
+<Title>
+<Text id="161">उलट-संग्रह शोध.</Text>
+</Title>
+<Text id="162">ग्रीनस्टोन हा वेगवेगळ्या विवीध संग्रहातून,जरी असा एखादाच संग्रह असला तरिही तो शोधून काढू शकतो.इतर संग्रहातील विशेष यादिमुळे सर्व संग्रहातून चालू माहिती शोधली जाते. "Format" या बटणाखाली "Cross-Collection Search"वर कळ दाबा.</Text>
+<Text id="163">विरोधी-संग्रह शोध हा उपलब्ध असलेल्या दुरूस्त यादीतील प्रदर्शन दाखवितो.चालू संग्रहाला टिक मार्क केलेली असते आणि ते निवडलेले नसतात.आणखी  इतर  संग्रहाला मिळविण्यासाठी समांतर संग्रहात शोध घ्या,यादीतून त्यावर कळ दाबा(त्याला काढून टाकण्यासाठी परत त्यावर  कळ दाबा)जर फक्त एकाच  संग्रहाची निवड केलेली असेल तर,तेथे विरोधी-संग्रह शोध नसतो.</Text>
+<!-- Missing translation: 164 -->
+<!-- Missing translation: 165 -->
+</Section>
+<Section name="collectionspecificmacros">
+<Title>
+<!-- Missing translation: fc-m1 -->
+</Title>
+<!-- Missing translation: fc-m2 -->
+<!-- Missing translation: fc-m3 -->
+</Section>
+</Section>
+<Section name="miscellaneous">
+<Title>
+<!-- Missing translation: 202 -->
+</Title>
+<!-- Missing translation: 203 -->
+<Section name="preferences">
+<Title>
+<!-- Missing translation: 204 -->
+</Title>
+<!-- Missing translation: 205 -->
+<!-- Missing translation: 206 -->
+<!-- Missing translation: 207 -->
+<!-- Missing translation: 208 -->
+<!-- Missing translation: 210 -->
+<!-- Missing translation: 211 -->
+</Section>
+<Section name="fileassociations">
+<Title>
+<!-- Missing translation: 212 -->
+</Title>
+<!-- Missing translation: 213 -->
+<!-- Missing translation: 214 -->
+<!-- Missing translation: 215 -->
+<!-- Missing translation: 216 -->
+<!-- Missing translation: 217 -->
+</Section>
+<Section name="exporting">
+<Title>
+<!-- Missing translation: exp-1 -->
+</Title>
+<!-- Missing translation: exp-2 -->
+<!-- Missing translation: exp-3 -->
+<!-- Missing translation: exp-4 -->
+</Section>
+<Section name="exportingcollections">
+<Title>
+<!-- Missing translation: 218 -->
+</Title>
+<!-- Missing translation: 219 -->
+<!-- Missing translation: 220 -->
+<!-- Missing translation: 221 -->
+</Section>
+</Section>
+</Document>

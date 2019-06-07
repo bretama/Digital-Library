@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">33</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Hooked on, a Beatles tribute &amp;#091;sound recording&amp;#093; : 31 nonstop hits / performed by Dr. Fink and the Mystery Band.</Metadata>
+    <Metadata name="dc.Publisher">Plymouth, MN :</Metadata>
+    <Metadata name="dc.Publisher">K-tel,</Metadata>
+    <Metadata name="dc.Date">p1992.</Metadata>
+    <Metadata name="dc.Description">Compact disc.</Metadata>
+    <Metadata name="dc.Description">Please me. Please please me ; All my loving ; Eight days a week ; A hard day's night ; Can't buy me love -- Help me. Help! ; Ticket to ride ; Day tripper ; Paperback writer ; Got to get you into my life -- Drive me. Lady Madonna ; Drive my car ; Nowhere man ; Taxman ; Eleanor Rigby -- The tribute. Sgt. Pepper's Lonely Hearts Club Band ; Lucy in the sky with diamonds ; Magical mystery tour ; I am the walrus ; Strawberry fields forever -- The window. Ob-la-di, Ob-la-da ; Get back ; Back in the U.S.S.R. ; Polythene Pam ; She came in through the bathroom window -- The end. If I fell ; Michelle ; Yesterday ; Blackbird ; Hey Jude ; The end.</Metadata>
+    <Metadata name="dc.Description">Damian Paul, vocals ; Dr. Fink, bass, keyboards, and drums ; James Behringer, guitars ; Hiram Titus, additional keyboards.</Metadata>
+    <Metadata name="dc.Subject">Rock music.</Metadata>
+    <Metadata name="dc.Creator">Fink, Dr.</Metadata>
+    <Metadata name="dc.Creator">Mystery Band.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs33</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014473</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs33.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01653cjm  2200313 a 4500
+001     5654266
+005     19940414162606.6
+007     sduzsnznnmlne
+008     920723s1992    mnurcn              eng d
+035    _9 (DLC)   92764948
+906    _a 7
+       _b cbc
+       _c copycat
+       _d 4
+       _e ncip
+       _f 19
+       _g y-genmusic
+010    _a    92764948 
+028 02 _a 60072
+       _b K-tel
+035    _a (OCoLC)25664171
+040    _a WM
+       _c DLC
+       _d DLC
+042    _a lccopycat
+050 00 _a K-tel 60072
+245 00 _a Hooked on, a Beatles tribute
+       _h [sound recording] :
+       _b 31 nonstop hits /
+       _c performed by Dr. Fink and the Mystery Band.
+260    _a Plymouth, MN :
+       _b K-tel,
+       _c p1992.
+300    _a 1 sound disc :
+       _b digital ;
+       _c 4 3/4 in.
+511 0  _a Damian Paul, vocals ; Dr. Fink, bass, keyboards, and
+ drums ; James Behringer, guitars ; Hiram Titus, additional
+ keyboards.
+500    _a Compact disc.
+505 0  _a Please me. Please please me ; All my loving ; Eight days
+ a week ; A hard day's night ; Can't buy me love -- Help me.
+ Help! ; Ticket to ride ; Day tripper ; Paperback writer ; Got
+ to get you into my life -- Drive me. Lady Madonna ; Drive my
+ car ; Nowhere man ; Taxman ; Eleanor Rigby -- The tribute. Sgt.
+ Pepper's Lonely Hearts Club Band ; Lucy in the sky with
+ diamonds ; Magical mystery tour ; I am the walrus ; Strawberry
+ fields forever -- The window. Ob-la-di, Ob-la-da ; Get back ;
+ Back in the U.S.S.R. ; Polythene Pam ; She came in through the
+ bathroom window -- The end. If I fell ; Michelle ; Yesterday ;
+ Blackbird ; Hey Jude ; The end.
+650  0 _a Rock music.
+700 1  _a Fink,
+       _c Dr.
+710 2  _a Mystery Band.
+710 2  _a Beatles.
+953    _a TA28
+991    _b c-RecSound
+       _h K-tel 60072
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

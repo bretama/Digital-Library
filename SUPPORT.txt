@@ -1,0 +1,30 @@
+GREENSTONE SUPPORT
+
+A complete list of Greenstone support options is available at:
+http://www.greenstone.org/support
+
+In particular, 
+	Greenstone Website:
+		http://www.greenstone.org
+		Greenstone's main website.
+	Greenstone Wiki: 
+		http://wiki.greenstone.org
+		Contains documentation, and links to manuals, tutorials etc.
+	Greenstone Mailing List:
+		(to subscribe)		
+		http://list.waikato.ac.nz/mailman/listinfo/greenstone-users
+		(to post)
+		greenstone-users@list.waikato.ac.nz
+
+Documentation Manuals are available on CD-ROM releases of Greenstone in the
+"Documentation" folder.
+
+To submit bug reports, follow these steps:
+
+1.	Register as a developer to gain access to Greenstone's bug tracking
+	system at http://www.greenstone.org/developers-register
+2.	Go to http://trac.greenstone.org/ in your web browser and click "login"
+	near the top of the screen. Login with your username and password.
+3.	Click on "New Ticket" near the top of the screen and fill in the Create
+	New Ticket form.
+

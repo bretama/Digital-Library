@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Author">desta</Metadata>
+    <Metadata name="Title">PowerPoint Presentation</Metadata>
+    <Metadata name="URL">http://C:/Program Files/Greenstone/collect/demo/tmp/1545137735/CH03-UDP1.html</Metadata>
+    <Metadata name="UTF8URL">http://C:/Program Files/Greenstone/collect/demo/tmp/1545137735/CH03-UDP1.html</Metadata>
+    <Metadata name="gsdlsourcefilename">import\CH03-UDP1.pdf</Metadata>
+    <Metadata name="gsdlconvertedfilename">tmp\1545137735\CH03-UDP1.html</Metadata>
+    <Metadata name="OrigSource">CH03-UDP1.html</Metadata>
+    <Metadata name="Source">CH03-UDP1.pdf</Metadata>
+    <Metadata name="SourceFile">CH03-UDP1.pdf</Metadata>
+    <Metadata name="Plugin">PDFPlugin</Metadata>
+    <Metadata name="FileSize">1905950</Metadata>
+    <Metadata name="FilenameRoot">CH03-UDP1</Metadata>
+    <Metadata name="FileFormat">PDF</Metadata>
+    <Metadata name="srcicon">_iconpdf_</Metadata>
+    <Metadata name="srclink_file">doc.pdf</Metadata>
+    <Metadata name="srclinkFile">doc.pdf</Metadata>
+    <Metadata name="NumPages">34</Metadata>
+    <Metadata name="dc.Language">English</Metadata>
+    <Metadata name="dc.Subject">Biology</Metadata>
+    <Metadata name="dc.Title">udp-cont...</Metadata>
+    <Metadata name="dls.Organization">Natural Science</Metadata>
+    <Metadata name="Identifier">CH03-UDP1</Metadata>
+    <Metadata name="lastmodified">1544729386</Metadata>
+    <Metadata name="lastmodifieddate">20181213</Metadata>
+    <Metadata name="oailastmodified">1545137736</Metadata>
+    <Metadata name="oailastmodifieddate">20181218</Metadata>
+    <Metadata name="assocfilepath">CH03-UDP/1.dir</Metadata>
+    <Metadata name="gsdlassocfile">CH03-UDP1-14_1.jpg:image/jpeg:</Metadata>
+    <Metadata name="gsdlassocfile">doc.pdf:application/pdf:</Metadata>
+  </Description>
+  <Content>
+&lt;A name=1&gt;&lt;/a&gt;11-1&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Chapter 3&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;User Datagram &lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Protocol (UDP)&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=2&gt;&lt;/a&gt;11-2&lt;br&gt;
+&lt;b&gt;Position of UDP in the TCP/IP protocol suite&lt;/b&gt;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=3&gt;&lt;/a&gt;&lt;b&gt;Process to Process Communication&lt;/b&gt;&lt;br&gt;
+• &lt;i&gt;Before we examine UDP, we must first understand &lt;/i&gt;&lt;br&gt;
+&lt;i&gt;host-to-host communication and process-to-process &lt;br&gt;communication and the difference between them.&lt;/i&gt;&lt;br&gt;
+• At the IP layer, a destination address identifies a host &lt;br&gt;
+computer; no further distinction is made regarding &lt;br&gt;which user or which application program will &lt;br&gt;receive the datagram. &lt;br&gt;
+• Transport layer adds a mechanism that distinguishes &lt;br&gt;
+among destinations within a given host, allowing &lt;br&gt;multiple application programs (processes) executing &lt;br&gt;on a given computer to send and receive datagrams&lt;br&gt;independently&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=4&gt;&lt;/a&gt;11-3&lt;br&gt;
+&lt;b&gt;UDP versus IP&lt;/b&gt;&lt;br&gt;
+UDP is connectionless, unreliable transport protocol.&lt;br&gt;It is however very simple protocol that uses minimal overhead.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=5&gt;&lt;/a&gt;&lt;i&gt;&lt;b&gt;IP addresses versus port numbers&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+5&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=6&gt;&lt;/a&gt;&lt;b&gt;Ultimate Destination&lt;/b&gt;&lt;br&gt;
+•&lt;br&gt;
+The operating systems in most computers support &lt;br&gt;multiprogramming, which means they permit multiple &lt;br&gt;processes to execute simultaneously. &lt;br&gt;•&lt;br&gt;
+The systems are called multitasking systems. &lt;br&gt;
+•&lt;br&gt;
+A process creates and recieves messages. However, &lt;br&gt;concluding a process as ultimate destination for a datagram is &lt;br&gt;misleading because: &lt;br&gt;•&lt;br&gt;
+Processes are created and destroyed dynamically, senders &lt;br&gt;seldom know enough to identify a process on another &lt;br&gt;machine.&lt;br&gt;
+•&lt;br&gt;
+We would like to be able to replace processes that receive &lt;br&gt;datagrams without informing all senders (e.g., rebooting a &lt;br&gt;machine can change all the processes, but senders should &lt;br&gt;not be required to know about the new processes). &lt;br&gt;
+&lt;hr&gt;
+&lt;A name=7&gt;&lt;/a&gt;&lt;b&gt;Ultimate Destination Cont’d&lt;/b&gt;&lt;br&gt;
+• Third, we need to identify destinations from the functions &lt;br&gt;
+they implement without knowing the process that &lt;br&gt;implements the function (e.g., allow a sender to contact a &lt;br&gt;file server without knowing which process on the &lt;br&gt;destination machine implements the file server function).&lt;br&gt;
+• More important, in systems that allow a single process to &lt;br&gt;
+handle two or more functions, it is essential that we &lt;br&gt;arrange a way for a process to decide exactly which &lt;br&gt;function the sender desires.&lt;br&gt;
+Therefore, instead of thinking of a process as the ultimate &lt;br&gt;destination, we will imagine that each machine contains a set of &lt;br&gt;abstract destination points called &lt;b&gt;&lt;i&gt;protocol ports. &lt;br&gt;&lt;/b&gt;&lt;/i&gt;• Each protocol port is identified by a positive integer. The local &lt;br&gt;
+operating system provides an interface mechanism that &lt;br&gt;processes use to specify a port or access it.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=8&gt;&lt;/a&gt;11-4&lt;br&gt;
+&lt;b&gt;Port numbers&lt;/b&gt;&lt;br&gt;
+Normally servers must have a known port number, while clients can have ephemeral&lt;br&gt;(temporary) port numbers assigned by UDP. (Ephemeros = lasting a day, Greek).&lt;br&gt;
+Port numbers 0..216-1 = 0..65,535&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=9&gt;&lt;/a&gt;&lt;b&gt;Port numbers Cont’d&lt;/b&gt;&lt;br&gt;
+To communicate with a foreign port, a sender needs to know &lt;br&gt;both the IP address of the destination machine and the protocol &lt;br&gt;port number of the destination within that machine. &lt;br&gt;•&lt;br&gt;
+Each message must carry the number of the &lt;b&gt;&lt;i&gt;destination port &lt;br&gt;&lt;/b&gt;&lt;/i&gt;on the machine to which the message is sent, as well as the &lt;br&gt;&lt;b&gt;&lt;i&gt;source port &lt;/b&gt;&lt;/i&gt;number on the source machine to which replies &lt;br&gt;should be addressed. &lt;br&gt;
+•&lt;br&gt;
+Thus, it is possible for any process that receives a message to &lt;br&gt;reply to the sender.&lt;br&gt;
+•&lt;br&gt;
+UDP provides protocol ports used to distinguish among &lt;br&gt;multiple programs executing on a single machine. &lt;br&gt;
+•&lt;br&gt;
+UDP software at the destination deliver the message to the &lt;br&gt;correct recipient and enables the recipient to send a reply &lt;br&gt;using these port numbers.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=10&gt;&lt;/a&gt;11-5&lt;br&gt;
+&lt;b&gt;IANA ranges&lt;/b&gt;&lt;br&gt;
+(IANA = Interned Assigned Numbers Authority)&lt;br&gt;
+Can be registered with IANA &lt;br&gt;
+to avoid duplications,&lt;br&gt;
+but not controlled by IANA&lt;br&gt;
+Assigned&lt;br&gt;
+and &lt;br&gt;
+Ephemeral ports&lt;br&gt;
+controlled &lt;br&gt;by IANA&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=11&gt;&lt;/a&gt;Examples of some IANA assigned well known port numbers &lt;br&gt;
+11-6&lt;br&gt;
+(used in UDP and TCP)&lt;br&gt;
+&lt;b&gt;Port &lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Description&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Port &lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Description&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Number&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Number&lt;/b&gt;&lt;br&gt;
+1&lt;br&gt;
+TCP Port Service Multiplexer&lt;br&gt;
+111&lt;br&gt;
+RPC (Remote Procedure Call)&lt;br&gt;
+7&lt;br&gt;
+Echo (echoes received datagram to sender)&lt;br&gt;
+115&lt;br&gt;
+Simple File Transfer Protocol (SFTP)&lt;br&gt;
+20&lt;br&gt;
+FTP -- Data&lt;br&gt;
+118&lt;br&gt;
+SQL Services&lt;br&gt;
+21&lt;br&gt;
+FTP -- Control&lt;br&gt;
+119&lt;br&gt;
+Newsgroup (NNTP)&lt;br&gt;
+22&lt;br&gt;
+SSH Remote Login Protocol&lt;br&gt;
+137&lt;br&gt;
+NetBIOS Name Service&lt;br&gt;
+23&lt;br&gt;
+Telnet&lt;br&gt;
+143&lt;br&gt;
+Interim Mail Access Protocol (IMAP)&lt;br&gt;
+25&lt;br&gt;
+Simple Mail Transfer Protocol (SMTP)&lt;br&gt;
+150&lt;br&gt;
+NetBIOS Session Service&lt;br&gt;
+42&lt;br&gt;
+Host Name Server (Nameserv)&lt;br&gt;
+156&lt;br&gt;
+SQL Server&lt;br&gt;
+53&lt;br&gt;
+Domain Name System (DNS)&lt;br&gt;
+161&lt;br&gt;
+SNMP&lt;br&gt;
+67&lt;br&gt;
+Bootps&lt;br&gt;
+162&lt;br&gt;
+SNMP (trap)&lt;br&gt;
+69&lt;br&gt;
+Trivial File Transfer Protocol (TFTP)&lt;br&gt;
+179&lt;br&gt;
+Border Gateway Protocol (BGP)&lt;br&gt;
+70&lt;br&gt;
+Gopher Services&lt;br&gt;
+194&lt;br&gt;
+Internet Relay Chat (IRC)&lt;br&gt;
+79&lt;br&gt;
+Finger&lt;br&gt;
+389&lt;br&gt;
+Lightweight Directory Access Protocol&lt;br&gt;
+80&lt;br&gt;
+HTTP&lt;br&gt;
+443&lt;br&gt;
+HTTPS&lt;br&gt;
+103&lt;br&gt;
+X.400 Standard&lt;br&gt;
+458&lt;br&gt;
+Apple QuickTime&lt;br&gt;
+108&lt;br&gt;
+SNA Gateway Access Server&lt;br&gt;
+546&lt;br&gt;
+DHCP Client&lt;br&gt;
+109&lt;br&gt;
+POP2 (Post Office Protocol)&lt;br&gt;
+547&lt;br&gt;
+DHCP Server&lt;br&gt;
+Echo service is a TCP application service that listens on port 7 &lt;br&gt;for echo connection requests (this is not ping)&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=12&gt;&lt;/a&gt;11-7&lt;br&gt;
+&lt;b&gt;Socket addresses&lt;/b&gt;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=13&gt;&lt;/a&gt;11-10&lt;br&gt;
+&lt;b&gt;UDP Datagram&lt;/b&gt;&lt;br&gt;
+Each UDP message is called a &lt;b&gt;&lt;i&gt;user datagram. &lt;/b&gt;&lt;/i&gt;Conceptually, a user &lt;br&gt;datagram consists of two parts: a UDP header and a UDP data area.&lt;br&gt;
+&lt;i&gt;&lt;b&gt;The User Datagram Protocol (UDP) provides an unreliable &lt;br&gt;connectionless delivery service using IP to transport messages &lt;br&gt;between machines. It uses IP to carry messages, but adds the &lt;br&gt;ability to distinguish among multiple destinations within a &lt;br&gt;given host computer.&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+An application program that uses UDP accepts full responsibility &lt;br&gt;for handling the problem of reliability, including message loss, &lt;br&gt;duplication, delay, out-of-order delivery, and loss of connectivity.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=14&gt;&lt;/a&gt;&lt;IMG src=&quot;_httpdocimg_/CH03-UDP1-14_1.jpg&quot;&gt;&lt;br&gt;
+11-9&lt;br&gt;
+&lt;b&gt;User datagram&lt;/b&gt;&lt;br&gt;
+Max length of data:&lt;br&gt;65,535-20 (IP header)-8 (UDP header)&lt;br&gt;=65,507 (user datagram must fit into IP datagram)&lt;br&gt;
+Total length of UDP &lt;br&gt;
+Header and data!&lt;br&gt;
+datagram in bytes &lt;br&gt;
+Can be disabled by filling the field with all 0s&lt;br&gt;
+(header and data)&lt;br&gt;
+UDPlength = IP length – IP header length&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=15&gt;&lt;/a&gt;&lt;b&gt;UDP Datagram Cont’d&lt;/b&gt;&lt;br&gt;
+• &lt;b&gt;&lt;i&gt;SOURCE PORT &lt;/b&gt;&lt;/i&gt;and &lt;b&gt;&lt;i&gt;DESTINATION PORT &lt;/b&gt;&lt;/i&gt;fields contain the&lt;br&gt;
+16-bit UDP protocol port numbers used to demultiplex&lt;br&gt;
+datagram among the processes waiting to receive them. &lt;br&gt;
+• &lt;b&gt;&lt;i&gt;SOURCE PORT &lt;/b&gt;&lt;/i&gt;is optional. When used, it specifies the &lt;br&gt;
+port to which replies should be sent; if not used, it should be &lt;br&gt;
+zero.&lt;br&gt;
+• &lt;b&gt;&lt;i&gt;LENGTH &lt;/b&gt;&lt;/i&gt;field contains a count of octets in the UDP datagram, &lt;br&gt;
+including the UDP header and the user data. &lt;br&gt;
+• Min value for &lt;b&gt;&lt;i&gt;LENGTH &lt;/b&gt;&lt;/i&gt;is eight, the length of the header.&lt;br&gt;
+• UDP checksum is optional; a value of zero in the &lt;b&gt;&lt;i&gt;CHECKSUM &lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+field means that the checksum has not been computed. &lt;br&gt;
+• Designers chose to make the checksum optional to allow &lt;br&gt;
+implementations to operate with little computational overhead &lt;br&gt;when using UDP across a highly reliable local area network. &lt;br&gt;
+&lt;hr&gt;
+&lt;A name=16&gt;&lt;/a&gt;11-10&lt;br&gt;
+&lt;b&gt;UDP Checksum&lt;/b&gt;&lt;br&gt;
+Checksum  is calculated for UDP header and data (recall: IP checksum doesn’t &lt;br&gt;cover data).&lt;br&gt;
+UDP checksum test is end-to-end test, i.e. test performed only at the sender and &lt;br&gt;receiver end stations, while the IP checksum test is performed in every &lt;br&gt;intermediate node (router).&lt;br&gt;
+In addition to UDP header and data, the UDP checksum includes the source and &lt;br&gt;the destination IP address in order to prevent misrouting. Suppose that the &lt;br&gt;destination IP address in IP header was corrupted, i.e. changed to some other IP &lt;br&gt;address, and that this change wasn’t discovered by the IP checksum test. &lt;br&gt;Consequently, the UDP datagram would arrive to the wrong IP address. UDP can &lt;br&gt;detect this and silently drop the datagram.&lt;br&gt;
+Inclusion of the IP destination address into UDP checksum test is achieved &lt;br&gt;through the usage of the UDP pseudoheader which is added by the UDP layer at &lt;br&gt;both sides, sender and receiver. The UDP layer gets the entire IP datagram from &lt;br&gt;the IP layer, which it uses to form the pseudoheader. (The IP header is saved in &lt;br&gt;UDP for possible ICMP error messages which include the IP header of the &lt;br&gt;offending datagram)&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=17&gt;&lt;/a&gt;11-11&lt;br&gt;
+&lt;b&gt;Pseudo Header&lt;/b&gt;&lt;br&gt;
+Pseudo header is added to the UDP datagram at the time of checksum calculation (at&lt;br&gt;transmitter and at receiver). The pseudo header in not transmitted. Used to verify the&lt;br&gt;correctness of the IP address (see next slide).&lt;br&gt;
+From IP datagram&lt;br&gt;
+&lt;b&gt;Neither the pseudo header nor the padding bits are transmitted with the&lt;br&gt;UDP nor are they included with the length&lt;/b&gt;.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=18&gt;&lt;/a&gt;11-12&lt;br&gt;
+&lt;b&gt;UDP Checksum&lt;/b&gt;&lt;br&gt;
+Sender&lt;br&gt;
+CS computed for A&lt;br&gt;
+Datagram has been corrupted &lt;br&gt;unnoticed by the IP checksum tests. &lt;br&gt;
+&lt;b&gt;CS(A)&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;IPD = A&lt;/b&gt;&lt;br&gt;
+(The datagram has been delivered to &lt;br&gt;IP = B instead to IP = A)&lt;br&gt;
+UDP datagram&lt;br&gt;
+Pseudoheader&lt;br&gt;
+&lt;b&gt;CS(A)&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;IPD = B&lt;/b&gt;&lt;br&gt;
+IP datagram&lt;br&gt;
+Receiver (IP = B)&lt;br&gt;
+&lt;b&gt;CS(A)&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;IPD = B&lt;/b&gt;&lt;br&gt;
+Checksum test fails&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=19&gt;&lt;/a&gt;11-13&lt;br&gt;
+&lt;b&gt;Checksum calculation of a &lt;/b&gt;&lt;br&gt;
+&lt;b&gt;simple UDP user datagram&lt;/b&gt;&lt;br&gt;
+NOTICE: The UDP checksum is optional (some OS vendors disable CS by default).&lt;br&gt;
+If the CS is not calculated at the sender side, the CS field is filled with all 0s &lt;br&gt;which is one’s complement of all 1s (negative zero).&lt;br&gt;
+The receiver recognizes that and doesn’t apply the CS test.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=20&gt;&lt;/a&gt;&lt;b&gt;Checksum calculation cases&lt;/b&gt;&lt;br&gt;
+• What happens to UDP messages for which the &lt;br&gt;
+computed checksum is zero?&lt;br&gt;
+• A computed value of zero is possible because UDP &lt;br&gt;
+uses the same checksum algorithm as IP: it divides the &lt;br&gt;
+data into 16-bit quantities and computes the one's &lt;br&gt;
+complement of their one's complement sum.&lt;br&gt;
+• Surprisingly, zero is not a problem because one's &lt;br&gt;
+complement arithmetic has two representations for &lt;br&gt;
+zero: all bits set to zero or all bits set to one. When the &lt;br&gt;
+computed checksum is zero, UDP uses the &lt;br&gt;
+representation with all bits set to one.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=21&gt;&lt;/a&gt;11-14&lt;br&gt;
+&lt;b&gt;Encapsulation and decapsulation&lt;/b&gt;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=22&gt;&lt;/a&gt;11-15&lt;br&gt;
+&lt;b&gt;Queues in UDP&lt;/b&gt;&lt;br&gt;
+Each port is associated with a &lt;br&gt;queue, or with two queues &lt;br&gt;(incoming and outgoing &lt;br&gt;queue)&lt;br&gt;
+If the port number doesn’t exists at the time a UDP datagram arrives it will be dropped&lt;br&gt;and an ICMP message (port unreachable) will be sent to the source. Same happens if an &lt;br&gt;existing queue gets overflown.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=23&gt;&lt;/a&gt;11-16&lt;br&gt;
+&lt;b&gt;Multiplexing and demultiplexing&lt;/b&gt;&lt;br&gt;
+There is only one UDP in sender and receiver, and possibly several &lt;br&gt;processes using it. Therefore multiplexing is needed.  &lt;br&gt;(Multiplexing is achieved through port numbers.)&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=24&gt;&lt;/a&gt;11-17&lt;br&gt;
+&lt;b&gt;Use of UDP&lt;/b&gt;&lt;br&gt;
+UDP is suitable for a process that requires simple request-response &lt;br&gt;communication where flow and error control are not crucial.&lt;br&gt;
+UDP is not suitable for transmitting a large amount of data (like FTP) because &lt;br&gt;they are encapsulated into IP datagrams that are independently routed.&lt;br&gt;
+UDP is suitable for processes that have internal flow/error control (like TFTP) &lt;br&gt;
+UDP is suitable for multicasting and broadcasting.&lt;br&gt;
+UDP is used in network management (like Simple Network Management &lt;br&gt;Protocol (SNMP)&lt;br&gt;
+UDP is used for some route updating protocols (like RIP)&lt;br&gt;
+UDP is preferred in some real-time applications such as voice and telemetry &lt;br&gt;involving certain degree of redundancy (temperature measurement, streaming &lt;br&gt;video,…)&lt;br&gt;UDP is also preferred in applications that have short transactions like NSF, &lt;br&gt;DNS, RIP.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=25&gt;&lt;/a&gt;&lt;b&gt;UDP Package&lt;/b&gt;&lt;br&gt;
+• &lt;i&gt;To show how UDP handles the sending and receiving&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;of UDP packets, we present a simple version of the&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;UDP package. The UDP package involves five&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;components: a control-block table,&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;input queues, a&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;control-block module, an input module, and an output&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;module.&lt;/i&gt;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=26&gt;&lt;/a&gt;11-18&lt;br&gt;
+&lt;b&gt;UDP package&lt;/b&gt;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=27&gt;&lt;/a&gt;11-19&lt;br&gt;
+&lt;b&gt;Control-Block Table&lt;/b&gt;&lt;br&gt;
+Keeps track of the open ports&lt;br&gt;
+&lt;b&gt;State&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Process &lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Port &lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Queue &lt;/b&gt;&lt;br&gt;
+&lt;b&gt;ID&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Number&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Number&lt;/b&gt;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=28&gt;&lt;/a&gt;11-20&lt;br&gt;
+&lt;b&gt;Input Module&lt;/b&gt;&lt;br&gt;
+Receive UDP datagram from IP; &lt;br&gt;Construct the pseudoheader; &lt;br&gt;Compute checksum;&lt;br&gt;&lt;b&gt;if &lt;/b&gt;(CS test fails)&lt;br&gt;
+Silently drop the UDP datagram;&lt;br&gt;
+Search the Control Block Table (CBT);&lt;br&gt;&lt;b&gt;if &lt;/b&gt;(there is a corresponding entry in &lt;b&gt;CBT&lt;/b&gt;)&lt;br&gt;
+&lt;b&gt;if &lt;/b&gt;(queue not yet allocated exists)&lt;br&gt;
+Allocate a queue; &lt;br&gt;
+Insert data into queue;&lt;br&gt;
+&lt;b&gt;else&lt;/b&gt;{&lt;br&gt;
+Ask ICMP to send “&lt;b&gt;Port unreachable&lt;/b&gt;” message;&lt;br&gt;Discard the UDP datagram;&lt;br&gt;
+}&lt;br&gt;&lt;b&gt;return&lt;/b&gt;;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=29&gt;&lt;/a&gt;11-21&lt;br&gt;
+&lt;b&gt;Control Block Module&lt;/b&gt;&lt;br&gt;
+// Invoked when a socket is created &lt;br&gt;Get port ID (input parameter);&lt;br&gt;Get process ID;&lt;br&gt;Search the CBT for a free entry;&lt;br&gt;&lt;b&gt;if &lt;/b&gt;(table full)&lt;br&gt;
+Delete an entry using a predefined strategy;&lt;br&gt;
+Create new entry in CBT;&lt;br&gt;Enter the process ID and port ID;&lt;br&gt;&lt;b&gt;return&lt;/b&gt;;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=30&gt;&lt;/a&gt;11-22&lt;br&gt;
+&lt;b&gt;Output Module&lt;/b&gt;&lt;br&gt;
+Receive data and destination address structure from &lt;br&gt;process;&lt;br&gt;Create UDP header;&lt;br&gt;Create pseudoheader (with zero CS field); &lt;br&gt;Compute check sum and fill the CS field;&lt;br&gt;Encapsulate data into UDP datagram (without pseudo &lt;br&gt;header);&lt;br&gt;Send the detagram to IP layer;&lt;br&gt;&lt;b&gt;return&lt;/b&gt;;&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=31&gt;&lt;/a&gt;11-23&lt;br&gt;
+Control-block table at the beginning&lt;br&gt;
+&lt;i&gt;&lt;b&gt;State &lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Process ID&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Port Number&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Queue&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Number&lt;br&gt;&lt;/b&gt;&lt;/i&gt;IN-USE &lt;br&gt;
+2,345&lt;br&gt;
+52,010&lt;br&gt;
+34&lt;br&gt;
+IN-USE &lt;br&gt;
+3,422&lt;br&gt;
+52,011&lt;br&gt;
+FREE &lt;br&gt;
+IN-USE &lt;br&gt;
+4,652&lt;br&gt;
+52,012&lt;br&gt;
+38&lt;br&gt;
+FREE&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Example 1&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+The first activity is the arrival of a user datagram with destination port number&lt;br&gt;52,012. The input module searches for this port number and finds it. Queue&lt;br&gt;number 38 has been assigned to this port, which means that the port has been&lt;br&gt;previously used. The input module sends the data to queue 38. The control-block&lt;br&gt;table does not change.&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=32&gt;&lt;/a&gt;11-24&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Example 2&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+After a few seconds, a process starts. It asks the operating system for a port&lt;br&gt;number and is granted port number 52,014. Now the process sends its ID (4,978)&lt;br&gt;and the port number to the control-block module to create an entry in table. The&lt;br&gt;module does not allocate a queue at this moment because no user datagrams have&lt;br&gt;arrived for this destination&lt;br&gt;
+&lt;i&gt;&lt;b&gt;State&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Process ID&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Port Number&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Queue Number&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+IN-USE&lt;br&gt;
+2,345&lt;br&gt;
+52,010&lt;br&gt;
+34&lt;br&gt;
+IN-USE&lt;br&gt;
+3,422&lt;br&gt;
+52,011&lt;br&gt;
+IN-USE&lt;br&gt;
+4,978&lt;br&gt;
+52,014&lt;br&gt;
+IN-USE&lt;br&gt;
+4,652&lt;br&gt;
+52,012&lt;br&gt;
+38&lt;br&gt;
+FREE&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=33&gt;&lt;/a&gt;11-25&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Example 3&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+A user datagram now arrives for port 52,011. The input module checks the table&lt;br&gt;and finds that no queue has been allocated for this destination since this is the&lt;br&gt;first time a user datagram has arrived for this destination. The module creates a&lt;br&gt;queue and gives it a number (43).&lt;br&gt;
+&lt;i&gt;&lt;b&gt;State&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Process ID&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Port Number&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Queue Number&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+IN-USE&lt;br&gt;
+2,345&lt;br&gt;
+52,010&lt;br&gt;
+34&lt;br&gt;
+IN-USE&lt;br&gt;
+3,422&lt;br&gt;
+52,011&lt;br&gt;
+43&lt;br&gt;
+IN-USE&lt;br&gt;
+4,978&lt;br&gt;
+52,014&lt;br&gt;
+IN-USE &lt;br&gt;
+4,652&lt;br&gt;
+52,012&lt;br&gt;
+38&lt;br&gt;
+FREE&lt;br&gt;
+&lt;hr&gt;
+&lt;A name=34&gt;&lt;/a&gt;11-26&lt;br&gt;
+&lt;i&gt;&lt;b&gt;Example 4&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
+After a few seconds, a user datagram arrives for port 52,222. The&lt;br&gt;input module checks the table and cannot find the entry for this&lt;br&gt;destination. The user datagram is dropped and a request is made to&lt;br&gt;ICMP to send an “unreachable port” message to the source.&lt;br&gt;
+&lt;hr&gt;
+
+
+</Content>
+</Section>
+</Archive>

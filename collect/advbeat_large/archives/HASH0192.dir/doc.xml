@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\mp3\SGVyZSB0aGVyZSBhbmQgZXZlcnl3aGVyZQ==.mp3</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">MP3Plugin</Metadata>
+    <Metadata name="FileSize">933511</Metadata>
+    <Metadata name="Source">Here there and everywhere.mp3</Metadata>
+    <Metadata name="SourceFile">SGVyZSB0aGVyZSBhbmQgZXZlcnl3aGVyZQ==.mp3</Metadata>
+    <Metadata name="mp3">Here there and everywhere</Metadata>
+    <Metadata name="srcurl">SGVyZSB0aGVyZSBhbmQgZXZlcnl3aGVyZQ==.mp3</Metadata>
+    <Metadata name="FileFormat">MP3</Metadata>
+    <Metadata name="srcicon">_iconmp3_</Metadata>
+    <Metadata name="srclink_file">SGVyZSB0aGVyZSBhbmQgZXZlcnl3aGVyZQ==.mp3</Metadata>
+    <Metadata name="srclinkFile">SGVyZSB0aGVyZSBhbmQgZXZlcnl3aGVyZQ==.mp3</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="Title">Here there and everywhere</Metadata>
+    <Metadata name="Identifier">HASH0192ed459614404a3762e152</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014482</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH0192.dir</Metadata>
+    <Metadata name="gsdlassocfile">SGVyZSB0aGVyZSBhbmQgZXZlcnl3aGVyZQ==.mp3:audio/mp3:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

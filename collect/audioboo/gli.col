@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GathererCollection [<!ELEMENT GathererCollection (Argument*,GathererConfig,BuildConfig)>
+<!ELEMENT GathererConfig (Arguments*)>
+<!ELEMENT BuildConfig (Build,Import)>
+<!ELEMENT Build (Arguments*)>
+<!ELEMENT Import (Arguments*)>
+<!ELEMENT Schedule (Arguments*)>
+<!ELEMENT Argument (#PCDATA)>
+<!ATTLIST Argument name CDATA #REQUIRED>
+<!ATTLIST Argument enabled CDATA 'true'>
+]>
+<GathererCollection>
+	<Argument name="built">false</Argument>
+	<Argument name="imported">true</Argument>
+	<Argument name="skimfile">true</Argument>
+	<GathererConfig/>
+	<BuildConfig>
+		<Build>
+			<Argument enabled="false" name="sections_index_document_metadata">never</Argument>
+			<Argument enabled="false" name="sections_sort_on_document_metadata">never</Argument>
+		</Build>
+		<Import>
+			<Argument enabled="false" name="saveas_options"/>
+			<Argument enabled="false" name="sortmeta"/>
+			<Argument enabled="false" name="groupsize">1</Argument>
+			<Argument enabled="false" name="OIDtype">hash_on_full_filename</Argument>
+			<Argument enabled="false" name="OIDmetadata">dc.Identifier</Argument>
+			<Argument enabled="false" name="maxdocs">-1</Argument>
+		</Import>
+		<Schedule/>
+	</BuildConfig>
+</GathererCollection>

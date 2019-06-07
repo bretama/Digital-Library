@@ -1,0 +1,91 @@
+
+
+# The following mapping is based on the Library of Congress crosswalk given at:
+#   http://www.loc.gov/marc/marc2dc.html
+
+245			  -> dc.Title				
+130, 210, 240, 242, 246	  -> dc.Title^alternative	
+730, 740		  -> dc.Title^alternative	
+
+# LOC crosswalk uses dc.Contributor...
+100, 110, 111		  -> dc.Creator			
+700, 710, 711		  -> dc.Creator			
+720			  -> dc.Creator
+
+# at later date might want to distinguish between
+# (LCSH encoding, 2nd indicator=0) and (MeSH encoding, 2nd indicator=2)
+600, 610, 611, 630, 650	  -> dc.Subject		        # LCSH or MeSH encoding	
+050			  -> dc.Subject		        # LCC encoding
+082			  -> dc.Subject			# DDC encoding
+080			  -> dc.Subject			# UDC encoding
+
+500-504, 507-519, 521-529 -> dc.Description
+531-539, 541-545, 547-599 -> dc.Description
+505			  -> dc.Description^tableofContents
+520			  -> dc.Description^abstract	# First indicator=3
+
+260$a$b			  -> dc.Publisher			
+
+260$c$g			  -> dc.Date^created		
+533$d			  -> dc.Date^created
+260$c			  -> dc.Date^issued
+# Control field substring, not currently supported by mapping
+# 008/07-10		  -> dc.Date^issued   
+
+# Leader fields not currently supported by mapping
+# Leader06, Leader07	  -> dc.Type			# DCMI Type Vocabulary
+655			  -> dc.Type			# Subfield $2=dct
+
+856$q			  -> dc.Format			# IMT encoding
+300$a			  -> dc.Format^extent
+533$e			  -> dc.Format^extent
+340$a			  -> dc.Format^medium
+
+856$u			  -> dc.Identifier		# URI encoding
+
+786$o			  -> dc.Source			# URI encoding
+
+# Control field substring, not currently supported
+# 008/35-37		  -> dc.Language		# ISO 639-2 encoding 
+041			  -> dc.Language		# ISO 639-2 encoding 
+546			  -> dc.Language		# RFC1766 encoding
+
+775			  -> dc.Relation^isVersionOf	
+786$n$t			  -> dc.Relation^isVersionOf	
+775,786$o		  -> dc.Relation^isVersionOf	# URI encoding
+775$n$t			  -> dc.Relation^hasVersion	
+775$o			  -> dc.Relation^hasVersion	# URL encoding
+785$n$t			  -> dc.Relation^isReplacedBy	
+785$o			  -> dc.Relation^isReplacedBy	# URL encoding
+780$n$t			  -> dc.Relation^replaces	
+780$o			  -> dc.Relation^replaces	# URL encoding
+538			  -> dc.Relation^requires	
+760	  		  -> dc.Relation^isPartOf	
+773$n$t			  -> dc.Relation^isPartOf	
+440,490,800,810,811,830	  -> dc.Relation^isPartOf
+760,773$o		  -> dc.Relation^isPartOf	# URL encoding
+774$n$t			  -> dc.Relation^hasPart		
+774$o			  -> dc.Relation^hasPart	# URL encoding
+510			  -> dc.Relation^isReferencedBy	
+776$n$t			  -> dc.Relation^isFormatOf	
+530			  -> dc.Relation^isFormatOf	
+776$o			  -> dc.Relation^isFormatOf	# URL encoding
+530$u			  -> dc.Relation^isFormatOf	# URL encoding
+776$n$t			  -> dc.Relation^hasFormat	
+530			  -> dc.Relation^hasFormat		
+776$o			  -> dc.Relation^hasFormat	# URL encoding
+530$u			  -> dc.Relation^hasFormat	# URL encoding
+
+522, 651		  -> dc.Coverage^spatial		
+255			  -> dc.Coverage^spatial	# Some 255 information equivalent to DC encoding scheme but different syntax
+ 			
+650$z			  -> dc.Coverage^spatial
+752			  -> dc.Coverage^spatial
+
+043$c,044$c		  -> dc.Coverage^spatial	# ISO 3166 encoding
+651			  -> dc.Coverage^spatial	# Subfield $2=tgn # Encoding TGN
+513$b			  -> dc.Coverage^temporal	
+033$a			  -> dc.Coverage^temporal	
+
+506, 540		  -> dc.Rights			
+

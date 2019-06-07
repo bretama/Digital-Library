@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">9</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Language">engjpn</Metadata>
+    <Metadata name="dc.Title">Beatles in Japan / NTV.</Metadata>
+    <Metadata name="dc.Publisher">Japan :</Metadata>
+    <Metadata name="dc.Publisher">NTV,</Metadata>
+    <Metadata name="dc.Date">1966-07-01.</Metadata>
+    <Metadata name="dc.Description">Main title, credits, and end title lacking. DLC</Metadata>
+    <Metadata name="dc.Description">Title taken from can.</Metadata>
+    <Metadata name="dc.Description">The 16 mm. neg trk goes with the 35 mm. archival neg. DLC</Metadata>
+    <Metadata name="dc.Description">Introduction in Japanese and songs in English and Japanese.</Metadata>
+    <Metadata name="dc.Description">Appears to be footage of a Beatles concert given on 6/30/66 at the Nippon Budokan Hall, Tokyo, Japan; concert was filmed on 6/30/66 and broadcast in color by NTV (Japanese television) on 7/1/66, but cannot determine if ever shown by NBC per Fred Gilmore, Science Librarian, Univ. of Michigan Engineering/Transportation Library, 10/7/91; dates of 3/15/68 and 3/18/68 appear on cans, but cannot determine to what these dates refer.</Metadata>
+    <Metadata name="dc.Description">NBC inventory box no. 67 and 1184. DLC</Metadata>
+    <Metadata name="dc.Description">Operation no. 68-369.</Metadata>
+    <Metadata name="dc.Description">Reference sources used: Wiener, A. The Beatles : a recording history, p. 99; Lewisohn, M. The Beatles live, p. 192, 199.</Metadata>
+    <Metadata name="dc.Rights">Restricted; videocassettes only may be viewed; no physical handling by researchers.</Metadata>
+    <Metadata name="dc.Description">Performers: Beatles.</Metadata>
+    <Metadata name="dc.Description">Received: 7/16/86; arch neg and neg trk; gift; NBC Television Collection.</Metadata>
+    <Metadata name="dc.Subject">Rock music Great Britain 1961-1970.</Metadata>
+    <Metadata name="dc.Type">Television. mim</Metadata>
+    <Metadata name="dc.Type">Music. mim</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="dc.Creator">NBC Television Collection (Library of Congress) DLC</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs9</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528973</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs9.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 02262cgm  22004817a 4500
+001     11588468
+005     19940727115235.2
+007     mrucbbzfu
+007     mrunbaadu
+008     911008s1966    ja 047            mleng  
+035    _9 (DLC)   91793298
+906    _a 7
+       _b cbc
+       _c orignew
+       _d u
+       _e ncip
+       _f 19
+       _g y-movingim
+010    _a    91793298 
+040    _a DLC
+       _c DLC
+       _d DLC
+       _e amim
+041    _a engjpn
+043    _a e-uk---
+050 00 _a CQA 0480-0482 (arch neg)
+050 00 _a FTA 1469-1470 (neg trk)
+245 00 _a Beatles in Japan /
+       _c NTV.
+257    _a Japan.
+260    _a Japan :
+       _b NTV,
+       _c 1966-07-01.
+300    _a 3 reels (ca. 4300 ft.) :
+       _b si., col. ;
+       _c 35 mm. arch neg.
+300    _a 2 reels (ca. 1500 ft.) :
+       _b sd. ;
+       _c 16 mm. neg trk.
+500    _a Main title, credits, and end title lacking.
+       _5 DLC
+500    _a Title taken from can.
+511 0  _a Performers: Beatles.
+500    _a The 16 mm. neg trk goes with the 35 mm. archival neg.
+       _5 DLC
+500    _a Introduction in Japanese and songs in English and
+ Japanese.
+500    _a Appears to be footage of a Beatles concert given on
+ 6/30/66 at the Nippon Budokan Hall, Tokyo, Japan; concert was
+ filmed on 6/30/66 and broadcast in color by NTV (Japanese
+ television) on 7/1/66, but cannot determine if ever shown by
+ NBC per Fred Gilmore, Science Librarian, Univ. of Michigan
+ Engineering/Transportation Library, 10/7/91; dates of 3/15/68
+ and 3/18/68 appear on cans, but cannot determine to what these
+ dates refer.
+500    _a NBC inventory box no. 67 and 1184.
+       _5 DLC
+500    _a Operation no. 68-369.
+506    _a Restricted;
+       _3 videocassettes only may be viewed; no physical
+ handling by researchers.
+500    _a Reference sources used: Wiener, A. The Beatles : a
+ recording history, p. 99; Lewisohn, M. The Beatles live, p.
+ 192, 199.
+541    _d Received: 7/16/86;
+       _3 arch neg and neg trk;
+       _c gift;
+       _a NBC Television Collection.
+650  0 _a Rock music
+       _z Great Britain
+       _y 1961-1970.
+655  7 _a Television.
+       _2 mim
+655  7 _a Music.
+       _2 mim
+710 2  _a Beatles.
+710 2  _a NBC Television Collection (Library of Congress)
+       _5 DLC
+952    _a Screened for credits only.
+953    _a TE01
+991    _b c-MP&amp;TV
+       _h CQA 0480-0482 (arch neg)
+       _w MUMS VM File
+991    _b c-MP&amp;TV
+       _h FTA 1469-1470 (neg trk)
+       _w MUMS VM File
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

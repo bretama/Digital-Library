@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">35</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Lennon--the last interview &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">&amp;#091;Los Angeles&amp;#093; :</Metadata>
+    <Metadata name="dc.Publisher">Armed Forces Radio and Television Service,</Metadata>
+    <Metadata name="dc.Date">&amp;#091;1992&amp;#093;</Metadata>
+    <Metadata name="dc.Description">AFRTS edition of a commercial radio program; includes information spot announcements.</Metadata>
+    <Metadata name="dc.Description">Duration: 220:00.</Metadata>
+    <Metadata name="dc.Description">Earle Bailey, host.</Metadata>
+    <Metadata name="dc.Subject">Lennon, John, 1940-1980 Interviews.</Metadata>
+    <Metadata name="dc.Subject">Rock music.</Metadata>
+    <Metadata name="dc.Creator">Bailey, Earle. hst</Metadata>
+    <Metadata name="dc.Creator">Lennon, John, 1940-1980. prf</Metadata>
+    <Metadata name="dc.Creator">Beatles. prf</Metadata>
+    <Metadata name="dc.Creator">United States. Armed Forces Radio and Television Service.</Metadata>
+    <Metadata name="dc.Creator">AFRTS Collection (Library of Congress) DLC</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs35</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014474</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs35.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01244cim  22003254a 4500
+001     12951212
+005     20030501195547.0
+007     sd bumennmplue
+008     020930s1992    caunnn         t    eng  
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 4
+       _e ncip
+       _f 20
+       _g y-soundrec
+925 0  _a acquire
+       _b 1 shelf copy
+       _x policy default
+955    _a vz17 2002-09-30
+       _i vz17 2002-09-30
+       _e vz17 2002-09-30
+010    _a   2002593672
+040    _a DLC
+       _c DLC
+       _d DLC
+042    _a pcc
+050 00 _a LPA 98621-LPA 98624
+245 00 _a Lennon--the last interview
+       _h [sound recording].
+246 1  _i Title from audition:
+       _a Lennon, his last interview, his greatest music
+260    _a [Los Angeles] :
+       _b Armed Forces Radio and Television Service,
+       _c [1992]
+300    _a 4 sound discs :
+       _b analog, 33 1/3 rpm ;
+       _c 12 in.
+511 0  _a Earle Bailey, host.
+500    _a AFRTS edition of a commercial radio program; includes
+ information spot announcements.
+500    _a Duration: 220:00.
+600 10 _a Lennon, John,
+       _d 1940-1980
+       _v Interviews.
+650  0 _a Rock music.
+700 1  _a Bailey, Earle.
+       _4 hst
+700 1  _a Lennon, John,
+       _d 1940-1980.
+       _4 prf
+710 2  _a Beatles.
+       _4 prf
+710 1  _a United States.
+       _b Armed Forces Radio and Television Service.
+710 2  _a AFRTS Collection (Library of Congress)
+       _5 DLC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

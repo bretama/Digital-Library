@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">19</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0787104361</Metadata>
+    <Metadata name="dc.Identifier">2291760020</Metadata>
+    <Metadata name="dc.Title">The Beatles &amp;#091;sound recording&amp;#093; : the lost tapes, a parody.</Metadata>
+    <Metadata name="dc.Publisher">Beverly Hills, Calif :</Metadata>
+    <Metadata name="dc.Publisher">Dove Audio,</Metadata>
+    <Metadata name="dc.Date">1995.</Metadata>
+    <Metadata name="dc.Description">At head of title: Live from the pound.</Metadata>
+    <Metadata name="dc.Description">Beatle songs accompanied by animal sounds.</Metadata>
+    <Metadata name="dc.Description">Compact disc.</Metadata>
+    <Metadata name="dc.Description">I want to hold your hand -- Love me do -- Ob-la di, ob-la da -- We can work it out -- I saw her standing there -- I feel fine -- Can't buy me love -- All my loving -- Day tripper -- She loves you -- A hard day's night -- Paperback writer.</Metadata>
+    <Metadata name="dc.Description">Produced by Gene Pierson.</Metadata>
+    <Metadata name="dc.Subject">Rock music.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs19</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528976</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs19.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01404cjm  22003731a 4500
+001     12147625
+005     20020626181341.0
+007     sd|zsngnnmmned
+008     000817s1995    cau  n                  d
+028 02 _a DACD60020
+       _b Dove Audio
+035    _a (DLC)   00524842
+050 00 _a SDA 16559
+906    _a 7
+       _b cbc
+       _c copycat
+       _d 3
+       _e ncip
+       _f 20
+       _g y-genmusic
+010    _a    00524842 
+020    _a 0787104361
+024 1  _a 2291760020
+028 00 _a DACD60020
+       _b Dove Audio
+035    _a (OCoLC)ocm46719604 
+040    _a WRS
+       _c WRS
+       _d DLC
+042    _a lcderive
+245 04 _a The Beatles
+       _h [sound recording] :
+       _b the lost tapes, a parody.
+246 3  _a Live from the pound :
+       _b the Beatles
+260    _a Beverly Hills, Calif :
+       _b Dove Audio,
+       _c 1995.
+300    _a 1 sound disc (29 min. 18 sec.): :
+       _b digital,
+       _c 4 3/4 in.
+500    _a At head of title: Live from the pound.
+500    _a Beatle songs accompanied by animal sounds.
+508    _a Produced by Gene Pierson.
+500    _a Compact disc.
+505 0  _a I want to hold your hand -- Love me do -- Ob-la di, ob-la
+ da -- We can work it out -- I saw her standing there -- I feel
+ fine -- Can't buy me love -- All my loving -- Day tripper --
+ She loves you -- A hard day's night -- Paperback writer.
+650  0 _a Rock music.
+710 2  _a Beatles.
+925 0  _a acquire
+       _b 2 copies
+       _x policy default
+955    _a to MBRS/RS vn42 08-17-00
+985    _c OCLC
+       _e srreplace 2002-02
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

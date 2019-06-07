@@ -1,0 +1,59 @@
+creator		greenstone@cs.waikato.ac.nz
+maintainer	greenstone@cs.waikato.ac.nz
+public		true
+
+beta		false
+
+indexes		document:text document:Title document:Source
+defaultindex	document:text
+
+plugin		ZIPPlug
+plugin		GAPlug
+plugin		TEXTPlug
+plugin		ImagePlug -process_exp (?i)(cover_images).*(\.jpe?g|\.gif|\.png|\.bmp|\.xbm|\.tif?f)$
+plugin		HTMLPlug
+plugin		EMAILPlug
+plugin		PDFPlug
+plugin		RTFPlug
+plugin		WordPlug
+plugin		PSPlug
+plugin		MARCPlug
+plugin		MP3Plug
+plugin		UnknownPlug -file_format MIDI -mime_type audio/midi -process_exp \.mid$ 
+plugin		ArcPlug 
+plugin		RecPlug -use_metadata_files 
+
+classify	AZCompactList -metadata dc.Title,Title -minnesting 20 -removesuffix "(?i)(\\s+\\d+)|(\\s*[[:punct:]]\\s+.*)|(\\s*by the beatles\\s*)" -onlyfirst -mingroup 1 -removeprefix (?i)\\s*beatles\\s+\\-\\s+ -buttonname Title
+classify	AZCompactList -metadata dc.Format -buttonname Browse -sort Title
+classify	Phind
+
+format DateList "<td>[link][icon][/link]</td><td>[highlight]{Or}{[dls.Title],[dc.Title],[Title],Untitled}[/highlight]</td><td>[Date]</td>"
+
+format HList "[link][highlight]{Or}{[dls.Title],[dc.Title],[Title],Untitled}[/highlight][/link]"
+
+format VList "<td valign=top>
+{If}{[numleafdocs],[link][icon][/link]}
+{If}{[dc.Format] eq \'Lyrics\',[link]_iconlyrics_[/link]}
+{If}{[dc.Format] eq \'Discography\',[link]_icondisc_[/link]}
+{If}{[dc.Format] eq \'Tablature\',[link]_icontab_[/link]}
+{If}{[dc.Format] eq \'MARC\',[link]_iconmarc_[/link]}
+{If}{[dc.Format] eq \'Images\',[srclink][thumbicon][/srclink]}
+{If}{[dc.Format] eq \'Supplementary\',[srclink][srcicon][/srclink]}
+{If}{[dc.Format] eq \'Audio\',[srclink]{If}{[FileFormat] eq \'MIDI\',_iconmidi_,_iconmp3_}[/srclink]}
+</td>
+<td>
+{If}{[numleafdocs],([numleafdocs])}
+</td>
+<td valign=top>
+[highlight]
+{Or}{[dc.Title],[Title],Untitled}
+[/highlight]
+</td>"
+
+collectionmeta	.document:text [l=en] "text"
+collectionmeta	.document:Title [l=en] "titles"
+collectionmeta	.document:Source [l=en] "filenames"
+collectionmeta	collectionname [l=en] "Advanced Beatles -- large"
+collectionmeta	collectionextra [l=en] "Demonstration collection illustrating the use of heterogeneous documents.  Source document are about
+The Beatles pop group in the following formats: HTML, TXT, JPEG, Word, PDF, MIDI, MP3, and MARC file formats."
+collectionmeta	iconcollection [l=en] "_httpprefix_/collect/advbeat_large/images/flick4.gif"

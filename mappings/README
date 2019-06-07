@@ -1,0 +1,22 @@
+This directory and its subdirectories contain .ump mapping files for
+converting various character encodings to and from unicode.
+
+To generate .ump files use a command like "makemapfile.pl -encoding
+encodingname -mapfile textmapfile" where encodingname becomes the filename
+of the two new .ump files and textmapfile is a plain text file containing a
+tab separated list of the form:
+0x8167	      0x201C
+where the first column is the hexadecimal value of the encoded character
+and the second is the hexadecimal value of it's unicode equivalent.
+
+
+
+The following .ump files were generated from their corresponding Microsoft
+codepages. These codepages do, in some cases, differ very slightly from the
+standards they were based on but we've used them anyway as they're so
+extensively used on the web.
+
+* gbk.ump: Simplified Chinese - generated from Microsoft's codepage 936
+* shiftjis.ump: Japanese - generated from Microsoft's codepage 932
+* uhc.ump: UHC Korean - generated from Microsoft's codepage 949
+* big5.ump: Traditional Chinese - generated from Microsoft's codepage 950

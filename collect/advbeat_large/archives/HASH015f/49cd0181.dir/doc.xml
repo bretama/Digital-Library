@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\tablature_txt\members.aol.com\way2smug\birthday.txt</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">TextPlugin</Metadata>
+    <Metadata name="FileSize">2842</Metadata>
+    <Metadata name="Source">birthday.txt</Metadata>
+    <Metadata name="SourceFile">birthday.txt</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Title">Birthday - The Beatles   </Metadata>
+    <Metadata name="FileFormat">Text</Metadata>
+    <Metadata name="dc.Format">Tablature</Metadata>
+    <Metadata name="Identifier">HASH015f49cd0181f58e50fb6a38</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014486</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH015f/49cd0181.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+Birthday - The Beatles   
+transcribed by Maxxdaddy
+
+Verse:
+  (other guitar plays 1 octave below)
+   2x
+||------------------------||
+||----------5-7(8)-7-5----||
+||-2-2--4/6---------------||
+||----------------------7-||
+||------------------------||
+||------------------------||
+
+-----------------------------
+----------10-12(13)-12-10----
+-7-7-9/11--------------------
+--------------------------12-
+-----------------------------
+-----------------------------
+
+------------------------
+----------5-7(8)-7-5----
+-2-2--4/6---------------
+----------------------7-
+------------------------
+------------------------
+
+-------------------------------
+-----------12-14(15)-14-12-----
+-9-9-11/13---------------------
+---------------------------14--
+-------------------------------
+-------------------------------
+
+Bridge:
+
+   C        (4x)   G 
+||---------------------------------||
+||---------------------------------||
+||---------------------------------||
+||-----2-2-3-3-4-4-5-5-4-4-3-3-2-2-||
+||-3-3-----------------------------||
+||---------------------------------||
+ C                               E                  
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+-----2-2-3-3-4-4-5-5-6-6-7-7-8-8-9-9-9-9-
+-3-3-------------------------------------
+-----------------------------------------
+
+-12------12-----12-----
+-15(17)--15(17)-15(17)-
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+
+&quot;solo&quot; after instrumental verse:
+-------------------------------------8-10(12)10-8h10p8-------
+---5-8-10--8-5----------------5-8-10-------------------10-8~-
+---------------7-5-------------------------------------------
+-7-----------------7-5------7--------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+Lyrics
+
+Verse:
+
+A
+You say it's your birthday
+A
+It's my birthday too yeah
+D
+They say it's your birthday
+A
+We're gonna have a good time
+E
+I'm glad it's your birthday
+A
+Happy birthday to you
+
+
+Lead in to bridge(first time only):
+
+E
+Yes we're going to a party party
+E
+Yes we're going to a party party
+E                 
+Yes we're going to a party party
+
+Bridge:
+
+C          G
+I would like you to dance
+C                            G
+(Birthday)  Take a cha - cha -cha  chance
+C                             G
+(Birthday)  I would like you to dance
+C                G    E
+(Birthday)  Dance
+
+instrumental verse
+
+&quot;solo&quot;
+
+Repeat Bridge
+
+A
+You say it's your birthday
+A
+It's my birthday too yeah
+D
+They say it's your birthday
+A
+We're gonna have a good time
+E
+I'm glad it's your birthday
+A
+Happy birthday to you
+
+&lt;/pre&gt;</Content>
+</Section>
+</Archive>

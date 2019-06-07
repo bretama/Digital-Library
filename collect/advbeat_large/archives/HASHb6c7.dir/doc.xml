@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">tmp\beatles_midi\While_My_Guitar_Gently_Weeps.mid</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">UnknownPlugin</Metadata>
+    <Metadata name="FileSize">54013</Metadata>
+    <Metadata name="Source">While_My_Guitar_Gently_Weeps.mid</Metadata>
+    <Metadata name="SourceFile">While_My_Guitar_Gently_Weeps.mid</Metadata>
+    <Metadata name="FileFormat">MIDI</Metadata>
+    <Metadata name="MimeType">audio/midi</Metadata>
+    <Metadata name="unknown_file">While_My_Guitar_Gently_Weeps.mid</Metadata>
+    <Metadata name="srclink_file">While_My_Guitar_Gently_Weeps.mid</Metadata>
+    <Metadata name="srclinkFile">While_My_Guitar_Gently_Weeps.mid</Metadata>
+    <Metadata name="srcicon">_iconunknown_</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="gsdlzipfilename">import\beatles_midi.zip</Metadata>
+    <Metadata name="Title">While My Guitar Gently Weeps</Metadata>
+    <Metadata name="Identifier">HASHb6c77338aaa0fcbc74bbe3</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014329</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASHb6c7.dir</Metadata>
+    <Metadata name="gsdlassocfile">While_My_Guitar_Gently_Weeps.mid:audio/midi:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

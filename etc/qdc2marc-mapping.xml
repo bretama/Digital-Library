@@ -1,0 +1,354 @@
+<Mapping>
+    <!-- English-->
+    <stopwords lang="en" >
+      <item  name="a " length="2"/>
+      <item  name="an " length="3"/>
+      <item  name="the " length="4"/>   
+    </stopwords>
+
+    <!--Spain-->
+    <stopwords lang="es">
+      <item  name="uno " length="4"/>
+      <item  name="una " length="4"/>
+      <item  name="el " length="3"/>
+      <item  name="la " length="3"/>
+      <item  name="las " length="4"/>
+      <item  name="los " length="4"/>
+      <item  name="un " length="3"/>
+      <item  name="unos " length="5"/>
+      <item  name="unas " length="5"/>
+    </stopwords>
+
+  <!--Catalan-->
+  <stopwords lang="ca">
+     <item  name="el " length="3"/>
+     <item  name="la " length="3"/>
+     <item  name="les " length="4"/>
+     <item  name="l'" length="2"/>
+     <item  name="un " length="3"/>
+     <item  name="una " length="4"/>
+     <item  name="uns " length="4"/>
+     <item  name="unes " length="5"/>
+     <item  name="es " length="3"/>
+     <item  name="sa " length="3"/>
+     <item  name="ses " length="4"/>
+     <item  name="sos " length="4"/>
+     <item  name="so " length="3"/>
+     <item  name="s'" length="2"/>
+   </stopwords>
+ 
+  <!--German-->  
+  <stopwords lang="de">
+     <item  name="der " length="4"/>
+     <item  name="ein " length="4"/>
+     <item  name="die " length="4"/>
+     <item  name="eine " length="5"/>
+     <item  name="das " length="4"/>
+   </stopwords>
+
+  <!--French-->
+  <stopwords lang="fr">
+     <item  name="le " length="3"/>
+     <item  name="la " length="3"/>
+     <item  name="les " length="4"/>
+     <item  name="un " length="3"/>
+     <item  name="une " length="4"/>
+     <item  name="l'" length="2"/>    
+  </stopwords>
+
+  <!--Italian-->  
+  <stopwords lang="it">
+     <item  name="il " length="3"/>
+     <item  name="lo " length="3"/>
+     <item  name="la " length="3"/>
+     <item  name="gli " length="4"/>
+     <item  name="le " length="3"/>
+     <item  name="un " length="3"/>
+     <item  name="uno " length="4"/>
+     <item  name="una " length="4"/>
+     <item  name="l'" length="2"/>
+     <item  name="un'" length="3"/>
+  </stopwords>
+
+   <!--Galician-->  
+  <stopwords lang="gl">
+     <item  name="o " length="2"/>
+     <item  name="os " length="3"/>
+     <item  name="a " length="2"/>
+     <item  name="as " length="3"/>
+     <item  name="un " length="3"/>
+     <item  name="uns " length="4"/>
+     <item  name="unha " length="5"/>
+     <item  name="unhas " length="6"/>
+   </stopwords> 
+    
+   <recordTypeMapping>
+       <type name="collection" mapping="p"/>
+       <type name="dataset" mapping="m"/>
+       <type name="event" mapping="r"/>
+       <type name="image" mapping="k"/>
+       <type name="interactive resource" mapping="m"/> 
+       <type name="service" mapping="m"/>
+       <type name="software" mapping="m"/>
+       <type name="sound" mapping="i"/>
+       <type name="text" mapping="a"/>      
+    </recordTypeMapping>
+
+    <leader> 
+        <recordLength pos="1" value="00000" />
+       <recordStatus pos="5" value="n" />
+       <recordType pos="6" value="a" />
+       <bibliographiclevel pos="7" value="m" />
+       <controlType pos="8" value=" " />
+       <codingScheme pos="9" value=" " />
+       <indicatorCount pos="10" value="2" />
+       <subfieldCodeCount pos="11" value="2" />
+       <dataBaseAddress pos="12" value="     " />
+       <encodingLevel pos="17" value="3" />
+       <descriptiveCatalogForm pos="18" value="u" />
+       <linkedRecordRequirement pos="19" value=" " />
+       <lpLength pos="20" value="4" />
+       <scpLength pos="21" value="5" />
+       <idLength pos="22" value="0" />
+       <emcpLength pos="23" value="0" />
+    </leader>
+        
+    <controlfield tag="001" value="the value of code 001" required="true" />
+    <controlfield tag="002" value="the value of code 002" required="false"/>
+    <controlfield tag="003" value="the value of code 003" required="true"/>
+    <controlfield tag="004" value="the value of code 004" required="false"/>
+    <controlfield tag="005" value="the value of code 005" required="false"/>
+    <controlfield tag="006" value="the value of code 006" required="false"/>
+    <controlfield tag="008" value="the value of code 008" required="true"/>    
+
+<!--this mapping provides qualified duclin core to the following Marc fields mapping:   
+    024 |a[dc.Identifier]
+    041 |a[dc.Language]   
+ 
+    245 |a[dc.Title]
+    246 |a[dc.Title^alternative]    
+    260 |b[dc.Publisher] |c[dc.Date^issued] |g[dc.Date^created]
+    
+    300 |a[dc.Format^extent] 
+    307 |a[dc.Date^available]     
+    340 |a[dc.Format^medium]
+
+    500 |a[dc.Coverage] 
+    505 |a[dc.Description^tableOfContents]
+    510 |a[dc.Relation^isReferencedBy]
+    513 |b[dc.Coverage^spatial]           
+    518 |a[dc.Date^valid]
+    520 |a[dc.Description]
+    520 |a[dc.Description^abstract]
+    522 |a[dc.Coverage^temporal]
+    538 |a[dc.Relation^requires]
+    540 |a[dc.Rights^accessRights] |b[dc.RightsHolder]
+    540 |a[dc.Rights^license] |b[dc.RightsHolder]
+    540 |a[dc.Rights] |b[dc.RightsHolder]
+    546 |a[dc.Language]
+    583 |d[dc.Date^modified] 
+
+
+    650 |a[dc.Subject]
+    655 |a[dc.Type]
+    
+    720 |a[dc.Contributor] |a[dc.Creator]
+    774 |n[dc.Relation^hasPart]
+    774 |n[dc.Relation^^isPartOf]
+    775 |n[dc.Relation^hasVersion]
+    775 |n[dc.Relation^isVersionOf]
+    776 |n[dc.Relation^hasFormat]
+    776 |n[dc.Relation^isFormatOf]
+    780 |t[dc.Relation^replaces]
+    785 |t[dc.Relation^isReplacedBy]
+    786 |o[dc.Source]
+    787 |o[dc.Relation]    
+
+    856 |q[dc.Format]
+
+ 
+-->
+
+<!-- Contributor -->
+ <MarcField multiple="true" tag="720" ind1=" " ind2=" ">
+   <subfield code="a" meta="dc.Contributor" punc=","/>
+ </MarcField>
+
+<!--Coverage -->
+  <MarcField multiple="true" tag="500" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Coverage" punc=""/>
+  </MarcField>
+  <MarcField multiple="true" tag="522" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Coverage^temporal" punc=""/>
+  </MarcField>
+  <MarcField multiple="true" tag="513" ind1=" " ind2=" ">
+     <subfield code="b" meta="dc.Coverage^spatial" punc=""/>
+  </MarcField>
+
+ <!--Creator-->
+ <MarcField  multiple="true"  tag="720" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Creator" punc=","/>
+ </MarcField>   
+
+  <!--Publisher and  Date-->
+   <MarcField  multiple="false" tag="260" ind1=" " ind2=" ">
+     <subfield code="b" meta="dc.Publisher" punc=","/>
+     <subfield code="c" meta="dc.Date^issued" punc=""/> 
+     <subfield code="g" meta="dc.Date^created" punc=""/>
+   </MarcField>
+
+ <!--Date-->
+    <MarcField  multiple="true"   tag="307" ind1=" " ind2=" ">
+       <subfield code="a" meta="dc.Date^available" punc=""/> 
+   </MarcField>         
+     
+   <MarcField  multiple="true"   tag="583" ind1=" " ind2=" ">
+       <subfield code="d" meta="dc.Date^modified" punc=""/> 
+   </MarcField>
+  
+   <MarcField  multiple="true"   tag="518" ind1=" " ind2=" ">
+       <subfield code="a" meta="dc.Date^valid" punc=""/> 
+   </MarcField>
+
+<!-- Descrption -->
+    <MarcField  multiple="true" tag="520" ind1=" " ind2=" ">
+       <subfield code="a" meta="dc.Description" punc=""/> 
+    </MarcField>
+
+    <MarcField  multiple="true"  tag="520" ind1=" " ind2=" ">
+        <subfield code="a" meta="dc.Description^abstract" punc=""/> 
+    </MarcField>
+
+    <MarcField  multiple="true"  tag="505" ind1="0" ind2=" ">
+       <subfield code="a" meta="dc.Description^tableOfContents" punc=""/>
+    </MarcField>
+
+
+<!--Format -->
+     <MarcField  multiple="true"  tag="856" ind1=" " ind2=" ">
+       <subfield code="q" meta="dc.Format" punc=""/> 
+    </MarcField>
+    <MarcField  multiple="true"  tag="300" ind1=" " ind2=" ">
+        <subfield code="a" meta="dc.Format^extent" punc=""/> 
+    </MarcField>
+    <MarcField  multiple="true"  tag="340" ind1="0" ind2=" ">
+       <subfield code="a" meta="dc.Format^medium" punc=""/>
+    </MarcField>
+
+ <!--Identifier -->
+     <MarcField multiple="true" tag="024" ind1="8" ind2=" ">
+        <subfield code="b" meta="dc.Identifier" punc=""/>
+     </MarcField>
+
+
+ <!--Language-->
+ <MarcField  multiple="false" tag="041" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Language" punc=""/>
+  </MarcField>
+
+<!-- relation -->
+  <MarcField multiple="true"  tag="787" ind1="0" ind2=" " >
+      <subfield code="o" meta="dc.Relation" punc=""/>
+  </MarcField>
+
+  <MarcField multiple="true"  tag="538" ind1=" " ind2=" ">
+        <subfield code="a" meta="dc.Relation^requires" punc=""/>
+  </MarcField>
+
+  <MarcField multiple="true" tag="510" ind1="0" ind2=" ">
+     <subfield code="a" meta="dc.Relation^isReferencedBy" punc=""/>
+  </MarcField>
+ 
+  <!--no entry in the crosstalk spec
+  <MarcField name="dc.Relation^conformsTo" />
+ -->
+  
+  <MarcField multiple="true" tag="776" ind1="0" ind2=" ">
+     <subfield code="n" meta="dc.Relation^hasFormat" punc=""/>
+  </MarcField>
+
+  <MarcField multiple="true" tag="774" ind1="0" ind2=" ">
+     <subfield code="n" meta="dc.Relation^hasPart" punc=""/>
+  </MarcField>
+
+  <MarcField multiple="true" tag="775" ind1="0" ind2=" ">
+      <subfield code="n" meta="dc.Relation^hasVersion" punc=""/>
+  </MarcField>
+
+ <MarcField multiple="true" tag="776" ind1="0" ind2=" ">
+     <subfield code="n" meta="dc.Relation^isFormatOf" punc=""/>
+  </MarcField>
+
+  <MarcField multiple="true" tag="774" ind1="0" ind2=" ">
+     <subfield code="n" meta="dc.Relation^isPartOf" punc=""/>
+  </MarcField>
+
+  <MarcField multiple="true"  tag="785" ind1="0" ind2="0">
+     <subfield code="t" meta="dc.Relation^isReplacedBy" punc=""/>
+  </MarcField>
+
+ <!--has no entry in crosstalk spec
+   <MarcField name="dc.Relation^isRequiredBy"/>
+ -->
+
+ <MarcField multiple="true" tag="775" ind1="0" ind2=" ">
+       <subfield code="n" meta="dc.Relation^isVersionOf" punc=""/>
+ </MarcField>
+
+<!--has no entry in crosstalk spec
+      <MarcField name="dc.Relation^references" >
+      </MarcField>
+-->
+
+ <MarcField multiple="true" tag="780" ind1="0" ind2="0">
+    <subfield code="t" meta="dc.Relation^replaces" punc=""/>
+ </MarcField>
+
+ <!--Rights: additional qualified entries ???-->
+  <MarcField multiple="false"  tag="540" ind1=" " ind2=" ">
+    <subfield code="a" meta="dc.Rights" punc=""/>
+    <subfield code="b" meta="dc.RightsHolder" punc=""/>
+  </MarcField>
+
+  <MarcField   multiple="false"  tag="540" ind1=" " ind2=" ">
+    <subfield code="a" meta="dc.Rights^accessRights" punc=""/>
+    <subfield code="b" meta="dc.RightsHolder" punc=""/>
+  </MarcField>
+
+  <MarcField multiple="false" tag="540" ind1=" " ind2=" ">
+     <subfield code="a" meta="dc.Rights^license" punc=""/>
+     <subfield code="b" meta="dc.RightsHolder" punc=""/>
+  </MarcField>
+
+   <!-- Source -->
+  <MarcField  multiple="true" tag="786" ind1="0" ind2=" ">
+     <subfield code="o" meta="dc.Source" punc=""/>
+  </MarcField>
+  
+
+ <!--subject-->
+  <MarcField  multiple="true"  tag="650" ind1=" " ind2="0">
+    <subfield code="a" meta="dc.Subject" punc=" :"/>
+  </MarcField>
+
+<!--Title-->
+  <MarcField  multiple="false" tag="245" ind1="1" ind2="nonfiling">
+     <subfield code="a" meta="dc.Title" punc=""/>
+  </MarcField>
+ 
+  <MarcField multiple="true" tag="246" ind1="3" ind2="3">
+    <subfield code="a" meta="dc.Title" punc=""/>
+  </MarcField>
+
+
+  <MarcField multiple="true" tag="246" ind1="3" ind2="3">
+    <subfield code="a" meta="dc.Title^alternative" punc=""/>
+  </MarcField>
+
+
+ <!-- type -->
+  <MarcField multiple="true" tag="655" ind1=" " ind2="7">
+     <subfield code="a" meta="dc.Type" punc=""/>
+  </MarcField>
+  
+</Mapping>

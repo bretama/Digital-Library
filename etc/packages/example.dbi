@@ -1,0 +1,109 @@
+# -*- perl -*-
+# This is an example configuration file for greenstone's DBPlug
+# (DataBase plugin).
+#
+# This config file should be a fragment of perl, specifying how to
+# get records out of a database. This uses perl's DBI module, which
+# includes back-ends for mysql, postgresql, comma separated values (CSV),
+# MS Excel, ODBC, sybase, etc...
+#
+# You need to install the separate backends - For example, on debian you
+# need the libdbi-perl base package and then the libdbd-mysql-perl,
+# libdbd-csv-perl, libdbd-pg-perl and/or libdbd-sybase-perl (etc) packages.
+
+
+# debugging. Set to 0 if you don't want extra information printed
+# out during greenstone's import process.
+#
+$dbplug_debug=1;
+
+
+# If these are commented out, then we will use the plugin's defaults.
+# However, you might want to override them here if you know what they
+# are for this particular database
+# run "$ pluginfo.pl DBPlug | less" to see a list of valid encodings
+# Language metadata isn't really necessary unless you want indexes by language
+# However, Encoding is important, for converting data to utf8
+#
+
+$language = "en";
+$encoding = "iso_8859_1";
+
+
+# Data Source.
+# This is going to be dependent on which back-end you use. Note that these
+# strings are case-sensitive.
+# Eg, for postgres, it is "DBI:Pg:dbname=<database>".
+# For mysql, it might look like "DBI:mysql:database=<database>;host=localhost"
+# For the CSV (comma-separated values text-file) backend, try something like
+#   'DBI:CSV:f_dir=/path/to/directory/containing/csvfile;csv_quote_char=\";csv_sep_char=	'
+# with an embedded tab character for tab-separated instead of the
+# default comma-separated.
+
+$db='';
+
+# If you need a username and password to connect to this database,
+# uncomment these lines and fill in the details
+#
+#$username='';
+#$password='';
+
+# DBI does not allow you to use multiple SQL statements at once. So if
+# you want to execute two statements (for example, to prep the data by
+# creating a temporary table), uncomment and use this as the first statement.
+ 
+#$sql_query_prime = 'CREATE TEMP TABLE foo AS
+# SELECT t1.ID, t2.name
+# FROM table1 AS t1 JOIN table2 AS t2
+# ON t1.ID = t2.ID ';
+
+# sql query required to get your rows out of the database. Each row will
+# become a separate greenstone document.
+#
+#$sql_query = 'SELECT id, name, data FROM foo JOIN table2 WHERE something';
+# For CSV, the table name is the file name. Eg:
+#$sql_query = 'SELECT * FROM values.txt'
+# CSV may also require DOS '\r\n'-style line endings instead of unix '\n'.
+# It is easier if your data file does not have a dot '.' in it, as that is
+# not a valid character in an SQL table name (although it works for simple
+# SELECTS but not joins).
+
+$sql_query='';
+
+# a map of database field names to Greenstone metadata field names.
+# You should have a "Title" field and a "text" field, at a minimum.
+# If you want to give records a unique identifier from a database field
+# rather than have greenstone perform a hash on the document, also provide
+# an "Identifier" metadata field.
+# If you do map something to Identifier, make sure that the field is unique
+# for each record, and also note that because greenstone does special things
+# if this field is only numeric, DBPlug will add some letters to the front
+# if this is the case.
+#
+#%db_to_greenstone_fields=(
+#			  "name" => "Title",
+#			  "data" => "text",
+#			  "id" => "Identifier"
+#			  );
+
+%db_to_greenstone_fields=(
+
+			  );
+
+# finally, you can declare subroutines here to post-process the fields
+# in case you want to do any mark up or processing of it. 
+# For example, you might want to do HTML formatting.
+# The subroutine's name should be the greenstone metadata field name,
+# followed by "_callback", and must end with "}" in the first column.
+#
+#sub text_callback {
+#    my $text=shift;
+#    # do markup stuff...
+#    return $text;
+#}
+#
+#sub Title_callback {
+#    my $title=shift;
+#    return ucfirst($title); # uppercase first letter
+#}
+

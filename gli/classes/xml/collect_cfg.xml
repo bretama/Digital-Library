@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Configuration [
+  <!ELEMENT Configuration (Gatherer)>
+  <!ELEMENT Gatherer      (Workflow)>
+  <!ELEMENT Workflow      (Browse, Mirror, Import, Gather, Enrich, Design, Export, Preview)>
+  <!ELEMENT Browse        (#PCDATA)>
+  <!ELEMENT Mirror        (#PCDATA)>  
+  <!ELEMENT Gather        (#PCDATA)>
+  <!ELEMENT Enrich        (#PCDATA)>
+  <!ELEMENT Design        (#PCDATA)>
+  <!ELEMENT Export        (#PCDATA)>
+  <!ELEMENT Preview       (#PCDATA)>
+]>
+
+<Configuration>
+  <Gatherer>
+    <Workflow>
+	   <Browse  enabled="true"/>
+		<Mirror  enabled="true"/>
+		<Import  enabled="true"/>
+		<Gather  enabled="true"/>
+		<Enrich  enabled="true"/>
+		<Design  enabled="true"/>
+		<Export  enabled="true"/>
+		<Preview enabled="true"/>
+	 </Workflow>
+  </Gatherer>
+</Configuration>
+
+

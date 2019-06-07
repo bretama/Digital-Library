@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">40</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Title">Real love &amp;#091;sound recording&amp;#093;.</Metadata>
+    <Metadata name="dc.Publisher">&amp;#091;S.l.&amp;#093; :</Metadata>
+    <Metadata name="dc.Publisher">Apple,</Metadata>
+    <Metadata name="dc.Date">p1996.</Metadata>
+    <Metadata name="dc.Description">Brief record.</Metadata>
+    <Metadata name="dc.Description">Real love.</Metadata>
+    <Metadata name="dc.Description">Performed by the Beatles.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1971-1980.</Metadata>
+    <Metadata name="dc.Creator">Beatles. prf</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs40</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014476</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs40.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 00822njm  22003017a 4500
+001     5787722
+005     19970617093519.0
+007     sdufungnnmmned
+008     970617s1996    cauuun              eng  
+035    _9 (DLC)   97750602
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 3
+       _e ncip
+       _f 19
+       _g y-genmusic
+955    _a vn30
+010    _a    97750602 
+028 00 _a DPRO-11187
+       _b Apple
+035    _a (OCoLC)37135390 
+040    _a DLC
+       _c DLC
+050 00 _a Apple DPRO-11187
+245 00 _a Real love
+       _h [sound recording].
+260    _a [S.l.] :
+       _b Apple,
+       _c p1996.
+300    _a 1 sound disc :
+       _b digital ;
+       _c 4 3/4 in.
+511 0  _a Performed by the Beatles.
+505 0  _a Real love.
+500    _a Brief record.
+650  0 _a Rock music
+       _y 1971-1980.
+710 2  _a Beatles.
+       _4 prf
+953    _a TA28
+985    _a 9706
+991    _b c-RecSound
+       _h Apple DPRO-11187
+       _w MUSIC
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

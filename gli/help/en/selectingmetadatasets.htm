@@ -1,0 +1,35 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="selectingmetadatasets"><font size="5" face="Verdana"><strong>5.2: Selecting Metadata Sets</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>Sets of predefined metadata elements are known as "metadata sets".  An example is the Dublin Core metadata set.  When you add a metadata set to your collection, its elements become available for selection.  You can have more than one set; to prevent name clashes a short identifier that identifies the metadata set is pre-pended to the element name.  For instance the Dublin Core element Creator becomes "dc.Creator".  Metadata sets are stored in the Librarian Interface's metadata folder and have the suffix ".mds".</p> 
+
+<p>When you create a new collection, the Dublin Core metadata set is added by default. You can change which metadata sets are used in a collection by clicking the "Manage Metadata Sets..." button underneath the Collection Tree in the Enrich view. This brings up a new window for managing the collection's metadata sets.</p>
+
+<p>The "Assigned Metadata Sets" list shows you what sets are currently used by the collection.</p>
+
+<p>To use another metadata set with the loaded collection, click "Add...". A popup window shows you the default metadata sets that GLI knows about. To add one of these, select it from the list and click "Add". If you have defined your own metadata set, you can use the "Browse" button to locate the file on your file system.</p>
+
+<p>To create a new metadata set, click "New...". This will launch the Greenstone Editor for Metadata Sets, GEMS. An initial popup window prompts you for the set name, namespace and description. You can also choose to base the new set on an existing one, in which case it will inherit all the elements from the specified set. Click OK. The main window shows the elements of metadata set on the left hand side, and some attributes for the set on the right hand side. If you have based the set on an existing one, one or more elements will be displayed. Clicking one displays attributes of the element in the right hand side.</p>
+
+<p>To add a new element, right click on the name of the set and choose "Add Element". To add a new subelement, right click on the element and choose "Add Subelement". Elements and subelements can be deleted by choosing "Delete (Sub)element" from the right click menu. </p>
+
+<p>Note: the Greenstone Editor for Metadata Sets can be run independently of GLI by selecting it from the Greenstone folder in the Start menu, or by running gems.sh or gems.bat in the gli folder of your Greenstone installation.</p>
+
+<p>Sometimes two metadata sets may have the same namespace, for example, Dublin Core and Qualified Dublin Core both use the namespace "dc". Such sets cannot be used in the collection at the same time. If you try to add a set with a namespace already used by the collection, a warning will be shown. If you go ahead, the existing set will be removed and the new one added. Any assigned metadata values will be transferred to the new set providing those elements still exist.</p>
+
+<p>With GEMS you can edit existing metadata sets as well as create new ones. Clicking the "Edit" button launches GEMS with the specified metadata set open. Once you have finished editing the set (as described above), save it (File-&gt;Save) and close GEMS.</p>
+
+<p>If a collection no longer needs a metadata set, select it and press "Remove". If you have assigned any metadata to its elements you will be asked how to deal with this metadata when you next open the collection.</p>
+
+</body>
+</html>

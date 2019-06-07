@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\mp3\Yesterday.mp3</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">MP3Plugin</Metadata>
+    <Metadata name="FileSize">1170076</Metadata>
+    <Metadata name="Source">Yesterday.mp3</Metadata>
+    <Metadata name="SourceFile">Yesterday.mp3</Metadata>
+    <Metadata name="mp3">Yesterday</Metadata>
+    <Metadata name="srcurl">Yesterday.mp3</Metadata>
+    <Metadata name="FileFormat">MP3</Metadata>
+    <Metadata name="srcicon">_iconmp3_</Metadata>
+    <Metadata name="srclink_file">Yesterday.mp3</Metadata>
+    <Metadata name="srclinkFile">Yesterday.mp3</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="Title">Yesterday</Metadata>
+    <Metadata name="Identifier">HASHbfd699bb9c78ea8e503e2e</Metadata>
+    <Metadata name="lastmodified">1544417173</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528986</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASHbfd6.dir</Metadata>
+    <Metadata name="gsdlassocfile">Yesterday.mp3:audio/mp3:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

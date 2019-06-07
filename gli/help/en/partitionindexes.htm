@@ -1,0 +1,24 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="partitionindexes"><font size="5" face="Verdana"><strong>6.4: Partition Indexes</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>Indexes are built on particular text or metadata sources.  The search space can be further controlled by partitioning the indexes, either by language or by a predetermined filter.  This section describes how to do this.  Under the "Design" tab, click "Partition Indexes".</p>
+
+<p>The "Partition Indexes" view has three tabs; "Define Filters", "Assign Partitions" and "Assign Languages".  To learn more about partitions read about sub-collections and sub-indexes in Chapter 2 of the Greenstone Developer's Guide.</p>
+
+<p>Note that for MG collections, the total number of partitions generated is a combination of all indexes, sub-collection filters and languages chosen. Two indexes with two sub-collection filters in two languages would yield eight index partitions. For MGPP, all indexes are created in one physical index, so there would only be four index partitions. For Lucene, the number of physical indexes is determined by the number of levels assigned to the collection, one index per level. So for the above situation, one level would result in four physical indexes, while two levels would result in eight.</p>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\images\Paul_McCartney_at_Madame_Tussauds.jpg</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">ImagePlugin</Metadata>
+    <Metadata name="Image">Paul_McCartney_at_Madame_Tussauds.jpg</Metadata>
+    <Metadata name="OrigSource">Paul_McCartney_at_Madame_Tussauds.jpg</Metadata>
+    <Metadata name="Source">Paul_McCartney_at_Madame_Tussauds.jpg</Metadata>
+    <Metadata name="SourceFile">Paul_McCartney_at_Madame_Tussauds.jpg</Metadata>
+    <Metadata name="FileFormat">jpeg</Metadata>
+    <Metadata name="FileSize">172211</Metadata>
+    <Metadata name="ImageType">JPEG</Metadata>
+    <Metadata name="ImageWidth">960</Metadata>
+    <Metadata name="ImageHeight">1280</Metadata>
+    <Metadata name="ImageSize">168KB</Metadata>
+    <Metadata name="srclink_file">Paul_McCartney_at_Madame_Tussauds.jpg</Metadata>
+    <Metadata name="srclinkFile">Paul_McCartney_at_Madame_Tussauds.jpg</Metadata>
+    <Metadata name="srcicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[srclinkFile]&quot; width=&quot;[ImageWidth]&quot; height=&quot;[ImageHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbType">gif</Metadata>
+    <Metadata name="Thumb">Paul_McCartney_at_Madame_Tussauds_thumb.gif</Metadata>
+    <Metadata name="thumbicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Thumb]&quot; alt=&quot;[Thumb]&quot; width=&quot;[ThumbWidth]&quot; height=&quot;[ThumbHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbWidth">75</Metadata>
+    <Metadata name="ThumbHeight">100</Metadata>
+    <Metadata name="ScreenType">jpeg</Metadata>
+    <Metadata name="Screen">Paul_McCartney_at_Madame_Tussauds_screen.jpeg</Metadata>
+    <Metadata name="screenicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Screen]&quot; width=[ScreenWidth] height=[ScreenHeight]&gt;</Metadata>
+    <Metadata name="ScreenWidth">375</Metadata>
+    <Metadata name="ScreenHeight">500</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Images</Metadata>
+    <Metadata name="Title">Paul McCartney at Madame Tussauds</Metadata>
+    <Metadata name="Identifier">HASH8afc94656db8f1084d4915</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014456</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH8afc.dir</Metadata>
+    <Metadata name="gsdlassocfile">Paul_McCartney_at_Madame_Tussauds.jpg:image/jpeg:</Metadata>
+    <Metadata name="gsdlassocfile">Paul_McCartney_at_Madame_Tussauds_thumb.gif:image/gif:</Metadata>
+    <Metadata name="gsdlassocfile">Paul_McCartney_at_Madame_Tussauds_screen.jpeg:image/jpeg:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

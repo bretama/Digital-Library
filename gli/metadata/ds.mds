@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MetadataSet SYSTEM "http://www.greenstone.org/dtd/MetadataSet/1.0/MetadataSet.dtd">
+<MetadataSet contact="" creator="" family="" lastchanged="" namespace="ds">
+	<SetLanguage code="en">
+		<Name>DSpace</Name>
+		<Description>DSpace inspired metadata set covering values not found in Dublin Core</Description>
+	</SetLanguage>
+	
+	
+	
+	
+	
+
+	
+	
+	<Element name="Abstract">
+		<Language code="en">
+			<Attribute name="label">Abstract</Attribute>
+			<Attribute name="definition">Abstract of the document</Attribute>
+			<Attribute name="comment"/>
+		</Language>
+	</Element>
+	<Element name="Sponsorship">
+		<Language code="en">
+			<Attribute name="label">Sponsorship</Attribute>
+			<Attribute name="definition">Sponsors</Attribute>
+			<Attribute name="comment"/>
+		</Language>
+	</Element>
+	<Element name="Series">
+		<Language code="en">
+			<Attribute name="label">Series</Attribute>
+			<Attribute name="definition">Series name and report/paper number</Attribute>
+			<Attribute name="comment"/>
+		</Language>
+	</Element>
+</MetadataSet>

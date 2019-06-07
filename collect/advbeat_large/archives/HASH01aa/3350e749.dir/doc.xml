@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\tablature_txt\members.aol.com\way2smug\herecomes.txt</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">TextPlugin</Metadata>
+    <Metadata name="FileSize">2425</Metadata>
+    <Metadata name="Source">herecomes.txt</Metadata>
+    <Metadata name="SourceFile">herecomes.txt</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Title">HERE COMES THE SUN</Metadata>
+    <Metadata name="FileFormat">Text</Metadata>
+    <Metadata name="dc.Format">Tablature</Metadata>
+    <Metadata name="Identifier">HASH01aa3350e74918b92bed82bd</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014489</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH01aa/3350e749.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+HERE COMES THE SUN
+transcribed by Maxxdaddy
+Capo on 7th fret
+
+Intro/Chorus:
+  D                                 G           A7       
+------2-----0--2---------2-0-----------------------------0---
+----3----3---------3---3-----3------0-----3-0---2-----3------
+------2----------2-------2------------0-----------0--------2-
+--0---------0--------0---------0--------0-----0-----2--------
+------------------------------------------------0-------0----
+------------------------------------3------3-----------------
+
+  D                                 Gmaj7        E7         D
+------2-----0--2---------2-0---0-2-----2---0-2---------0--------2-0--------
+----3----3---------3---3-----3-------0---0-------3--------3---3-------3----
+------2----------2-------2-------------------------1------------2-------2--
+--0---------0--------0---------0-------0------0------0------0-------0------
+---------------------------------------------------------------------------
+------------------------------------3-------3----0-------0-----------------
+
+*D/F#     Em7                 D        A 
+-------0--------0----------0--------0-------------
+----3--------3--------3----------3-----3p2--------
+-/4--------2--------0----------2------------4p2---
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+Bridge:
+ A     F     C     G            D  
+----------------------------------
+-----------1--------------------3-
+---------2-------0-------0---0--2-
+-----2-3-------2-------0---0----0-
+-0-4---------3-------2------------
+-------------------3--------------
+
+Lyrics:
+
+Chorus:
+D                                  G              E7
+Here comes the sun doo doo doo doo Here comes the sun
+       D               *D/F# Em7 D A 
+and I say It's alright
+
+
+Verse:
+
+D                                      G      A7
+Little darling, it's been a long cold lonely winter
+D                              G                      A7
+Little darling, it seems like years since you've been here
+
+(Chorus)
+
+Little darling, the smiles returning to their faces
+Little darling, it seems like years since you've been here
+
+Bridge:
+F    C    G            D
+Sun, sun, sun, here it comes.
+
+Little darling, I feel that ice is slowly melting
+Little darling, it seems like years since its been clear
+
+(Bridge)
+
+(Chorus)
+
+&lt;/pre&gt;</Content>
+</Section>
+</Archive>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">10</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0140047867</Metadata>
+    <Metadata name="dc.Title">The Beatles in Richard Lester's A hard day's night : a complete pictorial record of the movie / editor, J. Philip Di Franco ; introd., Andrew Sarris.</Metadata>
+    <Metadata name="dc.Publisher">Harmondsworth, Eng. ;</Metadata>
+    <Metadata name="dc.Publisher">Penguin Books,</Metadata>
+    <Metadata name="dc.Date">1978, c1977.</Metadata>
+    <Metadata name="dc.Description">Reprint of the ed. published by Chelsea House Publishers, New York.</Metadata>
+    <Metadata name="dc.Subject">Hard day's night. &amp;#091;Motion picture&amp;#093;</Metadata>
+    <Metadata name="dc.Creator">Lester, Richard, 1932-</Metadata>
+    <Metadata name="dc.Creator">Di Franco, J. Philip.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs10</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014466</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs10.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 00899cam  2200241 i 4500
+001     3666022
+005     19910502170622.3
+008     770916r1978    enka          000 0 eng  
+035    _9 (DLC)   77014950
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 1
+       _e ocip
+       _f 19
+       _g y-gencatlg
+010    _a    77014950 
+020    _a 0140047867
+040    _a DLC
+       _c DLC
+       _d DLC
+050 10 _a PN1997.H2593
+       _b B4 1978
+082 00 _a 791.43/7
+245 04 _a The Beatles in Richard Lester's A hard day's night :
+       _b a complete pictorial record of the movie /
+       _c editor, J. Philip Di Franco ; introd., Andrew
+ Sarris.
+260    _a Harmondsworth, Eng. ;
+       _a New York :
+       _b Penguin Books,
+       _c 1978, c1977.
+300    _a xvi, 297 p. :
+       _b ill. ;
+       _c 28 cm.
+500    _a Reprint of the ed. published by Chelsea House Publishers,
+ New York.
+630  0 _a Hard day's night. [Motion picture]
+700 1  _a Lester, Richard,
+       _d 1932-
+700 1  _a Di Franco, J. Philip.
+710 2  _a Beatles.
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MetadataSet SYSTEM "http://www.greenstone.org/dtd/MetadataSet/1.0/MetadataSet.dtd">
+<MetadataSet contact="agls@naa.gov.au" creator="The National Archives of Australia" family="" lastchanged="Tue Sep 05 14:40:36 NZST 2006 - kjdon on kanuka" namespace="agls">
+    <Name language="en">Australian Government Locator Service Metadata Element Set, Version 1.3</Name>
+    <Element name="Creator">
+        <Attribute language="en" name="label">Creator</Attribute>
+        <Attribute language="en" name="obligation">Mandatory if known</Attribute>
+        <Attribute language="en" name="definition">An entity primarily responsible for making the content of the resource.</Attribute>
+        <Attribute language="en" name="comment">Examples of a Creator include a person, or an organisation.</Attribute>
+    </Element>
+    <Element name="Date">
+        <Attribute language="en" name="label">Date</Attribute>
+        <Attribute language="en" name="definition">A date of an event in the lifecycle of the resource.</Attribute>
+        <Attribute language="en" name="obligation">Mandatory</Attribute>
+        <Attribute language="en" name="comment">Typically, Date will be associated with the creator or availability of the resource. Recommended best practice for encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.</Attribute>
+        <Element name="created">
+            <Attribute language="en" name="label">Created</Attribute>
+            <Attribute language="en" name="definition">Creation date of the resource</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+        </Element>
+        <Element name="modified">
+            <Attribute language="en" name="label">Modified</Attribute>
+            <Attribute language="en" name="definition">Creation date of the resource</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+        </Element>
+        <Element name="valid">
+            <Attribute language="en" name="label">Valid</Attribute>
+            <Attribute language="en" name="comment">Typically, a date the resource becomes valid or ceases to be valid, or the date range for which the resource is valid.</Attribute>
+            <Attribute language="en" name="definition">A date (often a range) of validity of a resource.</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+        </Element>
+        <Element name="issued">
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">A date on which the rescource was made formally available in its current form.</Attribute>
+            <Attribute language="en" name="label">Issued</Attribute>
+        </Element>
+    </Element>
+    <Element name="Title">
+        <Attribute language="en" name="label">Title</Attribute>
+        <Attribute language="en" name="definition">A name given to the resource.</Attribute>
+        <Attribute language="en" name="obligation">Mandatory</Attribute>
+        <Attribute language="en" name="comment">This qualifier could include abbreviations and acronyms by which a resource may be known.</Attribute>
+        <Element name="alternative">
+            <Attribute language="en" name="label">Alternative</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">Any form of the title used as a substitute or alternative to the formal title or the resource</Attribute>
+            <Attribute language="en" name="comment">This qualifier could include abbreviations and acronyms by which a resource may be known.</Attribute>
+        </Element>
+    </Element>
+    <Element name="Availability">
+        <Attribute language="en" name="definition">How the resource can be obtained or contact information for obtaining the resource.</Attribute>
+        <Attribute language="en" name="obligation">Mandatory for offline resources.</Attribute>
+        <Attribute language="en" name="comment">The Availability element is primarily used for non-electronic resources to provide information on how to obtain physical access to the resource.</Attribute>
+        <Attribute language="en" name="label">Availability</Attribute>
+    </Element>
+    <Element name="Function">
+        <Attribute language="en" name="label">Function</Attribute>
+        <Attribute language="en" name="definition">The business function of the organisation to which the resource relates.</Attribute>
+        <Attribute language="en" name="obligation">Mandatory if no Subject element specified.</Attribute>
+        <Attribute language="en" name="comment">Used to indicate the business role of the resource in terms of business functions and activities. Functions are the major units of activity which organisations pursue in order to meet the mission and goals of the organisation. They are defined in the Australian Records Management Standard (AS 4390) as the largest unit of business activity in an organisation. Recommended best practice is to select a value from a controlled vocabulary or formal classification scheme.</Attribute>
+    </Element>
+    <Element name="Identifier">
+        <Attribute language="en" name="label">Resource Identifier</Attribute>
+        <Attribute language="en" name="definition">An unambiguous reference to the resource within a given context.</Attribute>
+        <Attribute language="en" name="obligation">Mandatory for online resources.</Attribute>
+        <Attribute language="en" name="comment">Recommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. Example formal identification systems include the Uniform Resource Identifier (URI) (including the Uniform Resource Locator (URL)), the Digital Object Identifier (DOI) and the International Standard Book Number (ISBN).</Attribute>
+    </Element>
+    <Element name="Publisher">
+        <Attribute language="en" name="label">Publisher</Attribute>
+        <Attribute language="en" name="definition">An entity responsible for making the resource available.</Attribute>
+        <Attribute language="en" name="obligation">Mandatory for information resources.</Attribute>
+        <Attribute language="en" name="comment">This field is often the name of the organisation that owns or controls or publishes the resource. It is not recommended that this element be used for the name of the entity which merely acts as the host for a website.</Attribute>
+    </Element>
+    <Element name="Subject">
+        <Attribute language="en" name="label">Subject and Keywords</Attribute>
+        <Attribute language="en" name="definition">A subject and/or topic of the content of the resource.</Attribute>
+        <Attribute language="en" name="obligation">Mandatory if no Function element specified.</Attribute>
+        <Attribute language="en" name="comment">Typically, a Subject will be expressed as keywords, key phrases or classification codes that describe a topic of the resource content. Recommended best practice is to select a value from a controlled vocabulary or formal classification scheme.</Attribute>
+    </Element>
+    <Element name="Audience">
+        <Attribute language="en" name="label">Audience</Attribute>
+        <Attribute language="en" name="definition">A target audience of the resource.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Types of audiences commonly used in this element include particular industry sectors, education levels, skill levels, occupations, and EEO categories. Recommended best practice is to select a value from a controlled vocabulary or formal classification scheme.</Attribute>
+    </Element>
+    <Element name="Contributor">
+        <Attribute language="en" name="label">Contributor</Attribute>
+        <Attribute language="en" name="definition">An entity responsible for making a contribution to the content of the resource.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Typically, a contributor will be an entity that has played an important but secondary role in creating the content of the resource and is not specified in the creator element.</Attribute>
+    </Element>
+    <Element name="Coverage">
+        <Attribute language="en" name="label">Coverage</Attribute>
+        <Attribute language="en" name="definition">The extent or scope of the content of the resource.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Coverage will typically include spatial location (a place name or geographic coordinates), temporal period (a period label, date, or date range) or jurisdiction (such as a named administrative entity). Recommended best practice is to select a value from a controlled vocabulary (for example, the Thesaurus of Geographic Names [TGN]) and that, where appropriate, named places or time periods be used in preference to numeric identifiers such as sets of coordinates or date ranges. </Attribute>
+        <Element name="jurisdiction">
+            <Attribute language="en" name="label">Jurisdiction</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The name of the political/administrative entity covered by the content of the resource.</Attribute>
+            <Attribute language="en" name="comment">Jurisdiction is a description of the territory over which a particular government exercises its authority or a particualar business transacts its operations, to which the resource content is applicable.</Attribute>
+        </Element>
+        <Element name="spatial">
+            <Attribute language="en" name="label">Spatial</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">Spatial (geographic) characteristics of the intellectual content of the resource.</Attribute>
+        </Element>
+        <Element name="temporal">
+            <Attribute language="en" name="label">Temporal</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">Temporal characteristics of the intellectual content of the resource.</Attribute>
+        </Element>
+        <Element name="postcode">
+            <Attribute language="en" name="label">Postcode</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">Australian postcode(s) applicable to the spatial coverage of the resource content.</Attribute>
+            <Attribute language="en" name="comment">Postcode refers to the actual Australian postcode(s) which is relevant to the spatial coverage of the resource content. This qualifier will be of particular use in describing services.</Attribute>
+        </Element>
+    </Element>
+    <Element name="Description">
+        <Attribute language="en" name="label">Description</Attribute>
+        <Attribute language="en" name="definition">An account of the content of the resource.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Description may include but is not limited to: an abstract, table of contents, reference to a graphical representation of content (eg a thumbnail of an image), or a free-text account of the content.</Attribute>
+    </Element>
+    <Element name="Format">
+        <Attribute language="en" name="label">Format</Attribute>
+        <Attribute language="en" name="definition">The physical or digital manifestation of the resource. </Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Typically, Format may include the media-type or dimensions of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Examples of dimensions include size and duration. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats).</Attribute>
+        <Element name="extent">
+            <Attribute language="en" name="label">Extent</Attribute>
+            <Attribute language="en" name="qualifier type">Element refinement</Attribute>
+            <Attribute language="en" name="definition">The size or duration of the resource.</Attribute>
+            <Attribute language="en" name="comment">The extent qualifier allows the description of the physical dimensions, file size or duration of the resource.</Attribute>
+        </Element>
+        <Element name="medium">
+            <Attribute language="en" name="label">Medium</Attribute>
+            <Attribute language="en" name="qualifier type">Element refinement</Attribute>
+            <Attribute language="en" name="definition">The material or physical carrier of the resource.</Attribute>
+        </Element>
+    </Element>
+    <Element name="Language">
+        <Attribute language="en" name="label">Language</Attribute>
+        <Attribute language="en" name="definition">A language of the intellectual content of the resource.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Recommended best practice for the values of the Language element is defined by RFC 3066 [RFC 3066] which includes a two-letter Language Code (taken from the ISO 639 standard [ISO 639]), followed optionally, by a two-letter Country Code (taken from the ISO 3166 standard [ISO 3166]). For example, &apos;en&apos; for English, &apos;fr&apos; for French, or &apos;en-uk&apos; for English used in the United Kingdom.</Attribute>
+    </Element>
+    <Element name="Mandate">
+        <Attribute language="en" name="label">Mandate</Attribute>
+        <Attribute language="en" name="definition">A specific warrant which requires the resource to be created or provided.</Attribute>
+        <Attribute language="en" name="obligation">Optional </Attribute>
+        <Attribute language="en" name="comment">The element is useful to indicate the specific legal mandate which requires the resource being described to be created or provided to the public. The content of this element will usually be a reference to a specific Act, Regulation or Case, but may be a URI pointing to the legal instrument in question. </Attribute>
+        <Element name="act">
+            <Attribute language="en" name="label">Act</Attribute>
+            <Attribute language="en" name="definition">A reference to a specific State or Federal Act which requires the creation or provision of the resource</Attribute>
+            <Attribute language="en" name="qualifier type">Element refinement</Attribute>
+        </Element>
+        <Element name="regulation">
+            <Attribute language="en" name="label">Regulation</Attribute>
+            <Attribute language="en" name="definition">A reference to a specific regulation which requires the creation or provision of the resource.</Attribute>
+            <Attribute language="en" name="qualifier type">Element refinement</Attribute>
+        </Element>
+        <Element name="case">
+            <Attribute language="en" name="label">Case Law</Attribute>
+            <Attribute language="en" name="qualifier type">Element refinement</Attribute>
+            <Attribute language="en" name="definition">A reference to a specific case which requires the creation or provision of the resource</Attribute>
+        </Element>
+    </Element>
+    <Element name="Relation">
+        <Attribute language="en" name="label">Relation</Attribute>
+        <Attribute language="en" name="definition">A reference to a related resource.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.</Attribute>
+        <Element name="isVersionOf">
+            <Attribute language="en" name="label">Is Version Of</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource is a version, edition, or adaption of the referenced resource. Changes in version imply substative changes in content rather than differences in format.</Attribute>
+        </Element>
+        <Element name="hasVersion">
+            <Attribute language="en" name="label">Has Version</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource has a version, edition, or adaptation, namely, the referenced resource.</Attribute>
+        </Element>
+        <Element name="isReplacedBy">
+            <Attribute language="en" name="label">Is Replaced By</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource is supplanted, displaced, or superseded by the referenced resource.</Attribute>
+        </Element>
+        <Element name="replaces">
+            <Attribute language="en" name="label">Replaces</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resources supplants, displaces, or supersedes the referenced reource.</Attribute>
+        </Element>
+        <Element name="isRequiredBy">
+            <Attribute language="en" name="label">Is Required By</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource is required by the referenced resource, either physically or logically. </Attribute>
+        </Element>
+        <Element name="requires">
+            <Attribute language="en" name="label">Requires</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource requires the referenced resource to support its function, delivery, or coherence of content. </Attribute>
+        </Element>
+        <Element name="isPartOf">
+            <Attribute language="en" name="label">Is Part Of</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource is a physical or logical part of the referenced resource. </Attribute>
+        </Element>
+        <Element name="hasPart">
+            <Attribute language="en" name="label">Has Part</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource includes the referenced resource either physically or logically. </Attribute>
+        </Element>
+        <Element name="isReferencedBy">
+            <Attribute language="en" name="label">Is Referenced By</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource is referenced, cited, or otherwise pointed to by the referenced resource. </Attribute>
+        </Element>
+        <Element name="references">
+            <Attribute language="en" name="label">References</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource references, cites, or otherwise points to the referenced resource. </Attribute>
+        </Element>
+        <Element name="isFormatOf">
+            <Attribute language="en" name="label">Is Format Of</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource is the same intellectual content of the referenced resource, but presented in another format. </Attribute>
+        </Element>
+        <Element name="hasFormat">
+            <Attribute language="en" name="label">Has Format</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource pre-existed the referenced resource, which is essentially the same intellectual content presented in another format. </Attribute>
+        </Element>
+        <Element name="isBasisFor">
+            <Attribute language="en" name="label">Is Basis For</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement</Attribute>
+            <Attribute language="en" name="definition">The described resource pre-existed the referenced resource, which is a performance, production, derivation, translation, or interpretation of the described resource. </Attribute>
+        </Element>
+        <Element name="isBasedOn">
+            <Attribute language="en" name="label">Is Based On</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement </Attribute>
+            <Attribute language="en" name="definition">The described resource is a performance, production, derivation, translation, or interpretation of the referenced resource. </Attribute>
+        </Element>
+    </Element>
+    <Element name="Rights">
+        <Attribute language="en" name="label">Rights Management</Attribute>
+        <Attribute language="en" name="definition">Information about rights held in and over the resource.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Typically, the Rights element will contain a rights management statement for the resource, or refer to a service providing such information. Rights information often encompasses Intellectual Property Rights (IPR), Copyright, and various Property Rights. If the Rights element is absent, no assumptions can be made about the status of these and other rights with respect to the resource.</Attribute>
+    </Element>
+    <Element name="Source">
+        <Attribute language="en" name="label">Source</Attribute>
+        <Attribute language="en" name="definition">A reference to a resource from which the present resource is derived.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">The present resource may be derived from the Source resource in whole or in part. Recommended best practice is to reference the source resource by means of a string or number conforming to a formal identification system.</Attribute>
+    </Element>
+    <Element name="Type">
+        <Attribute language="en" name="label">Type</Attribute>
+        <Attribute language="en" name="defintion">The nature or genre of the content of the resource.</Attribute>
+        <Attribute language="en" name="obligation">Optional</Attribute>
+        <Attribute language="en" name="comment">Type includes terms describing general categories, genres, or aggregation levels for content. Recommended best practice is to select a value from a controlled vocabulary (for example, the working draft list of Dublin Core Types [DCT1]). To describe the physical or digital manifestation of the resource, use the FORMAT element.</Attribute>
+        <Element name="category">
+            <Attribute language="en" name="label">Category</Attribute>
+            <Attribute language="en" name="qualifier type">element refinement </Attribute>
+            <Attribute language="en" name="definition">The generic type of the resource being described. </Attribute>
+            <Attribute language="en" name="comment">The value for this qualifier must be one of either service, document, or agency. </Attribute>
+        </Element>
+        <Element name="aggregtionLevel">
+            <Attribute language="en" name="label">Aggregtion Level</Attribute>
+            <Attribute language="en" name="qualifier type">Element refinement</Attribute>
+            <Attribute language="en" name="definition">The level of aggregation of the resource being described.</Attribute>
+            <Attribute language="en" name="comment">There are only two values possible for this qualifier, either item or collection.</Attribute>
+        </Element>
+        <Element name="documentType">
+            <Attribute language="en" name="label">Document Type</Attribute>
+            <Attribute language="en" name="qualifier type">Element refinement</Attribute>
+            <Attribute language="en" name="definition">The form of the resource where category = document.</Attribute>
+            <Attribute language="en" name="comment">Document is used in its widest sense and includes such things as software sound files and images. </Attribute>
+        </Element>
+        <Element name="serviceType">
+            <Attribute language="en" name="label">Service Type</Attribute>
+            <Attribute language="en" name="qualifier type">Element refinement</Attribute>
+            <Attribute language="en" name="definition">The type of service being offered where category = service. </Attribute>
+        </Element>
+    </Element>
+</MetadataSet>

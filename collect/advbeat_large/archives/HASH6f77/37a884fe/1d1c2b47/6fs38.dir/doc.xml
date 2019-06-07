@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">38</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0525938184</Metadata>
+    <Metadata name="dc.Title">The lost Beatles interviews / Geoffrey Giuliano and Brenda Giuliano ; afterword by Dr. Timothy Leary.</Metadata>
+    <Metadata name="dc.Publisher">New York :</Metadata>
+    <Metadata name="dc.Publisher">Dutton,</Metadata>
+    <Metadata name="dc.Date">c1994.</Metadata>
+    <Metadata name="dc.Description">Transcripts of interviews with the Beatles and their associates, conducted 1963-1993 by Giuliano and others.</Metadata>
+    <Metadata name="dc.Description">Includes bibliographical references (p. 385-386) and index.</Metadata>
+    <Metadata name="dc.Subject">Beatles.</Metadata>
+    <Metadata name="dc.Subject">Rock musicians England Interviews.</Metadata>
+    <Metadata name="dc.Creator">Giuliano, Geoffrey.</Metadata>
+    <Metadata name="dc.Creator">Devi, Vrnda.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs38</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014475</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs38.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01115cam  2200301 a 4500
+001     1125501
+005     20021119081211.0
+008     940712s1994    nyua     b    001 0ceng  
+035    _9 (DLC)   94029575
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 1
+       _e ocip
+       _f 19
+       _g y-gencatlg
+955    _a pc18 to vp00 07-12-94; vk09 07-13-94; CIP ver. vl19
+ 06-15-95
+010    _a    94029575 
+020    _a 0525938184
+040    _a DLC
+       _c DLC
+       _d DLC
+043    _a e-uk-en
+050 00 _a ML421.B4
+       _b A5 1994
+082 00 _a 782.42166/092/2
+       _a B
+       _2 20
+245 04 _a The lost Beatles interviews /
+       _c Geoffrey Giuliano and Brenda Giuliano ; afterword by
+ Dr. Timothy Leary.
+260    _a New York :
+       _b Dutton,
+       _c c1994.
+300    _a xiii, 398 p. :
+       _b ill. ;
+       _c 24 cm.
+500    _a Transcripts of interviews with the Beatles and their
+ associates, conducted 1963-1993 by Giuliano and others.
+504    _a Includes bibliographical references (p. 385-386) and
+ index.
+610 20 _a Beatles.
+650  0 _a Rock musicians
+       _z England
+       _v Interviews.
+700 1  _a Giuliano, Geoffrey.
+700 1  _a Devi, Vrnda.
+710 2  _a Beatles.
+991    _b c-Music
+       _h ML421.B4
+       _i A5 1994
+       _t Copy 1
+       _w BOOKS
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

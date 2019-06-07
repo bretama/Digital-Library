@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">6</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">MARC</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">039559426X :</Metadata>
+    <Metadata name="dc.Title">The Beatles illustrated lyrics / edited by Alan Aldridge.</Metadata>
+    <Metadata name="dc.Publisher">Boston :</Metadata>
+    <Metadata name="dc.Publisher">Houghton Mifflin/Seymour Lawrence,</Metadata>
+    <Metadata name="dc.Date">&amp;#091;1991&amp;#093;, c1969.</Metadata>
+    <Metadata name="dc.Description">Includes index.</Metadata>
+    <Metadata name="dc.Subject">Rock music 1961-1970 Texts.</Metadata>
+    <Metadata name="dc.Creator">Aldridge, Alan.</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="dc.Identifier">http://www.loc.gov/catdir/description/hm021/91018777.html</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs6</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014465</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs6.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 01036pam  2200265 a 4500
+001     2959975
+005     20020905201247.0
+008     910429r19911969maua          001 0 eng  
+035    _9 (DLC)   91018777
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 1
+       _e ocip
+       _f 19
+       _g y-gencatlg
+955    _a pc16 to ea00 04-29-91; ea36 to SCD 04-30-91; vk12
+ 05-01-91; vk91 05-02-91; CIP ver. nb06 11-18-91
+010    _a    91018777 
+020    _a 039559426X :
+       _c $19.95 until 12/31/91 ($25.00 thereafter)
+040    _a DLC
+       _c DLC
+       _d DLC
+050 00 _a ML54.6.B4
+       _b I4 1991
+082 00 _a 782.42166/026/8
+       _2 20
+245 04 _a The Beatles illustrated lyrics /
+       _c edited by Alan Aldridge.
+260    _a Boston :
+       _b Houghton Mifflin/Seymour Lawrence,
+       _c [1991], c1969.
+300    _a 267 p. :
+       _b ill. (some col.) ;
+       _c 28 cm.
+500    _a Includes index.
+650  0 _a Rock music
+       _y 1961-1970
+       _x Texts.
+700 1  _a Aldridge, Alan.
+710 2  _a Beatles.
+856 42 _3 Publisher description
+       _u
+ http://www.loc.gov/catdir/description/hm021/91018777.html
+991    _b c-Music
+       _h ML54.6.B4
+       _i I4 1991
+       _t Copy 1
+       _m Case
+       _w BOOKS
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

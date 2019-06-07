@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GreenstoneDirectoryMetadata SYSTEM "http://greenstone.org/dtd/GreenstoneDirectoryMetadata/1.0/GreenstoneDirectoryMetadata.dtd">
+<GreenstoneDirectoryMetadata>
+    <FileSet>
+        <FileName>.*</FileName>
+        <Description>
+            <Metadata name="dc.Format">Lyrics</Metadata>
+        </Description>
+    </FileSet>
+</GreenstoneDirectoryMetadata>

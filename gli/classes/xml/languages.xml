@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Languages [
+   <!ELEMENT Languages     (Language*)>
+   <!ELEMENT Language      (#PCDATA)>
+   <!-- name: The name of the language -->
+   <!-- code: The two letter language code -->
+   <!-- gs:   Does greenstone include support for this language? -->
+   <!-- gli:  Does gli have a dictionary for this language? -->
+   <!-- mds:  Does any metadata set include support for this language? -->
+   <!ATTLIST Language
+             name          CDATA #REQUIRED
+	     code          CDATA #REQUIRED
+	     gs            CDATA "false"
+	     gli           CDATA "false"
+	     mds           CDATA "false">
+]>
+
+<Languages>
+   <Language name="ABKHAZIAN"           code="AB">IBERO-CAUCASIAN</Language>
+   <Language name="AFAN(OROMO)"         code="OM">HAMITIC</Language>
+   <Language name="AFAR"                code="AA">HAMITIC</Language>
+   <Language name="AFRIKAANS"           code="AF">GERMANIC</Language>
+   <Language name="ALBANIAN"            code="SQ">INDO-EUROPEAN (OTHER)</Language>
+   <Language name="AMHARIC"             code="AM" gli="true" gs="true" mds="true">SEMITIC</Language>
+   <Language name="ARABIC"              code="AR" gli="true" gs="true" mds="true">SEMITIC</Language>
+   <Language name="ARMENIAN"            code="HY" gs="true" gli="true" mds="true">INDO-EUROPEAN (OTHER)</Language>
+   <Language name="ASSAMESE"            code="AS">INDIAN</Language>
+   <Language name="AYMARA"              code="AY">AMERINDIAN</Language>
+   <Language name="AZERBAIJANI"         code="AZ">TURKIC/ALTAIC</Language>
+   <Language name="BASHKIR"             code="BA">TURKIC/ALTAIC</Language>
+   <Language name="BASQUE"              code="EU">BASQUE</Language>
+   <Language name="BENGALI(BANGLA)"     code="BN">INDIAN</Language>
+   <Language name="BHUTANI"             code="DZ">ASIAN</Language>
+   <Language name="BIHARI"              code="BH">INDIAN</Language>
+   <Language name="BISLAMA"             code="BI">[not given]</Language>
+   <Language name="BRETON"              code="BR">CELTIC</Language>
+   <Language name="BULGARIAN"           code="BG">SLAVIC</Language>
+   <Language name="BURMESE"             code="MY">ASIAN</Language>
+   <Language name="BYELORUSSIAN"        code="BE">SLAVIC</Language>
+   <Language name="CAMBODIAN"           code="KM">ASIAN</Language>
+   <Language name="CATALAN"             code="CA" gli="true">ROMANCE</Language>
+   <Language name="CHINESE-SIMPLIFIED"  code="ZH" gli="true" gs="true" mds="true">ASIAN</Language>
+   <Language name="CHINESE-TRADITIONAL" code="ZH-TR" gs="true">ASIAN</Language>
+   <Language name="CORSICAN"            code="CO">ROMANCE</Language>
+   <Language name="CROATIAN"            code="HR" gs="true">SLAVIC</Language>
+   <Language name="CZECH"               code="CS" gs="true" mds="true">SLAVIC</Language>
+   <Language name="DANISH"              code="DA">GERMANIC</Language>
+   <Language name="DUTCH"               code="NL" gs="true" mds="true" gli="true">GERMANIC</Language>
+   <Language name="ENGLISH"             code="EN" gs="true" gli="true" mds="true">GERMANIC</Language>
+   <Language name="ESPERANTO"           code="EO">INTERNATIONAL AUX.</Language>
+   <Language name="ESTONIAN"            code="ET">FINNO-UGRIC</Language>
+   <Language name="FAROESE"             code="FO">GERMANIC</Language>
+   <Language name="FIJI"                code="FJ">OCEANIC/INDONESIAN</Language>
+   <Language name="FINNISH"             code="FI" gs="true" mds="true">FINNO-UGRIC</Language>
+   <Language name="FRENCH"              code="FR" gs="true" gli="true" mds="true">ROMANCE</Language>
+   <Language name="FRISIAN"             code="FY">GERMANIC</Language>
+   <Language name="GALICIAN"            code="GL" gs="true">ROMANCE</Language>
+   <Language name="GEORGIAN"            code="KA">IBERO-CAUCASIAN</Language>
+   <Language name="GERMAN"              code="DE" gs="true">GERMANIC</Language>
+   <Language name="GREEK"               code="EL" gs="true" gli="true">LATIN/GREEK</Language>
+   <Language name="GREENLANDIC"         code="KL">ESKIMO</Language>
+   <Language name="GUARANI"             code="GN">AMERINDIAN</Language>
+   <Language name="GUJARATI"            code="GU" gs="true" gli="true">INDIAN</Language>
+   <Language name="HAUSA"               code="HA">NEGRO-AFRICAN</Language>
+   <Language name="HEBREW"              code="HE" gs="true">SEMITIC</Language>
+   <Language name="HINDI"               code="HI" gs="true">INDIAN</Language>
+   <Language name="HUNGARIAN"           code="HU">FINNO-UGRIC</Language>
+   <Language name="ICELANDIC"           code="IS">GERMANIC</Language>
+   <Language name="INDONESIAN"          code="ID" gs="true">OCEANIC/INDONESIAN</Language>
+   <Language name="INTERLINGUA"         code="IA" mds="true">INTERNATIONAL AUX.</Language>
+   <Language name="INTERLINGUE"         code="IE">INTERNATIONAL AUX.</Language>
+   <Language name="INUKTITUT"           code="IU">[        ]</Language>
+   <Language name="INUPIAK"             code="IK">ESKIMO</Language>
+   <Language name="IRISH"               code="GA">CELTIC</Language>
+   <Language name="ITALIAN"             code="IT" gs="true">ROMANCE</Language>
+   <Language name="JAPANESE"            code="JA" gs="true" gli="true">ASIAN</Language>
+   <Language name="JAVANESE"            code="JV">OCEANIC/INDONESIAN</Language>
+   <Language name="KANNADA"             code="KN" gs="true" gli="true" mds="true">DRAVIDIAN</Language>
+   <Language name="KASHMIRI"            code="KS">INDIAN</Language>
+   <Language name="KAZAKH"              code="KK" gs="true" gli="true" mds="true">TURKIC/ALTAIC</Language>
+   <Language name="KINYARWANDA"         code="RW">NEGRO-AFRICAN</Language>
+   <Language name="KIRGHIZ"             code="KY">TURKIC/ALTAIC</Language>
+   <Language name="KOREAN"              code="KO">ASIAN</Language>
+   <Language name="KURDISH"             code="KU">IRANIAN</Language>
+   <Language name="KURUNDI"             code="RN">NEGRO-AFRICAN</Language>
+   <Language name="LAOTHIAN"            code="LO">ASIAN</Language>
+   <Language name="LATIN"               code="LA">LATIN/GREEK</Language>
+   <Language name="LATVIAN (LETTISH)"   code="LV" gli="true">BALTIC</Language>
+   <Language name="LINGALA"             code="LN">NEGRO-AFRICAN</Language>
+   <Language name="LITHUANIAN"          code="LT">BALTIC</Language>
+   <Language name="MACEDONIAN"          code="MK">SLAVIC</Language>
+   <Language name="MALAGASY"            code="MG">OCEANIC/INDONESIAN</Language>
+   <Language name="MALAY"               code="MS">OCEANIC/INDONESIAN</Language>
+   <Language name="MALAYALAM"           code="ML">DRAVIDIAN</Language>
+   <Language name="MALTESE"             code="MT">SEMITIC</Language>
+   <Language name="MAORI"               code="MI" gs="true" mds="true">OCEANIC/INDONESIAN</Language>
+   <Language name="MARATHI"             code="MR" gs="true" gli="true" mds="true">INDIAN</Language>
+   <Language name="MOLDAVIAN"           code="MO">ROMANCE</Language>
+   <Language name="MONGOLIAN"           code="MN" gli="true" mds="true" gs="true">[not given]</Language>
+   <Language name="NAURU"               code="NA">[not given]</Language>
+   <Language name="NEPALI"              code="NE" gs="true" gli="true" mds="true">NEPALI</Language>
+   <Language name="NORWEGIAN"           code="NO">GERMANIC</Language>
+   <Language name="OCCITAN"             code="OC">ROMANCE</Language>
+   <Language name="ORIYA"               code="OR">INDIAN</Language>
+   <Language name="PASHTO(PUSHTO)"      code="PS">IRANIAN</Language>
+   <Language name="PERSIAN(FARSI)"      code="FA" gli="true" mds="true">IRANIAN</Language>
+   <Language name="POLISH"              code="PL">SLAVIC</Language>
+   <Language name="PORTUGUESE"          code="PT" gs="true">ROMANCE</Language>
+   <Language name="PUNJABI"             code="PA">INDIAN</Language>
+   <Language name="QUECHUA"             code="QU">AMERINDIAN</Language>
+   <Language name="RHAETO-ROMANCE"      code="RM">ROMANCE</Language>
+   <Language name="ROMANIAN"            code="RO" gs="true" gli="true">ROMANCE</Language>
+   <Language name="RUSSIAN"             code="RU" gs="true" gli="true" mds="true">SLAVIC</Language>
+   <Language name="SAMOAN"              code="SM">OCEANIC/INDONESIAN</Language>
+   <Language name="SANGHO"              code="SG">NEGRO-AFRICAN</Language>
+   <Language name="SANSKRIT"            code="SA">INDIAN</Language>
+   <Language name="SCOTS(GAELIC)"       code="GD">CELTIC</Language>
+   <Language name="SERBIAN"             code="SR">SLAVIC</Language>
+   <Language name="SERBO-CROATIAN"      code="SH">SLAVIC</Language>
+   <Language name="SESOTHO"             code="ST">NEGRO-AFRICAN</Language>
+   <Language name="SETSWANA"            code="TN">NEGRO-AFRICAN</Language>
+   <Language name="SHONA"               code="SN">NEGRO-AFRICAN</Language>
+   <Language name="SINDHI"              code="SD">INDIAN</Language>
+   <Language name="SINGHALESE"          code="SI">INDIAN</Language>
+   <Language name="SISWATI"             code="SS">NEGRO-AFRICAN</Language>
+   <Language name="SLOVAK"              code="SK">SLAVIC</Language>
+   <Language name="SLOVENIAN"           code="SL">SLAVIC</Language>
+   <Language name="SOMALI"              code="SO">HAMITIC</Language>
+   <Language name="SPANISH"             code="ES" gs="true" gli="true" mds="true">ROMANCE</Language>
+   <Language name="SUNDANESE"           code="SU">OCEANIC/INDONESIAN</Language>
+   <Language name="SWAHILI"             code="SW">NEGRO-AFRICAN</Language>
+   <Language name="SWEDISH"             code="SV">GERMANIC</Language>
+   <Language name="TAGALOG"             code="TL">OCEANIC/INDONESIAN</Language>
+   <Language name="TAJIK"               code="TG">IRANIAN</Language>
+   <Language name="TAMIL"               code="TA" gs="true" gli="true" mds="true">DRAVIDIAN</Language>
+   <Language name="TATAR"               code="TT">TURKIC/ALTAIC</Language>
+   <Language name="TELUGU"              code="TE">DRAVIDIAN</Language>
+   <Language name="THAI"                code="TH" gs="true" gli="true" mds="true">ASIAN</Language>
+   <Language name="TIBETAN"             code="BO">ASIAN</Language>
+   <Language name="TIGRINYA"            code="TI">SEMITIC</Language>
+   <Language name="TONGA"               code="TO">OCEANIC/INDONESIAN</Language>
+   <Language name="TSONGA"              code="TS">NEGRO-AFRICAN</Language>
+   <Language name="TURKISH"             code="TR" gs="true">TURKIC/ALTAIC</Language>
+   <Language name="TURKMEN"             code="TK">TURKIC/ALTAIC</Language>
+   <Language name="TWI"                 code="TW">NEGRO-AFRICAN</Language>
+   <Language name="UIGUR"               code="UG">[       ]</Language>
+   <Language name="UKRAINIAN"           code="UK" gs="true">SLAVIC</Language>
+   <Language name="URDU"                code="UR">INDIAN</Language>
+   <Language name="UZBEK"               code="UZ">TURKIC/ALTAIC</Language>
+   <Language name="VIETNAMESE"          code="VI" gli="true">ASIAN</Language>
+   <Language name="VOLAPUK"             code="VO">INTERNATIONAL AUX.</Language>
+   <Language name="WELSH"               code="CY">CELTIC</Language>
+   <Language name="WOLOF"               code="WO">NEGRO-AFRICAN</Language>
+   <Language name="XHOSA"               code="XH">NEGRO-AFRICAN</Language>
+   <Language name="YIDDISH"             code="YI">GERMANIC [*Changed 1989 from original ISO 639:1988, JI]</Language>
+   <Language name="YORUBA"              code="YO">NEGRO-AFRICAN</Language>
+   <Language name="ZHUANG"              code="ZA">[       ]</Language>
+   <Language name="ZULU"                code="ZU">NEGRO-AFRICAN</Language>
+</Languages>

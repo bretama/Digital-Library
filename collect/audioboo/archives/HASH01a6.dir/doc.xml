@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\mp3\RWxlYW5vciBSaWdieQ==.mp3</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">MP3Plugin</Metadata>
+    <Metadata name="FileSize">274181</Metadata>
+    <Metadata name="Source">Eleanor Rigby.mp3</Metadata>
+    <Metadata name="SourceFile">RWxlYW5vciBSaWdieQ==.mp3</Metadata>
+    <Metadata name="mp3">Eleanor Rigby</Metadata>
+    <Metadata name="srcurl">RWxlYW5vciBSaWdieQ==.mp3</Metadata>
+    <Metadata name="FileFormat">MP3</Metadata>
+    <Metadata name="srcicon">_iconmp3_</Metadata>
+    <Metadata name="srclink_file">RWxlYW5vciBSaWdieQ==.mp3</Metadata>
+    <Metadata name="srclinkFile">RWxlYW5vciBSaWdieQ==.mp3</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Audio</Metadata>
+    <Metadata name="Title">Eleanor Rigby</Metadata>
+    <Metadata name="Identifier">HASH01a61c27be78a33561bd3425</Metadata>
+    <Metadata name="lastmodified">1544417186</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528985</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH01a6.dir</Metadata>
+    <Metadata name="gsdlassocfile">RWxlYW5vciBSaWdieQ==.mp3:audio/mp3:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

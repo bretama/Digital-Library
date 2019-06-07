@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<!DOCTYPE TutorialList [
+     <!ENTITY nbsp "&#160;">
+     <!ENTITY rarr "&#8594;">
+     <!ENTITY mdash "&#8212;">
+]>
+<!-- Romanian GLI Help, translated by Constantinescu Nicolaie --> 
+<Document>
+<Section name="introduction">
+<Title>
+<Text id="1">Introducere</Text>
+</Title>
+<Text id="2">Interfaţa Bibliotecarului este un instrument pentru colectarea documentelor, adăugarea metadatelor şi apoi construirea colecţiilor bibliotecii digitale. Aceasta furnizează accesul la funcţionalităţile Bibliotecii Digitale Greenstone din perspectivă unei interfeţe grafice.</Text>
+<Section name="ofmiceandmenus">
+<Title>
+<Text id="3">Despre Şoricei şi Meniuri</Text>
+</Title>
+<Text id="4">Această secţiune vă furnizează informaţia de bază privind interacţiunea cu Interfaţa Bibliotecarului. Dacă sunteţi familiari cu programe precum Internet Explorer sau Microsoft Office şi folosiţi mouse-ul şi meniurile, atunci săriţi la <Reference target="howtoavoidthisdocument"/>.</Text>
+<Text id="5">Interafaţa Bibliotecarului urmăreşte convenţiile microsoft Windows şi se structurează după modul de lucru în mediul Windows.</Text>
+<Text id="6">oricare parte a ecranului cu care interacţionaţi precum butoane sau cîmpuri text este denumit generic „control”. În oricare moment, un control denumit „focus”, este subliniat şi interacţionează cu tastatura. Cîteva controale permit selectarea părţilor care sunt subliniate cu albastru închis. Câteva controale sunt de culoare gri indicând faptul că sunt inactive.</Text>
+<Text id="7">Funcţiile mouse-ului sunt aceleaşi. Multe dintre componente permit de asemenea operaţiunea „drag” şi „drop”. Diferitele fereste îşi modică aparenţa atunci când o componentă este deasupra acestora.</Text>
+<Text id="8">Puteţi folosi tastatura pentru a completa câmpurile text. [Tab] vă termite să navigați printre multiplele câmpuri text.</Text>
+<Text id="11">Ieşiţi din programul Interfaţa Bibliotecarului prin selectarea lui „Exit” din meniul „Dosar”. Mai întâi va fi salvată colecţia şi apoi se va închide.</Text>
+</Section>
+<Section name="howtoavoidthisdocument">
+<Title>
+<Text id="12">Cum să evitaţi citirea acestui document</Text>
+</Title>
+<Text id="13">Nu vă apucaţi să citiţi textul sistemului de asistenţă de la cap la coadă ! Citiţi atât cât să învăţaţi cum să primiţi ajutor atunci când aveţi nevoie.</Text>
+<Text id="14">Elementul din meniul de „Asistenţei” marchează ceea ce ar trebui să fie cel mai apropiat punct de sprijin fiind marcat cu un icon reprezentând o carticică.</Text>
+<Text id="15">Pentru cele mai multe dintre controale dacă poziţionaţi cursorul deasupra acestora, apare un dialog de ajutor contextual (tool tip), care vă va dirija în ceea ce trebuie să faceţi.</Text>
+<Text id="16">Înainte de a utiliza Interfaţa Bibliotecarului, mai întâi citiţi documentaţia Greenstone.</Text>
+</Section>
+</Section>
+<Section name="startingoff">
+<Title>
+<Text id="17">Pornire</Text>
+</Title>
+<Text id="18">Această secţiune acoperă modalităţile de creare, încărcare, salvare şi ştergere a colecţiilor.</Text>
+<Section name="creatingacollection">
+<Title>
+<Text id="19">Crearea unei Noi Colecţii</Text>
+</Title>
+<Text id="20">Pentru a crea o nouă colecţie, deschideţi meniul „Dosar” şi alegeţi „Nou”. Câteva câmpuri trebuie să fie completate; valorile pot fi schimbate mai târziu dacă acest lucru este necesar din panoul de Formatare (Vizualizarea Formatului).</Text>
+<Text id="21">„Titlul colecţiei” este textul afişat în capul paginii colecţiei. Acesta poate avea orice lungime.</Text>
+<Text id="22">„Descrierea conţinutului” ar trebui să afişeze cât mai multe detalii posibil despre colecţie. Utilizaţi tasta [Enter] pentru a o sparge în paragrafe.</Text>
+<Text id="23">În final, trebuie specificat dacă noua colecţie va avea aceeaşi aparenţă şi seturi de metadate ca o colecţie deja existentă sau dacă porniţi o „Colecţie Nouă”. Noile colecţii au o configurare standard şi folosesc setul de metadate Dublin Core. Acest lucru se poate modifica ulterior.</Text>
+<Text id="24">Apăsaţi pe „OK” pentru a crea colecţia.</Text>
+<Text id="25">Apăsând pe „Anulare” vă întoarceţi imediat în panoul principal.</Text>
+</Section>
+<Section name="savingacollection">
+<Title>
+<Text id="26">Salvarea Colecţiei</Text>
+</Title>
+<Text id="27">Salvaţi munca dumneavoastră în mod regulat prin deschiderea meniului „Dosar” şi alegerea opţiunii „Salvare”. Salvarea unei colecţii nu este acelaşi lucru cu pregătirea acesteia pentru a fi utilizată în Greenstone (vezi <Reference target="producingthecollection"/>).</Text>
+<Text id="28">Interfaţa Bibliotecarului protejează munca dumneavoastră prin salvare atunci când părăsiţi programul sau este încărcată altă colecţie.</Text>
+<Text id="29a">Colecţiile sunt salvate într-un director din cadrul directorului de instalare pentru „colectare” denumit cu o versiune scurtă a numelui colecţiei. Documentele sunt salvate în subdirectorul „importare” iar metadatele sunt salvate în fişierele „metadata.xml” din cadrul acestui director. Informaţia de configurare este salvată în fişierul „colect.cfg” din cadrul subdirectorului „etc”. Unele informaţii sunt salvate de asemenea într-un fişier denumit după colecţie având extensia „.col”. </Text>
+</Section>
+<Section name="openingacollection">
+<Title>
+<Text id="30">Deschiderea unei colecţii existente</Text>
+</Title>
+<Text id="31">Pentru a deschide o colecţie alege „Deschide” din meniul „Fişier” pentru a ajunge la prompterul Colecţiei. Apare o listă a colecţiilor disponibile. Selectaţi una pentru a-i vedea descrierea şi apăsaţi pe „Deschide” pentru a o încărca.</Text>
+<Text id="32">În cazul în care rulează mai mult de o interfaţă Greenstone în acelaşi timp, directoarele relevante sunt „blocate” pentru a preveni interferenţele. La deschiderea unei colecţii, este creat un mic fişier temporar de blocare în directorul acestuia. Înainte de a deschide o colecţie, Interfaţa Bibliotecarului verifică să nu cumva ca acest fişier de blocare să existe deja. Oricum, atunci când se iese repede din Interfaţa Bibliotecarului fişierul de bocare rămâne activ în director. În acest caz, la deschiderea unei colecţii, bibliotecarul te întreabă dacă vrei să „preiei” controlul acesteia. Poţi face acest lucru dacă ai certitudinea că altcineva lucrează la aceeaşi colecţie.</Text>
+<Text id="33">Când deschizi o colecţie pe care Interfaţa Bibliotecarului Greenstone nu a creat-o, îi va fi atribuit setul de metadate Dublin Core iar oricare metadate existente vor fi importate în acelaşi mod cum se întâmplă în cazul în care trageţi fişierele ce au metadate. Procesul este descris în secţiunea <Reference target="importingpreviouslyassignedmetadata"/></Text>
+</Section>
+<Section name="deletingcollections">
+<Title>
+<Text id="34">Ştergerea Colecţiilor</Text>
+</Title>
+<Text id="35">Pentru a elimina permanent colecţii din sistemul Greenstone instalat, alegeţi „Şterge...” din meniul „Dosar”. Va apărea o listă a colecţiilor. Selectaţi una dintre acestea pentru a-i vedea descrierea, bifaţi căsuţa de la finalul dialogului şi apăsaţi „Şterge”. Această acţiune este ireversibilă. Vă rugăm să procedaţi cu mare atenţie.</Text>
+</Section>
+</Section>
+<Section name="downloadingfiles">
+<Title>
+<Text id="36">Descărcarea fişierelor din Internet</Text>
+</Title>
+<Text id="37">Panoul <AutoText key="glidict::GUI.Download"/> te ajută să descarci resurse din Internet. Această secţiune explică procedeul de descărcare din Interfaţa Bibliotecarului.</Text>
+<Section name="themirrorview">
+<Title>
+<Text id="38">Panoul de Descărcare</Text>
+</Title>
+<Text id="39">Această secţiune descrie cum se poate configura o operaţiune de descărcare şi controlul procesului de download. Accesaţi panoul <AutoText key="glidict::GUI.Download"/> prin accesarea opţiunii. Jumătatea superioară a ecranului arată instrumentele de control ale descărcării. Jumătatea inferioară, iniţial, este goală, dar va prezenta o listă de operaţiuni de descărcare, care, fie sunt în aşteptare, fie sunt încheiate. </Text>
+<Text id="39a">Există câteva protocoale care pot fi folosite pentru descărcarea înregistrărilor, iar aceste sunt afişate în partea stângă sus.</Text>
+<Text id="39b"><b>Web:</b> descarcă pagini web şi fişiere via HTTP şi FTP.</Text>
+<Text id="39c"><b>OAI:</b> descarcă înregistrări de metadate dintr-un server OAI (Open Archive Initiative).</Text>
+<Text id="39d"><b>Z3950:</b> descarcă de la un server înregistrările Z3950 MARC care corespund unor anume criterii de căutare.</Text>
+<Text id="39e"><b>SRW:</b> descarcă înregistrări MARCXML care se potrivesc cu un anumit criteriu de căutare de la un server SRW.</Text>
+<Text id="39f">Selectaţi tipul corespunzător prin alegerea acestuia din lista de pe partea stângă. Partea dreaptă prezintă opţiunile disponibile pentru tipul de descărcare selectat. Pentru a afla ce face o opţiune, poziţionaţi cursorul deasupra acesteia: va apărea o fereastră cu explicaţiile referitoare la opţiunea în cauză. Unele dintre opţiuni sunt „opţionale”: acestea sunt însoţite de o căsuţă de validare care trebuie bifată pentru ca opţiunea să fie folosită. Unele dintre ele sunt „necesare”: acestea nu au o căsuţă de validare şi trebuie introdusă o valoare înainte de a porni descărcarea.</Text>
+<Text id="39g">Din moment ce configurarea a fost făcută, apăsaţi pe <AutoText key="glidict::Download.ServerInformation"/> pentru a verifica conexiunea la server şi pentru a vedea informaţii generale despre pagină sau server sau puteţi apăsa pe <AutoText key="glidict::Mirroring.Download"/> pentru a începe descărcarea.</Text>
+<Text id="39g-1">Există două butoane: „Preferinţe”, care se leagă la secţiunea conexiuni a Preferinţelor, de unde setările de proxy pot fi editate şi „Curăţa Cache”, care şterge toate fişierele anterior descărcate. Va fi nevoie să fie setată informaţia privind proxy-ul, dacă se foloseşte un server proxy pentru conectarea la Internet. Dacă este necesară autentificarea atunci când este efectuată o descărcare, serverul proxy va cere detaliile de autentificare. Interfaţa Bibliotecarului nu stochează parole între sesiuni.</Text>
+<Text id="40">Fişierele sunt descărcate într-un director numit <AutoText key="glidict::Tree.DownloadedFiles"/> (prezent doar atunci când opţiunea de descărcare este activă) şi poate fi utilizat în oricare dintre colecţii. Fişierele sunt numite după URL-ul complet (pentru descărcările de pe web) sau o combinaţie de URL şi valori ale unor opţiuni (pentru alte tipuri de descărcări). Pentru fiecare host este creat câte un director urmat de altele pentru fiecare parte a căii. Acest lucru se face pentru a se asigura că fiecare fişier este distinct.</Text>
+<Text id="42">Lista de descărcări are o intrare pentru fiecare operaţiune deja încheiată. Fiecare intrare are o zonă de text care oferă detaliile unei operaţiuni împreună cu bara de progres care arată activitatea curentă. În partea stângă a fiecărei intrări apar trei butoane. „Pauză” este utilizat pentru a opri temporar o operaţiune. „Vezi Jurnalul” deschide o fereastră care prezintă conţinutul fişierului descărcat. „Închide” opreşte descărcarea şi scoate operaţiunea de pe listă.</Text>
+</Section>
+</Section>
+<Section name="collectingfiles">
+<Title>
+<Text id="44">Colectarea fişierelor pentru Colecţie</Text>
+</Title>
+<Text id="45">Din moment ce a fost iniţiată o nouă colecţie, aceasta trebuie să conţină nişte fişiere. Acestea pot proveni din zona computerului pe care lucraţi, din rândul unor fişiere descărcate de curând sau chiar din cadrul altor colecţii Greenstone. Este posibil ca unele dintre acestea să aibe deja ataşate metadate. Această secţiune descrie  cum se pot importa fişiere.</Text>
+<Section name="thegatherview">
+<Title>
+<Text id="46">Panoul de Colectare</Text>
+</Title>
+<Text id="47">Această secţiune introduce zona de Colectare folosită pentru a selecta care fişiere să fie incluse în colecţia construită. Interfaţa Bibliotecarului porneşte cu zona de Colectare. Pentru a se întoarce la acest panou, apăsaţi pe opţiunea <AutoText key="glidict::GUI.Gather"/> direct mai jos de bara de meniu.</Text>
+<Text id="48">Cele două zone mari denumite „Spaţiu de Lucru” şi „Colecţie” sunt utilizate pentru a muta fişierele în cadrul colecţiei proprii. Acestea conţin „arbori de fişiere” care reprezintă fişiere şi directoare.</Text>
+<Text id="49">Selectaţi un element din arbore prin apăsarea pe acesta. (Există şi alte căi; vezi mai jos). Daţi dublu-click pe un director, sau un singur click pe simbolul de deschidere de lângă, pentru a extinde (sau constrânge) conţinutul său. Apăsaţi dublu-click pe un fişier (sau click dreapta şi selectaţi <AutoText key="glidict::Menu.Open_Externally"/>) pentru a-l deschide folosindu-se programul de aplicaţie asociate (vezi <Reference target="fileassociations"/>).</Text>
+<Text id="50">Arborele fişierelor din Spaţiul de Lucru arată sursele de date disponibile Interfeţei Bibliotecarului -- sistemul local de fişiere (fiind incluse hard discul şi CD/DVD-ROM-urile), conţinutul colecţiilor Greenstone deja existente şi zona de preîncărcare (cache) a fişierelor descărcate. Aceste fişiere pot fi copiate şi vizualizate, dar nu pot fi mutate, şterse sau editate cu excepţia celor descărcate, care pot fi şterse. Puteţi naviga în acest spaţiu pentru a căuta fişierele dorite a fi incluse în colecţie.</Text>
+<Text id="51">Arborele Colecţiei reprezintă conţinutul colecţiei până în acest moment. Iniţial acesta este nepopulat.</Text>
+<Text id="52">Se pot redimensiona spaţiile prin poziţionarea cursorului mouseului peste bara gri care separă arborele (în acest moment se schimbă forma cursorului) şi se trage.</Text>
+<Text id="53">La partea inferioară a ferestrei există o zonă de stare care arată progresul acţiunilor implicând fişierele (copiere, mutare şi ştergere). Acestea pot să ia ceva timp pentru a fi încheiate.
+Butonul „Stop” opreşte orice acţiune care se desfăşoară în mod curent.</Text>
+<Text id="54">Două butoane mari ocupă colţul dreapta jos al ecranului. „Director Nou” având imaginea unui director are ca efect crearea de noi directoare (vezi <Reference target="creatingfolders"/>). „Şterge” având imaginea unui coş de gunoi, elimină fişierele. Apăsând pe butonul Şterge va avea ca efect eliminarea oricăror fişiere selectate din arborele de fişiere al colecţiei. Alternativ, fişierele pot fi şterse prin tragerea acestora peste butonul Şterge.</Text>
+<Text id="55">Pentru a selecta câteva elemente în serie, se selectează pe primul, se ţine apăsată tasta [Shift] şi se apasă pe ultimul - selecţia va considera toate elementele dintre. Selectarea de elemente non-secvenţiale se ţine apăsată tasta [Ctrl] în timp ce se face selecţia. Aceste două metode sunt folosite împreună pentru a selecta grupuri de elemente neadiacente.</Text>
+</Section>
+<Section name="creatingshortcuts">
+<Title>
+<Text id="55a">Crearea unei scurtături în Arborele de Lucru</Text>
+</Title>
+<Text id="56">Anumite directoare precum cel care conţine paginile web personale, uneori au o semnificaţie specială. Dacă se doreşte, Interfaţa Bibliotecarului le poate mapa la nivelul superior al arborelui fişierelor. Pentru a face acest lucru daţi clic-dreapta pe directorul dorit. Selectaţi „Crează scurtătură” şi introduceţi un nume pentru director. Pentru a elimina un element, daţi clic-dreapta pe directorul mapat şi selectaţi „Elimină Scurtătură”.</Text>
+</Section>
+<Section name="creatingfolders">
+<Title>
+<Text id="57">Crearea Directoarelor</Text>
+</Title>
+<Text id="58">Utilizaţi directoarele din arborele directoarelor Colecţiei pentru a grupa fişiere şi pentru a le face mai uşor de găsit. Directoarele pot fi puse ca subdirectoare în alte directoare. Această procedură nu are vreo limitare indiferent de număr sau adâncime.</Text>
+<Text id="59">Pentru a crea un nou director, selectaţi la alegere un director existent din Arborele Colecţiei şi apăsaţi pe butonul Director Nou. Noul director apare în cadrul celui selectat sau la partea superioară, dacă nu este selectat niciunul. Vi se va cere să precizaţi numele directorului (implicit se va pune numele „Director nou”).</Text>
+<Text id="60">Directoarele pot fi create, de asemenea prin clic-dreapta pe Arborele Colecţiei sau peste un director, de unde se alege „Director Nou” şi se procedează ca mai sus.</Text>
+</Section>
+<Section name="addingfiles">
+<Title>
+<Text id="61">Adăugarea Fişierelor</Text>
+</Title>
+<Text id="62">Fişierele pot fi copiate în colecţie prin drag &amp; drop. Cursorul mouseului se estompează având forma elementului selectat (iar dacă sunt selectate mai multe, în numărul acestora). Elementele selectate sunt puse în Arborele Colecţiei (dacă sursa a fost Arborele de Lucru) sau se pot muta în cadrul aceleiaşi colecţii (dacă sursa a fost Arborele Colecţiei).</Text>
+<Text id="63">Atunci când sunt copiate fişiere multiple, acestea sunt plasate în directorul ţintă la acelaşi nivel indiferent de structura directorului din care provin. Atunci când copiaţi un al doilea fişier având acelaşi nume în acelaşi director, vi se va cere dacă doriţi să-l suprascrieţi peste cel existent. Răspunzând cu „Nu” veţi anula copierea fişierului, dar cele care nu au astfel de conflicte vor fi totuşi copiate. Pentru a anula toate operaţiunile de copiere, apăsaţi pe butonul „stop”.</Text>
+<Text id="64">Doar cele mai „înalte” elemente sin selecţie vor fi mutate. Un director este considerat pe o poziţie superioară faţă de copii săi. Nu pot fi selectate fişierele dintr-un director, precum şi directorul însuşi (fişierele sunt directorul).</Text>
+<Text id="65">Atunci când adaugi un fişier, Interfaţa Bibliotecarului caută prin directoarele sursă după fişiere auxiliare ce conţin metadate atribuite anterior fişierelor adăugate, iar dacă acestea sunt găsite, se procedează la importul acestor metadate. Pe măsură ce se desfăşoară această operaţiune, vi se va cere (de câteva ori) unele informaţii în plus pentru metadatele importate care se aranjează după seturile de metadate ale colecţiei. Acest proces implică multe promptări distincte descrise în secţiunea <Reference target="importingpreviouslyassignedmetadata"/>. Pentru o explicaţie mai detaliată a metadatelor asociate cu fişierele, puteţi citi Capitolul 2 din Ghidului Dezvoltatorului Greenstone -- Obţinerea a cât mai mult din documentele colecţiei</Text>
+<Text id="65a">Poţi să adaugi un document „figurant” la colecţie prin click-dreapta în Arborele Colecţiei sau pe director, unde selectaţi „Document figurant nou”. Acest lucru va crea un nou fişier gol asupra căruia pot fi asignate metadate. Fişierul poate fi înlocuit cu un fişier „real” la un moment ulterior.</Text>
+</Section>
+<Section name="replacingfiles">
+<Title>
+<Text id="65b">Redenumirea şi Înlocuirea Fişierelor</Text>
+</Title>
+<Text id="65c">Fişierele pot fi redenumite prin click-dreapta pe acestea şi selectarea opţiunii „Redenumeşte” din listă. Introduceţi noul nume şi apăsaţi pe OK.</Text>
+<Text id="65d">Directoarele pot fi înlocuite în colecţie prin apăsarea click-dreapta pe acel director şi optarea pentru „Înlocuire”. Se va deschide un panou de navigare: mergeţi la noul document şi apăsaţi „Deschide”. Noul document îl va înlocui pe cel vechi din colecţie iar metadatele vor fi transferate acestuia din urmă. Acest lucru se dovedeşte a fi util  în cazul înlocuirii documentelor figurant cu cele adevărate.</Text>
+</Section>
+<Section name="removingfiles">
+<Title>
+<Text id="66">Eliminare Fişiere</Text>
+</Title>
+<Text id="67">Există mai multe metode de eliminare a fişierelor şi directoarelor. Mai întâi trebuie indicate elementele care trebuie eliminate prin selectarea unuia sau a mai multor fişiere şi directoare după cum este descris în <Reference target="thegatherview"/>.</Text>
+<Text id="68">Din moment ce fişierele au fost selectate, apăsaţi pe butonul „şterge” pentru a-l elimina sau apăsaţi tasta [Delete] a tastaturii ori trageţi-l din colecţie pe butonul de ştergere, unde-i daţi drumul.</Text>
+</Section>
+<Section name="explodingfiles">
+<Title>
+<Text id="exm-1">„Destinderea” Fişierelor de Metadate</Text>
+</Title>
+<Text id="exm-2">Tipurile de fişiere specifice bazelor de date pentru metadate precum MARC, CDS/ISIS, BibTex, Refer şi Procite pot fi importate în Greenstone, dar metadatele acestora nu pot fi văzute sau editate în Interfaţa Bibliotecarului. Pentru a vedea şi edita metadatele, va trebui să vă întoarceţi la programul care a generat fişierul.</Text>
+<Text id="exm-3">„Destinderea” unui fişier de metadate al unei baze de date împarte conţinutul acestuia în înregistrări individuale, care prezintă metadate vizibile şi editabile. Acest proces este ireversibil: fişierul de metadate original este şters.</Text>
+<Text id="exm-4">Directoarele care pot fi destinse au o pictogramă verde în arborele colecţiei. Pentru a destinde unul, apăsați clic dreapta şi optaţi pentru „Destinde baza de metadate”. O fereastă popup arată opţiunile care privesc procesul de destindere. Prima opţiune („extensie”) specifică extensia necesară destinderii. În cele mai multe cazuri, doar un singur plugin va procesa un anumit tip de fişier, dar în unele cazuri, acolo unde diferite tipuri de fişiere partajează aceeaşi extensie, pot fi două pluginuri care să proceseze fişierul care necesită respectiva extensie. Opţiunea „codarea_intrărilor” poate fi utilizată pentru a specifica codarea bazei de date. Opţiunea „set_de_metadate” specifică setul de metadate al cărui câmpuri generate prin destindere ar trebui să fie completate. Dacă nu este specificat niciunul vi se va cere ce trebuie făcut cu fiecare câmp din baza de date: adăugaţi-l ca pe un nou element la un set de metadate existent, fuzionaţi-l cu un alt element sau pur şi simplu ignoraţi-l.</Text>
+<Text id="exm-5">Atunci când este destins un document este creat un document gol pentru fiecare înregistrare, iar metadatele înregistrării sunt atribuite documentului. Acestea sunt denumite folosindu-se numere precum 000001.nul, 000002.nul etc. Dacă este setată opţiunea „document_field” (câmpului rezervat numeleui fişierului bazei de date), valoarea acestui câmp, dacă aceasta există, va fi utilizată pentri a denumi fişierul. Procesul de destindere va încerca, de asemenea, să descarce fişierul şi să-l folosească în locul unui fişier gol. Opţiunile „document_prefix” şi „document_suffix” pot fi utilizate pentru a construi un URL valid cau calea la un fişier pornind de la valoarea lui document_field. Opţiunea „records_per_folders” poate fi utilizată pentru a grupa înregistrările destinse în subdirectoare. Dacă baza de date este foarte mare, folosirea acestei opţiuni va accelera editarea subsecventă a metadatelor.</Text>
+<Text id="exm-6">Capacitatea de destindere este determinată de extensia fişierului. În unele cazuri, fişierele pot fi etichetate incorect ca expandabile dacă acestea au aceeaşi extensie precum fişierele care pot fi destinse. De exemplu, plugin-ul ProCite procesează fişierele având extensia .txt, dar marea majoritate a fişierelor .txt sunt de fapt fişiere text simple şi nu fişiere ProCite.</Text>
+</Section>
+<Section name="filteringthetree">
+<Title>
+<Text id="69">Filtrarea Arborilor</Text>
+</Title>
+<Text id="70">„Filtrarea” colecţiei şi a arborilor colecţiei vă permite limitarea căutării pentru anumite fişiere.</Text>
+<Text id="71">Meniul derulant „Arată Fişierele” de sub fiecare arbore arată o listă de filtre predefinite, precum „Imagini”. Alegăndu-se această opţiune se ascund temporar toate celelalte fişiere din arbore. Pentru a restaura arborele, schimbaţi filtrul la opţiunea iniţială „Toate Fişierele”. Aceste operaţiuni nu modifică colecţia şi nici nu afectează fişierele din arbore.</Text>
+<Text id="72">Puteţi specifica un filtru particularizat prin introducerea unui şablon de potrivire a fişierelor (doar în modul de operare Specialist în Sisteme de Bibliotecă şi cel Expert). Utilizaţi abrevierile standard pentru fişiere precum „*.doc” („*” substituie orice caracter).</Text>
+</Section>
+</Section>
+<Section name="enrichingacollection">
+<Title>
+<Text id="73">Îmbogăţirea Colecţiei proprii cu Metadate</Text>
+</Title>
+<Text id="74">După colectarea câtorva fişiere şi directoare în colecţie, acestea pot fi îmbogăţite cu informaţii adiţionale numite „metadate”. Această secţiune explică cum sunt create metadatele, cum sunt editate, atribuite şi regăsite, precum şi cum sunt utilizate sursele externe de metadate (vezi, de asemenea Capitolul 2 al Ghidului Dezvoltatorului Greenstone -- Obţinerea maximului din documente).</Text>
+<Section name="theenrichview">
+<Title>
+<Text id="75">Panoul de Îmbogăţire</Text>
+</Title>
+<Text id="76">Folosiţi modul <AutoText key="glidict::GUI.Enrich"/> pentru a asigna metadate documentelor din colecţie. Metadatele se referă la date -- în mod curent la titlu, autor, data creării ş.a.m.d. Fiecare element de metadate are două părţi: <AutoText key="glidict::Metadata.Element"/> spune ce fel de element este (precum autor, de exemplu), iar <AutoText key="glidict::Metadata.Value"/> arată valoarea acelui element (de exemplu, numele autorului).</Text>
+<Text id="77">La stânga panoului <AutoText key="glidict::GUI.Enrich"/> se află Arborele Colecţiei. Sistemul opţiunilor contextuale accesate prin click dreapta care a fost disponibil pentru Arborele Colecţiei, panoul <AutoText key="glidict::GUI.Gather"/>, sunt disponibile şi aici. La dreapta este Tabelul Metadatelor, care arată metadatele pentru fişierele sau directoarele selectate din Arborele Colecţiei. Coloanele poartă denumirea de culoare gri la partea superioară şi pot fi redimensionate prin delimitarea cu o linie de separare. Dacă sunt selectate mai multe fişiere şi directoare, culoarea neagră a textului indică faptul că au o valoare comună pentru toate, în timp ce textul gri indică contrariul. Editarea valorilor indicate cu gri va afecta doar acele documente care poartă acea valoare de metadate. Oricare valori noi introduse, vor fi adăugate valorilor deja selectate.</Text>
+<Text id="78">Alăturat unor intrări de metadate este posibil să apară pictograma unui director. Acest lucru indică că valorile sunt moştenite de la un director părinte (sau străbun). Metadatele moştenite nu pot fi editate sau eliminate, pot fi doar preluate sau suprascrise. Apăsaţi pe pictograma directorului pentru a merge imediat în directorul asupra căruia sunt atribuite metadatele.</Text>
+<Text id="79">Apăsând pe un element de metadate din tabel vor fi afişate valorile existente pentru acel element din zona <AutoText key="glidict::EnrichPane.ExistingValues" args="..."/> de mai jos de tabel. Aceast „Arbore de Valori” este extensibil şi poate fi restrâns. De obiceise prezintă sub forma unei liste care arată toate valorile introduse anterior pentru elementul selectat. Apăsând pe o intrare o plasează automat pe aceasta în câmpul destinat valorii. Reciproc, introducând valoarea manual în câmpul de text are ca efect selectarea valorii din Arborele Valorilor care începe cu literele tocmai introduse. Apăsarea pe tasta [Tab] are ca efect autocompletarea restului valorii tocmai introduse în baza potrivirii automate mai sus menţionate.</Text>
+<Text id="80">Valorile metadatelor pot fi organizate ierarhic. Acest lucru este vizibil în Arborele Valorilor, unde sunt folosite directoarele pentru crearea nivelurilor interne. Valorile ierarhice pot fi introduse folosindu-se caracterul „|” pentru separarea nivelurilor. De exemplu, „Bibliotecă|Cărţi|Beletristică|Romantism” poate fi folosit într-o ierarhie care prezintă structura unei biblioteci reale. Astfel este posibilă gruparea valorilor împreună. De asemenea, grupurile pot fi atribuite ca metadate fişierelor sau directoarelor.</Text>
+<Text id="81">Greenstone extrage metadatele automat din documente într-un set de metadate ale cărui elemente sunt prefixate cu „ex.”. Acesta nu are valori în arbore şi nu poate fi editat.</Text>
+</Section>
+<Section name="selectingmetadatasets">
+<Title>
+<Text id="82">Selectarea Seturilor de Metadate</Text>
+</Title>
+<Text id="83">Seturi de elemente de metadate predefinite numite ca „seturi de metadate”. Un exemplu este setul de metadate Dublin Core. Atunci când adaugi un set de metadate la colecţie, elementele sale sunt disponibile selectării. Pot exista mai mult de un singur set; pentru a preveni conflictul de nume se pune în vedere un mic identificator care identifică metadatele pentru un nume de element. De exemplu, elementul Creator, care face parte din Dublin Core, devine „dc.Creator”. Seturile de Metadate sunt stocate în directorul metadatelor al Interfeţei Bibliotecarului şi au sufficul „.mds”.</Text>
+<Text id="84">Atunci când este creată o nouă colecţie, setul de metadate Dublin Core este adăugat automat. Pot fi selectate care dintre seturile de metadate sunt utilizate într-o colecţie prin apăsarea pe butonul „Gestiunea Seturilor de Metadate...” de sub Arborele Colecţiei din fereastra extinsă. Aceasta are ca efect deschiderea unei noi ferestre pentru gestionarea seturilor de metadate ale colecţiei.</Text>
+<Text id="84a">Lista „Seturi de Metadate Atribuite” arată care dintre seturi sunt atribuite curent în cadrul colecţiei.</Text>
+<Text id="84b">Pentru a utiliza un alt set de metadate împreună cu o colecţie încărcată, apăsaţi pe „Adaugă...”. Va apărea o fereastră care vă va arăta seturile prezente implicit despre care GLI ştie. Pentru a adăuga unul dintre acestea, selectaţi-l din listă şi apăsaţi pe „Adaugă”. Dacă aţi definit setul de metadate propriu, puteţi utiliza butonul „Navighează” pentru a localiza fişierul în cadrul sistemului de fişiere.</Text>
+<Text id="84c">Pentru a crea un nou set de metadate, apăsaţi pe „Nou...”. Acest pas va lansa Editorul Greenstone pentru Seturile de Metadate GEMS. Va apărea o fereastră în care vi se va cere numele setului, namespace-ul şi descrierea. De asemenea, puteți aşeza noul set peste unul preexistent, caz în care vor fi moştenite toate elementele din setul specificat. Apăsaţi pe OK. Fereastra principală arată elementele setul de metadate pe partea stângă iar câteva atribute ale setului în partea dreaptă. Dacă aţi poziţionat setul peste unul preexistent atunci vor fi afişate unul sau mai multe elemente. Apăsând pe unul din ele, vor fi afişate atributele elementului în partea dreaptă.</Text>
+<Text id="84d">Pentru a adăuga un nou element, daţi click dreapta pe numele setului şi alegeţi „Adaugă Element”. Pentru a adăuga un nou subelement, daţi click dreapta pe element şi alegeţi „Adaugă Subelement”. Elementele şi subelementele pot fi şterse alegând „Şterge (Sub)elementul” din meniul contextual accesat dând clic dreapta.</Text>
+<Text id="84e">Notă: Editorul Greenstone pentru Seturile de Metadate poate fi rulat independent de GLI prin selectarea acestuia din directorul Greenstone din Start menu sau prin rularea scripturilor gens.sh sau gems.bat din directorul gli al instalării Greenstone.</Text>
+<Text id="84f">Uneori două seturi de metadate pot avea aceleaşi namespace-uri, de exemplu, Dublin Core şi Dublin Core Calificat - ambele au acelaşi namespace „dc”. Astfel de seturi nu pot fi utilizate în colecţie în acelaşi timp. Dacă doriţi să adăugaţi un set cu un namespace deja folosit de colecţie, vă va fi semnalată această situaţie printr-un mesaj de avertisment. Dacă continuaţi cu această opraţiune, setul existent va fi eliminat şi va fi adăugat cel nou. Oricare valori de metadate, care au fost atribuite vor fi transferate noului set atâta vreme cât acele elemete există şi în setul nou introdus.</Text>
+<Text id="191">Având activ GEMS este posibilă editarea seturilor de metadate existente precum şi crearea unora noi. Apăsând butonul „Editare” este lansat GEMS având setul de metadate specific deschis. Din moment ce aţi terminat de editat setul (aşa cum este descris mai sus), salvaţi-l (Dosar->Salvare) şi închideţi GEMS.</Text>
+<Text id="192">Dacă una din colecţii nu mai are nevoie de un anume set de metadate, selectaţi-l şi apăsaţi pe „Elimină”. Dacă aţi atribuit metadate elementelor sale veţi fi rugat să precizaţi cum se va proceda cu aceste metadate la următoarea deschidere a colecţiei.</Text>
+</Section>
+<Section name="appendingmetadata">
+<Title>
+<Text id="85">Adăugarea Noilor Metadate</Text>
+</Title>
+<Text id="86">Acum adăugăm un element de metadate unui fişier -- deopotrivă elementul şi valoarea. În primul rând selectaţi fişierul din arborele de fişiere al colecţiei din partea stângă. Această acţiune are ca efect ca oricare metadate atribuite anterior acestui fişier sau director să apară în tabelul din dreapta.</Text>
+<Text id="87">Următorul pas este să selectaţi elementul de metadate care doriţi să-l adăugaţi prin selectarea acestuia din rândul corespunzător al tabelului.</Text>
+<Text id="88">Introduceţi valoarea în câmpul aferent. Utilizaţi caracterul „|” pentru a adăuga structură după cum este descris în <Reference target="theenrichview"/>. Apăsând tastele cursoare [Up] sau [Down] va salva valoarea de metadate şi va pune selecţia corespunzător. Apăsând pe tasta [Enter] va salva valorile de metadate şi va crea o nouă intrare goală pentru elementul de metadate permiţându-vă să atribuiţi multiple valori unui element de metadate. </Text>
+<Text id="89">Pot fi adăugate metadate unui director sau câtorva fişiere selectate împreună. Acestea sunt adăugate tuturor fişierelor din cadrul directorului sau selecţiei, precum şi directoarelor copil. Reţineţi faptul că atribuiţi metadate unui director iar toate fişierle adăugate în acesta moştenesc valorile directorului.</Text>
+</Section>
+<Section name="addingpreviouslydefinedmetadata">
+<Title>
+<Text id="90">Adăugarea de Metadate Definite Anterior</Text>
+</Title>
+<Text id="91">Pentru a adăuga metadate care au o valoare existentă, mai întâi selectaţi fişierul şi apoi selectaţi elementul de metadate care-l atribuiţi. Selectaţi apoi valoarea necesară din arborele valorilor destinzând ierarhia directoarelor după cum este necesar. Valoarea intrării selectate apare în câmpul pentru metadate (alternativ, folosiţi capacitatea de autoselect şi autocompletare ale arborelui).</Text>
+<Text id="92">Procesul de adăugare a metadatelor care au deja valori, unor directoare sau unei selecţii de multiple fişiere se face în acelaşi mod.</Text>
+</Section>
+<Section name="updatingmetadata">
+<Title>
+<Text id="93">Editarea sau Eliminarea Metadatelor</Text>
+</Title>
+<Text id="94">Pentru a edita sau elimina o parte de metadate, mai întâi selectaţi fişierul corespunzător şi apoi valoarea metadatelor din tabel. Editaţi câmpul valorii ştergând tot textul dacă se doreşte eliminarea metadatelor.</Text>
+<Text id="95">Procesul este identic ca atunci când se actualizează un director având subdirectoare sau fişiere multiple, dar metadatele pot fi actualizate doar dacă sunt aceleaşi pentru toate fişierele/directoarele selectate.</Text>
+<Text id="96">Arborele valorilor arată toate valorile curent atribuite, precum şi toate valorile anterioare pentru sesiunea curentă, astfel că modificarea sau ştergerea valorilor vor rămâne în arbore. Închiderea colecţiei şi redeschiderea acesteia va conduce la ştergerea tuturor valorilor care nu mai sunt atribuite.</Text>
+</Section>
+<Section name="reviewingmetadata">
+<Title>
+<Text id="97">Revizuirea Metadatelor Atribuite</Text>
+</Title>
+<Text id="98">Uneori trebuie să fie văzute metadatele atribuite mai multor fişiere în acelaşi timp -- de exemplu, pentru a determina câte fişiere au mai rămas şi care trebuie prelucrate sau pentru a-ţi face o idee asupra întinderii datelor.</Text>
+<Text id="99">Selectaţi fişierele din Arborele Colecţiei pe care doriţi să le examinaţi, apoi clic-dreapta şi alegeţi „Metadate Atribuite...”. Apare o fereastră numită „Toate Metadatele” dominată de un tabel cu multe coloane. Prima coloană arată numele fişierelor iar rândurile arată toate valorile de metadate atribuite acelor fişiere.</Text>
+<Text id="100">Trasarea unui tabel poate să ia ceva timp mai ales dacă sunt selectate mai multe fişiere. Puteţi să utilizaţi în continuare Interfaţa Bibliotecarului în timp ce este deschisă fereastra „Toate Metadatele”.</Text>
+<Text id="101">Atunci când aceasta devine prea mare, se poate filtra tabelul „Toate Metadatele” prin aplicarea filtrelor asupra coloanelor. Pe măsură ce sunt adăugate noi filtre, doar acele rânduri care se potrivesc vor rămâne vizibile. Pentru a seta, modifica sau curăţa un filtru, apăsaţi pe iconul „pâlnie” de la partea superioară a coloanei. Vi se vor cere mai multe informaţii privind filtrul. Din moment ce este setat un filtru, capul coloanei îşi modifică culoarea.</Text>
+<Text id="102">Propmtul pentru filtrări are două opţiuni: „Simple” şi „Avansate”. Versiunea simplă filtrează coloanele astfel încât acestea prezintă doar rânduri, care conţin o anume valoare de metadate ("*" pentru toate valorile). Pot fi selectate valori ale metadatelor din lista derulantă. Versiunea avansată permite diferite operaţiuni de regăsire: trebuie să înceapă cu, nu conţine, alfabetic, fără şi este egal cu. Valorile regăsite pot fi editate să fie oricare şir (incluzând "*"). Poate fi aleasă opţiunea de căutate să nu fie case sensitive. În fine, poate fi specificat un al doilea criteriu de  regăsire pentru a specifica gama de valori (prin folosirea lui AND) sau a valorilor alternative (prin selectarea operatorului OR). Sub această zonă există o opţiune de schimbare a ordinii de sortare (ascendentă sau descendentă). Din moment de aţi terminat, apăsaţi pe „Setare filtru” pentru a aplica noul filtru asupra coloanei. Apăsaţi pe „Elimină Filtru” pentru a renunţa la filtrul curent. Trebuie notat că detaliile filtrelor sunt reţinute totuşi chiar dacă filtrul nu mai este în vigoare.</Text>
+<Text id="103">De exemplu, pentru a sorta tabelul „Toate Metadatele”, alegeţi o coloană, selectaţi filtrul implicit (un filtru Simplu după "*") şi alegeţi ordonare ascendentă sau descendentă.</Text>
+</Section>
+<Section name="importingpreviouslyassignedmetadata">
+<Title>
+<Text id="104">Importarea Metadatelor Asignate Anterior</Text>
+</Title>
+<Text id="105">Această secţiune descrie cum se importă metadate anterior atribuite: metadatele atribuite documentelor înainte de a fi adăugate colecţiei.</Text>
+<Text id="106">Dacă metadatele într-o formă recunoscută de Interfaţa Bibliotecarului au fost atribuite anterior unui fişier -- de exemplu, atunci când alegi documentele dintr-o colecţie Greenstone existentă -- acestea sunt importate automat atunci când adaugi un fişier. Pentru a face acest lucru, metadatele trebuie să fie mapate peste seturile de metadate existente în colecţie.</Text>
+<Text id="107">Interfaţa Bibliotecarului cere informaţiile necesare. Prompterul oferă instrucţiuni scurte iar apoi arată numele medatelor elementului care este importat pe măsură ce apare în fişierul sursă. Acest câmp nu poate fi editat sau modificat. Următorul lucru este să  alegeţi ce set de metadate al noului element care ar trebui să corespundă iar apoi ce element de metadate corespunde cu acel set. Sistemul selectează automat cea mai evidentă potrivire în condiţiile setului şi ale elementului pentru noile metadate.</Text>
+<Text id="108">După verificarea mapărilor se poate alege „Adaugă” pentru a adăuga un nou element de metadate la setul de metadate ales. (Acesta este activat dacă nu există niciun alt element cu acelaşi nume în cadrul setului ales). „Fuzionează” are ca efect maparea noului element peste cele alese de utilizator.
+În final, „Ignoră” nu importă niciun element de metadate care are acest nume. Din moment ce au fost specificate detaliile de import ale unui anume număr de metadate, maparea informaţiilor este reţinută pe toată durata vieţii colecţiei.</Text>
+<Text id="109">Pentru detalii privind fişierele metadata.xml pe care sistemul Greenstone le foloseşte pentru a stoca metadatele, vezi Capitolul 2 al Ghidului Dezvoltatorului Greenstone -- Obţinerea a cât mai mult din documentele colecţiei.</Text>
+</Section>
+</Section>
+<Section name="designingacollection">
+<Title>
+<Text id="110">Configurarea Colecţiei</Text>
+</Title>
+<Text id="111">Din moment ce fişierele sunt marcate cu metadate, pasul următor trebuie să se ia decizia  cum trebuie să fie  accesate documentele de către utilizatori. Care dintre informaţii se pretează căutării ? Care sunt modalităţile de navigare printre documente ? Aceste lucruri pot fi particularizate iar această secţiune descrie cum puteţi face acest lucru.</Text>
+<Section name="thedesignview">
+<Title>
+<Text id="112">Panoul pentru Design</Text>
+</Title>
+<Text id="113">Această secţiune vă introduce în modul design şi vă explică cum să navigaţi printre diversele panouri.</Text>
+<Text id="114">Din Interfaţa Bibliotecarului se poate configura modul în care documentele sunt procesate şi cum cunt accesate colecţiile de către utilizatori. Opţiunile de configurare sunt divizate în secţiuni diferite, fiecare secţiune fiind asociată cu o anumită etapă a particularizării caracteristicilor colecţiei.</Text>
+<Text id="115">În partea stângă este o listă cu diferitele moduri de vizualizare, iar în dreapta sunt controalele asociate cu cel curent. Pentru a trece la un mod de vizualizare diferit, apăsaţi pe nnumele acestuia din listă.</Text>
+<Text id="116">Pentru a înţelege etapele şi termenii implicaţi în proiectarea colecţiei, mai întâi citiţi Capitolele 1 şi 2 al Ghidului Dezvoltatorului Greenstone.</Text>
+</Section>
+<Section name="plugins">
+<Title>
+<Text id="121">Extensiile documentului</Text>
+</Title>
+<Text id="122">Această secţiune descrie cum se pot configura extensiile documentului folosit de colecţie. Este explicat modul în care specifici care dintre extensii le foloseşti, care sunt parametrii care trebuie pasaţi lor şi ordinea în care apar. Sub opţiunea „Design”, apăsaţi pe „Extensiile documentului”.</Text>
+<Text id="123">Pentru a adăuga o extensie, selectaţi-o folosind lista derulantă „Selectează o extensie pentru adăugare” şi apăsaţi pe „Adaugă extensie”. Apare o fereastră numită „Configurarea argumentelor” - este descrisă în continuare. Din moment ce aţi configurat noua extensie, aceasta este adăugată la finalul listei de „Extensii atribuite”. În modul de operare Bibliotecar, fiecare extensie cu excepţia lui UnknownPlug poate fi prezentă doar o singură dată în colecţie. În modurile de operare mai înalte, extensiile  pot să apară de mai multe ori. Argumentul process_exp va trebui să fie setat pentru a face totul operaţional.</Text>
+<Text id="123aa">Pentru a vedea o descriere sumară a unei extensii, selectaţi-o din lista derulantă „Selectează o extensie pentru adăugare” iar apoi poziţionaţi mouse-ul deasupra. Va apărea un mesaj (tool-tip) cu descrierea.</Text>
+<Text id="124">Pentru a dezinstala o extensie, selectaţi-o din listă şi apăsaţi pe „Dezinstalează Extensia”.</Text>
+<Text id="125">Extensiile sunt configurate prin furnizarea de argumente. Pentru a le modifica, selectaţi extensia din listă şi apăsaţi pe „Configurează extensie” (sau dublu-clic pe extensie). Apare un dialog al „Configurării Argumentelor”, care dispune de variate mijloace de control pentru argumente specifice.</Text>
+<Text id="126">Există mai multe tipuri de control. Unele sunt exprimate prin căsuţe cu bifă care activează opţiunea în cazul punerii bifei. Altele sunt fragmente de text care au o căsută cu bifă şi un câmp de text aferent. Apăsaţi pe căsuţă pentru a confirma acel argument iar apoi introduceţi textul corespunzător (expresii regulate, căile directoarelor sau fişierelor, etc). Altele se prezintă sub forma de meniuri derulante din care puteţi selecţiona un anume set de valori. Pentru a înţelege ce face un argument, plasaţi cursorul mouseului deasupra numelui aceluia pentru un moment şi va apărea o descriere.</Text>
+<Text id="127">Atunci când se schimbă configuraţia, se apasă pe OK pentru a efectua schimbările şi pentru a se închide fereastra de dialog sau pe „Cancel” pentru a închide dialogul fără a modifica niciunul din argumentele pluginului. </Text>
+<Text id="128">Extensiile din listă sunt executate în ordine iar ordinea este de multe ori importantă. Ordinea extensiilor poate fi modificată doar în modurile Specialist în Sisteme de Bibliotecă şi Expert (vezi şi <Reference target="preferences"/>).</Text>
+</Section>
+<Section name="searchindexes">
+<Title>
+<Text id="134">Indexuri de căutare</Text>
+</Title>
+<Text id="si-1">Indexurile specifică în care dintre părţile colecţiei se pot face căutări. Această secţiune explică cum se adaugă sau se scot indexurile şi cum se adaugă un index implicit. Sub opţiunea <AutoText key="glidict::GUI.Design"/>, se apasă pe <AutoText key="glidict::CDM.GUI.Indexes"/>.</Text>
+<Text id="si-2">În partea dreaptă sus a panoului <AutoText key="glidict::CDM.GUI.Indexes"/> este afişată informaţia referitoare la indexator, care este utilizată în mod curent de colecţie. Aceasta poate fi modificată apăsând pe <AutoText key="glidict::CDM.BuildTypeManager.Change"/>. O fereastră va apărea cu lista opţiunilor: MG, MGPP şi Lucene. Această modificare afectează maniera în care este construit indexul şi poate afecta modul în care este construit indexul referitor la  funcţionalitate.</Text>
+<Text id="si-2a">Lista <AutoText key="glidict::CDM.IndexManager.Indexes"/> arată care dintre indexuri sunt atribuite actualmente colecţiei.</Text>
+<Text id="si-3">Pentru a adăuga un index, apăsaţi pe <AutoText key="glidict::CDM.IndexManager.New_Index"/>... Va apărea o fereastră cu o listă a surselor care includ text şi metadate. Selectaţi care dintre surse se doresc a fi indexate. Butoanele <AutoText key="glidict::CDM.IndexManager.Select_All"/> şi <AutoText key="glidict::CDM.IndexManager.Select_None"/> vor bifa sau invers toate elementele din listă. Din moment ce a fost definit un nou index, apăsaţi pe <AutoText key="glidict::CDM.IndexManager.Add_Index"/> pentru a-l adăuga colecţiei. 
+<AutoText key="glidict::CDM.IndexManager.Add_Index"/> va deveni activ doar când setările descriu un index nou care nu este atribuit deja colecţiei.</Text>
+<Text id="s1-3a">Pentru indexurile MG, trebuie, de asemenea să specificaţi granularitatea indexului folosind meniul <AutoText key="glidict::CDM.IndexManager.Level"/></Text>
+<Text id="si-4">Pentru indexurile MGPP şi Lucene, granularitatea indexului este determinată la nivel global şi nu la nivel de index.
+Nivelurile posibile sunt afişate în panoul <AutoText key="glidict::CDM.GUI.Indexes"/> şi pot fi adăugate la colecţie prin bifarea căsuţelor aferente.</Text>
+<Text id="si-5">Pentru MGPP şi Lucene este disponibil in index special: este vorba despre un index tip „toatecâmpurile”, care furnizează o căutare combinată asupra tuturor indexurilor specificate fără a fi nevoit să specifice unul separat care să conţină toate sursele. Pentru a adăuga acest index, bifaţi căsuţa <AutoText key="glidict::CDM.IndexManager.Allfields_Index"/> şi apăsaţi pe <AutoText key="glidict::CDM.IndexManager.Add_Index"/>.</Text>
+<Text id="si-6">Pentru MGPP şi Lucene există, de asemenea un buton <AutoText key="glidict::CDM.IndexManager.Add_All"/> acţionând ca o scurtătură pentru adăugarea tuturor metadatelor şi a surselor de text ca indexuri individuale.</Text>
+<Text id="si-7">Pentru a edita un index, selectaţi-l şi apăsaţi pe <AutoText key="glidict::CDM.IndexManager.Edit_Index"/>. Pentru <AutoText key="glidict::CDM.IndexManager.New_Index"/> este prezentat un dialog similar.</Text>
+<Text id="si-8">Pentru a elimina un index, selectaţi-l din lista Indexurilor atribuite şi apăsaţi pe <AutoText key="glidict::CDM.IndexManager.Remove_Index"/>.</Text>
+<Text id="si-9">Ordinea în care sunt specificate indexurile în lista Indexurilor Atribuite este ordinea în care apar în meniul derulant din pagina de căutare. Utilizaţi butoanele <AutoText key="glidict::CDM.Move.Move_Up"/> and <AutoText key="glidict::CDM.Move.Move_Down"/> pentru a modifica această ordine.</Text>
+<Text id="si-10">Cea selectată implicit pe pagina de căutare este denumită „indexul implicit”. Acesta poate fi setat prin selectarea unui index din listă şi selectarea lui „Setează Implicit”. Indexul implicit este etichetat cu „[Index Implicit]” în lista „Indexurilor Atribuite”. Dacă nu este setat un index implicit, va fi folosit primul din listă ca fiind cel implicit.</Text>
+<Text id="si-11">Numele folosite pentru lista derulantă de indexuri din pagina de căutare poate fi setată din <AutoText key="glidict::CDM.GUI.SearchMetadata"/> ca parte a panoului<AutoText key="glidict::GUI.Format"/> (vezi <Reference target="searchmetadatasettings"/>).</Text>
+<Text id="si-12">Pentru indexurile MG şi MGPP, există mai multe opţiuni care controlează cum sunt construite indexurile. Trunchierea şi caracterele pot fi activate sau dezactivate din indexes. Dacă sunt dezactivate, opţiunile nu vor fi afişate în pagina preferinţelor a colecţiei. Plierea şi după criteriul accentelor caracterelor este valabil, de asemenea pentru indexurile MGPP. Acest lucru lucrează în mod similar şi pentru cazul mărimii caracterului, dar în loc de potrivirea după criteriul dimensiunii caracterelor, caracterele care au diacritice se vor potrivi cu cele fără.</Text>
+</Section>
+<Section name="partitionindexes">
+<Title>
+<Text id="143">Indexuri Partiţii</Text>
+</Title>
+<Text id="144">Indexurile sunt construite pe baza anumitor surse text sau metadate. Spaţiul de căutare poate fi controlat şi mai mult prin partiţionarea indexurilor, fie prin limbă sau printr-un filtru predeterminat. Această secţiune descrie cum se face acest lucru. Sub tabul „Design”, apăsaţi pe „Indexuri Partiţii”.</Text>
+<Text id="145">Accesând „Indexurile Partiţiilor” pot fi observate trei taburi; „Defineşte Filtrele” şi  „Atribuie limba”. Pentru a şti mai multe despre partiţii, vă rugăm să citiţi despre subcolecţii şi subindexuri în Capitolul 2 al Ghidului Dezvoltatorului Greenstone.</Text>
+<Text id="146">Tabloul Indexuri Partiţii este activat doar în modurile Specialist în Sisteme de Bibliotecă şi Expert (vezi <Reference target="preferences"/>). Pentru colecţiile MG numărul total al partiţiilor generate îl reprezintă o combinaţie a indexurilor, a filtrelor subcolecţiei şia limbii alese. Două indexuri care au două filtre de subcolecţie în două limbi va genera opt indexuri de partiţii. Pentru MGPP, toate indexurile sunt create într-un index fizic, astfel că ar trebui să existe doar patru indexuri de partiţii. Pentru Lucene, numărul de indexuri fizice este determinat de numărul nivelurilor asignate colecţiei, câte un index pentru fiecare nivel. Astfel, pentru situaţia anterior descrisă, un nivel va avea ca rezultat patru indexuri fizice, în timp ce din două niveluri rezultă opt.</Text>
+<Section name="definefilters">
+<Title>
+<Text id="147">Definiţi Filtrele</Text>
+</Title>
+<Text id="148">Filtrele vă permit să grupaţi toate documentele împreună într-un index pentru care valoarea metadatelor se potriveşte cu un model predefinit.</Text>
+<Text id="149">Pentru a crea un filtru, apăsaţi pe tabul „Definiţi Filtrele” şi introduceţi un nume pentru noul filtru în câmpul „Numele filtrului subcolecţiei:”. Următorul pas este să alegeţi un atribut al unui document cu care să se potrivească, fie un element de metadate sau chiar numele fişierului în discuţie.
+Introduceţi o expresie regulată pentru a fi utilizată în timpul căutării. Puteţi opta între „Incluzând” documentele care se potrivesc cu filtrul sau puteţi să le „Excludeţi”. În final, puteţi specifica oricare dintre marcatorii standard ai expresiilor regulate PERL pentru a fi utilizaţi la momentul căutării (de exemplu,
+ „i” pentru căutarea case-sensitive, adică potrivirea considerând dimensiunea caracterelor: majuscule). În fine, apăsaţi pe „Adaugă Filtru” pentru a adăuga filtrul la lista „Filtrelor Definite ale Subcolecţiei”.</Text>
+<Text id="150">Pentru a elimina un filtru, selectaţi-l din listă şi apăsaţi pe „Elimină Filtrul”.</Text>
+<Text id="151">Pentru a modifica un filtru, selectaţi-l din listă, schimbaţi oricare dintre valorile care vă apar în modul de editate şi apăsaţi pe „Înlocuieşte Filtrul” pentru a face schimbările.</Text>
+<Text id="151a">Definirea de filtre nu are ca efect crearea de subcolecţii. Subcolecţiile sunt specificate în <AutoText key="glidict::CDM.SubcollectionManager.Subindex_Controls"/>, bazate pe filtrele abia definite.</Text>
+</Section>
+<Section name="assignpartitions">
+<Title>
+<Text id="152">Atribuie Partiţii</Text>
+</Title>
+<Text id="153">După definirea uneia sau a mai multor filtre ale subcolecţiilor, folosiţi tabul „Atribuie Partiţii” pentru a construi indexurile pentru acestea (sau pentru un grup de filtre). Selecteză filtrul dorit sau filtrele din lista ”Filtrelor Definite ale Subcolecţiei” şi apăsaţi pe „Adaugă Partiţie”. Fiecare partiţie specificată va avea ca rezultat o subcolecţie care conţine documente care se potrivesc cu oricare dintre filtrele asociate cu acea partiţie. </Text>
+<Text id="154a">Pentru a modifica o partiţie, selectaţi-o din listă, modificaţi filtrele şi apăsaţi pe <AutoText key="glidict::CDM.SubcollectionIndexManager.Replace_Subindex"/>.</Text>
+<Text id="154">Pentru a elimina o partiţie, selectaţi-o din listă şi apăsaţi pe „Elimină Partiţie”.</Text>
+<Text id="154b">Ordinea în care sunt specificate partiţiile este prezentă în lista Partiţiilor Atribuite este şi ordinea după care apar în meniul derulant din pagina de căutare. Folosiţi butoanele <AutoText key="glidict::CDM.Move.Move_Up"/> şi <AutoText key="glidict::CDM.Move.Move_Down"/> pentru a schimba acestă ordonare.</Text>
+<Text id="155">Pentru a face o partiţie cea implicită, selectaţi-o din listă şi apăsaţi <AutoText key="glidict::CDM.SubcollectionIndexManager.Set_Default_Subindex"/>.</Text>
+<Text id="155a">Numele utilizate în lista derulantă a partiţiilor prezente în pagina de căutare, pot fi setate în <AutoText key="glidict::CDM.GUI.SearchMetadata"/> parte a panoului <AutoText key="glidict::GUI.Format"/> (vezi şi <Reference target="searchmetadatasettings"/>).</Text>
+</Section>
+<Section name="assignlanguages">
+<Title>
+<Text id="156">Atribuie Limba</Text>
+</Title>
+<Text id="157">Această secţiune explică cum se constrâng indexurile de căutare la utilizarea cu o anumită limbă. Puteţi face acest lucru prin generarea unei partiţii folosind tabul „Atribuie Limba” din „Indexuri Partiţii”. </Text>
+<Text id="158">Pentru a adăuga o nouă partiţie de limbă, folosiţi tabul „Atribuie Limbă” pentru a construi un index. Selectaţi una sau mai multe limbi din lista „Limbi de adăugat” şi apăsaţi „Adaugă Partiţie”.</Text>
+<Text id="158a">Pentru a modifica o partiţie deja existentă, selectaţi-o din lista „Partiţiile de Limbă Atribuite”, modificaţi limbile existente din lista „Limbi pentru adăugare” de mai jos şi apăsaţi pe „Înlocuieşte Partiţie”.</Text>
+<Text id="159">Pentru a elimina o partiţie de limbă, selectaţi-o din lista „Partiţiilor de Limbă Atribuite” şi apăsaţi pe „Eliminare Partiţie”.</Text>
+<Text id="159a">Ordinea în care sunt specificate partiţiile de limbă în lista Partiţiile de Limbă Atribuite, este ordinea în care acestea apar în meniul derulant din pagina de căutare. Utilizaţi butoanele <AutoText key="glidict::CDM.Move.Move_Up"/> şi <AutoText key="glidict::CDM.Move.Move_Down"/> pentru a modifica această ordine.</Text>
+<Text id="160">Pentru a seta partiţia de limbă implicită, selectaţi-o din listă şi apăsaţi pe „Setează implicit”.</Text>
+<Text id="160a">Numele utilizate pentru lista derulantă în cazul partiţiilor de limbă din pagina de căutare pot fi setate din zona <AutoText key="glidict::CDM.GUI.SearchMetadata"/> a panoului <AutoText key="glidict::GUI.Format"/> (vezi şi <Reference target="searchmetadatasettings"/>).</Text>
+</Section>
+</Section>
+<Section name="classifiers">
+<Title>
+<Text id="166">Examinarea Clasificatorilor</Text>
+</Title>
+<Text id="167">Această secţiune explică cum sunt atribuiţi „clasificatorii”, care sunt utilizaţi pentru navigarea colecţiei. Sub tabul „Design”, apăsaţi pe „Examinarea Clasificatorilor”.</Text>
+<Text id="168">Pentru a adăuga un clasificator, selectaţi-l folosind „Selectează clasificatorul de adăugat” din lista derulantă din partea inferioară a ecranului şi apoi selectaţi „Adaugă Clasificator...”. Va apărea o fereastră numită „Configurarea Argumentelor”. Instrucţiunile privind lucrul cu această fereastră de dialog sunt similare cu cele prezente pentru pluginuri (vezi <Reference target="plugins"/>). Din moment ce aţi configurat noul clasificator, acesta este adăugat la finalul listei „Clasificatorilor atribuiţi”.</Text>
+<Text id="168a">Pentru a vedea o scurtă descriere a clasificatorului, selectaţi-l din lista derulantă „Selectează clasificator pentru adăugare” şi apoi plimbaţi cursorul peste aceasta. Va apărea o descriere într-un tool-tip.</Text>
+<Text id="168b">Fiecare clasificator are diferite argumente care pot fi configurate. Argumentele importante includ „metadate”, care specifică metadatele pe baza cărora documentele vor fi clasificate şi „numele butonului”, care este de fapt numele care va apărea în bara de navigare.</Text>
+<Text id="169">Pentru a elimina un clasificator, selectaţi-l din listă şi apăsaţi pe „Elimină Clasificator”.</Text>
+<Text id="170">Pentru a modifica argumentele pentru un clasificator, selectaţi-l din listă şi apăsaţi „Configurare Clasificator” (sau dublu-click pe clasificatorul prezent în listă).</Text>
+<Text id="171">Ordonarea clasificatorilor în bara de navigare se reflectă în ordinea lor. Pentru a o schimba, selectaţi clasificatorul dorit pentru a fi mutat şi apăsaţi <AutoText key="glidict::CDM.Move.Move_Up"/> sau <AutoText key="glidict::CDM.Move.Move_Down"/>.</Text>
+<Text id="172">Pentru mai multe informaţii privind clasificatorii, vă rugăm să citiţi Capitolul 2 din Ghidul de Dezvoltare al Greenstone - Extrage totul din documente.</Text>
+</Section>
+</Section>
+<Section name="producingthecollection">
+<Title>
+<Text id="193">Producerea Colecţiei</Text>
+</Title>
+<Text id="194">În momentul în care aţi strâns documentele unei colecţii, au fost adnotate cu metadate şi a fost proiectat modul în care se va înfăţişa colecţia, aceasta poate fi produsă folosindu-se Greenstone. Această secţiune explică cum se face acest lucru.</Text>
+<Section name="thecreateview">
+<Title>
+<Text id="195">Panoul de Creare</Text>
+</Title>
+<Text id="196">Panoul de Creare este utilizat pentru a crea colecţia prin rularea scripturilor de construcţie a colecţiilor proprii Greenstone pe baza informaţiilor furnizate. Accesaţi panoul de Creare prin apăsarea pe opţiunea Crează.</Text>
+<Text id="196a">Apăsând pe „Construieşte Colecţia” se iniţializează procesul de construcţie a acesteia. Timpul pe care această operaţiune şi-l alocă depinde de dimensiunea colecţiei şi numărul indexurilor care au fost create (pentru colecţii de mare întindere acest proces poate lua câteva ore). O bară de progres indică cât de mult din întregul proces a fost parcurs. Pentru a anula procesul în orice moment, apăsaţi pe „Anulează Construcţia”.
+Partea de jos a panoului prezintă câteva opţiuni de control a procesului de construcţie.</Text>
+<Text id="197">Din moment ce colecţia a fost construită cu succes, apăsând pe „Previzualizare Colecţie” va fi lansată o fereastră a browserului care se va deschide chiar la pagina dedicată colecţiei.</Text>
+</Section>
+<Section name="builderrors">
+<Title>
+<Text id="199a">Erori în construcţia colecţiei</Text>
+</Title>
+<Text id="199b">Uneori lucrurile pot să ia o turnură negativă în timpul construcţiei colecţiei. E posibil ca unele fişiere să nu poată fi procesate: restul colecţiei se construieşte în ordine şi poate fi previzualizată, dar unele documente sunt absente. E posibil ca întreaga colecţie să nu fie construită corespunzător, caz în care apare un mesaj de atenţionare <AutoText key="glidict::CollectionManager.Cannot_Create_Collection"/> Atunci când acest lucru se întâmplă este de ajutor să intraţi în modul expert al GLI (Dosar->Preferinţe->Mod, vezi şi <Reference target="preferences"/>), setaţi opţiunea de construcţie „verbalizare” la 5 şi reconstruiţi pentru a vedea dacă sunt mesaje de eroare şi care sunt acelea.</Text>
+</Section>
+<Section name="expertbuilding">
+<Title>
+<Text id="198a">Panoul de creare în Modul Expert</Text>
+</Title>
+<Text id="198">În modul de lucru Expert se pot accesa intrările din „Jurnalul de Mesaje” din partea stângă pentru a revedea încercările anterioare de construire a colecţiilor, fie că acestea au avut succes sau nu. Selectaţi jurnalul dorit prin selectarea datei dorite din lista „Istoricului Jurnalului”.</Text>
+<Text id="200a">În acest mod de operare este prezentată o listă completă a importurilor şi a opţiunilor de construcţie, care apare în opţiunile de Import şi Construcţie prezente mai spre stânga. Variatele setări sunt controlate aşa cum sunt descrise în fereastra „Configurea Argumentelor” descrisă în secţiunea <Reference target="plugins"/>. Unele câmpuri au ca cerinţă argumente numerice iar aceste pot fi introduse sau pot fi folosite săgeţile pentru a creşte sau descreşte valorile curente (în unele cazuri, interfaţa restricţionează dimensiunea intrărilor). Altele sunt activate prin bifarea unei căsuţe de validare (apasă pe bifă, din nou pentru dezactivare).</Text>
+<Text id="201a">Citiţi Capitolul 1 al Ghidului Dezvoltatorului Greenstone pentru mai multe informaţii privind importul şi construcţia -- Înţelegerea procesului de construcţie a colecţiei.</Text>
+</Section>
+</Section>
+<Section name="formattingacollection">
+<Title>
+<Text id="fc-1">Particularizarea modului în care arată colecţia</Text>
+</Title>
+<Text id="fc-2">Din moment ce ai construit colecţia, următorul pas este legerea modului în care aceasta ar trebui să apară utilizatorului. Care nume ar trebui utilizate pentru lista derulantă a indexurilor din formularul de căutare ? Cum ar trebui prezentate rezultatele de căutare ? Care metadate ar trebui să fie afişate atunci când un document este văzut ? Toate acestea trebuie particularizate iar această secţiune explică cum trebuie procedat. </Text>
+<Section name="theformatview">
+<Title>
+<Text id="fc-3">Zona Formatului</Text>
+</Title>
+<Text id="fc-4">Această secţiune vă introduce în panoul de Formatare şi vă explică cum să navigaţi printre diferitele panouri.</Text>
+<Text id="fc-5">Cu ajutorul Interfeţei Bibliotecarului puteţi configura cum se înfăţişează colecţia utilizatorului. Opţiunile de configurare sunt împărţite în secţiuni, fiecare asociată cu un tip diferit de particularizare. </Text>
+<Text id="fc-6">În partea stângă este o listă de previzualizări iar în partea dreaptă sunt elementele de control asociate cu fiecare dintre parametri. Pentru a edita un parametru, apăsați pe numele acestuia din listă.</Text>
+<Text id="fc-7">Sub lista parametrilor există un buton numit „Previzualizarea Colecţiilor”. Modificările efectuate în panoul de Formatare nu necesită o reconstrucţie a colecţiei, astfel că pot fi previzualizate imediat. Oricum, colecţia tebuie să fi fost construită cel puţin o dată pentru a fi permisă previzualizarea.</Text>
+</Section>
+<Section name="generalsettings">
+<Title>
+<Text id="117">General</Text>
+</Title>
+<Text id="118">Această secţiune explică cum să revizuieşti şi să modifici setările generale asociate colecţiei. În primul rând, sub opţiunea „Format”, apeşi pe „General”.</Text>
+<Text id="119">Aici pot fi setate sau modificate câteva metadate ale întregii colecţii incluzând titlul şi descrierea introduse atunci când a fost iniţiată ca nouă colecţie.</Text>
+<Text id="120">Mai întâi sunt adresele de email ale creatorului colecţiei şi a gestionarului acesteia. Următorul câmp vă permite să modificaţi titlul colecţiei. Directorul în care este stocată colecţia este indicat dar nu poate fi modificat. Apoi este afişat iconul în partea superioară stângă a paginii „Despre” a colecţiei (sub forma unui URL), urmat de un icon folosit în pagina bibliotecii Greenstone care face legătura cu colecţia. Alăturat este o căsuţă pentru bifat, care controlează dacă trebuie colecţia să fie accesibilă publicului. În final urmează zona de text „Descrierea Colecţiei” aşa cum este descris în <Reference target="creatingacollection"/>.</Text>
+</Section>
+<Section name="searchmetadatasettings">
+<Title>
+<Text id="fc-s1">Cautare</Text>
+</Title>
+<Text id="fc-s2">Această secţiune explică cum trebuie setat textul afişate de o listă derulantă pe pagina căutării. Sub tabul „Formatare”, apăsaţi pe „Caută”.</Text>
+<Text id="fc-s3">Acest panou conţine o listare într-un tabel al fiecărui index de căutare. Aici puteți introduce textul folosit pentru numele indecșilor și lista derulantă prezentă în pagina de căutare. Acest panou îţi permite doar să setaţi textul pentru o singură limbă, adică limba curentă folosită de GLI. Pentru a traduce aceste nume în alte limbi, folosiţi partea de Traducere Text a panoului Formatului (vezi și <Reference target="translatetext"/>).</Text>
+</Section>
+<Section name="formatstatements">
+<Title>
+<Text id="173">Caracteristicile Formatului</Text>
+</Title>
+<Text id="174">Paginile web pe care le vedeţi atunci când utilizaţi Greenstonenu sunt stocate, ci sunt generate „din zbor” după cum dictează necesitatea. Comenzile formatului sunt utilizate pentru a modifica aparenţa acestor pagini generate. Acestea afectează modul în care apar butoanele atunci când este afişat un document şi care sunt linkurile care sunt afişate de clasificatorul DateList. Comenzile de format nu sunt uşor de dezvoltat şi ar trebui să citiţi Capitolul 2 din Ghidul de Dezvoltare al Greenstone. Această secţiune dezbate setările formatului şi cum Interfaţa Bibliotecarului oferă acces la acestea. Sub tabul „Format”, apăsaţi pe „Caracteristicile Formatului”.</Text>
+<Text id="175">O comandă de format poate fi aplicată la orice fiind aleasă din lista derulantă „Alege Caracteristică”, care include fiecare clasificator şi o listă predefinită de caracteristici. Atunci când selectaţi o caracteristică există două tipuri de control. Unele caracteristici sunt pur şi simplu active sau inactive fiind controlate de o căsuţă de opţiune. Altele necesită un string de format pentru a fi precizat. Pentru acestea există o listă derulantă („Componente Afectate”), de unde se pot selecta care parţi ale unei caracteristici se referă stringul (daca acest lucru este necesar), o zonă de text (string de tip HTML) pentru introducerea string-ului propriu-zis şi selectarea de „Variabile” predefinite. Pentru a introduce o variabilă în stringul de format, poziţionaţi cursorul în locul unde trebuie făcută inserţia şi apoi selectaţi variabila dorită din combobox-ul <AutoText key="glidict::CDM.FormatManager.Insert_Variable"/>.</Text>
+<Text id="176">Poate fi specificat un format implicit pentru o anumită componentă prin selectarea caracteristicii „Toate Caracteristicile”. Acest format este aplicat tuturor caracteristicilor aplicabile doar dacă nu este specificat altul specific.</Text>
+<Text id="177">Pentru a adăuga o nouă comandă selectează caracteristica aplicabilă şi componenta. Valoarea implicită pentru această comandă va fi afişată în gri. Click pe <AutoText key="glidict::CDM.FormatManager.Add"/> pentru a-l atribui colecţiei. „Stringul de Formatare HTML” va fi editabil şi puteţi să-l schimbaţi dacă doriţi. Poate fi atribuită doar o singură comandă pentr fiecare combinaţie caracteristică/componentă.</Text>
+<Text id="178">Pentru a şterge o comandă de format, selectaţi-o din listă şi apăsaţi pe „Elimină Formatare”.</Text>
+<Text id="180">Pentru mai multe informaţii despre variabile şi componente, citiţi Capitolul 2 din Ghidul de Dezvoltare al Greenstone.</Text>
+</Section>
+<Section name="translatetext">
+<Title>
+<Text id="182">Tradu textul</Text>
+</Title>
+<Text id="183">Această secţiune descrie panoul de traducere prin care pot fi traduse fragmentele de text pentru părțile interfeţei colecţiei în alte limbi. Sub secțiunea „Format”, apăsaţi pe „Tradu text”.</Text>
+<Text id="184">În primul rând, alegeţi o intrare din lista de „Caracteristici”. Stringurile specifice de limbă asociate cu această caracteristică apar mai jos. Utilizaţi lista derulantă „Limba traducerii” pentru a selecta limba dorită şi scrie textul tradus în zona de text  aferentă, care vizează „Fragmentul de Text Iniţial”. Apăsaţi pe „Adaugă Traducerea” atunci când aţi terminat.</Text>
+<Text id="185">Pentru a elimina o traducere existentă, selectaţi-o în tabelul „Traduceri în uz” şi apăsaţi pe „Elimină Traducerea”.</Text>
+<Text id="186">Pentru a edita o traducere, selectaţi-o, editaţi zona „Textul Tradus” şi apăsaţi pe „Înlocuieşte Traducerea”.</Text>
+</Section>
+<Section name="xcollectionsearching">
+<Title>
+<Text id="161">Căutarea prin multiple colecţii</Text>
+</Title>
+<Text id="162">Greenstone poate căuta prin mai multe colecţii ca şi cum ar fi una.
+Acest lucru se face prin specificare unei liste a altor colecţii pentru a fi interogate dimpreună cu cea curentă. Sub tabul „Format”, apăsaţi pe „Căutarea prin multiple colecţii”</Text>
+<Text id="163">Căutarea multi-colecţie arată o listă a colecţiilor disponibile. Colecţia curentă este bifată şi nu poate fi deselectată. Pentru a adăuga altă colecţie pentru a fi căutată în paralel, selectaţi-o din listă (mai selectaţi o dată pentru a o deselecta). Dacă este selectată doar o singură colecţie o căutare multi-colecţie nu poate fi efectuată.</Text>
+<Text id="164">Dacă colecţiile individuale nu au aceleaşi indexuri (incluse fiind partiţiile subcolecţiilor şi partiţiile de limbă), căutarea multi-colecţie nu va funcţiona corect. Utilizatorul va fi capabil doar să caute folosind indexul comun tuturor colecţiilor.</Text>
+<Text id="165">Pentru mai multe detalii vedeţi, vă rugăm, Capitolul 1 a Ghidului Dezvoltatorului Greenstone.</Text>
+</Section>
+<Section name="collectionspecificmacros">
+<Title>
+<Text id="fc-m1">Macrouri Specifice Colecţiei</Text>
+</Title>
+<Text id="fc-m2">Sub opţiunea „Formatare”, apăsaţi pe „Macrouri Specifice Colecţiei”.</Text>
+<Text id="fc-m3">Acest panou arată conţinutul fişierului macro extra.dm al colecţiei. Aici este locul în care macrourile specifice colecţiei sunt definite. Pentru a învăţa mai multe despre macro-uri, vedeţi Capitolul 3 al Ghidului Dezvoltatorului Greenstone.</Text>
+</Section>
+</Section>
+<Section name="miscellaneous">
+<Title>
+<Text id="202">Diverse</Text>
+</Title>
+<Text id="203">Această secţiune descrie caracteristicile Interfeţei Bibliotecarului care nu sunt asociate cu niciun panou anume.</Text>
+<Section name="preferences">
+<Title>
+<Text id="204">Preferinţe</Text>
+</Title>
+<Text id="205">Această secţiune explică fereastra de dialog pentru preferinţe, accesată prin „Dosar” -> „Preferinţe”.</Text>
+<Text id="206">Fereastra preferinţelor se deschide din opţiunea „General”. Prima opţiune este un câmp text în care se introduce adresa proprie de e-mail. Aceasta va fi necesară „creatorui” şi „maintainerului” metadatelor colecţiei pentru noile colecţii. Următoarea opţiune o reprezintă o listă derulantă de limbi în care Interfaţa Bibliotecarului poate fi prezentată. Dacă dicţionarul este modificat prin alegerea uneia din lista prezentată, Interfaţa Bibliotecarului trebuie să fi repornită pentru ca modificarea să intre în vigoare prin încărcarea acesteia din dicţionar.</Text>
+<Text id="207">Dacă este bifată opţiunea „Vezi Metadatele Extrase”, diferitele instrumente de control care se ocupă cu metadatele, vor indica toate metadatele care au fost extrase automat din documente. Deselectarea acesteia ascunde aceste metadate (chiar dacă este prezentă la momentul stabilirii designului colecţiei şi chiar în cadrul colecţiei finale Greenstone). Dacă este bifată opţiunea „Arată dimensiunea fişierelor”, atunci dimensiunea fişierului va fi indicată alăturat fiecărui fişier în Arborii Spaţiului de lucru şi cel al Colecţiei, precum şi în panourile de Colectare şi Îmbogăţire.</Text>
+<Text id="208">Opţiunea „Mod” este utilizată pentru a controla nivelul de detaliu al interfeţei. La punctul cel mai de jos al setărilor, adică „Asistent de Bibliotecă”, opţiunile referitoare la design sunt dezactivate, argumentele care necesită expresii regulate sunt ascunse iar procesul de construcţie al colecţiei produce un log minimal al evenimentelor. În contrast, setările de nivel înalt, adică „Expert”, furnizează accesul la toate componentele de design fiind incluse poziţionarea extensiilor şi argumentele pentru expresiile regulate şi sunt permise chiar şi înregistrarea în jurnale al rezultatului complet al procesului de construcţie. Pentru a modifica sau revizui modurile, apăsaţi pe butonul radio alăturat modului pentru care optaţi. Puteţi revizui rapid modul în care vă aflaţi privind la bara de titlu a Interfeţei Bibliotecarului. </Text>
+<Text id="210">Secţiunea „Conexiune” permite modificarea calea către serverul Greenstone care rulează local, care este folosit atunci când sunt vizualizate colecţiile. De asemenea, permite setarea informaţiilor privind proxy-ul pentru asigurarea conexiunii la Internet (ex. pentru downloadarea fişierelor; a se vedea secţiunea <Reference target="downloadingfiles"/> pentru detalii). Bifează pentru a activa conexiunea proxy şi introduceţi detaliile pentru adresa de proxy precum şi numărul portului. Conexiunea proxy este stabilită atunci când dialogul Preferinţelor este închis.</Text>
+<Text id="211">În timpul lucrului, Interfaţa Bibliotecarului poate afişa mesaje de avertisment care informeză asupra unei posibile consecinţe neprevăzute a unei acţiuni. Puteţi dezactiva mesajele prin bifarea lui „Nu mai arăta acest avertisment”. Puteţi reactiva afişarea mesajelor mergând la tabul „Avertismente”. Bifaţi căsuţele de lângă mesajele de avertisment pe care doriţi să fie afişate din nou.</Text>
+</Section>
+<Section name="fileassociations">
+<Title>
+<Text id="212">Asocierile fişierelor</Text>
+</Title>
+<Text id="213">Interfaţa Bibliotecarului foloseşte anumite programe care deschid diferitele tipuri de fişiere. Pentru a modifica asocierea fişierelor accesaţi meniul „Fişier” şi apăsaţi pe „Asocierile fişierelor...”.</Text>
+<Text id="214">Pentru a adăuga o asociere, selectaţi extensia fişierul ţintă din lista derulantă, sau introduceţi o nouă extensie (nu includeţi punctul ”.”). Următorul pas este fie să introduceţi comanda care lansează aplicaţia dorită în câmpul destinat sau alegeţi aplicaţia din meniul „Navighează”. ”%1” poate fi utilizat în comandă pentru a introduce numele fişierului deschis. Din moment ce au fost parcurşi aceşti paşi, butonul „Adaugă” se activează şi poţi să-l apeşi pentru a adăuga asocierea.</Text>
+<Text id="215">Pentru a adăuga o asociere, selectaţi o extensie deja existentă. Orice comandă asociată deja existentă este afişată în câmpul „lansează comanda”. Editaţi-l şi apoi apăsaţi „Înlocuieşte”.</Text>
+<Text id="216">Pentru a elimina o asociere, selectaţi o extensie deja existentă şi apăsaţi „Elimină”. (Extensia fişierului rămâne în lista derulantă „Pentru extensie”.)</Text>
+<Text id="217">Asocierea fişierelor sunt stocate în directorul principal al Interfeţei Bibliotecarului într-un fişier denumit „associations.xml”</Text>
+</Section>
+<Section name="exporting">
+<Title>
+<Text id="exp-1">Exportarea colecţiilor în alte formate</Text>
+</Title>
+<Text id="exp-2">Greenstone poate exporta conţinutul şi/sau metadatele unei colecţii în câteva formate standard fiind incluse METS, DSpace şi MARCXML.</Text>
+<Text id="exp-3">Pentru a exporta una sau mai multe colecţii, deschideţi meniul „Dosar” şi alegeţi „Export...”. Puteţi alege formatul pentru export prin selectarea acestuia din lista derulantă „Exportă ca”. Specificaţi un nume pentru directorul în care doriţi să puneţi fişierele&mdash;fişierele se vor termina prin &lt;calea către greenstone&gt;/tmp/exported_xxx, unde xxx este numele pe care-l specificaţi. Selectaţi una sau mai multe colecţii în lista colecţiilor disponibile iar apoi apăsaţi pe „Exportă colecţia(ile)”.</Text>
+<Text id="exp-4">Există şi alte opţiuni specifice pentru variatele formate. Pot fi specificate fişierele XSLT care vor fi aplicate documentelor XML rezultate în scopul personalizării formatul de ieşire al rezultatelor. Exportul către MARCXML utilizează un fişier de mapare a metadatelor Greenstone peste câmpurile specifice ale formatului MARC. Fişierul de mapare implicit, face operaţiunea de mapare doar pentru metadatele Dublin Core. Poate fi specificat un fişier adaptat şi personalizat care să fie folosit şi pentru alte formate.</Text>
+</Section>
+<Section name="exportingcollections">
+<Title>
+<Text id="218">Exportarea Colecţiilor pe CD/DVD</Text>
+</Title>
+<Text id="219">Greenstone poate exporta una sau mai multe colecţii pe un CD/DVD autoinstalabil pentru Windows.</Text>
+<Text id="220">Pentru a exporta o colecţie, deschideţi meniul „Fişier” şi alegeţi „Scrie Imaginea CD/DVD”. Apare o listă a colecţiilor Greenstone din care apăsaţi pe una dintre ele pentru a-i vedea descrierea. Bifaţi căsuţele colecţiei pentru a fi exportată. Puteţi introduce numele CD/DVD-ului în câmpul „numele CD/DVD”: acesta va apărea în meniul Start atunci când CD/DVD-ul va fi instalat. Puteţi opta fie ca CD-ROM-ul sau DVD-ul rezultat să ruleze direct din unitatea de citire, fie puteţi să instalaţi pe computer o parte a fişierelor. Apoi apăsaţi „Scrie imaginea CD/DVD”. Procesul implică copierea a mai multor fişiere şi directoare şi poate dura câteva minute.</Text>
+<Text id="221">La momentul încheierii, Greenstone va indica numele unui director care conţine colecţiile exportate. Folosiţi un inscriptor CD/DVD pentru a copia conţinutul pe un CD/DVD gol.</Text>
+</Section>
+</Section>
+</Document>

@@ -1,0 +1,44 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Greenstone Librarian Interface - Help Pages</title>
+</head>
+<body bgcolor="#E0F0E0">
+<table width="100%" cellspacing="0" cellpadding="5" bgcolor="#B0D0B0" border="2">
+<tr>
+<td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td><td width="*" align="center"><a name="themirrorview"><font size="5" face="Verdana"><strong>3.1: The Download view</strong></font></a></td><td width="15%" align="center"><img width="45" src="../gatherer_medium.gif" height="45"></td>
+</tr>
+</table>
+
+
+<p>This section describes how to configure a download task and control the downloading process. Access the "Download" view by clicking its tab. The top half of the screen shows the downloading controls. The bottom half is initially empty, but will show a list of pending and completed download jobs. </p>
+
+<p>There are several protocols that can be used for downloading records, and these are listed on the left hand side at the top.</p>
+
+<p>
+<b>Web:</b> downloads web pages and files via HTTP and FTP.</p>
+
+<p>
+<b>MediaWiki:</b> downloads web pages and files via HTTP from a MediaWiki website.</p>
+
+<p>
+<b>OAI:</b> downloads metadata records (and optionally documents) from an OAI-PMH (Open Archives Initiative) server.</p>
+
+<p>
+<b>Z39.50:</b> downloads MARC records that match a particular search criterion from a Z39.50 server.</p>
+
+<p>
+<b>SRW:</b> downloads MARCXML records that match a particular search criterion from an SRW server.</p>
+
+<p>Select the appropriate protocol by clicking it in the left hand list. The right-hand side displays the options available for the selected download protocol. To find out what an option does, hover the mouse over it: a tool-tip explaining the option will appear. Some options are 'optional': these are presented with a check box which must be ticked on for the option to be used. Others are 'required': these have no check box, and a value must be given before the download is carried out. </p>
+
+<p>Once the configuration is set up, click "Server Information" to check the connection to the server and view some basic information about the web page or server, or click "Download" to start the download. </p>
+
+<p>There are two other buttons: "Configure Proxy...", which links to the connection section of the Preferences where proxy settings can be edited; and "Clear Cache", which deletes all previously downloaded files. You will need to set up proxy information if you use a proxy server to connect to the Internet. If authentication is needed when a download is being processed, the proxy server will prompt for username and password.  The Librarian Interface does not store passwords between sessions.</p>
+
+<p>Files are downloaded into a folder called "Downloaded Files" (only present when downloading is enabled), and can be used in any collections.  Files are named by their full web URL (for Web and MediaWiki downloads) or a combination of URL and option values (for other download types). A new folder is created for each host, followed by others for each part of the path. This ensures that each file is distinct.</p>
+
+<p>The download list has an entry for each download processed. Each entry has a text region that gives details of the task along with a progress bar showing current activity. Three buttons appear to the right of each entry. "Pause" is used to pause a task. "View Log" opens a window showing the download log file. "Close" terminates the download and removes the task from the list.  </p>
+
+</body>
+</html>

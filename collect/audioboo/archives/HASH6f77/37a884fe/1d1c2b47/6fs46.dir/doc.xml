@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\marc\locbeatles50.marc</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">iso_8859_1</Metadata>
+    <Metadata name="Source">locbeatles50.marc</Metadata>
+    <Metadata name="SourceFile">locbeatles50.marc</Metadata>
+    <Metadata name="SourceSegment">46</Metadata>
+    <Metadata name="Plugin">MARCPlugin</Metadata>
+    <Metadata name="dc.Format">Marc</Metadata>
+    <Metadata name="FileFormat">MARC</Metadata>
+    <Metadata name="dc.Identifier">0876501048</Metadata>
+    <Metadata name="dc.Title">Things we said today : the complete lyrics and a concordance to the Beatles' songs, 1962-1970 / by Colin Campbell and Allan Murphy.</Metadata>
+    <Metadata name="dc.Publisher">&amp;#091;Ann Arbor, MI&amp;#093; :</Metadata>
+    <Metadata name="dc.Publisher">Pierian Press,</Metadata>
+    <Metadata name="dc.Date">1980.</Metadata>
+    <Metadata name="dc.Description">Discographies: p. 381-386.</Metadata>
+    <Metadata name="dc.Subject">Beatles.</Metadata>
+    <Metadata name="dc.Subject">Popular music England Texts.</Metadata>
+    <Metadata name="dc.Subject">Popular music England Texts Concordances.</Metadata>
+    <Metadata name="dc.Creator">Campbell, Colin, 1940-</Metadata>
+    <Metadata name="dc.Creator">Murphy, Allan (Allan R.)</Metadata>
+    <Metadata name="dc.Creator">Beatles.</Metadata>
+    <Metadata name="Identifier">HASH6f7737a884fe1d1c2b476fs46</Metadata>
+    <Metadata name="lastmodified">1544417200</Metadata>
+    <Metadata name="lastmodifieddate">20181210</Metadata>
+    <Metadata name="oailastmodified">1544528983</Metadata>
+    <Metadata name="oailastmodifieddate">20181211</Metadata>
+    <Metadata name="assocfilepath">HASH6f77/37a884fe/1d1c2b47/6fs46.dir</Metadata>
+  </Description>
+  <Content>&lt;pre&gt;
+ LDR 00987cam  2200289 a 4500
+001     4192096
+005     19900618170644.9
+008     810520s1980    miuh     b    000 0 eng  
+035    _9 (DLC)   80083203
+906    _a 7
+       _b cbc
+       _c orignew
+       _d 2
+       _e opcn
+       _f 19
+       _g y-gencatlg
+010    _a    80083203 
+020    _a 0876501048
+040    _a DLC
+       _c DLC
+       _d DLC
+043    _a e-uk-en
+050 00 _a ML54.6
+       _b .T37
+082 00 _a 784.5/405
+       _2 19
+245 00 _a Things we said today :
+       _b the complete lyrics and a concordance to the Beatles'
+ songs, 1962-1970 /
+       _c by Colin Campbell and Allan Murphy.
+260    _a [Ann Arbor, MI] :
+       _b Pierian Press,
+       _c 1980.
+300    _a xlii, 386 p. :
+       _b facsims. ;
+       _c 29 cm.
+504    _a Discographies: p. 381-386.
+650  0 _a Popular music
+       _z England
+       _x Texts.
+650  0 _a Popular music
+       _z England
+       _x Texts
+       _x Concordances.
+610 20 _a Beatles.
+700 1  _a Campbell, Colin,
+       _d 1940-
+700 1  _a Murphy, Allan
+       _q (Allan R.)
+710 2  _a Beatles.
+991    _b c-Music
+       _h ML54.6
+       _i .T37
+       _t Copy 1
+       _m Case
+       _w BOOKS
+&lt;/pre&gt;
+</Content>
+</Section>
+</Archive>

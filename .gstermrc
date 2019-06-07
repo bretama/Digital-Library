@@ -1,0 +1,16 @@
+source ~/.bashrc
+function ncd {
+	if  [ "$1" == "" ]; then
+		if [ "$GSDLHOME" != "" ]; then
+			cd $GSDLHOME
+		fi
+	else
+		cd "$*"
+	fi
+
+	PS1=$(echo $PWD|sed "s!$GSDLHOME!Greenstone!")'> '
+}
+alias cd=ncd
+
+cd $GSDLHOME
+

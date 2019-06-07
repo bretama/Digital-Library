@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdlsourcefilename">import\images\Homage_to_Abbey_Road.jpg</Metadata>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Plugin">ImagePlugin</Metadata>
+    <Metadata name="Image">Homage_to_Abbey_Road.jpg</Metadata>
+    <Metadata name="OrigSource">Homage_to_Abbey_Road.jpg</Metadata>
+    <Metadata name="Source">Homage_to_Abbey_Road.jpg</Metadata>
+    <Metadata name="SourceFile">Homage_to_Abbey_Road.jpg</Metadata>
+    <Metadata name="FileFormat">jpeg</Metadata>
+    <Metadata name="FileSize">1239883</Metadata>
+    <Metadata name="ImageType">JPEG</Metadata>
+    <Metadata name="ImageWidth">1024</Metadata>
+    <Metadata name="ImageHeight">1024</Metadata>
+    <Metadata name="ImageSize">1.182MB</Metadata>
+    <Metadata name="srclink_file">Homage_to_Abbey_Road.jpg</Metadata>
+    <Metadata name="srclinkFile">Homage_to_Abbey_Road.jpg</Metadata>
+    <Metadata name="srcicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[srclinkFile]&quot; width=&quot;[ImageWidth]&quot; height=&quot;[ImageHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbType">gif</Metadata>
+    <Metadata name="Thumb">Homage_to_Abbey_Road_thumb.gif</Metadata>
+    <Metadata name="thumbicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Thumb]&quot; alt=&quot;[Thumb]&quot; width=&quot;[ThumbWidth]&quot; height=&quot;[ThumbHeight]&quot;&gt;</Metadata>
+    <Metadata name="ThumbWidth">100</Metadata>
+    <Metadata name="ThumbHeight">100</Metadata>
+    <Metadata name="ScreenType">jpeg</Metadata>
+    <Metadata name="Screen">Homage_to_Abbey_Road_screen.jpeg</Metadata>
+    <Metadata name="screenicon">&lt;img src=&quot;_httpprefix_/collect/[collection]/index/assoc/[assocfilepath]/[Screen]&quot; width=[ScreenWidth] height=[ScreenHeight]&gt;</Metadata>
+    <Metadata name="ScreenWidth">500</Metadata>
+    <Metadata name="ScreenHeight">500</Metadata>
+    <Metadata name="NoText">1</Metadata>
+    <Metadata name="dc.Format">Images</Metadata>
+    <Metadata name="Title">Homage to Abbey Road</Metadata>
+    <Metadata name="Identifier">HASH55dd5b33f108b540345200</Metadata>
+    <Metadata name="lastmodified">1505406176</Metadata>
+    <Metadata name="lastmodifieddate">20170914</Metadata>
+    <Metadata name="oailastmodified">1545014451</Metadata>
+    <Metadata name="oailastmodifieddate">20181217</Metadata>
+    <Metadata name="assocfilepath">HASH55dd.dir</Metadata>
+    <Metadata name="gsdlassocfile">Homage_to_Abbey_Road.jpg:image/jpeg:</Metadata>
+    <Metadata name="gsdlassocfile">Homage_to_Abbey_Road_thumb.gif:image/gif:</Metadata>
+    <Metadata name="gsdlassocfile">Homage_to_Abbey_Road_screen.jpeg:image/jpeg:</Metadata>
+  </Description>
+  <Content>This document has no text.</Content>
+</Section>
+</Archive>

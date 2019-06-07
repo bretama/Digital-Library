@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Archive SYSTEM "http://greenstone.org/dtd/Archive/1.0/Archive.dtd">
+<Archive>
+<Section>
+  <Description>
+    <Metadata name="gsdldoctype">indexed_doc</Metadata>
+    <Metadata name="Language">en</Metadata>
+    <Metadata name="Encoding">utf8</Metadata>
+    <Metadata name="Title">How to Share Printer</Metadata>
+    <Metadata name="URL">http://C:/Program Files/Greenstone/tmp/F520.html</Metadata>
+    <Metadata name="UTF8URL">http://C:/Program Files/Greenstone/tmp/F520.html</Metadata>
+    <Metadata name="gsdlsourcefilename">import\printer sharing.pdf</Metadata>
+    <Metadata name="gsdlconvertedfilename">C:\Program Files\Greenstone\tmp\F520.html</Metadata>
+    <Metadata name="OrigSource">F520.html</Metadata>
+    <Metadata name="Source">printer sharing.pdf</Metadata>
+    <Metadata name="SourceFile">printer sharing.pdf</Metadata>
+    <Metadata name="Plugin">PDFPlugin</Metadata>
+    <Metadata name="FileSize">74035</Metadata>
+    <Metadata name="FilenameRoot">printer sharing</Metadata>
+    <Metadata name="FileFormat">PDF</Metadata>
+    <Metadata name="srcicon">_iconpdf_</Metadata>
+    <Metadata name="srclink_file">doc.pdf</Metadata>
+    <Metadata name="srclinkFile">doc.pdf</Metadata>
+    <Metadata name="NumPages">1</Metadata>
+    <Metadata name="dc.Creator">vb</Metadata>
+    <Metadata name="dc.Subject">English</Metadata>
+    <Metadata name="dc.Title">printer sharing.pdf</Metadata>
+    <Metadata name="dls.Organization">Languages|English</Metadata>
+    <Metadata name="ex.ExifTool.ExifToolVersion">8.57</Metadata>
+    <Metadata name="ex.File.Directory">C:\Program Files\Greenstone\collect\ebook\import</Metadata>
+    <Metadata name="ex.File.FileModifyDate">2018:12:17 09:16:10-08:00</Metadata>
+    <Metadata name="ex.File.FileName">printer sharing.pdf</Metadata>
+    <Metadata name="ex.File.FilePermissions">666</Metadata>
+    <Metadata name="ex.File.FileSize">74035</Metadata>
+    <Metadata name="ex.File.FileType">PDF</Metadata>
+    <Metadata name="ex.File.MIMEType">application/pdf</Metadata>
+    <Metadata name="ex.PDF.Linearized">false</Metadata>
+    <Metadata name="ex.PDF.PDFVersion">1.5</Metadata>
+    <Metadata name="ex.PDF.PageCount">1</Metadata>
+    <Metadata name="Identifier">HASH954ea8b3ff8f774046013f</Metadata>
+    <Metadata name="lastmodified">1545066970</Metadata>
+    <Metadata name="lastmodifieddate">20181217</Metadata>
+    <Metadata name="oailastmodified">1545141414</Metadata>
+    <Metadata name="oailastmodifieddate">20181218</Metadata>
+    <Metadata name="assocfilepath">HASH954e.dir</Metadata>
+    <Metadata name="gsdlassocfile">doc.pdf:application/pdf:</Metadata>
+  </Description>
+  <Content>
+&lt;a name=0&gt;&lt;/a&gt;&lt;div style=&quot;page-break-before:always; page-break-after:always&quot;&gt;&lt;div&gt;&lt;p&gt;How to Share Printer&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Configuration printer server&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Install the printer drivers. In order to share a printer, it must be installed on the computer it is &lt;br /&gt;connected to. Most modern printers connect via USB and will install automatically when they &lt;br /&gt;are connected.&lt;br /&gt; Go to Network and Sharing Center and open advanced sharing settings. Expand the profile &lt;br /&gt;you need to change [Privet, Home or Work, Gust or Public (current profile), All networks] &lt;br /&gt;and Enable &amp;quot;File and printer sharing&amp;quot;.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;*it’s safer to create home group and share our printer because if some student print a page it &lt;br /&gt;will print too. When we share our printer at home group one who at the home group only will &lt;br /&gt;be able to print a page through network and it is the best and easy way to share the printer &lt;br /&gt;with deferent OS types (win 7, win 8)as Microsoft are recommend&lt;br /&gt;http://windows.microsoft.com/en-us/windows/sharing-files-printers-help&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Now that file and printer sharing has been turned on, we will need to share the printer itself. &lt;br /&gt;To do this, go back to the Control Panel and open the Devices and Printers option. Right-&lt;br /&gt;click on the printer you want to share and click &amp;quot;Printer properties&amp;quot;. Click the Sharing tab, &lt;br /&gt;and then check the &amp;quot;Share this printer&amp;quot; box.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Connecting to a Shared Printer&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;• Add a network printer in Windows Vista, 7, and 8.&lt;br /&gt;Open the Control Panel and select &amp;quot;Devices and Printers&amp;quot;. Click the &amp;quot;Add a printer&amp;quot; &lt;br /&gt;button at the top of the window. Wait for the scan to complete, and the printer should &lt;br /&gt;appear in the list of available printers. Select it and click next to add it to your computer.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;• Add a network Printer via a Standard TCP/IP Port&lt;br /&gt;Go to Control Panel -&amp;gt; Hardware and Sound page, and click advanced printer setup. &lt;br /&gt;A window will pop out to search the printers automatically, please ignore it and &lt;br /&gt;click Next button. Select Add a Printer using a TCP/IP address or hostname, &lt;br /&gt;click next. Select Custom and click Settings. Type the IP address of your Print Server &lt;br /&gt;in Hostname or IP address. The print server’s IP should in same subnet with your &lt;br /&gt;router. As default, the Protocol is Raw. You can keep it still or select LPR. The two &lt;br /&gt;protocols support different printing languages. You can try one first, if can’t print, delete &lt;br /&gt;it and try another one. Select the correct driver for your printer. If you can’t find the &lt;br /&gt;model of your printer, please connect your printer to PC with USB cable and install the &lt;br /&gt;driver first. Click Next and Finish.&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;</Content>
+</Section>
+</Archive>

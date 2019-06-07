@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MetadataSet SYSTEM "http://www.greenstone.org/dtd/MetadataSet/1.0/MetadataSet.dtd">
+<MetadataSet contact="nzdl.org" creator="New Zealand Digital Libraries Project: Greenstone" family="Exploded Metadata" lastchanged="Mon Mar 13 10:30:32 2006 - mdewsnip on bedrock" namespace="exp">
+    <Name language="en">Exploded Metadata Set</Name>
+    <Description language="en">An empty metadata set that is a good place to put metadata exploded from a metadata database (eg. CDS/ISIS).</Description>
+</MetadataSet>
